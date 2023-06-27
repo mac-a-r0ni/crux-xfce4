@@ -1,7 +1,7 @@
 # Description: a lean, small and clean implementation of an ATA S.M.A.R.T. reading and parsing library
 # URL: http://0pointer.de/blog/projects/being-smart.html
 # Packager: Matt Housh, jaeger at crux dot ninja
-# Maintainer: jolupa, jlpavon at me dot com
+# Maintainer: mac-a-r0ni, j at lngn dot net
 
 name=libatasmart
 version=0.19

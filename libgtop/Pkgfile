@@ -1,8 +1,8 @@
 # Description: A library to get system-specific data such as CPU and memory usage and information about running processes
 # URL: https://developer.gnome.org/libgtop/stable/
 # Packager: Matt Housh, jaeger at crux dot ninja
-# Maintainer: jolupa, jlpavon at me dot com
-# Depends on: glib gobject-introspection
+# Maintainer: mac-a-r0ni, j at lngn dot net
+# Depends on: glib gobject-introspection xorg-libxau
 
 name=libgtop
 version=2.40.0

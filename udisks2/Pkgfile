@@ -1,12 +1,12 @@
 # Description: D-Bus interfaces and tools for querying and manipulating storage devices
 # URL: http://www.freedesktop.org/wiki/Software/udisks/
 # Packager: Matt Housh, jaeger at crux dot ninja
-# Maintainer: jolupa, jlpavon at me dot com
-# Depends on: libatasmart libgudev polkit libblockdev docbook-xsl
+# Maintainer: mac-a-r0ni, j at lngn dot net REMOVED docbook-xsl
+# Depends on: glib libatasmart libgudev polkit libblockdev
 
 name=udisks2
 realname=udisks
-version=2.8.4
+version=2.9.4
 release=1
 source=(https://github.com/storaged-project/$realname/releases/download/$realname-$version/$realname-$version.tar.bz2)
 
@@ -16,7 +16,9 @@ build() {
     --sysconfdir=/etc \
     --libexecdir=/usr/lib/$name \
     --enable-fhs-media \
-    --disable-nls
+    --disable-nls \
+    --enable-btrfs \
+    --enable-bcache
   make
   make DESTDIR=$PKG install
   rm -r $PKG/usr/share/gtk-doc
