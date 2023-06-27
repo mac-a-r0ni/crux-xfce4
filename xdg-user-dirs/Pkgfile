@@ -1,11 +1,11 @@
 # Description: Manage user directories
 # URL: https://www.freedesktop.org/wiki/Software/xdg-user-dirs/
-# Maintainer: jolupa, jlpavon at me dot com
+# Maintainer: mac-a-r0ni, j at lngn dot net
 # Depends on:
 
 name=xdg-user-dirs
-version=0.17
-release=4
+version=0.18
+release=1
 source=(http://user-dirs.freedesktop.org/releases/$name-$version.tar.gz)
 
 build() {
