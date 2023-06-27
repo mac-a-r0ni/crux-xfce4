@@ -1,6 +1,0 @@
-untrusted comment: verify with ../jolupalabs.pub
-RWS2lVAQeIsO08ymJYTXZK0kHQA5dZm030dVx8x1yROrCPSRJorMRNb0dsmAtq2V/G9Jv83NPRu+2FU2MX+u4eEjmmEkuQH3EA8=
-SHA256 (Pkgfile) = 530cd48ddf568b68a1f00c19393d50db4bea94c6730ccfb70337ebc9a8ce341c
-SHA256 (.footprint) = 6d8cc50d0b50028e82e5a74f2929522b5be70231f2e90dae07986b231ad20442
-SHA256 (colord-1.4.4.tar.gz) = 26903ae44cb419390eb77aeb98ffad21bf1dbe2eb2e4c45e964414b0ad98d5ae
-SHA256 (0001-trivial-Fix-error-checking-for-sd_pid_get_session-an.patch) = ca6249506c7375cbc9450819c97938c256c64396451c7823bd934038df78d086
