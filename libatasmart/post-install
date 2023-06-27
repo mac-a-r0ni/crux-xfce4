@@ -1,0 +1,7 @@
+# !/bin/sh
+# libatasmart post instalation file
+#
+
+/usr/bin/libtool --finish /usr/lib
+
+# End post instalation file

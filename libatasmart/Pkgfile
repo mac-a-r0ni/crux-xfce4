@@ -5,13 +5,15 @@
 
 name=libatasmart
 version=0.19
-release=1
-source=(http://0pointer.de/public/$name-$version.tar.xz)
+release=2
+source=(http://0pointer.de/public/$name-$version.tar.xz 0001-Dont-test-undefined-bits.patch 0002-Drop-our-own-many-bad-sectors-heuristic.patch)
 
 build() {
   cd $name-$version
-  ./configure --prefix=/usr --build=aarch64-unknown-linux-gnu
-  make
-  make DESTDIR=$PKG install
-  rm -r $PKG/usr/share/doc
+    patch -Np1 -i $SRC/0001-Dont-test-undefined-bits.patch
+    patch -Np1 -i $SRC/0002-Drop-our-own-many-bad-sectors-heuristic.patch
+    ./configure --prefix=/usr --build=aarch64-unknown-linux-gnu
+    make
+    make DESTDIR=$PKG install
+    rm -r $PKG/usr/share/doc
 }
