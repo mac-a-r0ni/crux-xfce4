@@ -10,7 +10,7 @@ source=(http://0pointer.de/public/$name-$version.tar.xz)
 
 build() {
   cd $name-$version
-  ./configure --prefix=/usr
+  ./configure --prefix=/usr --buildtype=plain
   make
   make DESTDIR=$PKG install
   rm -r $PKG/usr/share/doc
