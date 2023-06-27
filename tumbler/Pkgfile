@@ -1,11 +1,11 @@
 # Description: Thumbnail service implementing the thumbnail management D-Bus specification
 # URL: https://www.xfce.org
-# Maintainer: jolupa, jlpavon at me dot com
-# Depends on: glib freetype gdk-pixbuf gst-plugins-base libjpeg-turbo libpng poppler
+# Maintainer: mac-a-r0ni, j at lngn dot net
+# Depends on: glib freetype gdk-pixbuf poppler-glib
 
 name=tumbler
-version=0.3.0
-release=2
+version=4.18.1
+release=1
 source=(http://archive.xfce.org/src/xfce/$name/${version:0:3}/$name-$version.tar.bz2)
 
 build() {
