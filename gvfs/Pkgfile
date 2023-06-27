@@ -13,7 +13,7 @@ build() {
 
   cd $name-$version
 
-  meson build \
+  meson setup build \
     --prefix=/usr \
     --libexecdir=/usr/lib/$name \
     -Dudisks2=true \
