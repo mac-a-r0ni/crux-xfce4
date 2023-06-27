@@ -16,7 +16,7 @@ build() {
   meson build \
     --prefix=/usr \
     --libexecdir=/usr/lib/$name \
-    -Denable-udisks2=true \
+    -Dudisks2=true \
     -Dlogind=false \
     -Dsystemduserunitdir=no \
     -Dtmpfilesdir=no \
