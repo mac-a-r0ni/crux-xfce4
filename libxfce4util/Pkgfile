@@ -14,16 +14,14 @@ build() {
 
 	./configure \
 		--prefix=/usr \
-		--libexecdir=/usr/lib/$name \
-		--enable-introspection=no \
-		--enable-vala=no \
-		--disable-gtk-docs
+		--disable-debug \
+		--enable-gtk-doc-html=no
 
 	make
 	make DESTDIR=$PKG install
 
-	rm -r $PKG/usr/share/locale
-	rm -r $PKG/usr/share/gtk-doc
-	rm -r $PKG/usr/share
+#	rm -r $PKG/usr/share/locale
+#	rm -r $PKG/usr/share/gtk-doc
+#	rm -r $PKG/usr/share
 
 }
