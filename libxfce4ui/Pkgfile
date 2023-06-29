@@ -1,10 +1,10 @@
 # Description: Graphic widgets helpers for Xfce
 # URL: https://www.xfce.org
 # Maintainer: jolupa, jlpavon at me dot com
-# Depends on: libxfce4util gtk3 xfconf startup-notification libgtop
+# Depends on: libxfce4util gtk3 xfconf startup-notification libgtop libepoxy libsm gobject-introspection hicolor-icon-theme
 
 name=libxfce4ui
-version=4.15.3
+version=4.18.4
 release=2
 source=(http://archive.xfce.org/src/xfce/$name/${version:0:4}/$name-$version.tar.bz2)
 
@@ -16,10 +16,10 @@ build() {
     --prefix=/usr \
     --libexecdir=/usr/lib/$name \
     --sysconfdir=/etc \
-    --disable-glade \
-    --enable-glibtop \
-    --enable-introspection=no \
-    --enable-gtk-docs=no
+    --localstatedir=/var \
+    --disable-debug \
+    --enable-gtk-docs-html=no \
+    --with-vendor-info="CRUX Linux"
 
 	make
 	make DESTDIR=$PKG install
