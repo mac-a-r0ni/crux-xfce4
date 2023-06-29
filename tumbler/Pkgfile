@@ -17,9 +17,7 @@ build() {
       --libexecdir=/usr/lib/$name \
       --sysconfdir=/etc \
       --disable-static \
-      --disable-gtk-doc \
-      --disable-gtk2 \
-      --enable-gtk3
+      --enable-gtk-doc-html=no
 
   make
   make DESTDIR=$PKG install
