@@ -18,6 +18,7 @@ build() {
     --sysconfdir=/etc \
     --localstatedir=/var \
     --disable-debug \
+    --disable-nls \
     --enable-gtk-docs-html=no \
     --with-vendor-info="CRUX Linux"
 
