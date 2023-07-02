@@ -17,6 +17,7 @@ build() {
 		--libexecdir=/usr/lib/$name \
 		--sysconfdir=/etc \
 		--disable-gtk-doc \
+		--disable-nls \
 		--enable-gtk-doc-html=no
 
 	make

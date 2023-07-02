@@ -16,6 +16,7 @@ build() {
 		--prefix=/usr \
 		--libexecdir=/usr/lib/$name \
 		--sysconfdir=/etc \
+		--disable-nls \
 		--disable-gtk-doc \
 		--enable-gtk-doc-html=no
 

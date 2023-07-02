@@ -17,12 +17,13 @@ build() {
 	  --libexecdir=/usr/lib/$name \
 	  --sysconfdir=/etc \
 	  --disable-gtk-doc \
+	  --disable-nls \
 	  --enable-gtk-doc-html=no
 
 	make
 	make DESTDIR=$PKG install
 
-    rm -r $PKG/usr/share/locale
+#    rm -r $PKG/usr/share/locale
     rm -r $PKG/usr/share/gtk-doc
     rm -r $PKG/usr/share/doc
 
