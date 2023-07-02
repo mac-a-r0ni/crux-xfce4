@@ -16,6 +16,7 @@ build() {
 		--prefix=/usr \
 		--disable-debug \
 		--disable-static \
+		--disable-nls \
 		--enable-gtk-doc-html=no
 
 	make
