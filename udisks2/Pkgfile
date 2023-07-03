@@ -6,7 +6,7 @@
 
 name=udisks2
 realname=udisks
-version=2.9.4
+version=2.10.0
 release=1
 source=(https://github.com/storaged-project/$realname/releases/download/$realname-$version/$realname-$version.tar.bz2)
 
