@@ -1,0 +1,28 @@
+# Description: A modern terminal emulator
+# Xfce git group: apps
+# URL: https://docs.xfce.org/apps/terminal/start   # doc
+# URL: https://gitlab.xfce.org/apps/xfce4-terminal # git
+# Maintainer: David L. Craig, dlc dot usa at gmail dot com
+# Depends on: exo vte3
+name=xfce4-terminal
+version=1.0.4
+release=1
+source=(https://archive.xfce.org/src/apps/$name/${version%.*}/$name-$version.tar.bz2
+        xfce_$xfcerel.$name
+       )
+build ()
+{
+  # Build the canonical package:
+  cd $name-$version
+  ./configure --prefix=/usr \
+              --disable-nls \
+              --mandir=/usr/share/man \
+              --libexecdir=/usr/bin \
+              --docdir=/usr/share/Terminal/doc
+  make -j1
+  make DESTDIR=$PKG install
+  rm -rf $PKG/usr/share/locale
+  rm -rf $PKG/usr/share/gnome*
+  rm -rf $PKG/usr/share/Terminal/doc/{??,??_??}
+  rm -rf $PKG/usr/share/man/{??,??_??}
+}
