@@ -22,6 +22,7 @@ build() {
       --enable-xpresent \
       --enable-compositor \
       --enable-epoxy \
+      --disable-nls \
       --disable-debug
 
     make
