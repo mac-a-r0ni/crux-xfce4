@@ -1,9 +1,10 @@
 # Description: A modern terminal emulator
-# Xfce git group: apps
 # URL: https://docs.xfce.org/apps/terminal/start   # doc
 # URL: https://gitlab.xfce.org/apps/xfce4-terminal # git
-# Maintainer: David L. Craig, dlc dot usa at gmail dot com
+# Author: David L. Craig, dlc dot usa at gmail dot com
+# Maintainer: mac-a-r0ni, j at lngn dot net
 # Depends on: exo vte3
+
 name=xfce4-terminal
 version=1.0.4
 release=1

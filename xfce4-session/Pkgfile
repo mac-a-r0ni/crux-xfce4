@@ -1,7 +1,8 @@
 # Description: Xfce's session manager
 # URL: https://www.xfce.org
-# Maintainer:	 mac-a-r0ni, j at lngn dot net
+# Maintainer: mac-a-r0ni, j at lngn dot net
 # Depends on: libwnck-gtk3 libxfce4ui polkit polkit-gnome xfconf desktop-file-utils shared-mime-info gnome-keyring light-locker xfce4-screensaver xscreensaver
+# TODO: check/verify deps
 
 name=xfce4-session
 version=4.18.3
@@ -16,6 +17,7 @@ build() {
     --prefix=/usr \
     --libexecdir=/usr/lib/$name \
     --sysconfdir=/etc \
+    --disable-nls \
     --disable-debug \
     --disable-gtk-doc \
     --enable-gtk-doc-html=no

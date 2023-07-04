@@ -1,7 +1,7 @@
 # Description: Xfce's window manager
 # URL: https://www.xfce.org
 # Maintainer: mac-a-r0ni, j at lngn dot net
-# Depends on: libwnck-gtk3 libxfce4ui libxfce4util startup-notification libxpresent
+# Depends on: libwnck-gtk3 libxfce4ui libxfce4util startup-notification xorg-libxpresent
 
 name=xfwm4
 version=4.18.0
