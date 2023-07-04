@@ -1,0 +1,27 @@
+# Description: Themable notification daemon with transparency effects
+# URL: https://docs.xfce.org/apps/notifyd/start
+# Maintainer: mac-a-r0ni, j at lngn dot net
+# Depends on: hicolor-icon-theme libcanberra libnotify libxfce4ui libxfce4util xfce4-panel xfconf sqlite3
+
+name=xfce4-notifyd
+version=0.8.2
+release=1
+source=(https://archive.xfce.org/src/apps/$name/${version%.*}/$name-$version.tar.bz2)
+
+build () {
+  cd $SRC/$name-$version
+
+  ./configure \
+    --prefix=/usr \
+    --disable-nls \
+    --libexecdir=/usr/lib/$name \
+    --disable-debug
+
+  make
+  make DESTDIR=$PKG install
+
+  rm -rf $PKG/usr/share/{locale,doc}
+  rm -rf $PKG/usr/lib/systemd
+#  find $PKG/usr/share/applications -type f -name '*.desktop' \
+#       -exec sed -r '/\[.+\]=/d' -i {} \;
+}

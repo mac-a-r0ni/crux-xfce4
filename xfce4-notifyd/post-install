@@ -1,0 +1,4 @@
+#!/bin/sh
+
+prt-get isinst gtk >/dev/null 2>&1 \
+&& gtk-update-icon-cache -f -t /usr/share/icons/hicolor

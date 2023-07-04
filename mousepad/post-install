@@ -1,0 +1,6 @@
+#!/bin/sh
+#
+# post-install: install/update all glib schemas after the
+# package installation
+
+glib-compile-schemas /usr/share/glib-2.0/schemas/
