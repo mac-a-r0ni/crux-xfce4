@@ -1,7 +1,7 @@
 # Description: Graphic widgets helpers for Xfce
 # URL: https://www.xfce.org
-# Maintainer: jolupa, jlpavon at me dot com
-# Depends on: libxfce4util gtk3 xfconf startup-notification libgtop libepoxy libsm gobject-introspection hicolor-icon-theme
+# Maintainer: mac-a-r0ni, j at lngn dot net
+# Depends on: libxfce4util gtk3 xfconf startup-notification libgtop libepoxy xorg-libsm gobject-introspection hicolor-icon-theme
 
 name=libxfce4ui
 version=4.18.4
@@ -20,12 +20,11 @@ build() {
     --disable-debug \
     --disable-nls \
     --enable-gtk-docs-html=no \
-    --with-vendor-info="CRUX Linux"
+    --with-vendor-info="CRUX"
 
 	make
 	make DESTDIR=$PKG install
 
-#	rm -r $PKG/usr/share/locale
 	rm -r $PKG/usr/share/gtk-doc
 
 }
