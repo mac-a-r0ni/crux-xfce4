@@ -1,11 +1,11 @@
 # Description: Automatic management of removable drives and media for Thunar
-# URL: https://www.xfce.org
-# Maintainer: jolupa, jlpavon at me dot com
-# Depends on: exo libgudev libxfce4ui libnotify startup-notification gvfs xfce-polkit
+# URL: https://docs.xfce.org/xfce/thunar/thunar-volman
+# Maintainer: mac-a-r0ni, j at lngn dot net
+# Depends on: hicolor-icon-theme libxfce4ui thunar
 
 name=thunar-volman
-version=4.15.0
-release=2
+version=4.18.0
+release=1
 source=(http://archive.xfce.org/src/xfce/$name/${version:0:4}/$name-$version.tar.bz2)
 
 build() {
@@ -15,13 +15,9 @@ build() {
     ./configure \
       --prefix=/usr \
       --libexecdir=/usr/lib/$name \
-      --disable-static \
-      --disable-gtk-doc \
-      --disable-gtk2 \
-      --enable-gtk3
+      --disable-nls
 
   make
   make DESTDIR=$PKG install
 
-  rm -r $PKG/usr/share/locale
 }
