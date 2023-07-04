@@ -21,6 +21,7 @@ build() {
     --enable-bcache
   make
   make DESTDIR=$PKG install
+
   rm -r $PKG/usr/share/gtk-doc
   install -d -m 0755 $PKG/media
 }

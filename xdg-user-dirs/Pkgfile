@@ -12,15 +12,15 @@ build() {
 	cd $name-$version
 
 	./autogen.sh \
-	  --prefix=/usr \
-		--sysconfdir=/etc \
-	  --libexecdir=/usr/lib/$name \
-	  --disable-rpath \
-	  --disable-documentation
+	--prefix=/usr \
+	--sysconfdir=/etc \
+	--libexecdir=/usr/lib/$name \
+	--disable-rpath \
+	--disable-documentation
 
   make
 	make DESTDIR=$PKG install
 
-  rm -r $PKG/usr/share/locale
+  rm -r $PKG/usr/share
 
 }
