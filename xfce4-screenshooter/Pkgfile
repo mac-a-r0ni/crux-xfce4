@@ -6,7 +6,7 @@
 name=xfce4-screenshooter
 version=1.10.4
 release=1
-source=(https://archive.xfce.org/src/apps/xfce4-screenshooter/${version:0:3}/xfce4-screenshooter-$version.tar.bz2)
+source=(https://archive.xfce.org/src/apps/xfce4-screenshooter/1.10/xfce4-screenshooter-$version.tar.bz2)
 
 build() {
 	cd $name-$version
