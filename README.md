@@ -35,7 +35,7 @@ NOTES
 
 CONTACT
 =====
-If you have any questions, doubts or problems regarding the ports, please feel free to contact me at j at lngn dot net or just open a [issue](https://github.com/mac-a-r0ni/crux-xfce4/issues)
+If you have any questions, doubts or problems regarding the ports, please feel free to contact me at j at lngn dot net or just open a [issue](https://github.com/mac-a-r0ni/crux-xfce4/issues).
 
 XFCE INSTALLATION
 =====
