@@ -2,7 +2,7 @@
 # URL: https://www.freedesktop.org/software/colord
 # Packager: Tim Biermann, tbier at posteo dot de
 # Maintainer: mac-a-r0ni, j at lngn dot net
-# Depends on: dbus lcms2 libgudev libgusb polkit sane
+# Depends on: dbus lcms2 libgudev libgusb polkit sane argyllcms
 
 name=colord
 version=1.4.6

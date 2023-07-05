@@ -1,11 +1,11 @@
 # Description: Xfce4-screenshooter allows you to capture the entire screen, the active
 window or a selected region.
 # URL: https://xfce.org
-# Maintainer: jolupa, jlpavon at me dot com
-# Depends on: xfce4-panel libxfce4util libxfce4ui glib gtk3 libsoup libxml2 exo xorg-libxext xorg-libxfixes
+# Maintainer: mac-a-r0ni, j at lngn dot net
+# Depends on: xfce4-panel libsoup3
 
 name=xfce4-screenshooter
-version=1.9.7
+version=1.10.4
 release=1
 source=(https://archive.xfce.org/src/apps/xfce4-screenshooter/${version:0:3}/xfce4-screenshooter-$version.tar.bz2)
 
@@ -15,6 +15,7 @@ build() {
 	./configure \
 		--prefix=/usr \
 		--libexecdir=/usr/lib \
+		--disable-nls \
 		--sysconfdir=/etc
 
 	make
