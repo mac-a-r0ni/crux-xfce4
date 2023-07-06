@@ -1,0 +1,3 @@
+eb5d0468b0d47d099e5164372a21f9da  0001-Dont-test-undefined-bits.patch
+cebd1fbed0b05d0458177d6d3ad4ea3f  0002-Drop-our-own-many-bad-sectors-heuristic.patch
+53afe2b155c36f658e121fe6def33e77  libatasmart-0.19.tar.xz
