@@ -1,10 +1,4 @@
-*.un~
-*~
-*.swp
-jolupalabs.sec
+crux-xfce4.sec
 .httpup-repgen-ignore
 xarchiver
-*.swo
-pru-*
-not-working/*
 *.bz2
