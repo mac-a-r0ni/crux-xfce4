@@ -1,0 +1,24 @@
+# Description: An alternate menu for xfce
+# URL: https://xfce.org
+# Maintainer: mac-a-r0ni, j at lngn dot net
+# Depends on: garcon exo cmake libxfce4ui libxfce4util xfce4-panel
+
+name=xfce4-whiskermenu-plugin
+version=2.7.3
+release=1
+source=(https://archive.xfce.org/src/panel-plugins/$name/${version:0:3}/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	
+	cmake \
+	-D CMAKE_BUILD_TYPE=Release \
+	-D CMAKE_INSTALL_PREFIX=/usr \
+	-D CMAKE_INSTALL_LIBDIR=/usr/lib \
+
+	make
+	make DESTDIR=$PKG install
+	
+rm -r $PKG/usr/share/locale
+
+}
