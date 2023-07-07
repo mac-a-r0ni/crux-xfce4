@@ -1,5 +1,5 @@
 #
-# /etc/ports/pine64-arm64.httpup: CRUX-ARM aarch64 ports overlay for XFCE4
+# /etc/ports/crux-xfce4.httpup: CRUX-ARM aarch64 ports overlay for XFCE4
 #
 
 ROOT_DIR=/usr/ports/crux-xfce4
