@@ -1,0 +1,25 @@
+# Description: A weather plugin for the xfce-panel
+# URL: https://xfce.org
+# Maintainer: mac-a-r0ni, j at lngn dot net
+# Depends on: xfce4-panel hicolor-icon-theme libsoup libxml2
+
+name=xfce4-weather-plugin
+version=0.11.1
+release=1
+source=(https://archive.xfce.org/src/panel-plugins/$name/${version%.*}/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+
+	./configure \
+		--prefix=/usr \
+		--sysconfdir=/etc \
+		--libdir=/usr/lib \
+		--libexecdir=/usr/lib/$name \
+		--disable-nls \
+		--disable-debug
+
+	make
+	make DESTDIR=$PKG install
+
+}

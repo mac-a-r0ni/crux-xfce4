@@ -1,0 +1,25 @@
+# Description: XFCE4 screensaver
+# URL: https://xfce.org
+# Maintainer: mac-a-r0ni, j at lngn dot net
+# Depends on: dbus-glib garcon libwnck-gtk3 libxklavier xorg-libxscrnssaver python3-gobject
+
+name=xfce4-screensaver
+version=4.18.2
+release=1
+source=(https://archive.xfce.org/src/apps/xfce4-screensaver/${version%.*}/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+
+	./configure \
+		--prefix=/usr \
+		--libdir=/usr/lib \
+		--libexecdir=/usr/lib \
+		--sysconfdir=/etc \
+		--disable-nls \
+		--disable-debug
+
+	make
+	make DESTDIR=$PKG install
+
+}
