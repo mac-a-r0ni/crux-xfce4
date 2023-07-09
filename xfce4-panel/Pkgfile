@@ -17,12 +17,12 @@ build() {
 		--libexecdir=/usr/lib/$name \
 		--sysconfdir=/etc \
 		--disable-debug \
+		--disable-nls \
 		--disable-gtk-doc
 
 	make
 	make DESTDIR=$PKG install
 
-	rm -r $PKG/usr/share/locale
   rm -r $PKG/usr/share/gtk-doc
 
 }
