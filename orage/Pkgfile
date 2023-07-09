@@ -1,0 +1,28 @@
+# Description: Simple Calendar app with reminders for XFCE
+# URL: https://www.xfce.org
+# Maintainer: mac-a-r0ni, j at lngn dot net 
+# Depends on: libxfce4ui libnotify libical
+
+name=orage
+version=4.18.0
+release=1
+source=(https://archive.xfce.org/src/apps/$name/${version:0:4}/$name-$version.tar.bz2)
+
+build() {
+
+	cd $name-$version
+
+	./configure \
+		--prefix=/usr \
+		--libexecdir=/usr/lib/$name \
+		--sysconfdir=/etc \
+		--disable-nls \
+		--disable-gtk-doc \
+		--disable-debug \
+		--disable-static
+
+	make
+	make DESTDIR=$PKG install
+
+	rm -r $PKG/usr/share/gtk-doc
+}
