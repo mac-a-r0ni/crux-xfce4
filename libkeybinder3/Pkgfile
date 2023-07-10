@@ -1,0 +1,22 @@
+# Description: A library for registering global keyboard shortcuts
+# URL: https://github.com/engla/keybinder/tree/keybinder-3.0
+# Maintainer: mac-a-r0ni, j at lngn dot net
+# Depends on: gtk3 gobject-introspection gtk-doc
+
+name=libkeybinder3
+version=0.3.2
+release=1
+source=(https://github.com/kupferlauncher/keybinder/releases/download/keybinder-3.0-v${version}/keybinder-3.0-${version}.tar.gz)
+
+build() {
+  cd keybinder-3.0-$version
+
+    ./configure \
+	--prefix=/usr
+
+    make
+    make DESTDIR=$PKG install
+
+rm -r $PKG/usr/share/gtk-doc
+
+}

@@ -1,0 +1,22 @@
+# Description: The Elementary Icon Theme for XFCE
+# URL: https://github.com/shimmerproject/elementary-xfce
+# Maintainer: mac-a-r0ni, j at lngn dot net
+# Depends on: gtk3 optipng
+
+name=elementary-xfce-icons
+version=0.17
+release=1
+source=(https://github.com/shimmerproject/elementary-xfce/archive/v0.17/elementary-xfce-0.17.tar.gz)
+
+build() {
+cd elementary-xfce-$version
+
+    ./configure \
+	--prefix=/usr
+
+    make
+    make DESTDIR=$PKG install
+    make DESTDIR=$PKG icon-caches
+# these are depreciated and should NOT be used or provided
+    rm -r $PKG/usr/share/icons/elementary-xfce-{darker,darkest}
+}

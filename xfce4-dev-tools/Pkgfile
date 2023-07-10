@@ -1,0 +1,27 @@
+# Description: Xfce's developer tools
+# URL: https://www.xfce.org
+# Maintainer: mac-a-r0ni, j at lngn dot net
+# Depends on: glib intltool gtk-doc
+
+name=xfce4-dev-tools
+version=4.18.0
+release=1
+source=(http://archive.xfce.org/src/xfce/$name/${version:0:4}/$name-$version.tar.bz2)
+
+build() {
+
+  cd $name-$version
+
+  ./configure \
+    --prefix=/usr \
+    --sysconfdir=/etc \
+    --localstatedir=/var \
+    --libdir=/usr/lib \
+    --libexecdir=/usr/lib/$name \
+    --disable-gtk-doc \
+    --disable-nls
+
+    make
+    make DESTDIR=$PKG install
+
+}
