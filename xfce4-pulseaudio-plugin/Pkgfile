@@ -6,7 +6,7 @@
 name=xfce4-pulseaudio-plugin
 version=0.4.7
 release=1
-source=(https://archive.xfce.org/src/panel-plugins/$name/${version:0:4}/$name-$version.tar.bz2)
+source=(https://archive.xfce.org/src/panel-plugins/$name/0.4/$name-$version.tar.bz2)
 
 build() {
 
