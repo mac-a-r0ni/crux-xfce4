@@ -1,0 +1,26 @@
+# Description: The Greybird XFCE Desktop theme
+# URL: https://github.com/shimmerproject/Greybird
+# Maintainer: mac-a-r0ni, j at lngn dot net
+# Depends on:  gtk3 librsvg sassc elementary-xfce-icons
+# Optional: gtk-engine-murrine
+
+name=greybird
+version=3.23.2
+release=1
+source=(https://github.com/shimmerproject/Greybird/archive/v3.23.2/Greybird-3.23.2.tar.gz)
+
+build() {
+cd Greybird-$version
+
+    meson setup build \
+	--prefix=/usr \
+	--libdir=/usr/lib \
+	--libexecdir=/usr/lib/$name \
+	--sysconfdir=/etc \
+	--localstatedir=/var \
+	--buildtype=release
+
+    meson compile -C build
+    DESTDIR="$PKG" meson install -C build
+
+}
