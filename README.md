@@ -44,7 +44,7 @@ XFCE INSTALLATION
 2. Install the packages in this **exact order**:
 
    ```bash
-   sudo prt-get depinst libxfce4util xfconf libxfce4ui gvfs udisks2 garcon exo xfce4-panel thunar thunar-volman xfce4-settings xfce4-session xfwm4 xfdesktop xfce4-appfinder tumbler xfce4-terminal xfce4-power-manager xfce4-notifyd xfce4-screenshooter mousepad xdg-user-dirs
+   sudo prt-get depinst libxfce4util xfconf libxfce4ui udisks2 gvfs garcon exo xfce4-panel thunar thunar-volman xfce4-settings xfce4-session xfwm4 xfdesktop xfce4-appfinder tumbler xfce4-terminal xfce4-power-manager xfce4-notifyd xfce4-screenshooter mousepad xdg-user-dirs
    ```
 
 3. Get a big cup of coffee and just relax...
