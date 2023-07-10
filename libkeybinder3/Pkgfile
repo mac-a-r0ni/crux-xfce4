@@ -6,17 +6,19 @@
 name=libkeybinder3
 version=0.3.2
 release=1
-source=(https://github.com/kupferlauncher/keybinder/releases/download/keybinder-3.0-v${version}/keybinder-3.0-${version}.tar.gz)
-#libkeybinder3-gtk-doc.patch::https://github.com/kupferlauncher/keybinder/pull/18.patch
+source=(https://github.com/kupferlauncher/keybinder/releases/download/keybinder-3.0-v${version}/keybinder-3.0-${version}.tar.gz libkeybinder3-gtk-doc.patch::https://github.com/kupferlauncher/keybinder/pull/18.patch)
 
 build() {
   cd keybinder-3.0-$version
 
-#    patch -p1 -i ../libkeybinder3-gtk-doc.patch
+    patch -p1 -i ../libkeybinder3-gtk-doc.patch
 # ./configure --prefix=/usr --enable-gtk-doc
 #  make --build=aarch64-unknown-linux-gnu
 
-    ./configure --prefix=/usr
+    ./configure \
+	--prefix=/usr \
+	--disable-gtk-doc
+
     make
     make DESTDIR=$PKG install
 
