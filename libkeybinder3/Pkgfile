@@ -10,7 +10,7 @@ source=(https://github.com/kupferlauncher/keybinder/releases/download/keybinder-
 #libkeybinder3-gtk-doc.patch::https://github.com/kupferlauncher/keybinder/pull/18.patch
 
 build() {
-  cd $name-$version
+  cd keybinder-3.0-$version
 
 #    patch -p1 -i ../libkeybinder3-gtk-doc.patch
 # ./configure --prefix=/usr --enable-gtk-doc
