@@ -233,3 +233,9 @@ f:3f44ee4a528ae755da35a0fcc5c5309d:ristretto/.footprint
 f:74fdb919568765995f0447ce2c7df298:ristretto/.md5sum
 f:449282c29098aea6f1daff794cfed7ef:ristretto/Pkgfile
 f:ece84d5d3509abfef60c564d5c0c1824:ristretto/post-install
+f:8ca1442b9e24f1a44c56d78949bba265:catfish/.footprint
+f:f2fa186b9e9b32e225ef7b0ea1847842:catfish/.md5sum
+f:d4db25925f1273229b7a121b29fdadba:catfish/Pkgfile
+f:59cd21375c0b42bdbb7872316a8417dd:python3-distutils-extra/.footprint
+f:99f76432748ec3f40f8852944de26090:python3-distutils-extra/.md5sum
+f:67cb62e77a24a1c8307aa8b0e2310b0b:python3-distutils-extra/Pkgfile
