@@ -51,6 +51,8 @@ d:libmpd
 d:exo
 d:xfce4-cpugraph-plugin
 d:gvfs
+d:catfish
+d:python3-distutils-extra
 f:5eb65fd04ba9f4b8575f6f334acf486d:xfce4-screensaver/.footprint
 f:d7326524d9182d3d26e8e7e4aec34859:xfce4-screensaver/.md5sum
 f:c321780b8b3d0b99e9add74662d2d534:xfce4-screensaver/Pkgfile
