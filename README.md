@@ -54,12 +54,7 @@ XFCE INSTALLATION
    #!/bin/sh
    exec ck-launch-session startxfce4
    ```
-   4.1. Or you could also use dbus instead:
-   ```bash
-   #!/bin/sh
-   exec dbus-run-session startxfce4
-   ```
-
+   
 5. If you have any problem launching XFCE and you have a an Intel graphic card, install **xorg-xf86-video-intel** and the **mesa** ports from the xorg repo.
 
 6. Enjoy this beautiful Desktop Environment!

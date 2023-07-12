@@ -1,0 +1,34 @@
+# Description: Legacy polkit authentication agent for GNOME
+# URL: https://gitlab.gnome.org/Archive/policykit-gnome/
+# Maintainer: mac-a-r0ni, j at lngn dot net
+# Depends on: gtk3 polkit
+
+name=polkit-gnome
+version=0.105
+release=1
+source=(https://download.gnome.org/sources/$name/$version/$name-$version.tar.xz polkit-gnome-authentication-agent-1.desktop 0001-Select-the-current-user-to-authenticate-with-by-defa.patch 0002-Auth-dialog-Make-the-label-wrap-at-70-chars.patch 0003-Get-user-icon-from-accountsservice-instead-of-lookin.patch 0004-Use-fresh-X11-timestamps-when-displaying-authenticat.patch)
+
+build() {
+  cd $name-$version
+
+  # Select the current user to authenticate with by default
+  patch -Np1 -i ../0001-Select-the-current-user-to-authenticate-with-by-defa.patch
+
+  # Auth dialog: Make the label wrap at 70 chars
+  patch -Np1 -i ../0002-Auth-dialog-Make-the-label-wrap-at-70-chars.patch
+
+  # Get user icon from accountsservice instead of looking in ~/.face
+  patch -Np1 -i ../0003-Get-user-icon-from-accountsservice-instead-of-lookin.patch
+
+  # Use fresh X11 timestamps when displaying authentication dialog
+  patch -Np1 -i ../0004-Use-fresh-X11-timestamps-when-displaying-authenticat.patch
+
+  ./configure --prefix=/usr --sysconfdir=/etc --localstatedir=/var --libexecdir=/usr/lib/$name --build=aarch64-unknown-linux-gnuabi
+  make
+
+  make DESTDIR=$PKG install
+  install -Dm644 ../polkit-gnome-authentication-agent-1.desktop $PKG/usr/share/applications/polkit-gnome-authentication-agent-1.desktop
+  install -Dm644 ../polkit-gnome-authentication-agent-1.desktop $PKG/etc/xdg/autostart/polkit-gnome-authentication-agent-1.desktop
+
+  rm -r $PKG/usr/share/locale
+}
