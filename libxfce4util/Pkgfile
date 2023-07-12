@@ -1,7 +1,7 @@
 # Description: Basic Utility library for Xfce
 # URL: https://www.xfce.org
 # Maintainer: mac-a-r0ni, j at lngn dot net
-# Depends on: xorg-libxau xorg-libxdmcp xorg-xcb-proto xorg-libfs xorg-libxscrnsaver xorg-libxdamage xorg-libxvmc xorg-libpciaccess xorg-libxshmfence xorg-xcb-util-wm xorg-xcb-util-cursor xorg-iceauth xorg-mkfontdir xorg-sessreg xorg-setxkbmap xorg-xmproxy xorg-x11perf xorg-xauth xorg-xbacklight xorg-xcursorgen xorg-xdpyinfo xorg-xdriinfo xorg-xev xorg-xgamma xorg-xhost xorg-xinput xorg-xkill xmessage xorg-xmodmap xorg-xprop xorg-xrandr xorg-xrdb xorg-xrefresh xorg-xset xorg-xsetroot xorg-xvinfo xorg-xwininfo xorg-font-alias xorg-font-adobe-utopia-type1 xorg-font-bh-ttf font-bh-type1 xorg-font-ibm-type1 xorg-font-misc-ethiopic xorg-font-xfree86-type1 xkeyboard-config xorg-xf86-input-libinput xorg-xinit glib
+# Depends on: xorg-libxau xorg-libxdmcp xorg-xcb-proto xorg-libfs xorg-libxscrnsaver xorg-libxdamage xorg-libxvmc xorg-libpciaccess xorg-libxshmfence xorg-xcb-util-wm xorg-xcb-util-cursor xorg-iceauth xorg-sessreg xorg-setxkbmap xorg-x11perf xorg-xauth xorg-xbacklight xorg-xcursorgen xorg-xdpyinfo xorg-xdriinfo xorg-xev xorg-xgamma xorg-xhost xorg-xinput xorg-xkill xmessage xorg-xmodmap xorg-xprop xorg-xrandr xorg-xrdb xorg-xset xorg-xsetroot xorg-xvinfo xorg-xwininfo xorg-font-alias xorg-font-adobe-utopia-type1 xorg-font-bh-ttf xorg-font-bh-type1 xorg-font-ibm-type1 xorg-font-misc-ethiopic xorg-font-xfree86-type1 xkeyboard-config xorg-xf86-input-libinput xorg-xinit glib
 
 name=libxfce4util
 version=4.18.1
