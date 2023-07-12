@@ -6,14 +6,16 @@
 
 name=xfce4-session
 version=4.18.3
-release=1
-source=(https://archive.xfce.org/src/xfce/$name/${version:0:4}/$name-$version.tar.bz2)
+release=2
+source=(https://archive.xfce.org/src/xfce/$name/${version:0:4}/$name-$version.tar.bz2 source-system-xinitrc-scripts.patch xfce-polkit-gnome-authentication-agent-1.desktop)
 
 build() {
 
-  cd $name-$version
+    cd $name-$version
 
-  ./configure \
+    patch -Np1 -i ../source-system-xinitrc-scripts.patch
+
+    ./configure \
     --prefix=/usr \
     --libexecdir=/usr/lib/$name \
     --sysconfdir=/etc \
@@ -22,7 +24,9 @@ build() {
     --disable-gtk-doc \
     --enable-gtk-doc-html=no
 
-  make
-  make DESTDIR=$PKG install
+    make
+    make DESTDIR=$PKG install
+
+    cp ../xfce-polkit-gnome-authentication-agent-1.desktop $PKG/etc/xdg/autostart/
 
 }
