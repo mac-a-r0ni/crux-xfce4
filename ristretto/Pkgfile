@@ -1,0 +1,24 @@
+# Description: View and scroll through images
+# URL: https://docs.xfce.org/apps/ristretto/start
+# Maintainer: mac-a-r0ni, j at lngn dot net
+# Depends on: libexif libxfce4ui tumbler xfconf
+
+name=ristretto
+version=0.13.1
+release=1
+source=(https://archive.xfce.org/src/apps/$name/0.13/$name-$version.tar.bz2)
+
+build() {
+  cd $name-$version
+
+    ./configure \
+    --prefix=/usr \
+    --sysconfdir=/etc \
+    --localstatedir=/var \
+    --disable-debug \
+    --disable-nls
+
+    make
+    make DESTDIR=$PKG install
+
+}
