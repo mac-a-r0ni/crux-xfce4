@@ -19,7 +19,8 @@ build() {
   patch -p1 -i $SRC/0003-fix-comparison.patch
 
   ./configure --prefix=/usr \
-              --disable-static
+              --disable-static \
+              --build=aarch64-unknown-linux-gnueabi
 
   make
   make DESTDIR=$PKG install

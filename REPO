@@ -218,7 +218,7 @@ f:09117913847f1a2744363b3851468dda:libmpd/0003-fix-comparison.patch
 f:3e627c3b7599a9f530f9b95f001e61d5:libmpd/.footprint
 f:9bce166d4e8bbc1022ec9ea488f11e36:libmpd/0001-fix-return-value.patch
 f:ead6a029307e1869cbb7707246373082:libmpd/.md5sum
-f:5c37ec052b98bb0125a2577f871ce229:libmpd/Pkgfile
+f:0ac72edd51d6eecd00c6ec0f3b7464db:libmpd/Pkgfile
 f:55568f06ada2ea19e905a71840097955:exo/.footprint
 f:a48c6aba28744e1a0b9f286b40c7fd8b:exo/.md5sum
 f:bc6a694954ec65424979b4cfe922b10f:exo/Pkgfile
