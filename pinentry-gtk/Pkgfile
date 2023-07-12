@@ -7,7 +7,7 @@
 name=pinentry-gtk
 version=1.2.1
 release=1
-source=(https://gnupg.org/ftp/gcrypt/$name/pinentry-$version.tar.bz2
+source=(https://gnupg.org/ftp/gcrypt/pinentry/pinentry-$version.tar.bz2
   pinentry)
 
 build() {
