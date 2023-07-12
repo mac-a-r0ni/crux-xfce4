@@ -18,6 +18,7 @@ d:xfce4-datetime-plugin
 d:xdg-user-dirs
 d:elementary-xfce-icons
 d:xfwm4
+d:ristretto
 d:parole
 d:polkit-gnome
 d:xfce4-battery-plugin
@@ -228,3 +229,7 @@ f:ee4d058c8aa87a29038e9b3e6b48b2c6:xfce4-cpugraph-plugin/Pkgfile
 f:5ef9aa9d177ae4b60f153ec4d6739d13:gvfs/.footprint
 f:e889d3e4b5e2b1a861de702b943bffd3:gvfs/.md5sum
 f:f91375190d7493fcfdd6638d519b2b9b:gvfs/Pkgfile
+f:3f44ee4a528ae755da35a0fcc5c5309d:ristretto/.footprint
+f:74fdb919568765995f0447ce2c7df298:ristretto/.md5sum
+f:449282c29098aea6f1daff794cfed7ef:ristretto/Pkgfile
+f:ece84d5d3509abfef60c564d5c0c1824:ristretto/post-install
