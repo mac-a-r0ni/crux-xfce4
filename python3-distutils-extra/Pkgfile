@@ -1,0 +1,16 @@
+# Description: enhancements to the Python3 build system
+# URL: https://salsa.debian.org/python-team/packages/python-distutils-extra.git
+# Maintainer: mac-a-r0ni, j at lngn dot net
+# Depends on:
+
+name=python3-distutils-extra
+version=2.50
+release=1
+source=(http://deb.debian.org/debian/pool/main/p/python-distutils-extra/python-distutils-extra_2.50.tar.xz)
+
+build() {
+  cd python-distutils-extra
+
+#  /usr/bin/python3 setup.py build
+  /usr/bin/python3 setup.py install --root=$PKG --optimize=1
+}
