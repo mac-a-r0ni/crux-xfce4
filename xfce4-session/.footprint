@@ -1,6 +1,7 @@
 drwxr-xr-x	root/root	etc/
 drwxr-xr-x	root/root	etc/xdg/
 drwxr-xr-x	root/root	etc/xdg/autostart/
+-rw-r--r--	root/root	etc/xdg/autostart/xfce-polkit-gnome-authentication-agent-1.desktop
 -rw-r--r--	root/root	etc/xdg/autostart/xscreensaver.desktop
 drwxr-xr-x	root/root	etc/xdg/xfce4/
 -rw-r--r--	root/root	etc/xdg/xfce4/Xft.xrdb
