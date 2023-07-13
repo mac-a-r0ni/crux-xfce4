@@ -57,4 +57,6 @@ XFCE INSTALLATION
    
 5. If you have any problem launching XFCE and you have a an Intel graphic card, install **xorg-xf86-video-intel** and the **mesa** ports from the xorg repo.
 
-6. Enjoy this beautiful Desktop Environment!
+6. For apps that need authorization (running as root) on X11 you'll need to install the 'polkit-gnome' and 'pinentry-gtk' ports, also from this repo.
+   
+7. Enjoy this beautiful Desktop Environment!
