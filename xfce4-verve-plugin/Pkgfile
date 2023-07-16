@@ -1,0 +1,22 @@
+# Description: A command-line plugin for the xfce-panel
+# URL: https://docs.xfce.org/panel-plugins/xfc4-verve-plugin
+# Maintainer: mac-a-r0ni, j at lngn dot net
+# Depends on: xfce4-panel
+
+name=xfce4-verve-plugin
+version=2.0.3
+release=1
+source=(https://archive.xfce.org/src/panel-plugins/$name/${version:0:3}/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+
+	./configure \
+		--prefix=/usr \
+		--disable-nls \
+		--disable-debug
+
+	make
+	make DESTDIR=$PKG install
+
+}
