@@ -182,7 +182,6 @@ f:c463cbfac36cfa96b02871d273161105:xfce4-settings/Pkgfile
 f:3abf6c825e6358eae5f4edd8a9d45c91:xfce4-weather-plugin/.footprint
 f:1d7f8e7cbd26b37043682837e0546897:xfce4-weather-plugin/.md5sum
 f:36a4e15f756e6164e2869943a5144c92:xfce4-weather-plugin/Pkgfile
-f:aa7bf0458a9e9bdfa195466f8336ec29:.httpup-repo.current
 f:9f75b18aed0bac707e9044e793ca0d71:polkit-gnome/.footprint
 f:3e64ed1fe113d213d8d18e431f77e429:polkit-gnome/0001-Select-the-current-user-to-authenticate-with-by-defa.patch
 f:1b856721a3525bf94d8032bdfffbae1c:polkit-gnome/0004-Use-fresh-X11-timestamps-when-displaying-authenticat.patch
