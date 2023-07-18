@@ -1,0 +1,7 @@
+# !/bin/sh
+# elementary-xfce-icons post installation file
+
+/usr/bin/gtk-update-icon-cache /usr/share/icons/elementary-xfce
+/usr/bin/gtk-update-icon-cache /usr/share/icons/elementary-xfce-dark
+
+# End post installation file

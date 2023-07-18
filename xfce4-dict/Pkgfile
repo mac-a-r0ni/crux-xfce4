@@ -1,0 +1,25 @@
+# Description: a dictionary plugin for xfce-panel
+# URL: https://docs.xfce.org/apps/xfce4-dict/start
+# Maintainer: mac-a-r0ni, j at lngn dot net
+# Depends on: xfce4-panel librsvg hicolor-icon-theme
+
+name=xfce4-dict
+version=0.8.5
+release=1
+source=(http://archive.xfce.org/src/apps/$name/${version%.*}/$name-$version.tar.bz2)
+
+build() {
+
+  cd $name-$version
+
+  ./configure \
+    --prefix=/usr \
+    --sysconfdir=/etc \
+    --localstatedir=/var \
+    --disable-nls \
+    --disable-debug
+
+    make
+    make DESTDIR=$PKG install
+
+}

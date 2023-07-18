@@ -16,7 +16,7 @@ cd elementary-xfce-$version
 
     make
     make DESTDIR=$PKG install
-    make DESTDIR=$PKG icon-caches
-# these are depreciated and should NOT be used or provided
+
+# these are depreciated and should not be used or provided
     rm -r $PKG/usr/share/icons/elementary-xfce-{darker,darkest}
 }

@@ -1,0 +1,6 @@
+# !/bin/sh
+# xfce4-dict post installation file
+
+/usr/bin/gtk-update-icon-cache /usr/share/icons/hicolor
+
+# End post installation file

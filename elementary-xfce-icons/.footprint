@@ -49,7 +49,6 @@ drwxr-xr-x	root/root	usr/share/icons/elementary-xfce-dark/apps/48/
 lrwxrwxrwx	root/root	usr/share/icons/elementary-xfce-dark/apps/48/blueman.png -> ../../../elementary-xfce/apps/48/bluetooth.png
 drwxr-xr-x	root/root	usr/share/icons/elementary-xfce-dark/apps/64/
 lrwxrwxrwx	root/root	usr/share/icons/elementary-xfce-dark/apps/64/blueman.png -> ../../../elementary-xfce/apps/64/bluetooth.png
--rw-r--r--	root/root	usr/share/icons/elementary-xfce-dark/icon-theme.cache
 -rw-r--r--	root/root	usr/share/icons/elementary-xfce-dark/index.theme
 drwxr-xr-x	root/root	usr/share/icons/elementary-xfce-dark/panel/
 drwxr-xr-x	root/root	usr/share/icons/elementary-xfce-dark/panel/16/
@@ -6244,7 +6243,6 @@ drwxr-xr-x	root/root	usr/share/icons/elementary-xfce/emotes/symbolic/
 -rw-r--r--	root/root	usr/share/icons/elementary-xfce/emotes/symbolic/face-wink-symbolic.svg
 -rw-r--r--	root/root	usr/share/icons/elementary-xfce/emotes/symbolic/face-worried-symbolic.svg
 -rw-r--r--	root/root	usr/share/icons/elementary-xfce/emotes/symbolic/face-yawn-symbolic.svg
--rw-r--r--	root/root	usr/share/icons/elementary-xfce/icon-theme.cache
 -rw-r--r--	root/root	usr/share/icons/elementary-xfce/index.theme
 drwxr-xr-x	root/root	usr/share/icons/elementary-xfce/mimes/
 drwxr-xr-x	root/root	usr/share/icons/elementary-xfce/mimes/128/
