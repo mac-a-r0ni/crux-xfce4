@@ -19,6 +19,6 @@ cd elementary-xfce-$version
 
 # these are depreciated and should not be used or provided
     rm -r $PKG/usr/share/icons/elementary-xfce-{darker,darkest}
-    rm $PKG/usr/share/icons/elementary-xfce-dark/{AUTHORS,README.md}
-    rm $PKG/usr/share/icons/elementary-xfce/{AUTHORS,README.md}
+    rm $PKG/usr/share/icons/elementary-xfce-dark/{AUTHORS,CONTRIBUTORS,LICENSE,README.md}
+    rm $PKG/usr/share/icons/elementary-xfce/{AUTHORS,CONTRIBUTORS,LICENSE,README.md}
 }
