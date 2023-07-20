@@ -1,0 +1,31 @@
+# Description: A archive creation and modification application
+# URL: https://wiki.gnome.org/Apps/FileRoller
+# Maintainer: mac-a-r0ni, j at lngn dot net
+# Depends on: json-glib libarchive libhandy libportal unzip zip appstream-glib meson
+# Optional: squashfs-tools p7zip lrzip
+
+name=file-roller
+version=43.0
+release=1
+source=(http://download.gnome.org/sources/$name/${version:0:2}/$name-$version.tar.xz)
+
+build() {
+
+  cd $name-$version
+
+  meson setup build \
+    --prefix=/usr \
+    --libexecdir=/usr/lib \
+    -D run-in-place=false \
+    -D nautilus-actions=disabled \
+    -D notification=enabled \
+    -D packagekit=false \
+    -D introspection=disabled \
+    -D use_native_appchooser=true \
+    -D libarchive=enabled
+
+  DESTDIR=$PKG ninja -C build install
+
+  rm -rf $PKG/usr/share/{help,locale}
+
+}

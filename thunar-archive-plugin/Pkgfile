@@ -1,0 +1,26 @@
+# Description: adds archive operations to Thunar context menus
+# URL: https://docs.xfce.org/xfce/thunar/archive
+# Maintainer: mac-a-r0ni, j at lngn dot net
+# Depends on: hicolor-icon-theme thunar xfce4-dev-tools file-roller
+# Optional: ark engrampa xarchiver
+
+name=thunar-archive-plugin
+version=0.5.1
+release=1
+source=(http://archive.xfce.org/src/thunar-plugins/$name/${version%.*}/$name-$version.tar.bz2)
+
+build() {
+
+  cd $name-$version
+
+    ./configure \
+      --prefix=/usr \
+      --sysconfdir=/etc \
+      --libexecdir=/usr/lib \
+      --disable-nls \
+      --disable-debug
+
+  make
+  make DESTDIR=$PKG install
+
+}
