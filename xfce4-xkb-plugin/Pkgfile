@@ -1,0 +1,26 @@
+# Description: plugin to switch keyboard layouts on the xfce-panel
+# URL: https://docs.xfce.org/panel-plugins/xfce4-xkb-plugin/start
+# Maintainer: mac-a-r0ni, j at lngn dot net
+# Depends on: xfce4-panel libnotify libwnck-gtk3 libxklavier
+# Optional: xfce4-notifyd
+
+name=xfce4-xkb-plugin
+version=0.8.3
+release=1
+source=(https://archive.xfce.org/src/panel-plugins/$name/${version%.*}/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+
+	./configure \
+		--prefix=/usr \
+		--libexecdir=/usr/lib \
+		--sysconfdir=/etc \
+		--localstatedir=/var \
+		--disable-nls \
+		--disable-debug
+
+	make
+	make DESTDIR=$PKG install
+
+}
