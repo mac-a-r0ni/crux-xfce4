@@ -1,10 +1,10 @@
 # Description: A graphical representation of the cpuload for the xfce-panel
 # URL: https://xfce.org
 # Maintainer: mac-a-r0ni, j at lngn dot net
-# Depends on: xfce4-panel
+# Depends on: xfce4-panel glib xfconf
 
 name=xfce4-cpugraph-plugin
-version=1.2.7
+version=1.2.8
 release=1
 source=(https://archive.xfce.org/src/panel-plugins/$name/${version:0:3}/$name-$version.tar.bz2)
 
@@ -13,10 +13,10 @@ build() {
 
 	./configure \
 		--prefix=/usr \
-		--libexecdir=/usr/lib/$name \
+		--sysconfdir=/etc \
 		--disable-nls \
 		--disable-debug \
-		--sysconfdir=/etc
+		--disable-static
 
 	make
 	make DESTDIR=$PKG install
