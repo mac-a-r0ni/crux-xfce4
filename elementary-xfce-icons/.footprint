@@ -2,10 +2,6 @@ drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/icons/
 drwxr-xr-x	root/root	usr/share/icons/elementary-xfce-dark/
-lrwxrwxrwx	root/root	usr/share/icons/elementary-xfce-dark/AUTHORS -> ../elementary-xfce/AUTHORS
-lrwxrwxrwx	root/root	usr/share/icons/elementary-xfce-dark/CONTRIBUTORS -> ../elementary-xfce/CONTRIBUTORS
-lrwxrwxrwx	root/root	usr/share/icons/elementary-xfce-dark/LICENSE -> ../elementary-xfce/LICENSE
-lrwxrwxrwx	root/root	usr/share/icons/elementary-xfce-dark/README.md -> ../elementary-xfce/README.md
 drwxr-xr-x	root/root	usr/share/icons/elementary-xfce-dark/actions/
 drwxr-xr-x	root/root	usr/share/icons/elementary-xfce-dark/actions/16/
 lrwxrwxrwx	root/root	usr/share/icons/elementary-xfce-dark/actions/16/button_cancel.png -> window-close.png
@@ -674,10 +670,6 @@ lrwxrwxrwx	root/root	usr/share/icons/elementary-xfce-dark/panel/48/xfpm-phone-00
 lrwxrwxrwx	root/root	usr/share/icons/elementary-xfce-dark/panel/48/xfpm-phone-060.png -> ../../../elementary-xfce/panel/48/gpm-phone-060.png
 lrwxrwxrwx	root/root	usr/share/icons/elementary-xfce-dark/panel/48/xfpm-phone-100.png -> ../../../elementary-xfce/panel/48/gpm-phone-100.png
 drwxr-xr-x	root/root	usr/share/icons/elementary-xfce/
--rw-r--r--	root/root	usr/share/icons/elementary-xfce/AUTHORS
--rw-r--r--	root/root	usr/share/icons/elementary-xfce/CONTRIBUTORS
--rw-r--r--	root/root	usr/share/icons/elementary-xfce/LICENSE
--rw-r--r--	root/root	usr/share/icons/elementary-xfce/README.md
 drwxr-xr-x	root/root	usr/share/icons/elementary-xfce/actions/
 drwxr-xr-x	root/root	usr/share/icons/elementary-xfce/actions/128/
 lrwxrwxrwx	root/root	usr/share/icons/elementary-xfce/actions/128/bonobo-component-browser.png -> document-properties.png
