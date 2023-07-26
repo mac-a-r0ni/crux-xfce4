@@ -1,0 +1,21 @@
+# Description: An ISO filesystem creation library
+# URL: https://dev.lovelyhq.com/libburnia/libisofs
+# Maintainer: mac-a-r0ni, j at lngn dot net
+
+name=libisofs
+version=1.5.6.pl01
+release=1
+source=(https://dev.lovelyhq.com/libburnia/$name/archive/release-$version.tar.gz)
+
+build() {
+	cd $name
+	./bootstrap
+	./configure \
+	--prefix=/usr \
+	--disable-static \
+	--disable-nls
+
+	make
+	make DESTDIR=$PKG install
+
+}

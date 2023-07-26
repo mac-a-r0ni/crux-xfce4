@@ -1,0 +1,21 @@
+# Description: Client library for accessing NFS shares
+# URL: https://github.com/sahlberg/libnfs
+# Maintainer: mac-a-r0ni, j at lngn dot net
+# Depends on:
+
+name=libnfs
+version=5.0.2
+release=1
+source=(https://github.com/sahlberg/$name/archive/$name-$version.tar.gz)
+
+build() {
+	cd $name-$name-$version
+
+	autoreconf -ivf
+	./configure \
+		--prefix=/usr
+
+	make
+	make DESTDIR=$PKG install
+
+}

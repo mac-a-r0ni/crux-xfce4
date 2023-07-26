@@ -1,35 +1,36 @@
 # Description: A userspace virtual filesystem designed to work with the I/O abstractions of gio (glib)
 # URL: http://projects.gnome.org/
 # Packager: Matt Housh, jaeger at crux dot ninja
-# Maintainer: mac-a-r0ni, j at lngn dot net 
+# Maintainer: mac-a-r0ni, j at lngn dot net
 # Depends on: dbus dbus-glib glib gcr gcr3 samba libgcrypt polkit libgphoto2 libsecret meson ninja libsoup3 libgnome-keyring
-# TODO: add gnome-online-accounts (online sharing), fuse3 REMOVED docbook-xsl
+# Optional: fuse3 udisks2 avahi libbluray libnfs libcdio-paranoia libimobiledevice gnome-online-accounts
 
 name=gvfs
 version=1.50.5
-release=1
+release=2
 source=(http://download.gnome.org/sources/$name/${version:0:4}/$name-$version.tar.xz)
 
 build() {
 
   cd $name-$version
 
-  meson setup build \
+    prt-get isinst fuse3 && PKGMK_GVFS+='-D fuse=true ' || PKGMK_GVFS+=' -D fuse=false '
+    prt-get isinst udisks2 && PKGMK_GVFS+='-D udisks2=true ' || PKGMK_GVFS+=' -D udisks2=false '
+    prt-get isinst avahi && PKGMK_GVFS+='-D dnssd=true ' || PKGMK_GVFS+=' -D dnssd=false '
+    prt-get isinst libnfs && PKGMK_GVFS+='-D nfs=true ' || PKGMK_GVFS+=' -D nfs=false '
+    prt-get isinst libbluray && PKGMK_GVFS+='-D bluray=true ' || PKGMK_GVFS+=' -D bluray=false '
+    prt-get isinst libcdio-paranoia && PKGMK_GVFS+='-D cdda=true ' || PKGMK_GVFS+=' -D cdda=false '
+    prt-get isinst libimobiledevice && PKGMK_GVFS+='-D afc=true ' || PKGMK_GVFS+=' -D afc=false '
+
+  meson setup build $PKGMK_GVFS \
     --prefix=/usr \
     --libexecdir=/usr/lib/$name \
-    -Dudisks2=true \
     -Dlogind=false \
     -Dsystemduserunitdir=no \
     -Dtmpfilesdir=no \
-    -Ddnssd=false \
-    -Dfuse=false \
-    -Dafc=false \
     -Dgoa=false \
-    -Dbluray=false \
-    -Dcdda=false \
     -Dgoogle=false \
-    -Dmtp=false \
-    -Dnfs=false
+    -Dmtp=false
 
   DESTDIR=$PKG ninja -C build install
 

@@ -1,0 +1,20 @@
+# Description: Library handling Apple property list files
+# URL: https://libimobiledevice.org
+# Maintainer: mac-a-r0ni, j at lngn dot net
+# Depends on: python3-cython
+
+name=libplist
+version=2.3.0
+release=1
+source=(https://github.com/libimobiledevice/libplist/releases/download/2.3.0/libplist-2.3.0.tar.bz2)
+
+build() {
+	cd $name-$version
+
+	./configure \
+		--prefix=/usr
+
+	make
+	make DESTDIR=$PKG install
+
+}
