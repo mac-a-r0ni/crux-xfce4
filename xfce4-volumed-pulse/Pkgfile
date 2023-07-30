@@ -1,0 +1,23 @@
+# Description: Fork of xfce4-volumed with support for PulseAudio
+# URL: https://xfce.org
+# Maintainer: mac-a-r0ni, j at lngn dot net
+# Depends on: glib gtk3 pulseaudio xfconf keybinder
+
+name=xfce4-volumed-pulse
+version=0.2.4
+release=1
+source=(https://archive.xfce.org/src/apps/$name/${version:0:3}/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+
+	./configure \
+		--prefix=/usr \
+		--libexecdir=/usr/lib/$name \
+		--sysconfdir=/etc \
+		--disable-static \
+		--disable-nls
+
+	make
+	make DESTDIR=$PKG install
+}
