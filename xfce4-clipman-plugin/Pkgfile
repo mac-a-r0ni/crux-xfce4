@@ -4,7 +4,7 @@
 # Depends on: xorg-libxtst qrencode xfce4-panel
 
 name=xfce4-clipman-plugin
-version=1.6.3
+version=1.6.4
 release=1
 source=(https://archive.xfce.org/src/panel-plugins/$name/${version:0:3}/$name-$version.tar.bz2)
 
