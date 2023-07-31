@@ -1,0 +1,22 @@
+# Description: a GNOME-like Dashboard for Xfce 
+# URL: https://docs.xfce.org/apps/xfdashboard/start
+# Maintainer: mac-a-r0ni, j at lngn dot net
+# Depends on: libwnck-gtk3 clutter glib gio xfconf garcon gtk3 libxfce4util libxfce4ui
+Optional: xorg-libxcomposite xorg-libxdamage xorg-libxinerama
+
+name=xfdashboard
+version=1.0.0
+release=1
+source=(https://archive.xfce.org/src/apps/$name/${version:0:3}/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+
+	./configure \
+		--prefix=/usr \
+		--libexecdir=/usr/lib/$name \
+		--sysconfdir=/etc
+
+	make
+	make DESTDIR=$PKG install
+}
