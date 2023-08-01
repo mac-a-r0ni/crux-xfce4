@@ -1,0 +1,31 @@
+# Description: A toolkit for creating fast, portable, compelling dynamic UIs
+# URL: https://blogs.gnome.org/clutter/
+# Maintainer: mac-a-r0ni, j at lngn dot net
+# Depends on: gtk3 cogl libinput
+
+name=clutter
+version=1.26.4
+release=1
+source=()
+
+build() {
+  cd $name-$version
+
+  ./configure --prefix=/usr \
+    --disable-introspection \
+    --enable-egl-backend \
+    --enable-gdk-backend \
+    --enable-wayland-backend \
+    --enable-x11-backend \
+    --enable-evdev-input \
+    --enable-wayland-compositor \
+    --disable-gtk-doc \
+    --disable-nls \
+    --disable-debug
+
+  sed -i -e 's/ -shared / -Wl,-O1,--as-needed\0/g' libtool
+
+  make
+  make DESTDIR="$PKG" install
+
+}
