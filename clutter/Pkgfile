@@ -12,14 +12,15 @@ build() {
   cd $name-$version
 
   ./configure --prefix=/usr \
-    --disable-introspection \
     --enable-egl-backend \
     --enable-gdk-backend \
     --enable-wayland-backend \
     --enable-x11-backend \
     --enable-evdev-input \
     --enable-wayland-compositor \
+    --enable-introspection=no \
     --disable-gtk-doc \
+    --enable-gtk-doc-html=no \
     --disable-nls \
     --disable-debug
 
