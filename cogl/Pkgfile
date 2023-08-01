@@ -11,7 +11,6 @@ source=(https://download.gnome.org/core/43/43.2/sources/$name-$version.tar.xz)
 build() {
 
   cd $name-$version
-  ./autogen.sh
   ./configure --prefix=/usr \
     --enable-gles2 \
     --enable-{kms,wayland}-egl-platform \
