@@ -1,0 +1,23 @@
+# Description: a graphical GTK+ Music Player Daemon (MPD) client.
+# URL: https://docs.xfce.org/apps/xfmpc/start
+# Maintainer: mac-a-r0ni, j at lngn dot net
+# Depends on: glib libxfce4ui libxfce4util libmpd
+
+name=xfmpc
+version=0.3.1
+release=1
+source=(https://archive.xfce.org/src/apps/$name/0.3/$name-$version.tar.bz2)
+
+build() {
+
+	cd $name-$version
+	./configure \
+	--prefix=/usr \
+	--libexecdir=/usr/lib/$name \
+	--disable-static \
+	--disable-debug \
+	--disable-nls
+
+	make
+	make DESTDIR=$PKG install
+}
