@@ -15,7 +15,10 @@ build() {
 	./configure \
 		--prefix=/usr \
 		--libexecdir=/usr/lib/$name \
-		--sysconfdir=/etc
+		--sysconfdir=/etc \
+		--disable-nls \
+		--disable-debug \
+		--disable-static
 
 	make
 	make DESTDIR=$PKG install
