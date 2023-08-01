@@ -14,6 +14,7 @@ d:xfce4-clipman-plugin
 d:xfce4-notes-plugin
 d:garcon
 d:libatasmart
+d:xfmpc
 d:xfdesktop
 d:libgtop
 d:xfce4-diskperf-plugin
@@ -130,6 +131,10 @@ f:eb5d0468b0d47d099e5164372a21f9da:libatasmart/0001-Dont-test-undefined-bits.pat
 f:3e37929dd16ad0475999ab0d85cd832b:libatasmart/.md5sum
 f:2369a52a369c0df17f18e981cb32adad:libatasmart/Pkgfile
 f:cebd1fbed0b05d0458177d6d3ad4ea3f:libatasmart/0002-Drop-our-own-many-bad-sectors-heuristic.patch
+f:36b93ec9ca384f28230b78a0116bb3ae:xfmpc/post-install
+f:936d42c925b177352f4841cddebc5ec2:xfmpc/.footprint
+f:41a0a73895d7b2e1db6de5e5f5b417aa:xfmpc/.md5sum
+f:16b7a1d2bbf13c678ac5465b7427a11c:xfmpc/Pkgfile
 f:283610ca69d20162c71c691c8bfe13cb:xfdesktop/.footprint
 f:2923dcbc5333aa296b31db251ae1ec76:xfdesktop/.md5sum
 f:a422b1fe23b9c6aebd1eecbf1486ec2f:xfdesktop/Pkgfile
