@@ -17,7 +17,9 @@ build() {
     --enable-wayland-egl-server \
     --disable-nls \
     --disable-static \
-    --disable-debug
+    --disable-debug \
+    --enable-gtk-doc=no \
+    --enable-introspection=no
 
   sed -i -e 's/ -shared / -Wl,-O1,--as-needed\0/g' libtool
 
