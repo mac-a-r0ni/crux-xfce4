@@ -20,8 +20,8 @@ build() {
     --enable-wayland-compositor \
     --enable-introspection=no \
     --disable-gtk-doc \
-    --enable-gtk-doc-html=no \
     --disable-nls \
+    --disable-static \
     --disable-debug
 
   sed -i -e 's/ -shared / -Wl,-O1,--as-needed\0/g' libtool
@@ -29,4 +29,5 @@ build() {
   make
   make DESTDIR="$PKG" install
 
+  rm -rf $PKG/usr/share
 }
