@@ -18,6 +18,7 @@ build() {
 	--prefix=/usr \
 	--libexecdir=/usr/lib/$name \
 	--disable-static \
+	--disable-gstreamer \
 	--disable-nls
 
 	make
