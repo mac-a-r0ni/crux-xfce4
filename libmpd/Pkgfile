@@ -1,6 +1,6 @@
 # Description: Callback based interface to MPD
 # URL: https://sarine.nl/libmpd
-# Maintainer: Jose V Beneyto, sepen at crux dot nu
+# Maintainer: mac-a-r0ni, j at lngn dot net
 # Depends on: glib
 
 name=libmpd
