@@ -11,8 +11,7 @@ release=1
 source=(https://archive.xfce.org/src/apps/$name/0.7/$name-$version.tar.bz2)
 
 build() {
-  prt-get isinst gstreamer && PKGMK_XFB+='--enable-gstreamer ' || PKGMK_XFB+=' --disable-gstreamer '
-
+#  prt-get isinst gstreamer && PKGMK_XFB+='--enable-gstreamer ' || PKGMK_XFB+=' --disable-gstreamer '
 
 	cd $name-$version
 	./configure $PKGMK_XFB \
