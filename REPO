@@ -289,9 +289,10 @@ f:fdc28c151b88be47a6c52035893bf50a:thunar/.footprint
 f:2236211dbda88c210a75ab37796a211d:thunar/.md5sum
 f:ff55b833d06bacd91b90e15f8c22a083:thunar/Pkgfile
 f:d41a919ef58c2fccd4d3570e184ce9de:thunar/post-install
-f:8ca1442b9e24f1a44c56d78949bba265:catfish/.footprint
-f:f2fa186b9e9b32e225ef7b0ea1847842:catfish/.md5sum
-f:d4db25925f1273229b7a121b29fdadba:catfish/Pkgfile
+f:f55982698d636d758f5935271cc40518:catfish/.footprint
+f:b1d7380a05868509268d7d193ee95e33:catfish/.md5sum
+f:e71e953282c287b454518262b22a87e1:catfish/Pkgfile
+f:ed2014dd0f5944e62c1e6a160e17ad23:catfish/post-install
 f:d387192f8e61b6da9ec20b997c972abf:xfce4-panel/.footprint
 f:01769113664eaa1578a1e6e48205902b:xfce4-panel/.md5sum
 f:5b547fbde23a2876a34b253749a9da05:xfce4-panel/Pkgfile
