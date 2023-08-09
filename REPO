@@ -220,8 +220,8 @@ f:2f703f2296bd6bdb6b9c49ebee7fb270:xfce4-fsguard-plugin/.md5sum
 f:03123bc4acd40c0ce479da2403581f57:xfce4-fsguard-plugin/Pkgfile
 f:ece84d5d3509abfef60c564d5c0c1824:xfce4-fsguard-plugin/post-install
 f:875eba3b76673d5dc04292241222658e:gvfs/.footprint
-f:e889d3e4b5e2b1a861de702b943bffd3:gvfs/.md5sum
-f:de062b3ff69e03251e369d2631e0a963:gvfs/Pkgfile
+f:5227797d8c235a087f1003b564629c7b:gvfs/.md5sum
+f:abbab523cedcbb487d35005536a9e51e:gvfs/Pkgfile
 f:42c622387895fcf945e672379ab80f5d:orage/.footprint
 f:a599702dee993b5cf6920dc96a6e0ad8:orage/.md5sum
 f:e9c9715a060b34d918e06b0ea1bfda30:orage/Pkgfile
