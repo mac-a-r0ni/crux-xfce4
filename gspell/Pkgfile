@@ -1,12 +1,12 @@
 # Description: A GTK spell check library
-# URL: https://xfce.org
+# URL: https://gitlab.gnome.org/GNOME/gspell
 # Maintainer: mac-a-r0ni, j at lngn dot net
-# Depends on: enchant gtk3 icu autoconf-archive git gobject-introspection vala gtk-doc
+# Depends on: enchant gtk3 icu autoconf-archive gobject-introspection vala gtk-doc
 
 name=gspell
-version=1.12.1
+version=1.12.2
 release=1
-source=(https://download.gnome.org/core/43/43.7/sources/$name-$version.tar.xz)
+source=(https://download.gnome.org/sources/$name/1.12/$name-$version.tar.xz)
 
 build() {
 	cd $name-$version
