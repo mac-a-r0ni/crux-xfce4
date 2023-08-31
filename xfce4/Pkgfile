@@ -1,0 +1,14 @@
+# Description: The XFCE Desktop Environment - base/meta port
+# URL: https://xfce.org
+# Maintainer: mac-a-r0ni, j at lngn dot net
+# Depends on: xorg dbus libxfce4util thunar xfce4-appfinder xfce4-panel xfce4-pulseaudio-plugin xfce4-session xfce4-settings xfconf xfdesktop4 xfwm4
+# Optional: elementary-xfce-icons greybird thunar-volman xfce4-notifyd xfce4-power-manager xfce4-goodies
+
+name=xfce4
+version=4.18
+release=1
+source=()
+
+build() {
+    install -d $PKG/usr/etc
+}
