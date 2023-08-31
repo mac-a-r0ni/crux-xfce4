@@ -1,6 +1,5 @@
 d:libplist
 d:xfce4-notes-plugin
-d:xfce4-goodies
 d:xfce4-netload-plugin
 d:thunar-volman
 d:xfce4-dev-tools
@@ -85,7 +84,6 @@ f:bf8e62f89aa454a050dd0c6a69933651:libplist/.md5sum
 f:94a29eaddd741dc663bda5cc6c07582e:xfce4-notes-plugin/Pkgfile
 f:7951b1592c46bc73ee33e10cb2afae70:xfce4-notes-plugin/.footprint
 f:61b0915dc1b4a1823827dd47419c24dd:xfce4-notes-plugin/.md5sum
-f:62063d4013dd624982047135d593c5e6:xfce4-goodies/Pkgfile
 f:65b566e0d56f6d610bdc4e806cb986a3:xfce4-netload-plugin/Pkgfile
 f:d348edc6ecf4929d8ecaa32b61bf6770:xfce4-netload-plugin/.footprint
 f:752ee8a47ed081980a946c9a95ef2730:xfce4-netload-plugin/.md5sum
@@ -183,7 +181,7 @@ f:ece84d5d3509abfef60c564d5c0c1824:xfce4-timer-plugin/post-install
 f:2d82f050f1ac489fe3108ebe9d2fdd44:xfce4-timer-plugin/Pkgfile
 f:3710be8c18fcd3ddb34d0dc34b5a8cb8:xfce4-timer-plugin/.footprint
 f:e19f7ca6449cb3c63fdbac3c21d13e77:xfce4-timer-plugin/.md5sum
-f:8ccfe9b4813980829debf859a1943a9f:xfce4-pulseaudio-plugin/Pkgfile
+f:97ec39505051b31e151926d327c0308c:xfce4-pulseaudio-plugin/Pkgfile
 f:576c61af73b3837854e19cde9d57d2b2:xfce4-pulseaudio-plugin/.footprint
 f:5b5c74030c47f8c4d117eebd94c86aff:xfce4-pulseaudio-plugin/.md5sum
 f:16c4d3aecec1df5bb340e8979066b889:libisofs/Pkgfile
@@ -337,7 +335,7 @@ f:74fdaac009afbf8e8a3a6d1e1b946709:colord/pre-install
 f:4b1ce71432e39dfc8b24288f3261ccc5:colord/Pkgfile
 f:12ef97905f60611111e471a9896195ee:colord/.footprint
 f:548e2a036c1f589dd97f2742c9ffc0a4:colord/.md5sum
-f:c4a58550604c4b6e2c2e6190e209e006:xfce4/Pkgfile
+f:ce470429cc7118abe8cb0641ddf6b3a8:xfce4/Pkgfile
 f:be28f7bcfd813622700367b7200133e6:xfce4/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:xfce4/.md5sum
 f:9f957fb523b2227392fac34221ab972a:xfconf/Pkgfile
