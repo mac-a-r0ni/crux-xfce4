@@ -153,9 +153,9 @@ f:ee4628c5eeaf3bc3140b7a8df1240fb4:elementary-xfce-icons/Pkgfile
 f:4e51d63f27e4888b53205bdb310737e1:elementary-xfce-icons/.footprint
 f:59a6850472d024baff3f1f69d74331e2:elementary-xfce-icons/.md5sum
 f:d41a919ef58c2fccd4d3570e184ce9de:thunar/post-install
-f:ff55b833d06bacd91b90e15f8c22a083:thunar/Pkgfile
+f:316012c80fa838327dc6f12827f600a5:thunar/Pkgfile
 f:fdc28c151b88be47a6c52035893bf50a:thunar/.footprint
-f:2236211dbda88c210a75ab37796a211d:thunar/.md5sum
+f:a36e740a93ac8b032b784506d6510d0c:thunar/.md5sum
 f:e9c9715a060b34d918e06b0ea1bfda30:orage/Pkgfile
 f:42c622387895fcf945e672379ab80f5d:orage/.footprint
 f:a599702dee993b5cf6920dc96a6e0ad8:orage/.md5sum
@@ -325,7 +325,7 @@ f:175aec753637b1e3c4fddaef0bb8286d:xfce4-cpugraph-plugin/Pkgfile
 f:4410f06e942c460164f165ba88d29f68:xfce4-cpugraph-plugin/.footprint
 f:f6d7f9208c988cf50d831ae615388b30:xfce4-cpugraph-plugin/.md5sum
 f:abbab523cedcbb487d35005536a9e51e:gvfs/Pkgfile
-f:875eba3b76673d5dc04292241222658e:gvfs/.footprint
+f:e207a4e5f6b567e3114f2d9736d273e8:gvfs/.footprint
 f:5227797d8c235a087f1003b564629c7b:gvfs/.md5sum
 f:ed2014dd0f5944e62c1e6a160e17ad23:catfish/post-install
 f:e71e953282c287b454518262b22a87e1:catfish/Pkgfile
