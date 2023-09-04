@@ -15,9 +15,9 @@ build() {
     meson setup $name-$version build \
 	--buildtype release \
 	--prefix /usr \
-	--libexecdir /usr/lib \
+	--libexecdir /usr/lib/$name \
 	-D rootlibdir=/lib \
-	-D rootlibexecdir=/lib \
+	-D rootlibexecdir=/lib/$name \
 	-D udevrulesdir=/lib/udev/rules.d \
 	-D man=true \
 	-D html=false \
