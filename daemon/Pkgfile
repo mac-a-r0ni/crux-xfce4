@@ -1,7 +1,7 @@
 # Description: Turns processes into daemons
 # URL: https://libslack.org/daemon/
 # Maintainer: mac-a-r0ni, j at lngn dot net
-# Depends on: 
+# Depends on: elogind
 
 name=daemon
 version=0.8.4
@@ -15,9 +15,12 @@ build() {
 	--prefix=/usr \
 	--enable-logind \
 	--disable-mail-test \
-	--disable-test
+	--destdir=$PKG
 
+make
 make install DESTDIR=$PKG 
-#make install-daemon-conf DESTDIR=$PKG
+make install-daemon-conf DESTDIR=$PKG
+
+rm -rf $PKG/usr/share/man/man5
 
 }
