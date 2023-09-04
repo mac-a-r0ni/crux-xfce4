@@ -1,0 +1,25 @@
+# Description: A text widget adding syntax highlighting.
+# URL: https://gnome.org
+# Maintainer: mac-a-r0ni, j at lngn dot net
+# Depends on: gtk3 libxml2 glade gobject-introspection gtk-doc meson
+
+name=gtksourceview4
+version=4.8.4
+release=1
+source=(https://download.gnome.org/sources/gtksourceview/4.8/gtksourceview-$version.tar.xz)
+
+build() {
+  mv gtksourceview-$version $name-$version
+
+    meson setup $name-$version build \
+    --prefix=/usr \
+    --buildtype=plain \
+    -Dvapi=false \
+    -Db_lto=true \
+    -Db_pie=true
+
+    meson compile -C build
+    DESTDIR=$PKG meson install -C build
+
+    rm -rf $PKG/usr/share/locale
+}
