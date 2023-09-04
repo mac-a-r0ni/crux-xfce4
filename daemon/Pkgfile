@@ -16,6 +16,6 @@ build() {
 	--enable-logind
 
 DESTDIR=$PKG make install
-DESTIDR=$PKG make install-daemon-conf
+DESTDIR=$PKG make install-daemon-conf
 
 }
