@@ -52,7 +52,7 @@ find $PKG -type f -name ".keep_dir" -exec rm -f {} \;
 
 # Add start/stop script
 mkdir -p $PKG/etc/rc.d
-cp $CWD/elogind $PKG/etc/rc.d
+install -m 0755 elogind $PKG/etc/rc.d
 
 rm -rf $PKG/usr/share/{bash-completion,doc,locale,zsh}
 
