@@ -1,11 +1,11 @@
 # Description: A text editor for xfce
-# URL: https://xfce.org
+# URL: https://docs.xfce.org/apps/mousepad/start
 # Maintainer: mac-a-r0ni, j at lngn dot net
-# Depends on: desktop-file-utils gtksourceview hicolor-icon-theme gspell polkit
+# Depends on: desktop-file-utils gtksourceview4 hicolor-icon-theme gspell polkit
 
 name=mousepad
 version=0.6.1
-release=1
+release=2
 source=(https://archive.xfce.org/src/apps/$name/${version:0:3}/$name-$version.tar.bz2)
 
 build() {
@@ -13,7 +13,7 @@ build() {
 
 	./configure \
 		--prefix=/usr \
-		--libexecdir=/usr/lib/$name \
+		--libexecdir=/usr/lib \
 		--disable-nls \
 		--disable-debug \
 		--sysconfdir=/etc
