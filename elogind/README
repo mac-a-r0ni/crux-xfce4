@@ -1,0 +1,5 @@
+This is a work-in-progress port for elogind almost entirely
+based off of Slackware's existing package. It has not been tested
+nor even installed locally at all, but it does build.
+
+I'd suggest you not use this, but also use at your own risk.

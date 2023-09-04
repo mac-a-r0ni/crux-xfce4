@@ -1,0 +1,59 @@
+# Description: elogind - extracted logind from systemd
+# URL: https://github.com/elogind/elogind
+# Maintainer: mac-a-r0ni, j at lngn dot net
+# Depends on: meson ninja python3-jinja2 intltool libseccomp linux-pam glib acl libcap eudev gettext
+
+name=elogind
+version=252.9
+release=1
+source=(https://github.com/$name/$name/archive/v${version}/$name-$version.tar.gz
+	10-enable-elogind-power.rules.gz
+	elogind)
+
+build() {
+
+    meson setup $name-$version build \
+	--buildtype release \
+	--prefix /usr \
+	--libexecdir /usr/lib \
+	-D rootlibdir=/lib \
+	-D rootlibexecdir=/lib \
+	-D udevrulesdir=/lib/udev/rules.d \
+	-D man=true \
+	-D html=false \
+	-D pam=true \
+	-D pamlibdir=/lib/security \
+	-D pamconfdir=/etc/pam.d \
+	-D utmp=true \
+	-D default-hierarchy=legacy \
+	-D halt-path=/sbin/halt \
+	-D poweroff-path=/sbin/poweroff \
+	-D reboot-path=/sbin/reboot \
+	-D default-kill-user-processes=false
+
+    ninja -C build
+
+DESTDIR=$PKG ninja -C build install
+
+# Create symlinks for elogind binaries to /usr/bin/:
+mkdir -p $PKG/usr/bin
+ln -sf /bin/elogind-inhibit $PKG/usr/bin/elogind-inhibit
+ln -sf /bin/loginctl $PKG/usr/bin/loginctl
+
+# Create supported dirs in /etc/elogind/ (local config)
+mkdir -p $PKG/etc/elogind/logind.conf.d/ $PKG/etc/elogind/sleep.conf.d/
+
+# Add login1 policy file that allows users in the 'power' group to shutdown/reboot the computer:
+mkdir -p $PKG/usr/share/polkit-1/rules.d
+zcat 10-enable-elogind-power.rules.gz > $PKG/usr/share/polkit-1/rules.d/10-enable-session-power.rules
+
+# We don't need the hidden files to make inferior package managers keep dirs:
+find $PKG -type f -name ".keep_dir" -exec rm -f {} \;
+
+# Add start/stop script
+mkdir -p $PKG/etc/rc.d
+cp elogind $PKG/etc/rc.d
+
+rm -rf $PKG/usr/share/{bash-completion,doc,locale,zsh}
+
+}

@@ -1,0 +1,21 @@
+# Description: Turns processes into daemons
+# URL: https://libslack.org/daemon/
+# Maintainer: mac-a-r0ni, j at lngn dot net
+# Depends on: 
+
+name=daemon
+version=0.8.4
+release=1
+source=(https://libslack.org/$name/download/$name-$version.tar.gz)
+
+build() {
+  cd $name-$version
+
+    ./configure \
+	--prefix=/usr \
+	--enable-logind
+
+DESTDIR=$PKG make install
+DESTIDR=$PKG make install-daemon-conf
+
+}
