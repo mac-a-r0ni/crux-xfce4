@@ -19,11 +19,11 @@ INSTRUCTIONS INSTALLING CRUX-XFCE4 REPO
     sudo mkdir /usr/ports/crux-xfce4
     ```
 
-4. Add the ports line in yours */etc/prt-get.conf* to fetch the repo:
+4. Add the ports line in your */etc/prt-get.conf* to fetch the repo:
 
    prtdir /usr/ports/crux-xfce4
 
-5. Update the repo into your computer:
+5. Update the repo onto your computer:
 
    ```bash
    sudo ports -u crux-xfce4
@@ -33,6 +33,14 @@ NOTES
 =====
 1. Enable the contrib repo because some dependencies reside there.
 2. The XFCE 4.18 Desktop has been tested on CRUX/CRUX-ARM 3.7. You may need to ignore footprints if youve installed certain software from the official repos. 
+3. I'm currently testing some "meta" ports, there is a basic skeleton desktop port which will pull in the bare minimum needed for running the XFCE Desktop. After the repo is setup run:
+
+   ```bash
+   sudo prt-get depinst xfce4
+   ```
+   Please note, it's the bare minimum, and does not contain any gvfs ports or a terminal, or any other plugin. You will need to then build any extra ports you would like.
+4. As of **xfce4-whiskermenu-plugin** 2.8.0 it requires **elogind** and **accountsservice** ports. You do not need to enable elogind, but it's required for installation.
+5. **mousepad** dependency has changed from **gtksourceview** to **gtksourceview4**, new installs are not effected, but existing installs will need re-building.
 
 CONTACT
 =====
