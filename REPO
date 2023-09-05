@@ -222,9 +222,9 @@ f:ece84d5d3509abfef60c564d5c0c1824:xfce4-fsguard-plugin/post-install
 f:6ab5cd56e8f684b2700a109590acf666:xfce4-fsguard-plugin/.footprint
 f:2f703f2296bd6bdb6b9c49ebee7fb270:xfce4-fsguard-plugin/.md5sum
 f:03123bc4acd40c0ce479da2403581f57:xfce4-fsguard-plugin/Pkgfile
-f:54bc3d692d8d79210a15b6b4c6668b1f:pinentry-gtk/.footprint
+f:e1d893e169f89433611256d0d15a44e9:pinentry-gtk/.footprint
 f:0614bd086fc674f753ed06903f6c3c22:pinentry-gtk/.md5sum
-f:2877cbc6c9ca8196b0a249b3f424c829:pinentry-gtk/Pkgfile
+f:698067c0bc2df0cf0749015d7a47f38e:pinentry-gtk/Pkgfile
 f:5e70b35a290a588a1c3c352a533f4884:pinentry-gtk/pinentry
 f:ece84d5d3509abfef60c564d5c0c1824:ristretto/post-install
 f:3f44ee4a528ae755da35a0fcc5c5309d:ristretto/.footprint
@@ -315,7 +315,7 @@ f:82fcca3c7ebace5bb2ebf3f2bacef285:file-roller/post-install
 f:4ac64cabe80dfa21ab720f738f9aeddb:file-roller/.footprint
 f:7cb72947c1488f7ebdbe66dadef880d7:file-roller/.md5sum
 f:f6a861437fb633a3756cd0d4fe851593:file-roller/Pkgfile
-f:8d6847382213a46296557eee46232b25:xfce4-notifyd/post-install
+f:12742081c31e595d8b67133b1b89b9dd:xfce4-notifyd/post-install
 f:2f50a3c2ba62b399137dca75037f9d10:xfce4-notifyd/.footprint
 f:e32ce7decef3e7d7460237979d92e0d8:xfce4-notifyd/.md5sum
 f:f1a56720ced5dac49686c16aa89eb38a:xfce4-notifyd/Pkgfile
