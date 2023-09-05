@@ -39,7 +39,7 @@ NOTES
    sudo prt-get depinst xfce4
    ```
    Please note, it's the bare minimum, and does not contain any gvfs ports or a terminal, or any other plugin. You will need to then build any extra ports you would like.
-4. As of **xfce4-whiskermenu-plugin** 2.8.0 it requires **elogind** and **accountsservice** ports. You do not need to enable elogind, but it's required for installation.
+4. As of **xfce4-whiskermenu-plugin-2.8.0** it requires **elogind** and **accountsservice** ports. You do not need to enable elogind, but it's required for installation.
 5. **mousepad** dependency has changed from **gtksourceview** to **gtksourceview4**, new installs are not effected, but existing installs will need re-building.
 
 CONTACT
