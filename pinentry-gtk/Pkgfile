@@ -1,7 +1,7 @@
 # Description: Secure PinEntry Dialog for GTK
 # URL: https://gnupg.org/related_software/pinentry/
 # Maintainer: mac-a-r0ni, j at lngn dot net
-# Depends on: libassuan libcap
+# Depends on: libassuan libcap gcr3 gtk
 # Optional: libsecret
 
 name=pinentry-gtk
