@@ -1,7 +1,7 @@
 # Description: Secure PinEntry Dialog
 # URL: https://gnupg.org/related_software/pinentry/
 # Maintainer: Tim Biermann, tbier at posteo dot de
-# Depends on: libassuan libcap util-linux
+# Depends on: libassuan libcap util-linux gcr3 gtk
 # Optional: libsecret
 
 name=pinentry
