@@ -166,9 +166,9 @@ f:c34a4f91ee6410d3d4c3e5dcc8f56937:libxfce4util/.footprint
 f:d480a13c55d90926f5364c91280e350f:libxfce4util/.md5sum
 f:713f6e323e3e3da2f55693dd6e69e6de:README.md
 f:875ae183f94ff81c570304f6a9a6a0d4:elementary-xfce-icons/post-install
-f:ee4628c5eeaf3bc3140b7a8df1240fb4:elementary-xfce-icons/Pkgfile
-f:4e51d63f27e4888b53205bdb310737e1:elementary-xfce-icons/.footprint
-f:59a6850472d024baff3f1f69d74331e2:elementary-xfce-icons/.md5sum
+f:b1bc40f684958dce0379f969ad85f30c:elementary-xfce-icons/Pkgfile
+f:b54fd8329534003ecd30b3b7ae0be8aa:elementary-xfce-icons/.footprint
+f:ddc49d1321f984aeb029d5174fd01020:elementary-xfce-icons/.md5sum
 f:d41a919ef58c2fccd4d3570e184ce9de:thunar/post-install
 f:316012c80fa838327dc6f12827f600a5:thunar/Pkgfile
 f:fdc28c151b88be47a6c52035893bf50a:thunar/.footprint
@@ -343,9 +343,9 @@ f:37a7d0616f8cb77a261afd294f27f708:libmpd/0002-include-config.h.patch
 f:175aec753637b1e3c4fddaef0bb8286d:xfce4-cpugraph-plugin/Pkgfile
 f:4410f06e942c460164f165ba88d29f68:xfce4-cpugraph-plugin/.footprint
 f:f6d7f9208c988cf50d831ae615388b30:xfce4-cpugraph-plugin/.md5sum
-f:abbab523cedcbb487d35005536a9e51e:gvfs/Pkgfile
+f:25b0d83127f97a0517743aecfce22d42:gvfs/Pkgfile
 f:e207a4e5f6b567e3114f2d9736d273e8:gvfs/.footprint
-f:5227797d8c235a087f1003b564629c7b:gvfs/.md5sum
+f:aade3aade64d783c586e927c5a764276:gvfs/.md5sum
 f:ed2014dd0f5944e62c1e6a160e17ad23:catfish/post-install
 f:e71e953282c287b454518262b22a87e1:catfish/Pkgfile
 f:f55982698d636d758f5935271cc40518:catfish/.footprint
