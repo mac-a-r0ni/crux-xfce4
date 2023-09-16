@@ -6,7 +6,7 @@
 # Optional: fuse3 udisks2 avahi libbluray libnfs libcdio-paranoia libimobiledevice gnome-online-accounts
 
 name=gvfs
-version=1.50.6
+version=1.52.0
 release=1
 source=(http://download.gnome.org/sources/$name/${version:0:4}/$name-$version.tar.xz)
 
