@@ -15,7 +15,6 @@ d:xfce4-verve-plugin
 d:xfce4-fsguard-plugin
 d:xfce4-notifyd
 d:xfce4-taskmanager
-d:pinentry
 d:xfce4-diskperf-plugin
 d:xfce4-power-manager
 d:tumbler
@@ -146,10 +145,6 @@ f:ece84d5d3509abfef60c564d5c0c1824:xfce4-taskmanager/post-install
 f:4bb8c8fd257a1c796f85ffde5295aafc:xfce4-taskmanager/Pkgfile
 f:8b74a59f52da4a50005a6eecba24bd40:xfce4-taskmanager/.footprint
 f:d0c6fe3af9ae33c222524c0f97e7f546:xfce4-taskmanager/.md5sum
-f:5e70b35a290a588a1c3c352a533f4884:pinentry/pinentry
-f:71f07beff8792a906de301044f70b5a1:pinentry/Pkgfile
-f:2184fae8b2bc8bc013bc789aa077bd79:pinentry/.footprint
-f:0614bd086fc674f753ed06903f6c3c22:pinentry/.md5sum
 f:12cf2cb5903758369f03a35027888e35:xfce4-diskperf-plugin/Pkgfile
 f:3e02643601b4a79de8cbfc4754fcd302:xfce4-diskperf-plugin/.footprint
 f:afc9c2899aa94a8fd4b1a5708bf75110:xfce4-diskperf-plugin/.md5sum
