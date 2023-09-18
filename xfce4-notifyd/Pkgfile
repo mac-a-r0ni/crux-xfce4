@@ -4,7 +4,7 @@
 # Depends on: hicolor-icon-theme libcanberra libnotify libxfce4ui libxfce4util xfce4-panel xfconf sqlite3
 
 name=xfce4-notifyd
-version=0.8.2
+version=0.9.0
 release=1
 source=(https://archive.xfce.org/src/apps/$name/${version%.*}/$name-$version.tar.bz2)
 
@@ -20,8 +20,8 @@ build () {
   make
   make DESTDIR=$PKG install
 
+  rm $PKG/usr/lib/xfce4/panel/plugins/*.la
   rm -rf $PKG/usr/share/{locale,doc}
   rm -rf $PKG/usr/lib/systemd
-#  find $PKG/usr/share/applications -type f -name '*.desktop' \
-#       -exec sed -r '/\[.+\]=/d' -i {} \;
+
 }
