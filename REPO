@@ -1,5 +1,6 @@
 d:libplist
 d:elogind
+d:mugshot
 d:xfce4-notes-plugin
 d:xfce4-netload-plugin
 d:thunar-volman
@@ -90,6 +91,9 @@ f:7eb6338447c0f23f8e137d0fe7dec155:elogind/pre-install
 f:785b7970d75e3373145bdf570d8373c9:elogind/Pkgfile
 f:a32b4ead34d990bce04051e6b1c6192b:elogind/.footprint
 f:a899aa63a86d0a1a9410cab3d07c4c2e:elogind/.md5sum
+f:31b43c1ae9c0ef31533f395b8a1c3416:mugshot/Pkgfile
+f:7f55401b45faf6062342913a9399557e:mugshot/.footprint
+f:2fe3464860746592c42d1be26485c0af:mugshot/.md5sum
 f:94a29eaddd741dc663bda5cc6c07582e:xfce4-notes-plugin/Pkgfile
 f:7951b1592c46bc73ee33e10cb2afae70:xfce4-notes-plugin/.footprint
 f:61b0915dc1b4a1823827dd47419c24dd:xfce4-notes-plugin/.md5sum
