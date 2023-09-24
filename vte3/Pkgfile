@@ -1,0 +1,31 @@
+# Description: Virtual Terminal Emulator widget for GTK3/4
+# URL: https://wiki.gnome.org/action/show/Apps/Terminal/VTE
+# Maintainer: mac-a-r0ni, j at lngn dot net
+# Depends on: gnutls gtk3
+# Optional: gtk4 icu libsixel vala
+
+name=vte3
+version=0.74.0
+release=1
+source=(https://gitlab.gnome.org/GNOME/vte/-/archive/$version/vte-$version.tar.bz2)
+
+build() {
+  prt-get isinst gtk4 && PKGMK_VTE+=' -D gtk4=true' || PKGMK_VTE+=' -D gtk4=false'
+  prt-get isinst icu || PKGMK_VTE+=' -D icu=false'
+  prt-get isinst libsixel && PKGMK_VTE+=' -D sixel=true'
+  prt-get isinst vala || PKGMK_VTE+=' -D vapi=false'
+
+  meson setup build vte-$version ${PKGMK_VTE} \
+    --prefix=/usr \
+    --libexecdir=/usr/lib \
+    --buildtype=plain \
+    --wrap-mode nodownload \
+    -D b_pie=true \
+    -D b_lto=false \
+    -D _systemd=false
+
+  meson compile -C build -j ${JOBS:-1}
+  DESTDIR=$PKG meson install -C build
+
+  rm -r $PKG/usr/share/locale
+}

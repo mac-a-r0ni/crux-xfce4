@@ -1,0 +1,27 @@
+# Description: Gnome Partition Editor.
+# URL: http://gparted.sourceforge.net/
+# Maintainer: mac-a-r0ni, j at lngn dot net
+# Depends on: gtkmm3 parted polkit
+# Optional: gtk-doc pinentry polkit-gnome
+
+name=gparted
+version=1.5.0
+release=1
+source=(https://downloads.sourceforge.net/project/$name/$name/$name-$version/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	./configure \
+		--prefix=/usr \
+		--libexecdir=/usr/sbin \
+		--enable-online-resize \
+		--enable-libparted-dmraid \
+		--enable-xhost-root \
+		--disable-dependency-tracking \
+		--disable-doc
+
+	make
+	make DESTDIR=$PKG install
+	rm -rf $PKG/usr/share/locale
+}
