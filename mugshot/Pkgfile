@@ -5,11 +5,13 @@
 
 name=mugshot
 version=0.4.3
-release=1
+release=2
 source=(https://github.com/bluesabre/$name/releases/download/$name-$version/$name-$version.tar.gz)
 
 build() {
   cd $name-$version
 
     python3 setup.py install --root=$PKG
+
+  rm -rf $PKG/usr/share/{doc,locale}
 }
