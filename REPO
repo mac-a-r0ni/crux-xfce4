@@ -382,8 +382,8 @@ f:41a0a73895d7b2e1db6de5e5f5b417aa:xfmpc/.md5sum
 f:16b7a1d2bbf13c678ac5465b7427a11c:xfmpc/Pkgfile
 f:36b93ec9ca384f28230b78a0116bb3ae:xfmpc/post-install
 f:77806719b826fb74b47355f4b6f7bd9e:xfce4-notifyd/.footprint
-f:0a2841b4acc05ac2bf74ae4e4765207d:xfce4-notifyd/.md5sum
-f:83f73c5fa2c1e8038f9e202154f24ce2:xfce4-notifyd/Pkgfile
+f:be2227cad1469e3bd06ea1bb8920555d:xfce4-notifyd/.md5sum
+f:608cbd3dedc7b06c763afd1e98c81363:xfce4-notifyd/Pkgfile
 f:12742081c31e595d8b67133b1b89b9dd:xfce4-notifyd/post-install
 f:4a2b0e26b22e6cea1b16377322474aee:xfce4-mount-plugin/.footprint
 f:35e988c53d5666cb363cb094f779b99a:xfce4-mount-plugin/.md5sum
