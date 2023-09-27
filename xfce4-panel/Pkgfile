@@ -4,7 +4,7 @@
 # Depends on: exo garcon libwnck-gtk3 libxfce4ui desktop-file-utils libdbusmenu-gtk3 gobject-introspection vala
 
 name=xfce4-panel
-version=4.18.4
+version=4.18.5
 release=1
 source=(https://archive.xfce.org/src/xfce/xfce4-panel/${version:0:4}/$name-$version.tar.bz2)
 

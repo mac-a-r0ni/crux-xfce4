@@ -326,8 +326,8 @@ f:b1d7380a05868509268d7d193ee95e33:catfish/.md5sum
 f:e71e953282c287b454518262b22a87e1:catfish/Pkgfile
 f:ed2014dd0f5944e62c1e6a160e17ad23:catfish/post-install
 f:d387192f8e61b6da9ec20b997c972abf:xfce4-panel/.footprint
-f:01769113664eaa1578a1e6e48205902b:xfce4-panel/.md5sum
-f:5b547fbde23a2876a34b253749a9da05:xfce4-panel/Pkgfile
+f:f1f1a282b9536431febb7a6055c2c601:xfce4-panel/.md5sum
+f:89eac1fb8c9812001a69e002149e7130:xfce4-panel/Pkgfile
 f:c34a4f91ee6410d3d4c3e5dcc8f56937:libxfce4util/.footprint
 f:d480a13c55d90926f5364c91280e350f:libxfce4util/.md5sum
 f:abf85183c92e5fb80c0250720d8ee5dc:libxfce4util/Pkgfile
