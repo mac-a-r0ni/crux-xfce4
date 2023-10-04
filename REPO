@@ -37,6 +37,7 @@ d:xfce4-battery-plugin
 d:xfce4-verve-plugin
 d:libburn
 d:thunar-archive-plugin
+d:vte3
 d:xfce4-smartbookmark-plugin
 d:xfce4-screenshooter
 d:xfce4-dev-tools
@@ -101,8 +102,8 @@ f:db218c288775b8eaa680bb82301cc436:xfce4-session/xfce-polkit-gnome-authenticatio
 f:2d4b71e8dc1b2f0a57552cdd1e42d07a:xfce4-session/Pkgfile
 f:5d4bd45ce49ac03ef8464178ef0e3d28:xfce4-session/post-install
 f:8b74a59f52da4a50005a6eecba24bd40:xfce4-taskmanager/.footprint
-f:d0c6fe3af9ae33c222524c0f97e7f546:xfce4-taskmanager/.md5sum
-f:4bb8c8fd257a1c796f85ffde5295aafc:xfce4-taskmanager/Pkgfile
+f:9bb550d44876e7f7b9834c47bb19f75e:xfce4-taskmanager/.md5sum
+f:bddafcccd57e25b5230a2f4bb09ab7fa:xfce4-taskmanager/Pkgfile
 f:ece84d5d3509abfef60c564d5c0c1824:xfce4-taskmanager/post-install
 f:2b31223ed3385de53d634772a9fd2418:xfwm4/.footprint
 f:66b160ce147f91455e3d0946e9642971:xfwm4/.md5sum
@@ -219,6 +220,9 @@ f:a40a116111b31375b812b3f1b13579ca:thunar-archive-plugin/.footprint
 f:38d11e86abeff0f7272beb39b0a4ce95:thunar-archive-plugin/.md5sum
 f:30a70628cd211ba51adb09efa32cb008:thunar-archive-plugin/Pkgfile
 f:59efa380c59c4e7b203e1520ba6631f0:thunar-archive-plugin/post-install
+f:46fce17daac7b54648b9bdde1527e6b5:vte3/.footprint
+f:06af0bb92f00815203101d1858c6c152:vte3/.md5sum
+f:f63b4ae67dbe92b6bd83adc6d058be5e:vte3/Pkgfile
 f:540e14e4c2ffd0c8a55a18bd8734f4d8:xfce4-smartbookmark-plugin/.footprint
 f:147e8f129b7c011160e95e11f06aad3f:xfce4-smartbookmark-plugin/.md5sum
 f:9a63e1908109428cae30e4fb25844034:xfce4-smartbookmark-plugin/Pkgfile
@@ -315,8 +319,8 @@ f:74fdb919568765995f0447ce2c7df298:ristretto/.md5sum
 f:449282c29098aea6f1daff794cfed7ef:ristretto/Pkgfile
 f:ece84d5d3509abfef60c564d5c0c1824:ristretto/post-install
 f:576c61af73b3837854e19cde9d57d2b2:xfce4-pulseaudio-plugin/.footprint
-f:5b5c74030c47f8c4d117eebd94c86aff:xfce4-pulseaudio-plugin/.md5sum
-f:97ec39505051b31e151926d327c0308c:xfce4-pulseaudio-plugin/Pkgfile
+f:99ecaa0361715079b62f2ad05d93c247:xfce4-pulseaudio-plugin/.md5sum
+f:9f73dd84108a447f63a96d1e049814d1:xfce4-pulseaudio-plugin/Pkgfile
 f:fdc28c151b88be47a6c52035893bf50a:thunar/.footprint
 f:a36e740a93ac8b032b784506d6510d0c:thunar/.md5sum
 f:316012c80fa838327dc6f12827f600a5:thunar/Pkgfile
