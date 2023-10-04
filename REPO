@@ -3,7 +3,6 @@ d:xfce4-mailwatch-plugin
 d:xfce4-session
 d:xfce4-taskmanager
 d:xfwm4
-d:xdg-user-dirs
 d:libxfce4ui
 d:exo
 d:xfce4-diskperf-plugin
@@ -107,9 +106,6 @@ f:ece84d5d3509abfef60c564d5c0c1824:xfce4-taskmanager/post-install
 f:2b31223ed3385de53d634772a9fd2418:xfwm4/.footprint
 f:66b160ce147f91455e3d0946e9642971:xfwm4/.md5sum
 f:c0123860b55d04d8155fad564cabb0ed:xfwm4/Pkgfile
-f:eabdea46573a79c9ad1a9f1cd190bfdc:xdg-user-dirs/.footprint
-f:abb3a11e7cd4564142830f8c304ccede:xdg-user-dirs/.md5sum
-f:0d7faa7ad532c816d422d732bd3efbe0:xdg-user-dirs/Pkgfile
 f:da285d7cf55bbb0f9cbbb87c223b087b:libxfce4ui/.footprint
 f:4fe8389a0216e4d28ee9e36a5762c4e4:libxfce4ui/.md5sum
 f:2842362aef061474a23be9cf2339edf4:libxfce4ui/Pkgfile
