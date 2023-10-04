@@ -4,7 +4,7 @@
 # Depends on: intltool libcanberra libkeybinder3 libnotify pulseaudio pavucontrol xfce4-panel
 
 name=xfce4-pulseaudio-plugin
-version=0.4.7
+version=0.4.8
 release=1
 source=(https://archive.xfce.org/src/panel-plugins/$name/0.4/$name-$version.tar.bz2)
 
