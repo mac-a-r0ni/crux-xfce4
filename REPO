@@ -226,8 +226,9 @@ f:1ddd5c93d2756962d54ae4de6f30ac69:xfce4-dev-tools/.footprint
 f:5a718a3f15d634559978037f6b9aafe0:xfce4-dev-tools/.md5sum
 f:7550067e507a09ef57ade5c9553ce850:xfce4-dev-tools/Pkgfile
 f:eff8da202cf91b8346f12d87d87c2281:xfce4-terminal/.footprint
-f:f584eb777d350f819ed16191e972dea6:xfce4-terminal/.md5sum
-f:7af394ef35ee35b08058b0a23b835397:xfce4-terminal/Pkgfile
+f:5a360b25cc6c8352e6020c8d0b312d97:xfce4-terminal/.md5sum
+f:8c855f7784ea781e6aceb8a390b760a5:xfce4-terminal/Pkgfile
+f:1660ee8619af24c4775e3dee98c6df1d:xfce4-terminal/post-install
 f:6a5253cf3d06fb17d0ae2d2084edc1bf:accountsservice/.footprint
 f:84cc5ece2ee335813fecf7abe19f532f:accountsservice/.md5sum
 f:2807d652690f9351208598b5d2673d76:accountsservice/Pkgfile
@@ -332,8 +333,8 @@ f:4c5b9250d72f6a98e553a662ef90f3e9:xfce4-xkb-plugin/.md5sum
 f:9bd80e34dfaf4a08c89260a1a0d24179:xfce4-xkb-plugin/Pkgfile
 f:8b7a46fbb64b69fc410ea598c952ed2c:xfce4-xkb-plugin/post-install
 f:e724b7b74aed05552d1761a440de4678:greybird/.footprint
-f:79d299d686387d873ad38deda2d675cb:greybird/.md5sum
-f:20ea918d0c5c2b5f354f868ab958655c:greybird/Pkgfile
+f:95cd276c52a386deded371caec76302c:greybird/.md5sum
+f:689ae89e077789b8ac7ee9589268b9cc:greybird/Pkgfile
 f:d348edc6ecf4929d8ecaa32b61bf6770:xfce4-netload-plugin/.footprint
 f:752ee8a47ed081980a946c9a95ef2730:xfce4-netload-plugin/.md5sum
 f:65b566e0d56f6d610bdc4e806cb986a3:xfce4-netload-plugin/Pkgfile
