@@ -5,9 +5,9 @@
 # Optional: gtk-engine-murrine
 
 name=greybird
-version=3.23.2
+version=3.23.3
 release=1
-source=(https://github.com/shimmerproject/Greybird/archive/v3.23.2/Greybird-3.23.2.tar.gz)
+source=(https://github.com/shimmerproject/Greybird/archive/v${version}/Greybird-$version.tar.gz)
 
 build() {
 cd Greybird-$version
