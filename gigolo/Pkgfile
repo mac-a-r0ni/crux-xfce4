@@ -6,7 +6,7 @@
 name=gigolo
 version=0.5.3
 release=1
-source=(https://archive.xfce.org/src/apps/$name/${version:0:4}/$name-$version.tar.bz2)
+source=(https://archive.xfce.org/src/apps/$name/0.5/$name-$version.tar.bz2)
 
 build() {
 
@@ -16,12 +16,10 @@ build() {
 		--prefix=/usr \
 		--libexecdir=/usr/lib/$name \
 		--sysconfdir=/etc \
-		--disable-nls \
-		--disable-gtk-doc \
-		--enable-gtk-doc-html=no
+		--disable-nls
 
 	make
 	make DESTDIR=$PKG install
 
-	rm -r $PKG/usr/share/gtk-doc
+#	rm -r $PKG/usr/share/gtk-doc
 }
