@@ -1,12 +1,12 @@
-# Description: FreeDesktop compliant XFCE menu library
-# URL: https://www.xfce.org
+# Description: gvfs frontend to manage connections to remote filesystems
+# URL: https://docs.xfce.org/apps/gigolo/start
 # Maintainer: mac-a-r0ni, j at lngn dot net
-# Depends on: gobject-introspection libxfce4ui
+# Depends on: intltool gvfs
 
-name=garcon
-version=4.18.1
+name=gigolo
+version=0.5.3
 release=1
-source=(https://archive.xfce.org/src/xfce/garcon/${version:0:4}/$name-$version.tar.bz2)
+source=(https://archive.xfce.org/src/apps/$name/${version:0:4}/$name-$version.tar.bz2)
 
 build() {
 
