@@ -4,7 +4,7 @@
 # Depends on: garcon exo cmake elogind accountsservice gtk-layer-shell libxfce4ui libxfce4util xfce4-panel
 
 name=xfce4-whiskermenu-plugin
-version=2.8.1
+version=2.8.2
 release=1
 source=(https://archive.xfce.org/src/panel-plugins/$name/${version:0:3}/$name-$version.tar.bz2)
 
