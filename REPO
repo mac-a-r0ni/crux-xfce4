@@ -350,9 +350,9 @@ f:5c0dedfdb34683232f8fde01582c5063:libmpd/Pkgfile
 f:3e627c3b7599a9f530f9b95f001e61d5:libmpd/.footprint
 f:ead6a029307e1869cbb7707246373082:libmpd/.md5sum
 f:37a7d0616f8cb77a261afd294f27f708:libmpd/0002-include-config.h.patch
-f:175aec753637b1e3c4fddaef0bb8286d:xfce4-cpugraph-plugin/Pkgfile
+f:375f5887b8b4aed6644bc4696b944fea:xfce4-cpugraph-plugin/Pkgfile
 f:4410f06e942c460164f165ba88d29f68:xfce4-cpugraph-plugin/.footprint
-f:f6d7f9208c988cf50d831ae615388b30:xfce4-cpugraph-plugin/.md5sum
+f:649009f425a8885009be3f797b3f36e1:xfce4-cpugraph-plugin/.md5sum
 f:f4ff04327761ddc4f6eeca5e1d78af4d:gvfs/Pkgfile
 f:e207a4e5f6b567e3114f2d9736d273e8:gvfs/.footprint
 f:bcb5ae7d6e181edfc7fe8a6622717e96:gvfs/.md5sum
