@@ -1,3 +1,4 @@
+d:xfce4-docklike-plugin
 d:libplist
 d:elogind
 d:mugshot
@@ -85,6 +86,9 @@ d:greybird
 d:libgtop
 d:xfce4-screensaver
 d:libxfce4ui
+f:05e33a0876bb97971ee564901654f5c5:xfce4-docklike-plugin/Pkgfile
+f:7cd0a002a82e6d46e993bb9613a6d27b:xfce4-docklike-plugin/.footprint
+f:feff06e79d08a0862f45aa8eb0c5f98f:xfce4-docklike-plugin/.md5sum
 f:47320fa7109b3b0e61aed7dadfbf25a8:libplist/Pkgfile
 f:ae6f0212c016420461a9cc6e75c76fc5:libplist/.footprint
 f:bf8e62f89aa454a050dd0c6a69933651:libplist/.md5sum
