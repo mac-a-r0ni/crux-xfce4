@@ -1,8 +1,8 @@
 #
-# /etc/ports/crux-xfce4.httpup: CRUX-ARM aarch64 ports overlay for XFCE4
+# /etc/ports/crux-xfce4.httpup: CRUX ports overlay for XFCE4
 #
 
 ROOT_DIR=/usr/ports/crux-xfce4
-URL=https://raw.githubusercontent.com/mac-a-r0ni/crux-xfce4/master/
+URL=https://lngn.net/crux/xfce4/
 
 # End of file

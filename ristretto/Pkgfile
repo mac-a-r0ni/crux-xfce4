@@ -4,7 +4,7 @@
 # Depends on: libexif libxfce4ui tumbler xfconf
 
 name=ristretto
-version=0.13.1
+version=0.13.2
 release=1
 source=(https://archive.xfce.org/src/apps/$name/0.13/$name-$version.tar.bz2)
 

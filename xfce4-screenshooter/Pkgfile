@@ -4,7 +4,7 @@
 # Depends on: xfce4-panel libsoup3
 
 name=xfce4-screenshooter
-version=1.10.4
+version=1.10.5
 release=1
 source=(https://archive.xfce.org/src/apps/xfce4-screenshooter/1.10/xfce4-screenshooter-$version.tar.bz2)
 

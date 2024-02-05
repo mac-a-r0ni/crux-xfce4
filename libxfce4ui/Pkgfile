@@ -4,7 +4,7 @@
 # Depends on: libxfce4util gtk3 xfconf startup-notification libgtop libepoxy xorg-libsm gobject-introspection hicolor-icon-theme
 
 name=libxfce4ui
-version=4.18.4
+version=4.18.5
 release=1
 source=(http://archive.xfce.org/src/xfce/$name/${version:0:4}/$name-$version.tar.bz2)
 

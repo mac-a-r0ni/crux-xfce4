@@ -4,8 +4,8 @@
 # Depends on: desktop-file-utils gtksourceview4 hicolor-icon-theme gspell polkit
 
 name=mousepad
-version=0.6.1
-release=2
+version=0.6.2
+release=1
 source=(https://archive.xfce.org/src/apps/$name/${version:0:3}/$name-$version.tar.bz2)
 
 build() {
