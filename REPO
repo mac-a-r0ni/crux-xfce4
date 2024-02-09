@@ -152,9 +152,9 @@ f:03123bc4acd40c0ce479da2403581f57:xfce4-fsguard-plugin/Pkgfile
 f:6ab5cd56e8f684b2700a109590acf666:xfce4-fsguard-plugin/.footprint
 f:2f703f2296bd6bdb6b9c49ebee7fb270:xfce4-fsguard-plugin/.md5sum
 f:12742081c31e595d8b67133b1b89b9dd:xfce4-notifyd/post-install
-f:1d740e797045dce792aafd7ac2e7cfe6:xfce4-notifyd/Pkgfile
-f:6acd8d633ea9dc1cacefcd6d3a597ed8:xfce4-notifyd/.footprint
-f:be2227cad1469e3bd06ea1bb8920555d:xfce4-notifyd/.md5sum
+f:820ed53df0469c3f7f32237ca5ff330f:xfce4-notifyd/Pkgfile
+f:510d18bb5ea36580aa357bb3d2f230f2:xfce4-notifyd/.footprint
+f:c30698922640d8631a656ff9f7d4c278:xfce4-notifyd/.md5sum
 f:ece84d5d3509abfef60c564d5c0c1824:xfce4-taskmanager/post-install
 f:bddafcccd57e25b5230a2f4bb09ab7fa:xfce4-taskmanager/Pkgfile
 f:8b74a59f52da4a50005a6eecba24bd40:xfce4-taskmanager/.footprint
