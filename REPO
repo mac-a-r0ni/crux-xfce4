@@ -122,9 +122,9 @@ f:25d63228543011078c287edbdf280592:gspell/.md5sum
 f:f7869318805883e3443123897adf4b62:libbluray/Pkgfile
 f:a138b6e11039f5646ce2020043c445e0:libbluray/.footprint
 f:75c3365016f03408fea608745202ea47:libbluray/.md5sum
-f:9c161c48953605331fce6d50b345308b:argyllcms/Pkgfile
+f:927daaf128a0bcef3718c512e7c2aecc:argyllcms/Pkgfile
 f:bb7379071a342145258dca1c1e225d15:argyllcms/.footprint
-f:3bf9388ed785367cb6d55e31c20af199:argyllcms/.md5sum
+f:7982011fa96585136aa6404a06e0c6b1:argyllcms/.md5sum
 f:ece84d5d3509abfef60c564d5c0c1824:xfce4-genmon-plugin/post-install
 f:6dffbdde3be113b59bbd3e6db6b012c5:xfce4-genmon-plugin/Pkgfile
 f:53efecf112b0dd4dd78bcd817c49b4c0:xfce4-genmon-plugin/.footprint
@@ -141,9 +141,9 @@ f:ece84d5d3509abfef60c564d5c0c1824:xfce4-systemload-plugin/post-install
 f:48ce4440f39c9880d7b220cee66bd86c:xfce4-systemload-plugin/Pkgfile
 f:3e2bdbbbc99df362e4383d90e45e1059:xfce4-systemload-plugin/.footprint
 f:5ee2f791a3483abc42a6a0f95650f6a1:xfce4-systemload-plugin/.md5sum
-f:2807d652690f9351208598b5d2673d76:accountsservice/Pkgfile
+f:142b7ba0da28cc380a3cad981361390f:accountsservice/Pkgfile
 f:6a5253cf3d06fb17d0ae2d2084edc1bf:accountsservice/.footprint
-f:84cc5ece2ee335813fecf7abe19f532f:accountsservice/.md5sum
+f:fb8d6a762f2ae81341a2d24e6ef3d409:accountsservice/.md5sum
 f:3129cd157d824cea5e7dd18881e9c023:xfce4-verve-plugin/Pkgfile
 f:ead84f06432e3d0292628ea51897ce1e:xfce4-verve-plugin/.footprint
 f:a1301484f434cdaad4f8d4b82faf5f4e:xfce4-verve-plugin/.md5sum
@@ -330,9 +330,9 @@ f:0ad5c9a2efbc8958f721ec0aecb597d1:xfce4-panel/.md5sum
 f:714d796b5b4e1793c98741bebf3ebb53:clutter/Pkgfile
 f:43bbff88e63c1dd1fe167e9ff3acbbae:clutter/.footprint
 f:fa5e080abc0e4f5c737f8bbcfb8d565a:clutter/.md5sum
-f:36a4e15f756e6164e2869943a5144c92:xfce4-weather-plugin/Pkgfile
+f:7d7c3ccaa46425ad919551ac4933914d:xfce4-weather-plugin/Pkgfile
 f:3abf6c825e6358eae5f4edd8a9d45c91:xfce4-weather-plugin/.footprint
-f:1d7f8e7cbd26b37043682837e0546897:xfce4-weather-plugin/.md5sum
+f:4e10e90b68938f673654a98ae4411d4b:xfce4-weather-plugin/.md5sum
 f:b43151e044071d12ea93a0473c0bff65:xfce4-volumed-pulse/Pkgfile
 f:68fd9a4b99da27b83799815630856213:xfce4-volumed-pulse/.footprint
 f:5fdbd2f8eff0be7eaffeaaa4f7a51c10:xfce4-volumed-pulse/.md5sum
@@ -365,9 +365,9 @@ f:e71e953282c287b454518262b22a87e1:catfish/Pkgfile
 f:f55982698d636d758f5935271cc40518:catfish/.footprint
 f:b1d7380a05868509268d7d193ee95e33:catfish/.md5sum
 f:74fdaac009afbf8e8a3a6d1e1b946709:colord/pre-install
-f:4b1ce71432e39dfc8b24288f3261ccc5:colord/Pkgfile
+f:6a754f56058bf24bd3000c4acd042938:colord/Pkgfile
 f:12ef97905f60611111e471a9896195ee:colord/.footprint
-f:548e2a036c1f589dd97f2742c9ffc0a4:colord/.md5sum
+f:83cc3eb363308d9455eb62b72fc3c39b:colord/.md5sum
 f:87c37617fa0da85088167b272fe9fc55:xfce4/Pkgfile
 f:be28f7bcfd813622700367b7200133e6:xfce4/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:xfce4/.md5sum
@@ -390,6 +390,6 @@ f:921e753f7ce9405835f3347a86dc7568:libgtop/.md5sum
 f:c321780b8b3d0b99e9add74662d2d534:xfce4-screensaver/Pkgfile
 f:5eb65fd04ba9f4b8575f6f334acf486d:xfce4-screensaver/.footprint
 f:d7326524d9182d3d26e8e7e4aec34859:xfce4-screensaver/.md5sum
-f:18947ce16c3a29c2a42ce4f0fc828489:libxfce4ui/Pkgfile
+f:988ce1a5859cf4562adadf87b595bb9f:libxfce4ui/Pkgfile
 f:053db721e60eaef1213173c38012ce3e:libxfce4ui/.footprint
-f:f861e991fead31aaf11e811e3873d7ba:libxfce4ui/.md5sum
+f:6b15dde01be9f4c5b65187aef58d574c:libxfce4ui/.md5sum

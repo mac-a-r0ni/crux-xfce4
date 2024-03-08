@@ -5,7 +5,7 @@
 # Depends on: dbus lcms2 libgudev libgusb polkit sane argyllcms
 
 name=colord
-version=1.4.6
+version=1.4.7
 release=1
 source=(https://github.com/hughsie/colord/archive/$version/$name-$version.tar.gz)
 
@@ -14,7 +14,7 @@ build() {
   meson setup . build \
     --prefix=/usr \
     --libexecdir=/usr/lib/$name \
-    -D argyllcms_sensor=false \
+    -D argyllcms_sensor=true \
     -D udev_rules=true \
     -D systemd=false \
     -D bash_completion=false \

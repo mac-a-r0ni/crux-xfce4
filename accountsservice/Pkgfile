@@ -1,11 +1,11 @@
 # Description: D-Bus interface for user account query and manipulation
 # URL: https://www.freedesktop.org/wiki/Software/AccountsService/
 # Maintainer: mac-a-r0ni, j at lngn dot net
-# Depends on: gobject-introspection meson vala glib2 elogind ffmpeg acl linux-pam libcap openal pipewire polkit pulseaudio xorg-libx11 xorg-libxext xorg-libxv libglvnd libva
+# Depends on: gobject-introspection meson vala glib elogind acl linux-pam libcap openal pipewire polkit pulseaudio xorg-libx11 xorg-libxext xorg-libxv libglvnd libva
 # Optional: docbook-xsl xmlto gtk-doc
 
 name=accountsservice
-version=22.08.8
+version=23.13.9
 release=1
 source=(https://www.freedesktop.org/software/$name/$name-$version.tar.xz)
 
