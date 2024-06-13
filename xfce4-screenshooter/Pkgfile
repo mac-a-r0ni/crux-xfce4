@@ -4,7 +4,7 @@
 # Depends on: xfce4-panel libsoup3
 
 name=xfce4-screenshooter
-version=1.10.5
+version=1.10.6
 release=1
 source=(https://archive.xfce.org/src/apps/xfce4-screenshooter/1.10/xfce4-screenshooter-$version.tar.bz2)
 
@@ -20,4 +20,5 @@ build() {
 	make
 	make DESTDIR=$PKG install
 
+	rm -rf $PKG/usr/lib/xfce4/panel/plugins/*.la
 }

@@ -4,7 +4,7 @@
 # Depends on: meson ninja python3-jinja2 intltool libseccomp linux-pam glib acl libcap eudev gettext
 
 name=elogind
-version=252.9
+version=252.24
 release=1
 source=(https://github.com/$name/$name/archive/v${version}/$name-$version.tar.gz
 	10-enable-elogind-power.rules.gz

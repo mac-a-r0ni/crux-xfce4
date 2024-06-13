@@ -1,8 +1,9 @@
 #!/bin/sh
 #
-# post-install: install/update all glib schemas & update icon cache
+# post-install: update all glib schemas, icon cache & desktop database
 
-/usr/bin/glib-compile-schemas /usr/share/glib-2.0/schemas/
-/usr/bin/gtk-update-icon-cache /usr/share/icons/hicolor
+/usr/bin/glib-compile-schemas /usr/share/glib-2.0/schemas
+/usr/bin/gtk4-update-icon-cache -q -t -f /usr/share/icons/hicolor
+/usr/bin/update-desktop-database -q /usr/share/applications
 
-#EndOfFile
+#EOF

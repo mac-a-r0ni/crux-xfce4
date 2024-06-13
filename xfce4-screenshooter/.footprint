@@ -5,7 +5,6 @@ drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/xfce4/
 drwxr-xr-x	root/root	usr/lib/xfce4/panel/
 drwxr-xr-x	root/root	usr/lib/xfce4/panel/plugins/
--rwxr-xr-x	root/root	usr/lib/xfce4/panel/plugins/libscreenshooterplugin.la
 -rwxr-xr-x	root/root	usr/lib/xfce4/panel/plugins/libscreenshooterplugin.so
 drwxr-xr-x	root/root	usr/lib/xfce4/screenshooter/
 drwxr-xr-x	root/root	usr/lib/xfce4/screenshooter/scripts/

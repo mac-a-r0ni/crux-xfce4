@@ -5,20 +5,24 @@
 
 name=libimobiledevice
 version=1.3.0
-release=1
+release=2
 source=(https://github.com/libimobiledevice/libimobiledevice/releases/download/1.3.0/libimobiledevice-1.3.0.tar.bz2 libimobiledevice-libplist-2.3.0.patch)
 
-build() {
+build()
+{
 
 cd $name-${version}*
 
 # Fix build with libplist 2.3.0
   patch -Np1 -i ../libimobiledevice-libplist-2.3.0.patch
+
   autoreconf -fi
+
 ./configure --prefix=/usr
   sed -i -e 's/ -shared / -Wl,-O1,--as-needed\0/g' libtool
   make
 
 make DESTDIR=$PKG install
+rm $PKG/usr/lib/*.la
 
 }

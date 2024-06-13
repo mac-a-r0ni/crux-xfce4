@@ -5,7 +5,7 @@
 
 name=gigolo
 version=0.5.3
-release=1
+release=2
 source=(https://archive.xfce.org/src/apps/$name/0.5/$name-$version.tar.bz2)
 
 build() {

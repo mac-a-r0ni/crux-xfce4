@@ -36,7 +36,6 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/refine
 -rwxr-xr-x	root/root	usr/bin/revfix
 -rwxr-xr-x	root/root	usr/bin/scanin
--rwxr-xr-x	root/root	usr/bin/spec2cie
 -rwxr-xr-x	root/root	usr/bin/specplot
 -rwxr-xr-x	root/root	usr/bin/splitti3
 -rwxr-xr-x	root/root	usr/bin/spotread

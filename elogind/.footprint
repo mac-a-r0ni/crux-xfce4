@@ -16,7 +16,7 @@ drwxr-xr-x	root/root	lib/elogind/
 -rwxr-xr-x	root/root	lib/elogind/elogind
 -rwxr-xr-x	root/root	lib/elogind/elogind-cgroups-agent
 -rwxr-xr-x	root/root	lib/elogind/elogind-uaccess-command
--rwxr-xr-x	root/root	lib/elogind/libelogind-shared-252.9.so
+-rwxr-xr-x	root/root	lib/elogind/libelogind-shared-252.so
 drwxr-xr-x	root/root	lib/elogind/system-shutdown/
 drwxr-xr-x	root/root	lib/elogind/system-sleep/
 lrwxrwxrwx	root/root	lib/libelogind.so -> libelogind.so.0

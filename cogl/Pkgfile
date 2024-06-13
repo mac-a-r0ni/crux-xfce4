@@ -2,32 +2,28 @@
 # URL: https://blogs.gnome.org/clutter/
 # Maintainer: mac-a-r0ni, j at lngn dot net
 # Depends on: mesa libdrm xorg-libxext xorg-libxdamage xorg-libxcomposite gdk-pixbuf pango xorg-libxrandr
+# Optional: egl-wayland
 
 name=cogl
 version=1.22.8
-release=1
-source=(https://download.gnome.org/core/43/43.2/sources/$name-$version.tar.xz)
+release=2
+source=(https://download.gnome.org/sources/cogl/1.22/$name-$version.tar.xz)
 
 build() {
 
+  prt-get isinst egl-wayland && PKGMK_COGL+=' --enable-gles2 --enable-wayland-egl-server --enable-kms-egl-platform --enable-wayland-egl-platform ' || PKGMK_COGL+=' --disable-gles2 --disable-wayland-egl-server --disable-kms-egl-platform --disable-wayland-egl-platform '
+
   cd $name-$version
-  ./configure --prefix=/usr \
-    --enable-gles2 \
-    --enable-{kms,wayland}-egl-platform \
-    --enable-wayland-egl-server \
+  ./configure $PKGMK_COGL --prefix=/usr \
     --disable-nls \
     --disable-static \
     --disable-debug \
     --enable-gtk-doc=no \
     --enable-introspection=no
 
-  sed -i -e 's/ -shared / -Wl,-O1,--as-needed\0/g' libtool
-
   make
   make DESTDIR="$PKG" install
 
+  rm -f $PKG/usr/lib/*.la
   rm -rf $PKG/usr/share
 }
-
-
-# vim:set sw=2 et:

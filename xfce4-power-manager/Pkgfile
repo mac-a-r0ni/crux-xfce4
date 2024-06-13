@@ -4,7 +4,7 @@
 # Depends on: hicolor-icon-theme libnotify libxfce4ui upower xfce4-notifyd xfce4-panel
 
 name=xfce4-power-manager
-version=4.18.3
+version=4.18.4
 release=1
 source=(https://archive.xfce.org/src/xfce/$name/${version:0:4}/$name-$version.tar.bz2)
 
@@ -28,4 +28,5 @@ build() {
 	make
 	make DESTDIR=$PKG install
 
+    rm -rf $PKG/usr/lib/xfce4/panel/plugins/*.la
 }

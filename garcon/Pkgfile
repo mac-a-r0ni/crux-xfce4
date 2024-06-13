@@ -5,7 +5,7 @@
 
 name=garcon
 version=4.18.2
-release=1
+release=2
 source=(https://archive.xfce.org/src/xfce/garcon/${version:0:4}/$name-$version.tar.bz2)
 
 build() {
@@ -18,10 +18,12 @@ build() {
 		--sysconfdir=/etc \
 		--disable-nls \
 		--disable-gtk-doc \
+		--enable-introspection=no \
 		--enable-gtk-doc-html=no
 
 	make
 	make DESTDIR=$PKG install
 
 	rm -r $PKG/usr/share/gtk-doc
+	rm -rf $PKG/usr/lib/*.la
 }

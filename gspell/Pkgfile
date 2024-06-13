@@ -5,7 +5,7 @@
 
 name=gspell
 version=1.12.2
-release=1
+release=2
 source=(https://download.gnome.org/sources/$name/1.12/$name-$version.tar.xz)
 
 build() {
@@ -16,10 +16,13 @@ build() {
 		--libexecdir=/usr/lib/$name \
 		--disable-nls \
 		--disable-debug \
+		--enable-introspection=no \
+		--enable-vala=no \
 		--sysconfdir=/etc
 
 	make
 	make DESTDIR=$PKG install
 
-    rm -r $PKG/usr/share/gtk-doc
+	rm -r $PKG/usr/share/gtk-doc
+	rm -rf $PKG/usr/lib/*.la
 }

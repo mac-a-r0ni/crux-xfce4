@@ -4,7 +4,7 @@
 # Depends on: gtk3 optipng
 
 name=elementary-xfce-icons
-version=0.18
+version=0.19
 release=1
 source=(https://github.com/shimmerproject/elementary-xfce/archive/v${version}/elementary-xfce-$version.tar.gz)
 
