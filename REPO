@@ -28,7 +28,6 @@ d:libplist
 d:elementary-xfce-icons
 d:parole
 d:accountsservice
-d:libatasmart
 d:xfce4-diskperf-plugin
 d:xfce4-mpc-plugin
 d:xfce4-dict
@@ -105,9 +104,9 @@ f:fb1c830be16429c009654167736d5eb4:libxfce4util/.md5sum
 f:42c622387895fcf945e672379ab80f5d:orage/.footprint
 f:e9c9715a060b34d918e06b0ea1bfda30:orage/Pkgfile
 f:a599702dee993b5cf6920dc96a6e0ad8:orage/.md5sum
-f:d04de5c18e365bf95a9e16f6942264c4:gvfs/.footprint
-f:0c90fa9fc16a1bf9f933ba60901b20da:gvfs/Pkgfile
-f:b20ea3e177f18437e8ab19835fbb53fd:gvfs/.md5sum
+f:6903de337d4795f3d72325f0fc9e75e7:gvfs/.footprint
+f:86a02a4cbce15c24d7c61aabacd9cc1e:gvfs/Pkgfile
+f:d96ff9b2091fd557bea4e762e5dc0345:gvfs/.md5sum
 f:98fa0a0edf0fbf58e331e51f2dc2bda7:xfce4-sensors-plugin/.footprint
 f:a55e6fd520864e38bf29035ce263ef34:xfce4-sensors-plugin/Pkgfile
 f:8b7a46fbb64b69fc410ea598c952ed2c:xfce4-sensors-plugin/post-install
@@ -189,12 +188,6 @@ f:5a0837ca94201d56ac8b2cf0eac9d8e4:parole/.md5sum
 f:6a5253cf3d06fb17d0ae2d2084edc1bf:accountsservice/.footprint
 f:142b7ba0da28cc380a3cad981361390f:accountsservice/Pkgfile
 f:fb8d6a762f2ae81341a2d24e6ef3d409:accountsservice/.md5sum
-f:076c350230a7e161f1feab580ecbcb42:libatasmart/.footprint
-f:cebd1fbed0b05d0458177d6d3ad4ea3f:libatasmart/0002-Drop-our-own-many-bad-sectors-heuristic.patch
-f:91cc857daf5ddb433f3a6d43b5faf7f2:libatasmart/Pkgfile
-f:eb5d0468b0d47d099e5164372a21f9da:libatasmart/0001-Dont-test-undefined-bits.patch
-f:0178bb9953f2a0aa20d700426ec6a0a9:libatasmart/post-install
-f:3e37929dd16ad0475999ab0d85cd832b:libatasmart/.md5sum
 f:3e02643601b4a79de8cbfc4754fcd302:xfce4-diskperf-plugin/.footprint
 f:12cf2cb5903758369f03a35027888e35:xfce4-diskperf-plugin/Pkgfile
 f:afc9c2899aa94a8fd4b1a5708bf75110:xfce4-diskperf-plugin/.md5sum
