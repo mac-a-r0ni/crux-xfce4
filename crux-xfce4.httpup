@@ -1,8 +1,0 @@
-#
-# /etc/ports/crux-xfce4.httpup: CRUX ports overlay for XFCE4
-#
-
-ROOT_DIR=/usr/ports/crux-xfce4
-URL=https://lngn.net/crux/xfce4/
-
-# End of file
