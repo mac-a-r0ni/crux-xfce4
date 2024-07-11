@@ -5,28 +5,28 @@ INSTRUCTIONS INSTALLING CRUX-XFCE4 REPO
 1. First download the necessary files:
 
    ```bash
-   wget --no-ch https://raw.githubusercontent.com/mac-a-r0ni/crux-xfce4/master/crux-xfce4.httpup
+   wget --no-ch https://raw.githubusercontent.com/mac-a-r0ni/crux-xfce4/master/xfce4.httpup
    ```
 
 2. Move the downloaded file to the proper folder:
 
    ```bash
-   sudo mv crux-xfce4.httpup /etc/ports/
+   sudo mv xfce4.httpup /etc/ports/
    ```
 
  4. Create the dir where the ports are contained:
     ```bash
-    sudo mkdir /usr/ports/crux-xfce4
+    sudo mkdir /usr/ports/xfce4
     ```
 
 4. Add the ports line in your */etc/prt-get.conf* to fetch the repo:
 
-   prtdir /usr/ports/crux-xfce4
+   prtdir /usr/ports/xfce4
 
 5. Update the repo onto your computer:
 
    ```bash
-   sudo ports -u crux-xfce4
+   sudo ports -u xfce4
    ```
 
 NOTES
