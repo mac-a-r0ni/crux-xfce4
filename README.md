@@ -38,7 +38,7 @@ NOTES
    ```bash
    sudo prt-get depinst xfce4
    ```
-   Please note, it's the bare minimum, and does not contain any gvfs ports or a terminal, or any other plugin. You will need to then build any extra ports you would like.
+   Please note, it's the bare minimum, and does not contain any gvfs ports, or any other plugins. You will need to then build any extra ports you would like.
 4. As of **xfce4-whiskermenu-plugin-2.8.0** it requires **elogind** and **accountsservice** ports. You do not need to enable elogind, but it's required for installation.
 5. **mousepad** dependency has changed from **gtksourceview** to **gtksourceview4**, new installs are not effected, but existing installs will need re-building.
 
@@ -60,11 +60,11 @@ XFCE INSTALLATION
 4. To launch Xfce create a *.xinitrc* file in your *home* directory with the following content:
    ```bash
    #!/bin/sh
-   exec ck-launch-session startxfce4
+   exec dbus-launch startxfce4 --with-ck-launch
    ```
    
 5. If you have any problem launching XFCE and you have a an Intel graphic card, install **xorg-xf86-video-intel** and the **mesa** ports from the xorg repo.
 
-6. For apps that need authorization (running as root) on X11 you'll need to install the 'polkit-gnome' and 'pinentry-gtk' ports, also from this repo.
+6. For apps that need authorization (running as root) on X11 you'll need to install the 'polkit-gnome' and 'pinentry' ports.
    
 7. Enjoy this beautiful Desktop Environment!
