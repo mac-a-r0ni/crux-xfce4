@@ -256,9 +256,9 @@ f:1660ee8619af24c4775e3dee98c6df1d:xfce4-terminal/post-install
 f:0b2875cd2847f8fa1144b819dc92640c:xfce4-terminal/Pkgfile
 f:eff8da202cf91b8346f12d87d87c2281:xfce4-terminal/.footprint
 f:211ea21bff2f0c255d556463740bcf47:xfce4-terminal/.md5sum
-f:f6fd2d1b01ea419f4e0b63f19f98ce14:libnfs/Pkgfile
-f:67a57429e39f138f2c7086bf7bc531d1:libnfs/.footprint
-f:3cf7c34aee1bf3e057adb4204c69555b:libnfs/.md5sum
+f:44f39f21610e00f62db0c85d169ebda8:libnfs/Pkgfile
+f:95b76b94015580067823ad849c22a8ba:libnfs/.footprint
+f:fc74e1f9754c446a8d0d578442001971:libnfs/.md5sum
 f:fe52f2b300b44e4381bf8544b9e33ccb:xfce4-smartbookmark-plugin/post-install
 f:9a63e1908109428cae30e4fb25844034:xfce4-smartbookmark-plugin/Pkgfile
 f:540e14e4c2ffd0c8a55a18bd8734f4d8:xfce4-smartbookmark-plugin/.footprint

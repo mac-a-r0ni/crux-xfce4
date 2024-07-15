@@ -18,7 +18,6 @@ drwxr-xr-x	root/root	usr/include/nfsc/
 -rw-r--r--	root/root	usr/include/nfsc/libnfs.h
 drwxr-xr-x	root/root	usr/lib/
 -rw-r--r--	root/root	usr/lib/libnfs.a
--rwxr-xr-x	root/root	usr/lib/libnfs.la
 lrwxrwxrwx	root/root	usr/lib/libnfs.so -> libnfs.so.14.0.0
 lrwxrwxrwx	root/root	usr/lib/libnfs.so.14 -> libnfs.so.14.0.0
 -rwxr-xr-x	root/root	usr/lib/libnfs.so.14.0.0
