@@ -2,16 +2,15 @@
 # URL: https://docs.xfce.org/apps/xfburn/start
 # Maintainer: mac-a-r0ni, j at lngn dot net
 # Depends on: desktop-file-utils exo gtk3 libburn libisofs libgudev libxfce4ui
-# Building with gstreamer appears broken as of 1.22.5
 # Optional: gstreamer gst-plugins-base gst-plugins-good gst-plugins-bad gst-plugins-ugly
 
 name=xfburn
-version=0.7.0
+version=0.7.1
 release=1
 source=(https://archive.xfce.org/src/apps/$name/0.7/$name-$version.tar.bz2)
 
 build() {
-#  prt-get isinst gstreamer && PKGMK_XFB+='--enable-gstreamer ' || PKGMK_XFB+=' --disable-gstreamer '
+	prt-get isinst gstreamer && PKGMK_XFB+='--enable-gstreamer ' || PKGMK_XFB+=' --disable-gstreamer '
 
 	cd $name-$version
 	./configure $PKGMK_XFB \
