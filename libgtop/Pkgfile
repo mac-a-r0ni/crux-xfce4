@@ -5,7 +5,7 @@
 # Depends on: glib gobject-introspection xorg-libxau
 
 name=libgtop
-version=2.41.2
+version=2.41.3
 release=1
 source=(http://ftp.gnome.org/pub/gnome/sources/$name/${version:0:4}/$name-$version.tar.xz)
 
@@ -20,6 +20,6 @@ build() {
   make
   make DESTDIR=$PKG install
 
+  rm -rf $PKG/usr/lib/*.la
   rm -r $PKG/usr/share/{gtk-doc,info}
 }
-# vim: set ts=2 et:
