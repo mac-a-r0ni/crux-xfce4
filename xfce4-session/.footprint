@@ -1,7 +1,6 @@
 drwxr-xr-x	root/root	etc/
 drwxr-xr-x	root/root	etc/xdg/
 drwxr-xr-x	root/root	etc/xdg/autostart/
--rw-r--r--	root/root	etc/xdg/autostart/xfce-polkit-gnome-authentication-agent-1.desktop
 -rw-r--r--	root/root	etc/xdg/autostart/xscreensaver.desktop
 drwxr-xr-x	root/root	etc/xdg/xfce4/
 -rw-r--r--	root/root	etc/xdg/xfce4/Xft.xrdb
@@ -57,6 +56,20 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/48x48/actions/
 -rw-r--r--	root/root	usr/share/icons/hicolor/48x48/actions/xfsm-switch-user.png
 drwxr-xr-x	root/root	usr/share/icons/hicolor/48x48/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/48x48/apps/org.xfce.session.png
+drwxr-xr-x	root/root	usr/share/icons/hicolor/64x64/
+drwxr-xr-x	root/root	usr/share/icons/hicolor/64x64/apps/
+-rw-r--r--	root/root	usr/share/icons/hicolor/64x64/apps/org.xfce.session.png
+drwxr-xr-x	root/root	usr/share/icons/hicolor/96x96/
+drwxr-xr-x	root/root	usr/share/icons/hicolor/96x96/actions/
+-rw-r--r--	root/root	usr/share/icons/hicolor/96x96/actions/xfsm-hibernate.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/96x96/actions/xfsm-lock.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/96x96/actions/xfsm-logout.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/96x96/actions/xfsm-reboot.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/96x96/actions/xfsm-shutdown.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/96x96/actions/xfsm-suspend.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/96x96/actions/xfsm-switch-user.png
+drwxr-xr-x	root/root	usr/share/icons/hicolor/96x96/apps/
+-rw-r--r--	root/root	usr/share/icons/hicolor/96x96/apps/org.xfce.session.png
 drwxr-xr-x	root/root	usr/share/icons/hicolor/scalable/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/scalable/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/org.xfce.session.svg
@@ -67,5 +80,7 @@ drwxr-xr-x	root/root	usr/share/man/man1/
 drwxr-xr-x	root/root	usr/share/polkit-1/
 drwxr-xr-x	root/root	usr/share/polkit-1/actions/
 -rw-r--r--	root/root	usr/share/polkit-1/actions/org.xfce.session.policy
+drwxr-xr-x	root/root	usr/share/xdg-desktop-portal/
+-rw-r--r--	root/root	usr/share/xdg-desktop-portal/xfce-portals.conf
 drwxr-xr-x	root/root	usr/share/xsessions/
 -rw-r--r--	root/root	usr/share/xsessions/xfce.desktop
