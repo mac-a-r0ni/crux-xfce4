@@ -88,6 +88,7 @@ d:libxfce4ui
 f:05e33a0876bb97971ee564901654f5c5:xfce4-docklike-plugin/Pkgfile
 f:7cd0a002a82e6d46e993bb9613a6d27b:xfce4-docklike-plugin/.footprint
 f:feff06e79d08a0862f45aa8eb0c5f98f:xfce4-docklike-plugin/.md5sum
+f:31ec4751b1a80bcd60ed7024ee4a471f:.httpup-repo.current
 f:47320fa7109b3b0e61aed7dadfbf25a8:libplist/Pkgfile
 f:ae6f0212c016420461a9cc6e75c76fc5:libplist/.footprint
 f:bf8e62f89aa454a050dd0c6a69933651:libplist/.md5sum
@@ -173,6 +174,7 @@ f:933759a5932e23c21d0b1929202f6c97:tumbler/.md5sum
 f:a03bf67d57c81b90aa55a81c409d0024:libxfce4util/Pkgfile
 f:c34a4f91ee6410d3d4c3e5dcc8f56937:libxfce4util/.footprint
 f:fb1c830be16429c009654167736d5eb4:libxfce4util/.md5sum
+f:9a0428627e42f541c1536256a69956ed:.httpup-urlinfo
 f:cd22ad219a11ac896c5ea4b16f021fa1:gigolo/post-install
 f:8af112d0581ab3647258f94e16e70f14:gigolo/Pkgfile
 f:c5d8c51ec64702ad5bb0ae04beecea85:gigolo/.footprint
@@ -271,9 +273,9 @@ f:5e80e0559be4c2ab24d937ea943d0ae7:thunar-archive-plugin/Pkgfile
 f:a40a116111b31375b812b3f1b13579ca:thunar-archive-plugin/.footprint
 f:ad5f6ed455bbba974b2bd88571be4402:thunar-archive-plugin/.md5sum
 f:cd22ad219a11ac896c5ea4b16f021fa1:xfce4-screenshooter/post-install
-f:3ed22168bdcba4947000e9a879636ece:xfce4-screenshooter/Pkgfile
+f:52374f2a9e5ef9818c08a3317849ce6f:xfce4-screenshooter/Pkgfile
 f:af23fb405a4f9e2e3ce1dd24c704b124:xfce4-screenshooter/.footprint
-f:ee345bbf43da0c76e1b5c5d087a787b6:xfce4-screenshooter/.md5sum
+f:69847c5e0fd69971eaf967b3d723bab4:xfce4-screenshooter/.md5sum
 f:661b242ba9e7ee32e0ee700316189a2e:xfce4-battery-plugin/Pkgfile
 f:2b11226705d80f1bf57abfd175feab1d:xfce4-battery-plugin/.footprint
 f:dedc8441e83554ae3db7675c546afd92:xfce4-battery-plugin/.md5sum
