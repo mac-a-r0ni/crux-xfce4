@@ -236,9 +236,10 @@ f:ee259f3d8ab0404c0d6bf365fd60de32:xfce4-datetime-plugin/.footprint
 f:690a94c739d7431e29658d23af47b6a3:parole/.signature
 f:d0c544a46a9c3983f3fbc8deaf999bd1:parole/Pkgfile
 f:951643ee494c2f44d3632f8cf2c92d21:parole/.footprint
+f:25815dbdc8d113238e06d8b32d0ab9b7:file-roller/.signature
 f:4d93976aa30919533155d2884b75cbf5:file-roller/post-install
 f:a26c86aa39ed4cf980de44c8c48e40b7:file-roller/Pkgfile
-f:45538e83ecb112ac576ed1e5f3286732:file-roller/file-roller-44.3.tar.xz.partial
+f:4ac64cabe80dfa21ab720f738f9aeddb:file-roller/.footprint
 f:793263a270e9cc68a73b70a06fd0331a:xfburn/.signature
 f:04bab67cdf9cd2d4daa4411bb7d77c42:xfburn/post-install
 f:478769e93596be18bc33d862c9efe731:xfburn/Pkgfile
@@ -267,9 +268,9 @@ f:0899fbaf02b7ca9e3d2b67812ba314ed:thunar-archive-plugin/.signature
 f:59efa380c59c4e7b203e1520ba6631f0:thunar-archive-plugin/post-install
 f:5e80e0559be4c2ab24d937ea943d0ae7:thunar-archive-plugin/Pkgfile
 f:a40a116111b31375b812b3f1b13579ca:thunar-archive-plugin/.footprint
-f:bdebc4dc139ab07e7a41ce3f1bac8b8d:xfce4-screenshooter/.signature
+f:3f0a3482ad40a949d8ab350282134833:xfce4-screenshooter/.signature
 f:cd22ad219a11ac896c5ea4b16f021fa1:xfce4-screenshooter/post-install
-f:52374f2a9e5ef9818c08a3317849ce6f:xfce4-screenshooter/Pkgfile
+f:8a73c6910a53d0155256654aa17897b1:xfce4-screenshooter/Pkgfile
 f:af23fb405a4f9e2e3ce1dd24c704b124:xfce4-screenshooter/.footprint
 f:432579b4a78284c2a84a04d87909b09f:xfce4-battery-plugin/.signature
 f:661b242ba9e7ee32e0ee700316189a2e:xfce4-battery-plugin/Pkgfile
