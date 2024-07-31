@@ -1,8 +1,8 @@
 .git
 .gitignore
-crux-xfce4.sec
-crux-xfce4.httpup
-crux-xfce4.pub
+xfce4.sec
+xfce4.httpup
+xfce4.pub
 *\.zip$
 *\.tgz$
 *\.tar\.gz$

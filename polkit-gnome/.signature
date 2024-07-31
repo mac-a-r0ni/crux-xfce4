@@ -1,0 +1,9 @@
+untrusted comment: verify with /etc/ports/xfce4.pub
+RWRSAbUnL7azFIBm09hdQQfKE++ffjluYhIx0CoJtpTGEfdFVdE6Knx6tajGT5uIxJNQ5MCOxtbjrlXMEHuTPU/jkc2ObjqNbAQ=
+SHA256 (Pkgfile) = d1fd37b0b915123ae223a8ea6b8eb386857cfe06f90f330b4efdd83b79eebe6e
+SHA256 (polkit-gnome-0.105.tar.xz) = 1784494963b8bf9a00eedc6cd3a2868fb123b8a5e516e66c5eda48df17ab9369
+SHA256 (polkit-gnome-authentication-agent-1.desktop) = 74c94c5f7893d714e04ec7d8b8520c978a5748757a0cdcf5128492f09f31b643
+SHA256 (0001-Select-the-current-user-to-authenticate-with-by-defa.patch) = b989f1c7e30f2f9f9ef03f1a06db708d83c4945ee242ca573e7d66b64bf7037f
+SHA256 (0002-Auth-dialog-Make-the-label-wrap-at-70-chars.patch) = 41afbd11bdf4633dc619675862078c23e4b200c888da1569d030c502999b25d8
+SHA256 (0003-Get-user-icon-from-accountsservice-instead-of-lookin.patch) = 4ee38d2dae6e592040c41ba07caa284135dc232feef5a30acb42c0e28340adce
+SHA256 (0004-Use-fresh-X11-timestamps-when-displaying-authenticat.patch) = 8d278f773f1815cf6d384518749643404fed444bb764305ebba081965152fa9e

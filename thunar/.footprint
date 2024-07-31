@@ -29,25 +29,19 @@ drwxr-xr-x	root/root	usr/lib/Thunar/
 -rwxr-xr-x	root/root	usr/lib/Thunar/thunar-sendto-email
 drwxr-xr-x	root/root	usr/lib/girepository-1.0/
 -rw-r--r--	root/root	usr/lib/girepository-1.0/Thunarx-3.0.typelib
--rwxr-xr-x	root/root	usr/lib/libthunarx-3.la
 lrwxrwxrwx	root/root	usr/lib/libthunarx-3.so -> libthunarx-3.so.0.0.0
 lrwxrwxrwx	root/root	usr/lib/libthunarx-3.so.0 -> libthunarx-3.so.0.0.0
 -rwxr-xr-x	root/root	usr/lib/libthunarx-3.so.0.0.0
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/thunarx-3.pc
 drwxr-xr-x	root/root	usr/lib/thunarx-3/
--rwxr-xr-x	root/root	usr/lib/thunarx-3/thunar-apr.la
 -rwxr-xr-x	root/root	usr/lib/thunarx-3/thunar-apr.so
--rwxr-xr-x	root/root	usr/lib/thunarx-3/thunar-sbr.la
 -rwxr-xr-x	root/root	usr/lib/thunarx-3/thunar-sbr.so
--rwxr-xr-x	root/root	usr/lib/thunarx-3/thunar-uca.la
 -rwxr-xr-x	root/root	usr/lib/thunarx-3/thunar-uca.so
--rwxr-xr-x	root/root	usr/lib/thunarx-3/thunar-wallpaper-plugin.la
 -rwxr-xr-x	root/root	usr/lib/thunarx-3/thunar-wallpaper-plugin.so
 drwxr-xr-x	root/root	usr/lib/xfce4/
 drwxr-xr-x	root/root	usr/lib/xfce4/panel/
 drwxr-xr-x	root/root	usr/lib/xfce4/panel/plugins/
--rwxr-xr-x	root/root	usr/lib/xfce4/panel/plugins/libthunar-tpa.la
 -rwxr-xr-x	root/root	usr/lib/xfce4/panel/plugins/libthunar-tpa.so
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/Thunar/

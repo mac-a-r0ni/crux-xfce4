@@ -16,5 +16,5 @@ build() {
 	make
 	make DESTDIR=$PKG install
 	
-#	rm -f $PKG/{,usr/}lib/*.la
+	rm -f $PKG/{,usr/}lib/*.la
 }

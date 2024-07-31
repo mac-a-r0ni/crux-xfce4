@@ -23,7 +23,6 @@ drwxr-xr-x	root/root	usr/include/tumbler-1/tumbler/
 -rw-r--r--	root/root	usr/include/tumbler-1/tumbler/tumbler-util.h
 -rw-r--r--	root/root	usr/include/tumbler-1/tumbler/tumbler.h
 drwxr-xr-x	root/root	usr/lib/
--rwxr-xr-x	root/root	usr/lib/libtumbler-1.la
 lrwxrwxrwx	root/root	usr/lib/libtumbler-1.so -> libtumbler-1.so.0.0.0
 lrwxrwxrwx	root/root	usr/lib/libtumbler-1.so.0 -> libtumbler-1.so.0.0.0
 -rwxr-xr-x	root/root	usr/lib/libtumbler-1.so.0.0.0
