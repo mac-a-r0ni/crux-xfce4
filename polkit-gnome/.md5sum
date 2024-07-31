@@ -1,6 +1,0 @@
-3e64ed1fe113d213d8d18e431f77e429  0001-Select-the-current-user-to-authenticate-with-by-defa.patch
-a9646b4a1b558e92ef877e4da4747bdf  0002-Auth-dialog-Make-the-label-wrap-at-70-chars.patch
-e76a8958ae206c793152a8ce2c79ab94  0003-Get-user-icon-from-accountsservice-instead-of-lookin.patch
-1b856721a3525bf94d8032bdfffbae1c  0004-Use-fresh-X11-timestamps-when-displaying-authenticat.patch
-50ecad37c8342fb4a52f590db7530621  polkit-gnome-0.105.tar.xz
-56d7de2f70cfb5f5ef15bbd4617619ca  polkit-gnome-authentication-agent-1.desktop
