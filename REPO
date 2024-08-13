@@ -61,7 +61,6 @@ d:xfce4-settings
 d:xfce4-eyes-plugin
 d:python3-distutils-extra
 d:cogl
-d:udisks2
 d:xfce4-session
 d:ristretto
 d:xfce4-panel
@@ -88,7 +87,7 @@ d:libxfce4ui
 f:52a17745a34b23c31b01e398bb63bccd:xfce4-docklike-plugin/.signature
 f:05e33a0876bb97971ee564901654f5c5:xfce4-docklike-plugin/Pkgfile
 f:7cd0a002a82e6d46e993bb9613a6d27b:xfce4-docklike-plugin/.footprint
-f:31ec4751b1a80bcd60ed7024ee4a471f:.httpup-repo.current
+f:fb9bea96afd847ce11100e8cf640b77d:.httpup-repo.current
 f:abf5fa853180f3e92bf7825cf09afa9e:libplist/.signature
 f:47320fa7109b3b0e61aed7dadfbf25a8:libplist/Pkgfile
 f:ae6f0212c016420461a9cc6e75c76fc5:libplist/.footprint
@@ -222,6 +221,7 @@ f:8fff5761387ed5c41446dc73d9ceb226:xfce4-time-out-plugin/Pkgfile
 f:cca9b6484b4b869a77ddcfcecfd69fc5:xfce4-time-out-plugin/.footprint
 f:f515c1cae39fb437e253aa665c7e6b25:xfdashboard/.signature
 f:83884a4e5ec92ca983d929d4e6a9c52b:xfdashboard/Pkgfile
+f:429fbce90cc64a75e5acb1952aa5b79e:xfdashboard/.footprint
 f:40639f6a90502805686f4c29a0d5864c:exo/.signature
 f:bc6a694954ec65424979b4cfe922b10f:exo/Pkgfile
 f:55568f06ada2ea19e905a71840097955:exo/.footprint
@@ -248,6 +248,7 @@ f:a12f9470a50deb62e4fe1e7567394e42:xfburn/.footprint
 f:a89f7ce077674471d6c027b026eb1775:libimobiledevice/.signature
 f:8d94ec6a93a1d2f12bfad4c75313b32b:libimobiledevice/libimobiledevice-libplist-2.3.0.patch
 f:5bab80a78652834ccef74b8258e3ffdc:libimobiledevice/Pkgfile
+f:907df0a962e1b99d43519daf19aa4e8a:libimobiledevice/.footprint
 f:b1c15de9cf7e226db8bfeb508bd4d908:libusbmuxd/.signature
 f:8f57beb8445115f9bd01d3d5ae620c8b:libusbmuxd/Pkgfile
 f:dcdabe08d9de01b55ee68cbf8669f569:libusbmuxd/.footprint
@@ -294,6 +295,7 @@ f:8d4fe5a5c2f16a400a47eff5aa6d3f71:xfce4-xkb-plugin/.footprint
 f:af7a4c2533f9f2e6c44da7ae06225e73:xfmpc/.signature
 f:36b93ec9ca384f28230b78a0116bb3ae:xfmpc/post-install
 f:16b7a1d2bbf13c678ac5465b7427a11c:xfmpc/Pkgfile
+f:936d42c925b177352f4841cddebc5ec2:xfmpc/.footprint
 f:860ba936184c8ee1a26925e053e7b5e6:xfce4-settings/.signature
 f:cd22ad219a11ac896c5ea4b16f021fa1:xfce4-settings/post-install
 f:a41a4e1eb8d482a25c21ee4187f4cf39:xfce4-settings/Pkgfile
@@ -304,11 +306,12 @@ f:c3e8671bc289a5f9760c2a2be62eedba:xfce4-eyes-plugin/.footprint
 f:ccf15f6b7ea506ce6aa3d3539304ccbf:python3-distutils-extra/.signature
 f:67cb62e77a24a1c8307aa8b0e2310b0b:python3-distutils-extra/Pkgfile
 f:59cd21375c0b42bdbb7872316a8417dd:python3-distutils-extra/.footprint
+f:4f27ae55cd0649fd86741cd11c275fc0:cogl/.signature
 f:2e597891562acf52d07512b068c4e485:cogl/Pkgfile
-f:f84cba3b5047ed2fe756a9afc3753d01:udisks2/.signature
-f:8904c300c641725c5b596ace5d9e7f51:udisks2/Pkgfile
-f:74b14089b088f8d9385b54956f579b3e:udisks2/.footprint
+f:7c34d1c771a442a537e738abff91d094:cogl/.footprint
 f:dab417f35f0e6d6394184c93d8885427:xfce4-session/.signature
+f:1b0cf8b061a196cfbce87897e892c3d7:xfce4-session/source-system-xinitrc-scripts.patch
+f:db218c288775b8eaa680bb82301cc436:xfce4-session/xfce-polkit-gnome-authentication-agent-1.desktop
 f:5d4bd45ce49ac03ef8464178ef0e3d28:xfce4-session/post-install
 f:059a7f489a093844ee74515973359c44:xfce4-session/Pkgfile
 f:df24f0197fce74e2ec32905dbc0c7ca8:xfce4-session/.footprint
@@ -320,6 +323,7 @@ f:03521accbfd83a41ef1abbe893d52464:xfce4-panel/.signature
 f:fa63d1078f137b37d56e7201c08f7cdd:xfce4-panel/Pkgfile
 f:d387192f8e61b6da9ec20b997c972abf:xfce4-panel/.footprint
 f:67522ebc50eac0f67763a7ef53e14530:clutter/Pkgfile
+f:43bbff88e63c1dd1fe167e9ff3acbbae:clutter/.footprint
 f:c81aa734153723ac609f40274aaf4e1b:xfce4-weather-plugin/.signature
 f:7d7c3ccaa46425ad919551ac4933914d:xfce4-weather-plugin/Pkgfile
 f:3abf6c825e6358eae5f4edd8a9d45c91:xfce4-weather-plugin/.footprint

@@ -1,6 +1,11 @@
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/cogl/
+drwxr-xr-x	root/root	usr/include/cogl/cogl-gles2/
+drwxr-xr-x	root/root	usr/include/cogl/cogl-gles2/GLES2/
+-rw-r--r--	root/root	usr/include/cogl/cogl-gles2/GLES2/gl2.h
+-rw-r--r--	root/root	usr/include/cogl/cogl-gles2/GLES2/gl2ext.h
+-rw-r--r--	root/root	usr/include/cogl/cogl-gles2/GLES2/gl2platform.h
 drwxr-xr-x	root/root	usr/include/cogl/cogl-pango/
 -rw-r--r--	root/root	usr/include/cogl/cogl-pango/cogl-pango.h
 drwxr-xr-x	root/root	usr/include/cogl/cogl-path/
@@ -25,6 +30,8 @@ drwxr-xr-x	root/root	usr/include/cogl/cogl/
 -rw-r--r--	root/root	usr/include/cogl/cogl/cogl-deprecated.h
 -rw-r--r--	root/root	usr/include/cogl/cogl/cogl-depth-state.h
 -rw-r--r--	root/root	usr/include/cogl/cogl/cogl-display.h
+-rw-r--r--	root/root	usr/include/cogl/cogl/cogl-egl-defines.h
+-rw-r--r--	root/root	usr/include/cogl/cogl/cogl-egl.h
 -rw-r--r--	root/root	usr/include/cogl/cogl/cogl-enum-types.h
 -rw-r--r--	root/root	usr/include/cogl/cogl/cogl-error.h
 -rw-r--r--	root/root	usr/include/cogl/cogl/cogl-euler.h
@@ -39,6 +46,8 @@ drwxr-xr-x	root/root	usr/include/cogl/cogl/
 -rw-r--r--	root/root	usr/include/cogl/cogl/cogl-glx.h
 -rw-r--r--	root/root	usr/include/cogl/cogl/cogl-index-buffer.h
 -rw-r--r--	root/root	usr/include/cogl/cogl/cogl-indices.h
+-rw-r--r--	root/root	usr/include/cogl/cogl/cogl-kms-display.h
+-rw-r--r--	root/root	usr/include/cogl/cogl/cogl-kms-renderer.h
 -rw-r--r--	root/root	usr/include/cogl/cogl/cogl-macros.h
 -rw-r--r--	root/root	usr/include/cogl/cogl/cogl-material-compat.h
 -rw-r--r--	root/root	usr/include/cogl/cogl/cogl-matrix-stack.h
@@ -77,6 +86,9 @@ drwxr-xr-x	root/root	usr/include/cogl/cogl/
 -rw-r--r--	root/root	usr/include/cogl/cogl/cogl-vector.h
 -rw-r--r--	root/root	usr/include/cogl/cogl/cogl-version.h
 -rw-r--r--	root/root	usr/include/cogl/cogl/cogl-vertex-buffer.h
+-rw-r--r--	root/root	usr/include/cogl/cogl/cogl-wayland-client.h
+-rw-r--r--	root/root	usr/include/cogl/cogl/cogl-wayland-renderer.h
+-rw-r--r--	root/root	usr/include/cogl/cogl/cogl-wayland-server.h
 -rw-r--r--	root/root	usr/include/cogl/cogl/cogl-xlib-renderer.h
 -rw-r--r--	root/root	usr/include/cogl/cogl/cogl-xlib.h
 -rw-r--r--	root/root	usr/include/cogl/cogl/cogl.h
@@ -101,6 +113,9 @@ drwxr-xr-x	root/root	usr/include/cogl/cogl/gl-prototypes/
 -rw-r--r--	root/root	usr/include/cogl/cogl/gl-prototypes/cogl-in-gles-core-functions.h
 -rw-r--r--	root/root	usr/include/cogl/cogl/gl-prototypes/cogl-in-gles2-core-functions.h
 drwxr-xr-x	root/root	usr/lib/
+lrwxrwxrwx	root/root	usr/lib/libcogl-gles2.so -> libcogl-gles2.so.20.4.3
+lrwxrwxrwx	root/root	usr/lib/libcogl-gles2.so.20 -> libcogl-gles2.so.20.4.3
+-rwxr-xr-x	root/root	usr/lib/libcogl-gles2.so.20.4.3
 lrwxrwxrwx	root/root	usr/lib/libcogl-pango.so -> libcogl-pango.so.20.4.3
 lrwxrwxrwx	root/root	usr/lib/libcogl-pango.so.20 -> libcogl-pango.so.20.4.3
 -rwxr-xr-x	root/root	usr/lib/libcogl-pango.so.20.4.3
@@ -114,6 +129,8 @@ drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/cogl-1.0.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/cogl-2.0-experimental.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/cogl-gl-1.0.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/cogl-gles2-1.0.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/cogl-gles2-2.0-experimental.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/cogl-pango-1.0.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/cogl-pango-2.0-experimental.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/cogl-path-1.0.pc
