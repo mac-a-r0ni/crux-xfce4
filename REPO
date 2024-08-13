@@ -322,8 +322,9 @@ f:dccdf7c8f7cdf0139451c1c3cee7e2d1:ristretto/.footprint
 f:03521accbfd83a41ef1abbe893d52464:xfce4-panel/.signature
 f:fa63d1078f137b37d56e7201c08f7cdd:xfce4-panel/Pkgfile
 f:d387192f8e61b6da9ec20b997c972abf:xfce4-panel/.footprint
+f:c7d937ffdbc9567cbfb60b1accbca857:clutter/.signature
 f:67522ebc50eac0f67763a7ef53e14530:clutter/Pkgfile
-f:43bbff88e63c1dd1fe167e9ff3acbbae:clutter/.footprint
+f:7f26b6ad2a511f0ee34541f345f24541:clutter/.footprint
 f:c81aa734153723ac609f40274aaf4e1b:xfce4-weather-plugin/.signature
 f:7d7c3ccaa46425ad919551ac4933914d:xfce4-weather-plugin/Pkgfile
 f:3abf6c825e6358eae5f4edd8a9d45c91:xfce4-weather-plugin/.footprint

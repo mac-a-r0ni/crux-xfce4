@@ -155,7 +155,6 @@ drwxr-xr-x	root/root	usr/include/clutter-1.0/clutter/x11/
 -rw-r--r--	root/root	usr/include/clutter-1.0/clutter/x11/clutter-x11-texture-pixmap.h
 -rw-r--r--	root/root	usr/include/clutter-1.0/clutter/x11/clutter-x11.h
 drwxr-xr-x	root/root	usr/lib/
--rwxr-xr-x	root/root	usr/lib/libclutter-1.0.la
 lrwxrwxrwx	root/root	usr/lib/libclutter-1.0.so -> libclutter-1.0.so.0.2600.4
 lrwxrwxrwx	root/root	usr/lib/libclutter-1.0.so.0 -> libclutter-1.0.so.0.2600.4
 -rwxr-xr-x	root/root	usr/lib/libclutter-1.0.so.0.2600.4
