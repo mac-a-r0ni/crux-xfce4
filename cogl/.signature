@@ -1,4 +1,5 @@
 untrusted comment: verify with /etc/ports/xfce4.pub
-RWRSAbUnL7azFGF+aMCV+0KAadsB6aVyHCIaInKuL7sjpNOPSiee4fuKQtSyJ11J0mZuI4oUPjeVBkzSgfdJgEExHbdclTtvvgE=
-SHA256 (Pkgfile) = 418aa44c4065911c26cda26122f57a69956744c46f3bf7aea09a9da254d68115
+RWRSAbUnL7azFA6rCegp3DuUVoRW5+O2q/PKOOmwN7C9mQQgaojT/0jCUmfs7p2pD4CXhiyhPpKq1Y9g5Z4e2xg6RSZuLxSS3wo=
+SHA256 (Pkgfile) = 5a4615af81dfaf7a3e5f72fcb26920e6b3be916dec63f160596a89a494a9893b
+SHA256 (.footprint) = a4a350ed83db369ab3d454def0aff655b9ca823eb7ea026212c4d3442a3bc333
 SHA256 (cogl-1.22.8.tar.xz) = a805b2b019184710ff53d0496f9f0ce6dcca420c141a0f4f6fcc02131581d759

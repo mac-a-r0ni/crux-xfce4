@@ -306,8 +306,8 @@ f:c3e8671bc289a5f9760c2a2be62eedba:xfce4-eyes-plugin/.footprint
 f:ccf15f6b7ea506ce6aa3d3539304ccbf:python3-distutils-extra/.signature
 f:67cb62e77a24a1c8307aa8b0e2310b0b:python3-distutils-extra/Pkgfile
 f:59cd21375c0b42bdbb7872316a8417dd:python3-distutils-extra/.footprint
-f:4f27ae55cd0649fd86741cd11c275fc0:cogl/.signature
-f:2e597891562acf52d07512b068c4e485:cogl/Pkgfile
+f:ebd5a712c280f144a4366a76095ef567:cogl/.signature
+f:6d10ef1ed5b7743d95e1c6246feb4453:cogl/Pkgfile
 f:7c34d1c771a442a537e738abff91d094:cogl/.footprint
 f:dab417f35f0e6d6394184c93d8885427:xfce4-session/.signature
 f:1b0cf8b061a196cfbce87897e892c3d7:xfce4-session/source-system-xinitrc-scripts.patch

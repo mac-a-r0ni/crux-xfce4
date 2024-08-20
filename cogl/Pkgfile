@@ -1,7 +1,7 @@
 # Description: An object oriented GL/GLES Abstraction/Utility Layer
 # URL: https://blogs.gnome.org/clutter/
 # Maintainer: mac-a-r0ni, j at lngn dot net
-# Depends on: mesa libdrm xorg-libxext xorg-libxdamage xorg-libxcomposite gdk-pixbuf pango xorg-libxrandr
+# Depends on: mesa xorg-libxcomposite gdk-pixbuf pango
 # Optional: egl-wayland
 
 name=cogl
