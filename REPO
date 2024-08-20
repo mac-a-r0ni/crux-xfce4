@@ -237,9 +237,9 @@ f:ee259f3d8ab0404c0d6bf365fd60de32:xfce4-datetime-plugin/.footprint
 f:690a94c739d7431e29658d23af47b6a3:parole/.signature
 f:d0c544a46a9c3983f3fbc8deaf999bd1:parole/Pkgfile
 f:951643ee494c2f44d3632f8cf2c92d21:parole/.footprint
-f:25815dbdc8d113238e06d8b32d0ab9b7:file-roller/.signature
+f:f03dfea65d208da21b378b53faae6b0f:file-roller/.signature
 f:4d93976aa30919533155d2884b75cbf5:file-roller/post-install
-f:a26c86aa39ed4cf980de44c8c48e40b7:file-roller/Pkgfile
+f:6f2b795d0f5307cd793963f228fe3cd5:file-roller/Pkgfile
 f:4ac64cabe80dfa21ab720f738f9aeddb:file-roller/.footprint
 f:3e3a2c399e0efacc933077f29d51593e:xfburn/.signature
 f:04bab67cdf9cd2d4daa4411bb7d77c42:xfburn/post-install
