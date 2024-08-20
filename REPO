@@ -352,8 +352,8 @@ f:37a7d0616f8cb77a261afd294f27f708:libmpd/0002-include-config.h.patch
 f:82a8c41d83ca3c82f7111df709c29770:xfce4-cpugraph-plugin/.signature
 f:375f5887b8b4aed6644bc4696b944fea:xfce4-cpugraph-plugin/Pkgfile
 f:4410f06e942c460164f165ba88d29f68:xfce4-cpugraph-plugin/.footprint
-f:83ce3d425f6430924ae62e14072c175c:gvfs/.signature
-f:86a02a4cbce15c24d7c61aabacd9cc1e:gvfs/Pkgfile
+f:637152e18c1e4aad2176c2ec1df2d943:gvfs/.signature
+f:1ef2f89735e03612e45161187209c790:gvfs/Pkgfile
 f:2a5494cc8caad0f118438da1dcd9061d:gvfs/.footprint
 f:d9f762f2edb44ac81fba36dcde59fc02:catfish/.signature
 f:ed2014dd0f5944e62c1e6a160e17ad23:catfish/post-install
