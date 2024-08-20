@@ -4,7 +4,7 @@
 # Depends on: hicolor-icon-theme libcanberra libnotify libxfce4ui libxfce4util xfce4-panel xfconf sqlite3
 
 name=xfce4-notifyd
-version=0.9.4
+version=0.9.6
 release=1
 source=(https://archive.xfce.org/src/apps/$name/${version%.*}/$name-$version.tar.bz2)
 
