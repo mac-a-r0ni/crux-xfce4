@@ -1,7 +1,7 @@
 # Description: Xfce's configuration system
 # URL: https://www.xfce.org
 # Maintainer: mac-a-r0ni, j at lngn dot net
-# Depends on: exo garcon libxfce4ui gnome-icon-theme libcanberra libnotify libxklavier libinput colord xfconf xorg-xf86-input-libinput
+# Depends on: exo garcon libxfce4ui gnome-icon-theme libcanberra libnotify libxklavier colord xfconf xorg-xf86-input-libinput
 
 name=xfce4-settings
 version=4.18.6
