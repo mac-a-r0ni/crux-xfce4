@@ -121,8 +121,8 @@ f:3a390a215ac4b2784959793632ca8c62:gspell/.footprint
 f:6217810dd2ca75ffbbf79d006df8190c:libbluray/.signature
 f:f7869318805883e3443123897adf4b62:libbluray/Pkgfile
 f:a138b6e11039f5646ce2020043c445e0:libbluray/.footprint
-f:18d55a3f9f03e5adfc94ffc0ce179ef7:argyllcms/.signature
-f:0734ee0a7df4a33ab3506769b5fedd7d:argyllcms/Pkgfile
+f:cf8c1e347006e23163465169bcb1bb71:argyllcms/.signature
+f:2041fa37de05485d3ebaa962f45c3d20:argyllcms/Pkgfile
 f:bfba8b69dac16b0ff46c821734755cb6:argyllcms/.footprint
 f:5ca1cee67d5e026285f6955b1c715494:xfce4-genmon-plugin/.signature
 f:ece84d5d3509abfef60c564d5c0c1824:xfce4-genmon-plugin/post-install
