@@ -2,7 +2,7 @@
 # URL: https://developer.gnome.org/libgtop/stable/
 # Packager: Matt Housh, jaeger at crux dot ninja
 # Maintainer: mac-a-r0ni, j at lngn dot net
-# Depends on: glib gobject-introspection xorg-libxau
+# Depends on: gobject-introspection xorg-libxau
 
 name=libgtop
 version=2.41.3
