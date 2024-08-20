@@ -93,9 +93,9 @@ f:47320fa7109b3b0e61aed7dadfbf25a8:libplist/Pkgfile
 f:ae6f0212c016420461a9cc6e75c76fc5:libplist/.footprint
 f:a9e7ccb4cc486e1967f58572f8a2060b:elogind/elogind
 f:673e903cac381b0f975007165f78ab32:elogind/10-enable-elogind-power.rules.gz
-f:7198dca2cb356b220d35c3c68327aae5:elogind/.signature
+f:355ebb4b3c7e0b38d03c8afcf847eed6:elogind/.signature
 f:7eb6338447c0f23f8e137d0fe7dec155:elogind/pre-install
-f:23dc3601cb04a7c88a039b18584cd1f7:elogind/Pkgfile
+f:1cd35f4e412843f6f82be567c7ae3806:elogind/Pkgfile
 f:0ca5751b1c3362ee5006b1e3ad0addac:elogind/.footprint
 f:72884af2c393877830c4c00c93c0d448:mugshot/.signature
 f:d41aad40c8728184325bdf0aa7655daf:mugshot/Pkgfile
