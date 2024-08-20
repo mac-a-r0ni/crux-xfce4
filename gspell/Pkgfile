@@ -1,7 +1,7 @@
 # Description: A GTK spell check library
 # URL: https://gitlab.gnome.org/GNOME/gspell
 # Maintainer: mac-a-r0ni, j at lngn dot net
-# Depends on: enchant gtk3 icu autoconf-archive gobject-introspection vala gtk-doc
+# Depends on: enchant gtk3 icu autoconf-archive vala gtk-doc
 
 name=gspell
 version=1.12.2
