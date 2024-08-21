@@ -1,4 +1,5 @@
 untrusted comment: verify with /etc/ports/xfce4.pub
-RWRSAbUnL7azFPurSGB933BbCodCt5oeg8jDoca7TytbPAcjeb3pvgfGWqCDRPbJXWXWRuUv2hijuSdPlCoTYOOyKfBXa0Lwtwo=
-SHA256 (Pkgfile) = 4332e9b0ee8c03a7fcc8de1f799ee5de87cae8acde7412ad41fcf3d2bc17a218
+RWRSAbUnL7azFG/pMd4dQf0R6ijwre/Ych663ty+dDYn2MWanM/cIcbp6c25qiyHNaufQaK5EeaKNog1Mt4dkNRcy27/Qp0TWQY=
+SHA256 (Pkgfile) = 91883bca04b44a8797278959effa0c853491c42c6dda59f359eebb3c912c00de
+SHA256 (.footprint) = a4dd39f1ab547bfa079f9588573f3b301f5d1622e306484c4ac39ef4ed8e38c7
 SHA256 (xfburn-0.7.2.tar.bz2) = c2bb01d9f7335e487f91db40ebddeea30d071364c1c3b56838466fd3367a9925

@@ -1,7 +1,7 @@
 # Description: A weather plugin for the xfce-panel
 # URL: https://xfce.org
 # Maintainer: mac-a-r0ni, j at lngn dot net
-# Depends on: xfce4-panel hicolor-icon-theme libsoup libxml2
+# Depends on: xfce4-panel libsoup
 
 name=xfce4-weather-plugin
 version=0.11.2

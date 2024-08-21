@@ -1,7 +1,7 @@
 # Description: a simple task-manager for xfce
 # URL: https://docs.xfce.org/apps/xfce4-taskmanager
 # Maintainer: mac-a-r0ni, j at lngn dot net
-# Depends on: libxfce4ui xfconf xorg-libxmu libwnck-gtk3
+# Depends on: libxfce4ui libwnck-gtk3
 
 name=xfce4-taskmanager
 version=1.5.7

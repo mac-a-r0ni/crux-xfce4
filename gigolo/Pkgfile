@@ -1,7 +1,7 @@
 # Description: gvfs frontend to manage connections to remote filesystems
 # URL: https://docs.xfce.org/apps/gigolo/start
 # Maintainer: mac-a-r0ni, j at lngn dot net
-# Depends on: intltool gvfs
+# Depends on: gvfs
 
 name=gigolo
 version=0.5.3

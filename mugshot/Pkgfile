@@ -1,7 +1,7 @@
 # Description: Graphical user management utility
 # URL: https://github.com/bluesabre/mugshot
 # Maintainer: mac-a-r0ni, j at lngn dot net
-# Depends on: gtk3 python3-cairo python3-gobject intltool python3-pexpect python3-distutils-extra
+# Depends on: gtk3 python3-gobject python3-pexpect python3-distutils-extra
 
 name=mugshot
 version=0.4.3

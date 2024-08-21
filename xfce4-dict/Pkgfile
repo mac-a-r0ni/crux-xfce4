@@ -1,7 +1,7 @@
 # Description: a dictionary plugin for xfce-panel
 # URL: https://docs.xfce.org/apps/xfce4-dict/start
 # Maintainer: mac-a-r0ni, j at lngn dot net
-# Depends on: xfce4-panel librsvg hicolor-icon-theme
+# Depends on: xfce4-panel librsvg
 
 name=xfce4-dict
 version=0.8.6

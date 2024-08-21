@@ -1,7 +1,7 @@
 # Description: A cd burning suite for Xfce based off libburnia
 # URL: https://docs.xfce.org/apps/xfburn/start
 # Maintainer: mac-a-r0ni, j at lngn dot net
-# Depends on: desktop-file-utils exo gtk3 libburn libisofs libgudev libxfce4ui
+# Depends on: desktop-file-utils exo libburn libisofs libgudev
 # Optional: gstreamer gst-plugins-base gst-plugins-good gst-plugins-bad gst-plugins-ugly
 
 name=xfburn

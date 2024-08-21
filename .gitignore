@@ -3,6 +3,3 @@ crux-xfce4.sec
 xarchiver
 *.bz2
 crux-xfce4.httpup
-clutter/clutter-1.26.4.tar.xz
-cogl/cogl\#1.22.8-2.pkg.tar.xz
-cogl/cogl-1.22.8.tar.xz

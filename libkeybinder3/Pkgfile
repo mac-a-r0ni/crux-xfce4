@@ -1,7 +1,7 @@
 # Description: A library for registering global keyboard shortcuts
 # URL: https://github.com/engla/keybinder/tree/keybinder-3.0
 # Maintainer: mac-a-r0ni, j at lngn dot net
-# Depends on: gtk3 gobject-introspection gtk-doc
+# Depends on: gtk3 gtk-doc
 
 name=libkeybinder3
 version=0.3.2

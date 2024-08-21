@@ -1,7 +1,7 @@
 # Description: plugin to track time on the xfce-panel
 # URL: https://docs.xfce.org/panel-plugins/xfce4-timer-plugin/start
 # Maintainer: mac-a-r0ni, j at lngn dot net
-# Depends on: xfce4-panel hicolor-icon-theme
+# Depends on: xfce4-panel
 
 name=xfce4-timer-plugin
 version=1.7.2

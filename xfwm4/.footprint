@@ -61,6 +61,7 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/scalable/apps/
 drwxr-xr-x	root/root	usr/share/themes/
 drwxr-xr-x	root/root	usr/share/themes/Daloa/
 drwxr-xr-x	root/root	usr/share/themes/Daloa/xfwm4/
+-rw-r--r--	root/root	usr/share/themes/Daloa/xfwm4/README
 -rw-r--r--	root/root	usr/share/themes/Daloa/xfwm4/bottom-active.png
 -rw-r--r--	root/root	usr/share/themes/Daloa/xfwm4/bottom-active.xpm
 -rw-r--r--	root/root	usr/share/themes/Daloa/xfwm4/bottom-inactive.png
@@ -184,6 +185,7 @@ drwxr-xr-x	root/root	usr/share/themes/Daloa/xfwm4/
 -rw-r--r--	root/root	usr/share/themes/Daloa/xfwm4/top-right-inactive.xpm
 drwxr-xr-x	root/root	usr/share/themes/Default-hdpi/
 drwxr-xr-x	root/root	usr/share/themes/Default-hdpi/xfwm4/
+-rw-r--r--	root/root	usr/share/themes/Default-hdpi/xfwm4/README
 -rw-r--r--	root/root	usr/share/themes/Default-hdpi/xfwm4/bottom-active.png
 -rw-r--r--	root/root	usr/share/themes/Default-hdpi/xfwm4/bottom-active.xpm
 -rw-r--r--	root/root	usr/share/themes/Default-hdpi/xfwm4/bottom-inactive.png
@@ -307,6 +309,7 @@ drwxr-xr-x	root/root	usr/share/themes/Default-hdpi/xfwm4/
 -rw-r--r--	root/root	usr/share/themes/Default-hdpi/xfwm4/top-right-inactive.xpm
 drwxr-xr-x	root/root	usr/share/themes/Default-xhdpi/
 drwxr-xr-x	root/root	usr/share/themes/Default-xhdpi/xfwm4/
+-rw-r--r--	root/root	usr/share/themes/Default-xhdpi/xfwm4/README
 -rw-r--r--	root/root	usr/share/themes/Default-xhdpi/xfwm4/bottom-active.png
 -rw-r--r--	root/root	usr/share/themes/Default-xhdpi/xfwm4/bottom-active.xpm
 -rw-r--r--	root/root	usr/share/themes/Default-xhdpi/xfwm4/bottom-inactive.png
@@ -430,6 +433,7 @@ drwxr-xr-x	root/root	usr/share/themes/Default-xhdpi/xfwm4/
 -rw-r--r--	root/root	usr/share/themes/Default-xhdpi/xfwm4/top-right-inactive.xpm
 drwxr-xr-x	root/root	usr/share/themes/Default/
 drwxr-xr-x	root/root	usr/share/themes/Default/xfwm4/
+-rw-r--r--	root/root	usr/share/themes/Default/xfwm4/README
 -rw-r--r--	root/root	usr/share/themes/Default/xfwm4/bottom-active.png
 -rw-r--r--	root/root	usr/share/themes/Default/xfwm4/bottom-active.xpm
 -rw-r--r--	root/root	usr/share/themes/Default/xfwm4/bottom-inactive.png
@@ -553,6 +557,7 @@ drwxr-xr-x	root/root	usr/share/themes/Default/xfwm4/
 -rw-r--r--	root/root	usr/share/themes/Default/xfwm4/top-right-inactive.xpm
 drwxr-xr-x	root/root	usr/share/themes/Kokodi/
 drwxr-xr-x	root/root	usr/share/themes/Kokodi/xfwm4/
+-rw-r--r--	root/root	usr/share/themes/Kokodi/xfwm4/README
 -rw-r--r--	root/root	usr/share/themes/Kokodi/xfwm4/bottom-active.png
 -rw-r--r--	root/root	usr/share/themes/Kokodi/xfwm4/bottom-active.xpm
 -rw-r--r--	root/root	usr/share/themes/Kokodi/xfwm4/bottom-inactive.png
@@ -676,6 +681,7 @@ drwxr-xr-x	root/root	usr/share/themes/Kokodi/xfwm4/
 -rw-r--r--	root/root	usr/share/themes/Kokodi/xfwm4/top-right-inactive.xpm
 drwxr-xr-x	root/root	usr/share/themes/Moheli/
 drwxr-xr-x	root/root	usr/share/themes/Moheli/xfwm4/
+-rw-r--r--	root/root	usr/share/themes/Moheli/xfwm4/README
 -rw-r--r--	root/root	usr/share/themes/Moheli/xfwm4/bottom-active.png
 -rw-r--r--	root/root	usr/share/themes/Moheli/xfwm4/bottom-active.xpm
 -rw-r--r--	root/root	usr/share/themes/Moheli/xfwm4/bottom-inactive.png
