@@ -1,7 +1,7 @@
 # Description: Automatic management of removable drives and media for Thunar
 # URL: https://docs.xfce.org/xfce/thunar/thunar-volman
 # Maintainer: mac-a-r0ni, j at lngn dot net
-# Depends on: hicolor-icon-theme libxfce4ui thunar
+# Depends on: thunar
 
 name=thunar-volman
 version=4.18.0

@@ -1,7 +1,7 @@
 # Description: A clipboard plugin for the xfce-panel
 # URL: https://xfce.org
 # Maintainer: mac-a-r0ni, j at lngn dot net
-# Depends on: xorg-libxtst qrencode xfce4-panel
+# Depends on: qrencode xfce4-panel
 
 name=xfce4-clipman-plugin
 version=1.6.6

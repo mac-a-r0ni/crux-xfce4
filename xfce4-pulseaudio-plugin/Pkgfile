@@ -1,7 +1,7 @@
 # Description: Pulseaudio plugin for Xfce
 # URL: https://www.xfce.org
 # Maintainer: mac-a-r0ni, j at lngn dot net
-# Depends on: intltool libcanberra libkeybinder3 libnotify pulseaudio pavucontrol xfce4-panel
+# Depends on: libcanberra libkeybinder3 libnotify pavucontrol xfce4-panel
 
 name=xfce4-pulseaudio-plugin
 version=0.4.8
@@ -22,4 +22,5 @@ build() {
 	make
 	make DESTDIR=$PKG install
 
+    rm $PKG/usr/lib/xfce4/panel/plugins/*.la
 }

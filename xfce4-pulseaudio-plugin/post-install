@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# update icon cache
+
+gtk-update-icon-cache /usr/share/icons/hicolor
+
+# End post install file

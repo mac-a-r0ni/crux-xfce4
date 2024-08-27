@@ -23,4 +23,5 @@ build() {
 	make
 	make DESTDIR=$PKG install
 
+    rm $PKG/usr/lib/xfce4/panel/plugins/*.la
 }
