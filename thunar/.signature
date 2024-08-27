@@ -1,4 +1,5 @@
 untrusted comment: verify with /etc/ports/xfce4.pub
-RWRSAbUnL7azFATHpoGfTsdJYbEop3/W9Xku/ANJicyj9GqBET4nssK+oCrVuIgfyg/iIr/LrnBmoQwKmTXrlgX0yDpTFFmhQwM=
-SHA256 (Pkgfile) = 1cc1a79f855f08b711a081943da4531e1d961533fec35e85478a64e1d6401447
+RWRSAbUnL7azFKUx//teMaiYiTVdwt6snmFlovIQt+k7gqhiB4SkAZyh9i9GqWnUS4ckz6UMFuQim2xuL8PZyoVMEWuqDu1x6gM=
+SHA256 (Pkgfile) = 42f80c0282d9410d555f31eb12fa7abe808e74aa4b1b0923ce46f2c192d68737
+SHA256 (.footprint) = 28545cf41a046c9cbe0000b94a92e0bb107a45f81ae11db316250796b53b4c6d
 SHA256 (thunar-4.18.11.tar.bz2) = 7d0bdae2076a568c137d403ab5600e06a7a4f7a02514d486da7b8414aa75d612

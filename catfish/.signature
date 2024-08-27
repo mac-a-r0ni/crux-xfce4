@@ -1,4 +1,5 @@
 untrusted comment: verify with /etc/ports/xfce4.pub
-RWRSAbUnL7azFGgsATjR7GZ773qqsf6zvMdpNrgEMtjW5PRhEuCVIx+On/81Y5OiYdGedATtYC7Hnq6Pd5+FbWXAAc9HLb5ulg8=
-SHA256 (Pkgfile) = cef02f7b642052d9f18109b324fa5cb7ee413ed603a8b65e27f9af21d72537eb
+RWRSAbUnL7azFGKEsdiy/uWJ51RAVwrcDq3/gPACha6evg+nqwnUmY9Wvpj26FkzUNAW7wbofjd+KWdpIXpvkjuP/waG8VGOTAo=
+SHA256 (Pkgfile) = 6f7b8e9901f3d590df63277ae22da8e8c70af4101e02e6d722aa225b95e1dc7a
+SHA256 (.footprint) = 3ecfa9b33ee46898365dede1269ca438ce9e77ef7eb37616b850af7e11e02e23
 SHA256 (catfish-4.18.0.tar.bz2) = fdae9b73cc754a50716bb04b958aa31dbd7e94047068b7207f2ae313a7d58b99

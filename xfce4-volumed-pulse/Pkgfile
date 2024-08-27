@@ -1,7 +1,7 @@
 # Description: Fork of xfce4-volumed with support for PulseAudio
 # URL: https://xfce.org
 # Maintainer: mac-a-r0ni, j at lngn dot net
-# Depends on: glib gtk3 pulseaudio xfconf libkeybinder3 harfbuzz libnotify
+# Depends on: pulseaudio xfconf libkeybinder3 libnotify
 
 name=xfce4-volumed-pulse
 version=0.2.4

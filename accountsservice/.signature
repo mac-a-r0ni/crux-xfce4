@@ -1,4 +1,5 @@
 untrusted comment: verify with /etc/ports/xfce4.pub
-RWRSAbUnL7azFPKaurzYewK1BDQgxlnX5W07u/AdJdI8fW4/xraTcyeTA+2MBaIf2OvP4K0UYdzHEjmCtcskF7pvgjeLsexs9gw=
-SHA256 (Pkgfile) = 0168775f2504d781dfb8434e24c22c10ad403b83c8cf58118799f1aec0cf4b60
+RWRSAbUnL7azFAyFF3/yl6sqCPmNewDhs+Alzc4ldHNPnAqZPgA2Cai8E0jeG6xhJ7spJv/QNgT4mwi+QG4fjEkpIrcnEuoPcAQ=
+SHA256 (Pkgfile) = 49eaee4c2d6c99d79137ea3aa4f25ece62faa17a24220ecb992c1682b8b92df2
+SHA256 (.footprint) = 92645f06989c0b8846baf51b1b4955f1af01f6c3a35f3e8c42d097089c13d220
 SHA256 (accountsservice-23.13.9.tar.xz) = adda4cdeae24fa0992e7df3ffff9effa7090be3ac233a3edfdf69d5a9c9b924f

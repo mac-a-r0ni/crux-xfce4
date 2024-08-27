@@ -1,9 +1,11 @@
-# !/bin/sh
-# Thunar post instalation file
-#
+#!/bin/sh
 
-/usr/bin/libtool --finish /usr/lib
-/usr/bin/libtool --finish /usr/lib/thunarx-3
-/usr/bin/libtool --finish /usr/lib/xfce4/panel/plugins
+# update application db
 
-# End post instalation file
+/usr/bin/update-desktop-database /usr/share/applications
+
+# update icon cache
+
+gtk-update-icon-cache /usr/share/icons/hicolor
+
+# End post install file
