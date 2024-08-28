@@ -5,7 +5,7 @@
 
 name=gtksourceview4
 version=4.8.4
-release=2
+release=3
 source=(https://download.gnome.org/sources/gtksourceview/4.8/gtksourceview-$version.tar.xz)
 
 build() {
@@ -14,8 +14,8 @@ build() {
     meson setup $name-$version build \
     --prefix=/usr \
     --buildtype=plain \
-    -Dvapi=false \
-    -Dgir=false \
+    -Dvapi=true \
+    -Dgir=true \
     -Db_lto=true \
     -Db_pie=true
 
