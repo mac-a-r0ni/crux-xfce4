@@ -278,10 +278,10 @@ f:af23fb405a4f9e2e3ce1dd24c704b124:xfce4-screenshooter/.footprint
 f:432579b4a78284c2a84a04d87909b09f:xfce4-battery-plugin/.signature
 f:661b242ba9e7ee32e0ee700316189a2e:xfce4-battery-plugin/Pkgfile
 f:2b11226705d80f1bf57abfd175feab1d:xfce4-battery-plugin/.footprint
-f:a6dc0a2a4a0ab99c0f6bf8dbf468659c:xfce4-dict/.signature
+f:c6323f46e756062dba22b6f02319a01e:xfce4-dict/.signature
 f:14276d765c1b09537d6bf160e6cda635:xfce4-dict/post-install
-f:3db41b0b50c3f90dcb8fc6b8df14f393:xfce4-dict/Pkgfile
-f:e8f6bb8d48de2d5fcc7e6982a8afa0c4:xfce4-dict/.footprint
+f:b90af6e16f2f15e1ab1f45805662f2b6:xfce4-dict/Pkgfile
+f:243cddb3fc7fb1d39eedeb0fad2546b4:xfce4-dict/.footprint
 f:bb81ad14172a2e3569f1c117bde00bb3:daemon/.signature
 f:9bfbc219cc713a41277ee697e7865f48:daemon/Pkgfile
 f:2bcca690ea6af706dbbe31a8f5c9e58d:daemon/.footprint
