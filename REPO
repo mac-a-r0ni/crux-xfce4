@@ -87,7 +87,6 @@ d:libxfce4ui
 f:52a17745a34b23c31b01e398bb63bccd:xfce4-docklike-plugin/.signature
 f:05e33a0876bb97971ee564901654f5c5:xfce4-docklike-plugin/Pkgfile
 f:7cd0a002a82e6d46e993bb9613a6d27b:xfce4-docklike-plugin/.footprint
-f:fb9bea96afd847ce11100e8cf640b77d:.httpup-repo.current
 f:abf5fa853180f3e92bf7825cf09afa9e:libplist/.signature
 f:47320fa7109b3b0e61aed7dadfbf25a8:libplist/Pkgfile
 f:ae6f0212c016420461a9cc6e75c76fc5:libplist/.footprint
@@ -147,6 +146,7 @@ f:6a5253cf3d06fb17d0ae2d2084edc1bf:accountsservice/.footprint
 f:3b4944a3a2f66ed7fe1e31dcc36cee1e:xfce4-verve-plugin/.signature
 f:3129cd157d824cea5e7dd18881e9c023:xfce4-verve-plugin/Pkgfile
 f:ead84f06432e3d0292628ea51897ce1e:xfce4-verve-plugin/.footprint
+f:8f907ede11fd72d8e7072d7a2e14a144:xfce4.httpup
 f:788d3a971fd413adc204fa789a2bb712:xfce4-fsguard-plugin/.signature
 f:ece84d5d3509abfef60c564d5c0c1824:xfce4-fsguard-plugin/post-install
 f:03123bc4acd40c0ce479da2403581f57:xfce4-fsguard-plugin/Pkgfile
@@ -173,7 +173,6 @@ f:6ad0a898d3d3d8e882b8fe711c8bdf3e:tumbler/.footprint
 f:db557e5e852ed77903895545cf9db476:libxfce4util/.signature
 f:a03bf67d57c81b90aa55a81c409d0024:libxfce4util/Pkgfile
 f:c34a4f91ee6410d3d4c3e5dcc8f56937:libxfce4util/.footprint
-f:9a0428627e42f541c1536256a69956ed:.httpup-urlinfo
 f:d951865e98bf1b1c18ca1cfb4b3c750a:gigolo/.signature
 f:cd22ad219a11ac896c5ea4b16f021fa1:gigolo/post-install
 f:5ec6ed3303f524cd605de1b44de3fa13:gigolo/Pkgfile
@@ -187,6 +186,7 @@ f:9f0118d451ab18d458facf28b92fd027:thunar/.signature
 f:ed2014dd0f5944e62c1e6a160e17ad23:thunar/post-install
 f:3f3208d85cb4b893b2ac60998b0ca026:thunar/Pkgfile
 f:1988900906e35d1ae92c4e2e7506175c:thunar/.footprint
+f:a03023b857da76e87b3fada02fbc840b:xfce4.pub
 f:48d01313bbaa7e6837d02899426be399:orage/.signature
 f:e9c9715a060b34d918e06b0ea1bfda30:orage/Pkgfile
 f:42c622387895fcf945e672379ab80f5d:orage/.footprint
@@ -262,6 +262,7 @@ f:28862f890583c2bd45a5bb5caa16daac:libnfs/.signature
 f:44f39f21610e00f62db0c85d169ebda8:libnfs/Pkgfile
 f:95b76b94015580067823ad849c22a8ba:libnfs/.footprint
 f:ed8b9ff6da3b774e8598b22e53d934e8:xfce4-smartbookmark-plugin/.signature
+f:fe52f2b300b44e4381bf8544b9e33ccb:xfce4-smartbookmark-plugin/post-install
 f:09176b901f63d72184985b488e572939:xfce4-smartbookmark-plugin/Pkgfile
 f:540e14e4c2ffd0c8a55a18bd8734f4d8:xfce4-smartbookmark-plugin/.footprint
 f:a0501674c6fac0dbac8fd8c79b47888b:xfce4-mailwatch-plugin/.signature
@@ -370,10 +371,10 @@ f:be28f7bcfd813622700367b7200133e6:xfce4/.footprint
 f:ccf72c532245ca802d4edd0649aa0d52:xfconf/.signature
 f:50c2e6d454dd849dcd307b64afcbb878:xfconf/Pkgfile
 f:33cfdef9738b836bfef6d446c2aec290:xfconf/.footprint
-f:15461119b7a0fde7e866b2cb74c8286c:mousepad/.signature
+f:b97bf519c39f301e3e9f4e26ffa212e6:mousepad/.signature
 f:0806d0afa08aec01b9699e7d52096fac:mousepad/post-install
-f:090a0f6485ef7419edf2659c20c0efa4:mousepad/Pkgfile
-f:9ddfba6efa6bbd2b13b6aa60c7f1552e:mousepad/.footprint
+f:7d6135db685bce2b85623687c17f6f2b:mousepad/Pkgfile
+f:3dec8eb9661566d12122f0f4f02a5f4a:mousepad/.footprint
 f:44009471958588016e739ca0ef6362c9:gparted/.signature
 f:57a0cef469898b31897ee5d6bb7f3ec0:gparted/Pkgfile
 f:914effdad5d467c563936b0bd93f6a63:gparted/.footprint
