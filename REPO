@@ -178,10 +178,10 @@ f:cd22ad219a11ac896c5ea4b16f021fa1:gigolo/post-install
 f:5ec6ed3303f524cd605de1b44de3fa13:gigolo/Pkgfile
 f:c5d8c51ec64702ad5bb0ae04beecea85:gigolo/.footprint
 f:f0821e5efa206e5776c76a8a2e095261:README.md
-f:e114b72bf25144bb951586f80f222c2d:elementary-xfce-icons/.signature
+f:70028ad914bd03d873ba86b8f5acfa36:elementary-xfce-icons/.signature
 f:875ae183f94ff81c570304f6a9a6a0d4:elementary-xfce-icons/post-install
-f:618783bcbe2d86181aa0abfdfdd7d060:elementary-xfce-icons/Pkgfile
-f:590cc640f741085ed7bb1786d7b1fae0:elementary-xfce-icons/.footprint
+f:735147b06377b446ade1832b3734674f:elementary-xfce-icons/Pkgfile
+f:7f47263b1554b4d73fac5dd3926dce17:elementary-xfce-icons/.footprint
 f:9f0118d451ab18d458facf28b92fd027:thunar/.signature
 f:ed2014dd0f5944e62c1e6a160e17ad23:thunar/post-install
 f:3f3208d85cb4b893b2ac60998b0ca026:thunar/Pkgfile

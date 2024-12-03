@@ -1,4 +1,5 @@
 untrusted comment: verify with /etc/ports/xfce4.pub
-RWRSAbUnL7azFNyaZbAL9tkadUOCnOFaq+CTyyn1TNnvEUoxAca8/0NcE93qsMmvLFyBV4g2dG9KPBlAZzbEvXtHxOmwp27+HgE=
-SHA256 (Pkgfile) = 56a0daa53a3d3f412379737a1f9ba001d7fb4bf2593a2ebf283b460680031eba
-SHA256 (elementary-xfce-0.19.tar.gz) = e056a8c68c9e1b3d3ad9a736f6da973b1439545f180d00a17f18b229ba898f11
+RWRSAbUnL7azFBI5D+MZlsL6W97+oydaFCqk7cwXoiazVoIcPAgbeWGdUV5mQtKqPuCOR6Nso5B6mlRWHLy/LfZs/jhBkjNaCwg=
+SHA256 (Pkgfile) = 86c1f3422cf609996d4e46635160984e55a682e16ad423c7753bd31f929b33a3
+SHA256 (.footprint) = b8a36b874f609f5072d0c6b7cd6dbb2aabd9694563673a0baf87990e49a9125a
+SHA256 (elementary-xfce-0.20.tar.gz) = 242985111d85704ce12c0ed48d32b334fba37354f0f9e8afdb2c16d068eabbe6
