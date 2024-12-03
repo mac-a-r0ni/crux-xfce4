@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xfce4.pub
-RWRSAbUnL7azFISW2NxF4XadkjliJKLIH0HFyOm+ejlCxgA2/BDVwBYPLKK/xgOX0xiou/n5qnSstU0r9OrgKMIQA5RqwociYAI=
-SHA256 (Pkgfile) = ff12a8b2ab32e1f048fe72acbccb4ff3dfb5bfd274101b35e8971dc30c20b9b3
+RWRSAbUnL7azFFysqonUcWtJ0oLQ83EAURbbDRpVFYk8YIr7ZSh066/2Ha6BnPI0vzDcXsCtOeouLP0cr3ke2mh/noqahlcRwAk=
+SHA256 (Pkgfile) = 07541502ab5bd6d2a5193e250d6db95042ef4ff77b8f0f7cdec7f0afc3bf02a3
 SHA256 (.footprint) = 5d6308bfdd49668d63b6923b1662a8f76bb8e0d5a5f6b043f7bbda9017171b78
-SHA256 (gvfs-1.56.0.tar.xz) = 441d2356c72616364cdb420af96199113a13ed9e146f2175fe373989adada39e
+SHA256 (gvfs-1.56.1.tar.xz) = 86731ccec679648f8734e237b1de190ebdee6e4c8c0f56f454c31588e509aa10

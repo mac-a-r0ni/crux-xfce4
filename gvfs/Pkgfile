@@ -1,12 +1,12 @@
 # Description: A userspace virtual filesystem designed to work with the I/O abstractions of gio (glib)
 # URL: http://projects.gnome.org/
 # Packager: Matt Housh, jaeger at crux dot ninja
-# Maintainer: mac-a-r0ni, j at lngn dot net
+# Maintainer: Jay Lanagan, j at lngn dot net
 # Depends on: dbus-glib gcr gcr3 samba polkit libgphoto2 libsoup3 libgnome-keyring
 # Optional: fuse3 udisks2 avahi libbluray libnfs libcdio-paranoia libimobiledevice
 
 name=gvfs
-version=1.56.0
+version=1.56.1
 release=1
 source=(http://download.gnome.org/sources/$name/${version:0:4}/$name-$version.tar.xz)
 
