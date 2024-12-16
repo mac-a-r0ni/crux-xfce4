@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xfce4.pub
-RWRSAbUnL7azFIxzVk5cFLy6sMLE8IRuUF0Jg/QS5kwr3vAERjqdNUokCTXPKTN2EISdZNh2/Fe6Ar6p9VJQsmlFBang3ZFV1wI=
-SHA256 (Pkgfile) = ff0c12e0c2a176f1029dbce34631df9accc740c1e541dc7dca93ad5b1e78a731
-SHA256 (.footprint) = ad3cfbc79b25244bc1f63fa360bacd2f9b69dbb3be70c97b64832da2a4da300b
-SHA256 (garcon-4.18.2.tar.bz2) = 1b8c9292e131968fbfc8987bbc62c5ba47186dd45ef4e47c5d8c5088bb2d434d
+RWRSAbUnL7azFMY8HeTMpzPevxJNHAHYSw4uvZE635RGNfjRpvsBMKTjjxsefWSHUmfdm+AF3JCHLZnuT88paoSnvLod3gSdQw4=
+SHA256 (Pkgfile) = 2dd250583947d606d7bf02a3341bcd4e6522f68544c4e2406039ef3d888e3d3b
+SHA256 (.footprint) = b6952ac423c2a11aa439ae1b9a1bccd6e43e9dda2fa167ff6ce547e1d0681d7a
+SHA256 (garcon-4.20.0.tar.bz2) = 7fb8517c12309ca4ddf8b42c34bc0c315e38ea077b5442bfcc4509415feada8f

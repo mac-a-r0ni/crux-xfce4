@@ -1,4 +1,5 @@
 untrusted comment: verify with /etc/ports/xfce4.pub
-RWRSAbUnL7azFPc2j40usF3R2Bwb/OAj6Z9vykn8GY+WlOawiwiFjJWgoUalkt1cZwsAAgOIZCFB+f9lq3ziM31+T6JBuZmBpgg=
-SHA256 (Pkgfile) = 2761b127d66b31e4368cbbd36810fe74686fa713488bfd78300db90382d6357e
-SHA256 (xfce4-power-manager-4.18.4.tar.bz2) = 76918f7bdcd936dbbf20efd9221a33be0cd504c7d7ffce792bace3c720f3d874
+RWRSAbUnL7azFDxQuoUC9e8ZwtLeYvWMTBYYlPNCJ+ozCKLzYc83Z2BkbFr2wbzo7cuTfdm0LcR80WmpXvqMIE2raJcqEhyqagE=
+SHA256 (Pkgfile) = 35a8a12adff901b467b98233ac0cb7a7a0732d77c785189cd37e8797ec619f93
+SHA256 (.footprint) = 1948cb89b80128877e0ba8fb7d741e9b61e9fa2a4b50221b5ead0e831b00bd8b
+SHA256 (xfce4-power-manager-4.20.0.tar.bz2) = 971391cef63352833bdd92df28957392e17e1f2b3d486c0f57294fd204d6ed29

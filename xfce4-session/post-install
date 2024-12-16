@@ -1,7 +1,11 @@
-# !/bin/sh
-# Post install file for Xfce Session
+#!/bin/sh
 
-update-desktop-database &&
-update-mime-database /usr/share/mime 
+# update application db
+
+/usr/bin/update-desktop-database /usr/share/applications
+
+# update icon cache
+
+gtk-update-icon-cache /usr/share/icons/hicolor
 
 # End post install file

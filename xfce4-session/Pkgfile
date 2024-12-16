@@ -1,28 +1,37 @@
-# Description: Xfce's session manager
+# Description: Xfce's configuration system
 # URL: https://www.xfce.org
 # Maintainer: mac-a-r0ni, j at lngn dot net
-# Depends on: libwnck-gtk3 libxfce4ui polkit polkit-gnome xfconf desktop-file-utils shared-mime-info gnome-keyring xfce4-screensaver
-# TODO: check/verify deps
+# Depends on: exo garcon libxfce4ui gnome-icon-theme libcanberra libnotify libxklavier libinput colord xfconf xorg-xf86-input-libinput
 
-name=xfce4-session
-version=4.18.4
+name=xfce4-settings
+version=4.20.0
 release=1
 source=(https://archive.xfce.org/src/xfce/$name/${version:0:4}/$name-$version.tar.bz2)
 
 build() {
 
-    cd $name-$version
+  cd $name-$version
 
     ./configure \
-    --prefix=/usr \
-    --libexecdir=/usr/lib/$name \
-    --sysconfdir=/etc \
-    --disable-nls \
-    --disable-debug \
-    --disable-gtk-doc \
-    --enable-gtk-doc-html=no
+      --prefix=/usr \
+      --libexecdir=/usr/lib/$name \
+      --sysconfdir=/etc \
+      --disable-gtk-doc \
+      --enable-upower-glib \
+      --enable-libnotify \
+      --enable-xcursor \
+      --enable-libxklavier \
+      --enable-pluggable-dialogs \
+      --enable-sound-settings \
+      --enable-colord \
+      --enable-xrandr \
+      --enable-gio-unix \
+      --x-libraries=/usr/share/X11
 
     make
     make DESTDIR=$PKG install
+
+    find $PKG/usr/lib/* -name "*.la" -type f|xargs rm -f
+    rm -r $PKG/usr/share/locale
 
 }

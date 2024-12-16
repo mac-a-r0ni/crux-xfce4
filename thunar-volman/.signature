@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xfce4.pub
-RWRSAbUnL7azFIquaQGyO+YiDiHNgWKbqUPfSDiHNIOiljrXq0W3a9GkZU1/WyQyG9PcViwTRK7QlWHmanyyxPbs7ecI/sqcKQY=
-SHA256 (Pkgfile) = f93624f3f802d38d6180193a8a0a2b13736bde0f79604c4c11395bbd80e49335
-SHA256 (.footprint) = 071feb6d00af4f794f4a10363357444cbae00b1de1e59a6aa3338e760ac69cce
-SHA256 (thunar-volman-4.18.0.tar.bz2) = 93b75c7ffbe246a21f4190295acc148e184be8df397e431b258d0d676e87fc65
+RWRSAbUnL7azFOCN0+WIpHuASXxGwePRLdQNJaloYT2lI8FFb4w9+VyZVqonbVtWZBa9frqmb+x5L/lutyMH+k6tCwqC4tN51ws=
+SHA256 (Pkgfile) = 79a7fc00f560402d7e19d0699485d3531abd9d8d7b343ad95e43b5bac21f74f0
+SHA256 (.footprint) = a7a4fdc546b24b8de08267943e9d57e30290280f8221bffe7e8a763ed630cd07
+SHA256 (thunar-volman-4.20.0.tar.bz2) = b0dad852959b515b8fbfd1ed552e362340347d26d5246e7f1b973027131eb1da

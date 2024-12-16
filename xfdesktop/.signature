@@ -1,4 +1,5 @@
 untrusted comment: verify with /etc/ports/xfce4.pub
-RWRSAbUnL7azFBv6GMhQE3VSbP5tSVamMCVwhaXguefbaAbJzB9KCnsjk555Qt51/wdzoW1Rn/5nS2mhKTc2v4YANYpdoCQJ9AA=
-SHA256 (Pkgfile) = e0025ea3d82fbaf2ed269f45153ef0c01e631fb1372a85bca5a4cbaa4b704d75
-SHA256 (xfdesktop-4.18.1.tar.bz2) = ef9268190c25877e22a9ff5aa31cc8ede120239cb0dfca080c174e7eed4ff756
+RWRSAbUnL7azFOiFdkXHZ2fjyWXTAEjxvcn11q9YBdoKnNPcJXVEgOmFc70W+dFUX1kpvPXwGawCjbwRPtaDVNt1yxMQL3DPmwE=
+SHA256 (Pkgfile) = 64d4a0c21fa74f0291e664dd16384ac3791e6fe740027bec517e5c63d0b93db4
+SHA256 (.footprint) = 3ca503927e58d32e781081a0512477737e5780c0a25648dcb06f06ff48d7754a
+SHA256 (xfdesktop-4.20.0.tar.bz2) = 227041ba80c7f3eb9c99dec817f1132b35d8aec7a4335703f61ba1735cd65632

@@ -22,7 +22,9 @@ drwxr-xr-x	root/root	usr/include/xfce4/libxfce4ui-2/
 drwxr-xr-x	root/root	usr/include/xfce4/libxfce4ui-2/libxfce4ui/
 -rw-r--r--	root/root	usr/include/xfce4/libxfce4ui-2/libxfce4ui/libxfce4ui-config.h
 -rw-r--r--	root/root	usr/include/xfce4/libxfce4ui-2/libxfce4ui/libxfce4ui-enum-types.h
+-rw-r--r--	root/root	usr/include/xfce4/libxfce4ui-2/libxfce4ui/libxfce4ui-enums.h
 -rw-r--r--	root/root	usr/include/xfce4/libxfce4ui-2/libxfce4ui/libxfce4ui.h
+-rw-r--r--	root/root	usr/include/xfce4/libxfce4ui-2/libxfce4ui/xfce-clipboard-manager.h
 -rw-r--r--	root/root	usr/include/xfce4/libxfce4ui-2/libxfce4ui/xfce-dialogs.h
 -rw-r--r--	root/root	usr/include/xfce4/libxfce4ui-2/libxfce4ui/xfce-filename-input.h
 -rw-r--r--	root/root	usr/include/xfce4/libxfce4ui-2/libxfce4ui/xfce-gdk-extensions.h
@@ -36,13 +38,10 @@ drwxr-xr-x	root/root	usr/lib/girepository-1.0/
 -rw-r--r--	root/root	usr/lib/girepository-1.0/Libxfce4ui-2.0.typelib
 drwxr-xr-x	root/root	usr/lib/glade/
 drwxr-xr-x	root/root	usr/lib/glade/modules/
--rwxr-xr-x	root/root	usr/lib/glade/modules/libxfce4uiglade2.la
 -rwxr-xr-x	root/root	usr/lib/glade/modules/libxfce4uiglade2.so
--rwxr-xr-x	root/root	usr/lib/libxfce4kbd-private-3.la
 lrwxrwxrwx	root/root	usr/lib/libxfce4kbd-private-3.so -> libxfce4kbd-private-3.so.0.0.0
 lrwxrwxrwx	root/root	usr/lib/libxfce4kbd-private-3.so.0 -> libxfce4kbd-private-3.so.0.0.0
 -rwxr-xr-x	root/root	usr/lib/libxfce4kbd-private-3.so.0.0.0
--rwxr-xr-x	root/root	usr/lib/libxfce4ui-2.la
 lrwxrwxrwx	root/root	usr/lib/libxfce4ui-2.so -> libxfce4ui-2.so.0.0.0
 lrwxrwxrwx	root/root	usr/lib/libxfce4ui-2.so.0 -> libxfce4ui-2.so.0.0.0
 -rwxr-xr-x	root/root	usr/lib/libxfce4ui-2.so.0.0.0
@@ -87,3 +86,5 @@ drwxr-xr-x	root/root	usr/share/vala/
 drwxr-xr-x	root/root	usr/share/vala/vapi/
 -rw-r--r--	root/root	usr/share/vala/vapi/libxfce4ui-2.deps
 -rw-r--r--	root/root	usr/share/vala/vapi/libxfce4ui-2.vapi
+drwxr-xr-x	root/root	usr/share/xfce4/
+-rw-r--r--	root/root	usr/share/xfce4/vendorinfo

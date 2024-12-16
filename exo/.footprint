@@ -25,7 +25,6 @@ drwxr-xr-x	root/root	usr/include/exo-2/exo/
 -rw-r--r--	root/root	usr/include/exo-2/exo/exo-utils.h
 -rw-r--r--	root/root	usr/include/exo-2/exo/exo.h
 drwxr-xr-x	root/root	usr/lib/
--rwxr-xr-x	root/root	usr/lib/libexo-2.la
 lrwxrwxrwx	root/root	usr/lib/libexo-2.so -> libexo-2.so.0.1.0
 lrwxrwxrwx	root/root	usr/lib/libexo-2.so.0 -> libexo-2.so.0.1.0
 -rwxr-xr-x	root/root	usr/lib/libexo-2.so.0.1.0

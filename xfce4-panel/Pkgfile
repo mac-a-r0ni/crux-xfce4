@@ -4,7 +4,7 @@
 # Depends on: exo garcon libwnck-gtk3 libxfce4ui desktop-file-utils libdbusmenu-gtk3 gobject-introspection vala
 
 name=xfce4-panel
-version=4.18.6
+version=4.20.0
 release=1
 source=(https://archive.xfce.org/src/xfce/xfce4-panel/${version:0:4}/$name-$version.tar.bz2)
 
@@ -23,6 +23,7 @@ build() {
 	make
 	make DESTDIR=$PKG install
 
-  rm -r $PKG/usr/share/gtk-doc
+	find $PKG/usr/lib/* -name "*.la" -type f|xargs rm -f
+	rm -r $PKG/usr/share/gtk-doc
 
 }

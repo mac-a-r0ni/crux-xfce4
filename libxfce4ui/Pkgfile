@@ -4,9 +4,9 @@
 # Depends on: libxfce4util gtk3 xfconf startup-notification libgtop libepoxy xorg-libsm gobject-introspection hicolor-icon-theme
 
 name=libxfce4ui
-version=4.18.6
+version=4.20.0
 release=1
-source=(http://archive.xfce.org/src/xfce/$name/${version:0:4}/$name-$version.tar.bz2)
+source=(http://archive.xfce.org/src/xfce/$name/${version:0:4}/$name-$version.tar.bz2 vendorinfo)
 
 build() {
 
@@ -25,6 +25,9 @@ build() {
 	make
 	make DESTDIR=$PKG install
 
+	find $PKG/usr/lib/* -name "*.la" -type f|xargs rm -f
 	rm -r $PKG/usr/share/gtk-doc
+	mkdir -p $PKG/usr/share/xfce4
+	cp $SRC/vendorinfo $PKG/usr/share/xfce4/
 
 }

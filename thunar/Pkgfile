@@ -1,10 +1,10 @@
 # Description: Modern, fast and easy-to-use file manager for Xfce
 # URL: https://www.xfce.org
 # Maintainer: mac-a-r0ni, j at lngn dot net
-# Depends on: gnome-icon-theme libgudev libnotify xfce4-panel gvfs libexif tumbler
+# Depends on: exo libxfce4ui gnome-icon-theme libgudev libnotify xfce4-panel gvfs libexif tumbler
 
 name=thunar
-version=4.18.11
+version=4.20.0
 release=1
 source=(https://archive.xfce.org/src/xfce/$name/${version:0:4}/$name-$version.tar.bz2)
 
@@ -17,17 +17,15 @@ build() {
 	  --libexecdir=/usr/lib/$name \
 	  --sysconfdir=/etc \
 	  --disable-gtk-doc \
-	  --disable-nls
+	  --disable-nls \
+	  --enable-gtk-doc-html=no
 
 	make
 	make DESTDIR=$PKG install
 
-    rm -r $PKG/usr/share/gtk-doc
-    rm -r $PKG/usr/share/doc
-    rm -r $PKG/usr/lib/systemd
-    rm -f $PKG/{,usr/}lib/*.la
-    rm -f $PKG/{,usr/}lib/thunarx-3/*.la
-    rm -f $PKG/{,usr/}lib/xfce4/panel/plugins/*.la
-
+	find $PKG/usr/lib/* -name "*.la" -type f|xargs rm -f
+	rm -r $PKG/usr/share/gtk-doc
+	rm -r $PKG/usr/share/doc
+	rm -rf $PKG/usr/lib/systemd
 
 }

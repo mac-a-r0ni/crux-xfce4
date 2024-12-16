@@ -1,7 +1,7 @@
 #!/bin/sh
 
-/usr/bin/libtool --finish /usr/lib
-/usr/bin/libtool --finish /usr/lib/tumbler-1/plugins
-/usr/bin/libtool --finish /usr/lib/tumbler-1/plugins/cache
+# update icon cache
 
-#EndOfFile
+gtk-update-icon-cache /usr/share/icons/hicolor
+
+# End post install file

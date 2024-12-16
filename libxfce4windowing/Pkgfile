@@ -1,23 +1,22 @@
-# Description: FreeDesktop compliant XFCE menu library
+# Description: Wayland windowing library for Xfce
 # URL: https://www.xfce.org
 # Maintainer: mac-a-r0ni, j at lngn dot net
-# Depends on: gobject-introspection libxfce4ui
+# Depends on: libwnck-gtk3 gdk-pixbuf2 wayland
 
-name=garcon
+name=libxfce4windowing
 version=4.20.0
 release=1
 source=(https://archive.xfce.org/src/xfce/$name/${version:0:4}/$name-$version.tar.bz2)
 
 build() {
 
-	cd $name-$version
+  cd $name-$version
 
 	./configure \
 		--prefix=/usr \
-		--libexecdir=/usr/lib/$name \
-		--sysconfdir=/etc \
+		--disable-debug \
+		--disable-static \
 		--disable-nls \
-		--disable-gtk-doc \
 		--enable-gtk-doc-html=no
 
 	make
@@ -25,4 +24,5 @@ build() {
 
 	find $PKG/usr/lib/* -name "*.la" -type f|xargs rm -f
 	rm -r $PKG/usr/share/gtk-doc
+
 }
