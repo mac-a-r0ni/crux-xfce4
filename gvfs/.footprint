@@ -1,9 +1,4 @@
 drwxr-xr-x	root/root	usr/
-drwxr-xr-x	root/root	usr/include/
-drwxr-xr-x	root/root	usr/include/gvfs-client/
-drwxr-xr-x	root/root	usr/include/gvfs-client/gvfs/
--rw-r--r--	root/root	usr/include/gvfs-client/gvfs/gvfsurimapper.h
--rw-r--r--	root/root	usr/include/gvfs-client/gvfs/gvfsuriutils.h
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/gio/
 drwxr-xr-x	root/root	usr/lib/gio/modules/
