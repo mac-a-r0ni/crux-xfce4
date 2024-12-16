@@ -1,8 +1,11 @@
 #!/bin/sh
-#
-# post-install: update icon cache & desktop database
 
-/usr/bin/gtk4-update-icon-cache -q -t -f /usr/share/icons/hicolor
-/usr/bin/update-desktop-database -q /usr/share/applications
+# update application db
 
-#EOF
+/usr/bin/update-desktop-database /usr/share/applications
+
+# update icon cache
+
+gtk-update-icon-cache /usr/share/icons/hicolor
+
+# End post install file
