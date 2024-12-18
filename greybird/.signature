@@ -1,4 +1,5 @@
 untrusted comment: verify with /etc/ports/xfce4.pub
-RWRSAbUnL7azFEc0hECki55iR1MQShnaum/oqlSHDVc9pRyY9j62AdiV2h1WsW/Y4tPZEEuf3OKomJZXqSe/QrdTN2AVRLRvdgE=
-SHA256 (Pkgfile) = ba9ff68a53d0a757a723a0295a967d4eefd1755a86cd2771d0b1323a631a4a87
-SHA256 (Greybird-3.23.3.tar.gz) = 2c97d3a7281c80f5752294f196bff22a814aef8da7ca3b7545f50bbb9ed16d64
+RWRSAbUnL7azFAI1fIzzxnPgUW+h0LpGSVNYM4vle7vQ3E8gWvawCP5jdS/lHNWW1bqAQoIU5eEtzpYajE5kxmfUJgt3yyB0cAY=
+SHA256 (Pkgfile) = a7aa8c382ff9cbbe6ae15826f8d806c90c4b61b6de89d5632954a68f1e5b590d
+SHA256 (.footprint) = dc863db72ea66354978e4b83476cbdaa01cf4b1cac341f631cb03bcc5f333405
+SHA256 (Greybird-3.23.4.tar.gz) = 74dcec9b9bcf6c869941b661c50ce0d752b4eb4e193747db536ffd7e97d32453
