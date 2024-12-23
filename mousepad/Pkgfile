@@ -1,7 +1,7 @@
 # Description: A text editor for xfce
 # URL: https://docs.xfce.org/apps/mousepad/start
 # Maintainer: Jay Lanagan, j at lngn dot net
-# Depends on: desktop-file-utils gtksourceview4 hicolor-icon-theme gspell polkit
+# Depends on: desktop-file-utils gspell gtksourceview4 libxfce4ui polkit
 
 name=mousepad
 version=0.6.3
