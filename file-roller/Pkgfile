@@ -1,7 +1,7 @@
 # Description: A archive creation and modification application
 # URL: https://wiki.gnome.org/Apps/FileRoller
 # Maintainer: mac-a-r0ni, j at lngn dot net
-# Depends on: libhandy libportal zip appstream-glib libadwaita
+# Depends on: libhandy libportal zip appstream-glib libadwaita desktop-file-utils
 # Optional: squashfs-tools p7zip lrzip
 
 name=file-roller
