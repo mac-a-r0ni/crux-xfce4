@@ -1,7 +1,8 @@
 # Description: Xfce's panel
 # URL: https://www.xfce.org
 # Maintainer: mac-a-r0ni, j at lngn dot net
-# Depends on: exo garcon libwnck-gtk3 libxfce4ui desktop-file-utils libdbusmenu-gtk3 gobject-introspection vala
+# Depends on: desktop-file-utils exo garcon libdbusmenu-gtk3 libxfce4windowing
+# Optional: vala
 
 name=xfce4-panel
 version=4.20.0
@@ -12,13 +13,15 @@ build() {
 
 	cd $name-$version
 
-	./configure \
+	prt-get isinst vala || PKGMK_XFCEPANEL+=' --disable-vala'
+
+	./configure $PKGMK_XFCEPANEL \
 		--prefix=/usr \
 		--libexecdir=/usr/lib/$name \
 		--sysconfdir=/etc \
 		--disable-debug \
 		--disable-nls \
-		--disable-gtk-doc
+		--disable-gtk-doc \
 
 	make
 	make DESTDIR=$PKG install
