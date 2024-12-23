@@ -1,7 +1,7 @@
 # Description: GStreamer-based Media Player for XFCE
 # URL: https://www.xfce.org
 # Maintainer: mac-a-r0ni, j at lngn dot net
-# Depends on: dbus-glib gst-plugins-base gst-plugins-good libnotify libxfce4ui libxfce4util gtk-doc
+# Depends on: dbus-glib gst-plugins-good gtk-doc libnotify libxfce4ui
 # Optional: gst-libav gst-plugins-bad gst-plugins-ugly
 
 name=parole
