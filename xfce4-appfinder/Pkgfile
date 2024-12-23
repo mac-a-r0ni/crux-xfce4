@@ -1,7 +1,7 @@
 # Description: Xfce's application launcher and finder
 # URL: https://www.xfce.org
 # Maintainer: mac-a-r0ni, j at lngn dot net
-# Depends on: hicolor-icon-theme garcon libxfce4ui xfconf
+# Depends on: garcon
 
 name=xfce4-appfinder
 version=4.20.0
