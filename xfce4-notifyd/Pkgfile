@@ -1,7 +1,7 @@
 # Description: Themable notification daemon with transparency effects
 # URL: https://docs.xfce.org/apps/notifyd/start
 # Maintainer: mac-a-r0ni, j at lngn dot net
-# Depends on: hicolor-icon-theme libcanberra libnotify libxfce4ui libxfce4util xfce4-panel xfconf sqlite3
+# Depends on: libcanberra libnotify xfce4-panel
 
 name=xfce4-notifyd
 version=0.9.6
