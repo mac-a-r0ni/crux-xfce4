@@ -1,7 +1,7 @@
 # Description: View and scroll through images
 # URL: https://docs.xfce.org/apps/ristretto/start
 # Maintainer: mac-a-r0ni, j at lngn dot net
-# Depends on: libexif libxfce4ui tumbler xfconf
+# Depends on: libexif libxfce4ui tumbler
 
 name=ristretto
 version=0.13.2
