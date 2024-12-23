@@ -1,7 +1,7 @@
 # Description: FreeDesktop compliant XFCE menu library
 # URL: https://www.xfce.org
 # Maintainer: mac-a-r0ni, j at lngn dot net
-# Depends on: gobject-introspection libxfce4ui
+# Depends on: libxfce4ui
 
 name=garcon
 version=4.20.0
