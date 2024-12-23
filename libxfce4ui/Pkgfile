@@ -1,7 +1,7 @@
 # Description: Graphic widgets helpers for Xfce
 # URL: https://www.xfce.org
 # Maintainer: mac-a-r0ni, j at lngn dot net
-# Depends on: libxfce4util gtk3 xfconf startup-notification libgtop libepoxy xorg-libsm gobject-introspection hicolor-icon-theme
+# Depends on: gtk3 hicolor-icon-theme libgtop startup-notification xfconf
 
 name=libxfce4ui
 version=4.20.0
