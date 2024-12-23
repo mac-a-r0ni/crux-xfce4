@@ -8,7 +8,7 @@ drwxr-xr-x	root/root	usr/lib/xfce4/panel/plugins/
 -rwxr-xr-x	root/root	usr/lib/xfce4/panel/plugins/libscreenshooterplugin.so
 drwxr-xr-x	root/root	usr/lib/xfce4/screenshooter/
 drwxr-xr-x	root/root	usr/lib/xfce4/screenshooter/scripts/
--rwxr-xr-x	root/root	usr/lib/xfce4/screenshooter/scripts/imgur-upload.sh
+-rw-r--r--	root/root	usr/lib/xfce4/screenshooter/scripts/imgur-upload.sh
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/applications/
 -rw-r--r--	root/root	usr/share/applications/xfce4-screenshooter.desktop
