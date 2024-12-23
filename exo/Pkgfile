@@ -1,7 +1,7 @@
 # Description: Application library for the Xfce desktop environment
 # URL: https://www.xfce.org
 # Maintainer: mac-a-r0ni, j at lngn dot net
-# Depends on: gtk3 libxfce4ui libxfce4util p5-uri
+# Depends on: libxfce4ui p5-uri
 
 name=exo
 version=4.20.0
