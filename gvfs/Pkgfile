@@ -2,7 +2,7 @@
 # URL: http://projects.gnome.org/
 # Packager: Matt Housh, jaeger at crux dot ninja
 # Maintainer: Jay Lanagan, j at lngn dot net
-# Depends on: dbus-glib gcr gcr3 samba polkit libgphoto2 libsoup3 libgnome-keyring
+# Depends on: dbus-glib gcr gcr3 samba polkit libgphoto2 libsoup3 libgnome-keyring libgudev
 # Optional: fuse3 udisks2 avahi libbluray libnfs libcdio-paranoia libimobiledevice
 
 name=gvfs
