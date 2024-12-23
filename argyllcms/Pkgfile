@@ -2,10 +2,10 @@
 # URL: https://www.argyllcms.com/
 # Maintainer: Tim Biermann, tbier at posteo dot de
 # Maintainer: mac-a-r0ni, j at lngn dot net
-# Depends on: ftjam libpng libtiff xorg-libxinerama xorg-libxrandr xorg-libxxf86vm
+# Depends on: ftjam libpng libtiff xorg-libxinerama xorg-libxrandr xorg-libxxf86vm xorg-libxscrnsaver
 
 name=argyllcms
-version=3.2.0
+version=3.3.0
 release=1
 source=(https://www.argyllcms.com/Argyll_V${version}_src.zip)
 
