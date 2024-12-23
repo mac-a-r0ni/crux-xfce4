@@ -1,7 +1,7 @@
 # Description: plugin to manage taking a break from the computer
 # URL: https://docs.xfce.org/panel-plugins/xfce4-time-out-plugin/start
 # Maintainer: mac-a-r0ni, j at lngn dot net
-# Depends on: xfce4-panel hicolor-icon-theme
+# Depends on: xfce4-panel
 
 name=xfce4-time-out-plugin
 version=1.1.3
