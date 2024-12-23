@@ -1,7 +1,7 @@
 # Description: elogind - extracted logind from systemd
 # URL: https://github.com/elogind/elogind
 # Maintainer: mac-a-r0ni, j at lngn dot net
-# Depends on: python3-jinja2 intltool libseccomp glib acl libcap gettext
+# Depends on: docbook-xsl gettext glib intltool libcap libseccomp python3-jinja2
 
 name=elogind
 version=252.24
