@@ -1,7 +1,7 @@
 # Description: adds archive operations to Thunar context menus
 # URL: https://docs.xfce.org/xfce/thunar/archive
 # Maintainer: mac-a-r0ni, j at lngn dot net
-# Depends on: hicolor-icon-theme thunar xfce4-dev-tools file-roller
+# Depends on: file-roller thunar
 # Optional: ark engrampa xarchiver
 
 name=thunar-archive-plugin
