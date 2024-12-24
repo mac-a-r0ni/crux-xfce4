@@ -1,7 +1,7 @@
 untrusted comment: verify with /etc/ports/xfce4.pub
-RWRSAbUnL7azFNS7zDqPHssPKDNvhBEVUye/O+p2/mvtoammFPkxMrm7YgmftgRzS2GqPk6jpOyhlqSqtSJunh1p2CsiTRDr0gM=
-SHA256 (Pkgfile) = 674286366d68e4bd21e6fd421e6efcbfb8b6af531bc1c91c80187afdb7f49df4
-SHA256 (.footprint) = 697e4df0a6781ef72e54204d8fa819287a2189e42130731ebc92ec80a3495e41
+RWRSAbUnL7azFFv1llDiD93HAxFK2aRvPXtnkd4VeQppG9SEuglwZ6fDCzgY1PSaa4/HHk99QHA+HIMp8Z0931W0L6C/84GAOww=
+SHA256 (Pkgfile) = 5cde424a442c1a96df574bba36a97f2a8dd7505800717c0b556af7ec2a2ba385
+SHA256 (.footprint) = f03f1e691eb9b22f30e280536d2b17a11c618e1c703d5ef00b98cd8fc1c158ec
 SHA256 (elogind-252.24.tar.gz) = ade9f24def98d26fdcfc2b8f58e6a7af987adf3616fbf95db14d1e532d5bacd7
 SHA256 (10-enable-elogind-power.rules.gz) = 0fc0bde6e1ac833608db13d4ea561da2fa5553958933562a6aa94767bc8906c5
 SHA256 (elogind) = 40e236bf071f00c7b25c150cfaaf0c28f76683497afc369615781c0319b1616e

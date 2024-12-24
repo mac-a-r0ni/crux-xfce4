@@ -1,4 +1,5 @@
 untrusted comment: verify with /etc/ports/xfce4.pub
-RWRSAbUnL7azFCFS57cbAifBgqJDGgxV7HUmHJDply46Fh3QFljP/b5SPIkR2qYy7F8VQtCCXnyL1EJLLghBQGxbKOkkbZJMFw4=
+RWRSAbUnL7azFGsqn+8pkctIAoBmZsqafZxWnrGAoyNz+wCoHpRyOJoet0JYiUQG395jfT3TztReiOEFcDSjewyjqDXVCoHFwQE=
 SHA256 (Pkgfile) = a826e3400ecf759949d9f20e923bfa1c1f79c3926557fb44f94d79c7e8678a94
+SHA256 (.footprint) = c334a4e987643adab4c3b2695ee6f76fd45a7cad73ee65a09cd135112d02deb7
 SHA256 (xfce4-verve-plugin-2.0.3.tar.bz2) = e1bf121f1bf9cf2a199bf5c0f3aa802f503df9bea50724741e7a92fe6d9fe09e

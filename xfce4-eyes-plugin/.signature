@@ -1,4 +1,5 @@
 untrusted comment: verify with /etc/ports/xfce4.pub
-RWRSAbUnL7azFDcx/Ig3YQhse9hmzhgrtLKVWFfUbeKBvhOsHBMwLn3Pt1MdNxyCt/3t+w8wHw2be67bWPhwi0FpGKWarHX+jAw=
-SHA256 (Pkgfile) = 894347f0a53ea6b21a997dad0e543b315ebbee343af3d58d2be39ad773ea6193
+RWRSAbUnL7azFK/WaC4MGjSbbDxxejFEJqWJJwpe/Z58pYmt7piXEEmS4I6zXi3XeT6cTkVgH2FatrB+K1j9JgKdIJEDWqouYwE=
+SHA256 (Pkgfile) = 895919ff9040cb0bfda5dafd87a97cece1c0468017c17f59aa7c7f8acb3f1866
+SHA256 (.footprint) = 1cce1131fbe1661a51c9c865daf36c503c925112038875782cd865cf14f1ad93
 SHA256 (xfce4-eyes-plugin-4.6.0.tar.bz2) = ad0ff05d88ba393b7c8922f8233edd33fc0a4e8b000b61de1f8f3a10c5ae5324

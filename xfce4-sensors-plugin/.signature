@@ -1,4 +1,5 @@
 untrusted comment: verify with /etc/ports/xfce4.pub
-RWRSAbUnL7azFOpWjMAmkWZDNVzvkp9qxbi/yIm5ieHTuguI/pgblOMG02k/J1SjkV7+tag3wHymuxvHhbNlgBTFXMdYEtLY0gU=
-SHA256 (Pkgfile) = c12447cd3e6294a6940aac0b9fece2ce9a730527132aed54065989560777abed
+RWRSAbUnL7azFNT/nb1qRDfUK3knqo8SV7Auhu/Qm+yaaTrON/nkIWBRjFp8WDjIO5URFvWW8RRLCGDyrSKS+2XrHKxbdWCZjgY=
+SHA256 (Pkgfile) = 6761062ad0d198d8c53aa7c548183aa9cbcf32d04eadeb03e6f22fcaba9fff07
+SHA256 (.footprint) = 60bee6d535a63a152f73533e7a1068f1f370d7f4a9f2c3f7687483d652476824
 SHA256 (xfce4-sensors-plugin-1.4.4.tar.bz2) = 6c1605a738e5df40e084d08ac93f962cd445093396de1e9bfadc7ab4588c36b6

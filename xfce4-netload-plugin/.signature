@@ -1,4 +1,5 @@
 untrusted comment: verify with /etc/ports/xfce4.pub
-RWRSAbUnL7azFJ80bx3YhutxVMVhJYFg3049zavsOF+U63Fg+0p+r8RqHhpYZpuzp6haolzbnep3lbPD+rnnLVnETJ+OoXRNLwE=
+RWRSAbUnL7azFKMGup/7LVlApz5mPr4lIYyI5uqH8i8I/ulLYv7zCqH0syqVBY4/3akCFtao7frilxN/0AOChfXZYYPD3g2mQQQ=
 SHA256 (Pkgfile) = 2b7e9cda172f6b0f09449dcb815b59ec27bca40bf6ff722be3dfc14b88c1a893
+SHA256 (.footprint) = 695cfbd7d23d6dc34434c0164ead9268eb955d3c4652481a58604e81f57871ce
 SHA256 (xfce4-netload-plugin-1.4.1.tar.bz2) = 9fac3a3ad52e18584bfb127cd1721d56de1004b9fdd140915fded89704ccb44e

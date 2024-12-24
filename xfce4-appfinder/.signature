@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xfce4.pub
-RWRSAbUnL7azFGiw1A/Y+3dPyb5SxpQLOpdr0JoiFTXH0GQ/f7Febjemni0tVw/c4KbdaIITX2bemUAEZ0WTSQ6w0QBSifvVLwc=
-SHA256 (Pkgfile) = 86eba0d23657aefa9df1bccf4a6a40adf322355c97557a771c8be8c6f3d3bd95
+RWRSAbUnL7azFCQVOPVsatQ7Gj2h18CrGhQRaoPjsfRp4BombXZNE+lhFsebruq6Zo2RZXIPXuToi1iJ3LR0BjNsD2S+JKmvzws=
+SHA256 (Pkgfile) = c6ee7e960619a263d1ce7e567e49ed800c3924533012ecc182409b95cbde5849
 SHA256 (.footprint) = 190b924acf2b894f5cf3ab67acd56159e562882c3eeddc740a445fde7831d41c
 SHA256 (xfce4-appfinder-4.20.0.tar.bz2) = 82ca82f77dc83e285db45438c2fe31df445148aa986ffebf2faabee4af9e7304

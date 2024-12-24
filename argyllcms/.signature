@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xfce4.pub
-RWRSAbUnL7azFKR21TSz65FgwtmAXJc3Io4Zi2asgubgDTWo2OHDB9Fpdfn5wzvFJ3Jyx91tChMvt7X+FEM77rub2rkSPL4JqQA=
-SHA256 (Pkgfile) = a197f5fbd539197e09c160130e60dbee14d8fbed7f55c4adba735374007f95b0
-SHA256 (.footprint) = 886fb2bc8ff1a2da5df315973d6d53c7afb85dfd1d0e94b9a76ef4d4ece189f2
-SHA256 (Argyll_V3.2.0_src.zip) = 4861ab87b41618fb6706843099aad2cc649115634dee1e60738792387b371176
+RWRSAbUnL7azFEGO68sOGb358LFIP/HwE5H+HJjwoJnv9VEVVQdVcOOwEfVaRKSKTjCyhd6txzAz5tiTVaxyocv3nAPkFGs+FgM=
+SHA256 (Pkgfile) = 3e5ed99d9ce954b8f4206d8f8f95fef728bc52d088e7c49e267b1cff98f263eb
+SHA256 (.footprint) = e3580edbee19b1ebe017f20e6354359b8a1518fa954ad11a661198bff96d5ee6
+SHA256 (Argyll_V3.3.0_src.zip) = 69db1c9ef66f8cacbbbab4ed9910147de6100c3afd17a0a8c12e6525b778e8ce

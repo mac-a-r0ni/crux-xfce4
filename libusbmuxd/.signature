@@ -1,4 +1,5 @@
 untrusted comment: verify with /etc/ports/xfce4.pub
-RWRSAbUnL7azFHmvh0nBTAV8iYbRgfdUdT4HpCpfCpdhO9PkwByDTE6SpX50LvDQ//5eIC7yUquDYrfAJxuSwsSr+znBUUzQgQM=
+RWRSAbUnL7azFBZ2rFH/nCBOyJA40HsZfSfW/iYRrb3X6Sk2t1UefMRp41Cy19HrnCaKbzj+SMlHIFHFByFpxr//6NnU72vbJAs=
 SHA256 (Pkgfile) = 4d7aefbeffb2fdd49c84a5b3a81209a411fa7cb09ab1f157813a14a3ccf90628
+SHA256 (.footprint) = ece35423689dc343ccd4cc02e491d0f9993576c6b2c9fa8cd59ac35968e3c01b
 SHA256 (libusbmuxd-2.0.2.tar.bz2) = cc6a808553da4efa9fa5638be256d5ae020498795d9d260d280b87074e799b20

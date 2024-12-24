@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xfce4.pub
-RWRSAbUnL7azFDqAFY7TSS5GXGMkNJN8xpwZefgBwOwwiAXA5/euFXrdQyzyuFcP9AhQnBokeHVJc1Etv21v/D4BZLkAoVPYFQU=
-SHA256 (Pkgfile) = d2d119e6662e398e32abe89cdec25090782a26f01783fcb36e15ac1d42d3d423
-SHA256 (.footprint) = f67faeeabb64f4314197cdbbb34aec541536f31ee911cfbdc8dc19659af0eb0e
+RWRSAbUnL7azFIiF18tMzDW0S2d52YRxNt0AccKB4rDF+nD+lghH/SZiGLPZIodDxQHgVBiyYtirb54//SvIp/eS465Y1ArZ+wU=
+SHA256 (Pkgfile) = 64c9628166b1eef8d6b9a8a1dd3e4fce52f09395e5edffe3b00e1646df472dc8
+SHA256 (.footprint) = f8b5bf084c9c9a7e9ce93fe13ece61cd9c66a124d219d710aab26995118aef2c
 SHA256 (libxfce4util-4.20.0.tar.bz2) = 21493f9c9995a282823db93839f6b9f06ae31edb094191ba9acf04d932a2b592

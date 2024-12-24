@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xfce4.pub
-RWRSAbUnL7azFGm7Wxi2eqqPu8UlrVSGd5zBdos+9324LInXTDOhD+xcpNMEQHKPDpC4hqrPq9BAM5JIzB/dU04K0+G/nkDikQ8=
-SHA256 (Pkgfile) = 4e99b9d96df6c97c784f3fdb2ca7319d825b8c41615d814e354f001c1774a174
-SHA256 (.footprint) = b6f3e663c530d796f0fba576e913185d49ae3593947b228710297a1cdad98f6c
+RWRSAbUnL7azFF6va17Sn5n3CmkHDkFodu41RnfpfdgeGrAakENkVhyv6NpCOq8fjyE340iBNWVpg6yUNj0qgs7L+++2gxFQmQo=
+SHA256 (Pkgfile) = 27fbc989de8326914b7abbb217971b3dfd3f05c4b9171e5b961c818b8680e15e
+SHA256 (.footprint) = f4e6cfe1a74c8ddf94cd020009513a9a8b2c2738deab448e672ef93e7aa32902
 SHA256 (gtksourceview-4.8.4.tar.xz) = 7ec9d18fb283d1f84a3a3eff3b7a72b09a10c9c006597b3fbabbb5958420a87d

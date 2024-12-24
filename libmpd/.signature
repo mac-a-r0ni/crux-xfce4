@@ -1,6 +1,7 @@
 untrusted comment: verify with /etc/ports/xfce4.pub
-RWRSAbUnL7azFIIXusg8RBFa1WR0vId2nbmhfDfO2dsRIo3eR5mMGDOW+DqFlzTFfBa8MZcIVHErvp/hZDpJ/qIfO+qQIkigUQU=
+RWRSAbUnL7azFEL4WuBsmYpdmRT9d+WRMrEyr1QvdYUmfahfeeYPgNJqlMWFg2H6uTNolUrYFcXtLDGQ4prOs9qFgfR79OWKBg0=
 SHA256 (Pkgfile) = e69ffcc8dae263166612a56b0019866cc628c4636455bfec8a94ca31fc6ca021
+SHA256 (.footprint) = 601439144b68da1dde7ffeaba9656cac5c35c9947407f1f8fd8fd553baa99ee3
 SHA256 (libmpd-11.8.17.tar.gz) = fe20326b0d10641f71c4673fae637bf9222a96e1712f71f170fca2fc34bf7a83
 SHA256 (0001-fix-return-value.patch) = d8f93df567479bca89df17ebbe5db103ce36da01d5574d24184679659b731b97
 SHA256 (0002-include-config.h.patch) = 8f87b7cf45bd57d2d7c7c59f66b60b6c49bebff910dcf0716b82d18905c0846b
