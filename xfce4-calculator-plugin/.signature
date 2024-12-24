@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xfce4.pub
+RWRSAbUnL7azFA6wjvboS5QshiLZ32RPko/WjwW2HCE9RgrcJILyFe3tDHOeBJ8uYsToHAczeTWWSkXWsQG+H2CCtxyKK16vqwM=
+SHA256 (Pkgfile) = a8ef78b3f842c88057dcec1824093581b8df4cc1d966cc3a8a42708b951f1e13
+SHA256 (.footprint) = 88040fb43627773d4e9f27677acbf4fc1e89510dd78b57e05c34a5148984b628
+SHA256 (xfce4-calculator-plugin-0.7.3.tar.bz2) = 3feb5f56092ceef2858c3c1bd443317d4caf289a6409f9db506f49088e19a2e8
