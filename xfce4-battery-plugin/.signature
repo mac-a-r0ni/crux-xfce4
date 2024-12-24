@@ -1,4 +1,5 @@
 untrusted comment: verify with /etc/ports/xfce4.pub
-RWRSAbUnL7azFH2Ktl/WdRvWnkEl8YKnV+NlON/Dyb2nwTvdjgpCgr0if/xlseMrRfpu+Vimp4tSU+qDVI/U/q/9qv/hH5wsZQU=
-SHA256 (Pkgfile) = 33b03030ba08068d80d3d1f29c377bff35965c7296bbfb964a179825de4e6f2d
-SHA256 (xfce4-battery-plugin-1.1.5.tar.bz2) = 752233bfb320ee1e26104a656cbb868299f562733063e2b9a18f0966585ce213
+RWRSAbUnL7azFKXluaq/0UZSztscS5zZEHQlyGFXPDQhwr6VDeedxg38W/YR77+pPiWy6s4F72MCdvy47RadDzomhofLrLurlAs=
+SHA256 (Pkgfile) = 671d9d4176868ef8344355836c0dcaa8505caae9a0774c3d35e1c37e51a7b3fe
+SHA256 (.footprint) = d20cfec7b6ed76ef335fed429135c3c9d79eff65ef2adeb9753bec93ae38b8cb
+SHA256 (xfce4-battery-plugin-1.1.6.tar.bz2) = 327d7304dded8411cd1a48da4f46bac248b44d8b27ffbc2036e0268cb37c3676
