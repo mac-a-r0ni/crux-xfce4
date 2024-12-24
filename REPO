@@ -93,10 +93,10 @@ f:47320fa7109b3b0e61aed7dadfbf25a8:libplist/Pkgfile
 f:ae6f0212c016420461a9cc6e75c76fc5:libplist/.footprint
 f:a9e7ccb4cc486e1967f58572f8a2060b:elogind/elogind
 f:673e903cac381b0f975007165f78ab32:elogind/10-enable-elogind-power.rules.gz
-f:355ebb4b3c7e0b38d03c8afcf847eed6:elogind/.signature
+f:357aab23f3645a4fc33b29d96ccdceb8:elogind/.signature
 f:7eb6338447c0f23f8e137d0fe7dec155:elogind/pre-install
 f:1cd35f4e412843f6f82be567c7ae3806:elogind/Pkgfile
-f:0ca5751b1c3362ee5006b1e3ad0addac:elogind/.footprint
+f:5b2db5094c8e6f40921d8538dd071342:elogind/.footprint
 f:44c39bfdeba88dade8d5c32955c347ba:mugshot/.signature
 f:fe35f1124c06f0ec285a9110a6226d11:mugshot/Pkgfile
 f:83df5be676b8237ff5e06608c540e5de:mugshot/.footprint
@@ -390,10 +390,10 @@ f:e724b7b74aed05552d1761a440de4678:greybird/.footprint
 f:0fe1e52b9077333e20e7d9d1a6c21022:libgtop/.signature
 f:a7b5104bfe388b636e08db5242198189:libgtop/Pkgfile
 f:a770abe13139051701414e3ff8fa2dac:libgtop/.footprint
-f:085ede5e6c2f7a1aef2928b206134bb3:xfce4-screensaver/.signature
+f:e3e3e7ee4831da89e565cf3ea15c962b:xfce4-screensaver/.signature
 f:cd22ad219a11ac896c5ea4b16f021fa1:xfce4-screensaver/post-install
-f:3578f23342279f5b54de680fd47061d0:xfce4-screensaver/Pkgfile
-f:5eb65fd04ba9f4b8575f6f334acf486d:xfce4-screensaver/.footprint
+f:8d5e639a783faa834e0690b3b55deb6a:xfce4-screensaver/Pkgfile
+f:03bc8ce80535b14cf9c839107062a9bb:xfce4-screensaver/.footprint
 f:3567af68afa52c3d40b012d82188f380:libxfce4ui/.signature
 f:88bfcedec09c7a3d5a581e6fdbd48fd4:libxfce4ui/Pkgfile
 f:253122eef0fc54853e3f02cdc75a232e:libxfce4ui/.footprint
