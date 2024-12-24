@@ -1,7 +1,7 @@
 # Description: a GNOME-like Dashboard for Xfce
 # URL: https://docs.xfce.org/apps/xfdashboard/start
 # Maintainer: mac-a-r0ni, j at lngn dot net
-# Depends on: libwnck-gtk3 clutter glib gio xfconf garcon gtk3 libxfce4util libxfce4ui
+# Depends on: clutter garcon gio libwnck-gtk3
 # Optional: xorg-libxcomposite xorg-libxdamage xorg-libxinerama
 
 name=xfdashboard

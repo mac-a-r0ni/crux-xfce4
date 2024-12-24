@@ -32,6 +32,3 @@ drwxr-xr-x	root/root	usr/sbin/
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/gir-1.0/
 -rw-r--r--	root/root	usr/share/gir-1.0/Libxfce4util-1.0.gir
-drwxr-xr-x	root/root	usr/share/vala/
-drwxr-xr-x	root/root	usr/share/vala/vapi/
--rw-r--r--	root/root	usr/share/vala/vapi/libxfce4util-1.0.vapi

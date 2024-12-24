@@ -1,7 +1,7 @@
 # Description: Power Manager for Xfce
 # URL: https://www.xfce.org
 # Maintainer: mac-a-r0ni, j at lngn dot net
-# Depends on: hicolor-icon-theme libnotify libxfce4ui upower xfce4-notifyd xfce4-panel
+# Depends on: upower xfce4-notifyd
 
 name=xfce4-power-manager
 version=4.20.0

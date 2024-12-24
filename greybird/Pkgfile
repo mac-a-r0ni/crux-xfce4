@@ -1,7 +1,7 @@
 # Description: The Greybird XFCE Desktop theme
 # URL: https://github.com/shimmerproject/Greybird
 # Maintainer: mac-a-r0ni, j at lngn dot net
-# Depends on:  gtk3 librsvg sassc elementary-xfce-icons
+# Depends on: elementary-xfce-icons librsvg sassc
 # Optional: gtk-engine-murrine
 
 name=greybird

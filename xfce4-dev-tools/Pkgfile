@@ -1,7 +1,7 @@
 # Description: Xfce's developer tools
 # URL: https://www.xfce.org
 # Maintainer: mac-a-r0ni, j at lngn dot net
-# Depends on: glib intltool gtk-doc
+# Depends on: gtk-doc intltool
 
 name=xfce4-dev-tools
 version=4.20.0

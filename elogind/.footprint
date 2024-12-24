@@ -661,8 +661,6 @@ drwxr-xr-x	root/root	usr/share/man/man5/
 -rw-r--r--	root/root	usr/share/man/man5/sleep.conf.5.gz
 -rw-r--r--	root/root	usr/share/man/man5/sleep.conf.d.5.gz
 drwxr-xr-x	root/root	usr/share/man/man7/
--rw-r--r--	root/root	usr/share/man/man7/elogind.directives.7.gz
--rw-r--r--	root/root	usr/share/man/man7/elogind.index.7.gz
 -rw-r--r--	root/root	usr/share/man/man7/elogind.journal-fields.7.gz
 -rw-r--r--	root/root	usr/share/man/man7/elogind.syntax.7.gz
 -rw-r--r--	root/root	usr/share/man/man7/elogind.time.7.gz

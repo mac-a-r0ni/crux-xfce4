@@ -1,7 +1,7 @@
 # Description: Displays the current CPU load, memory in use, swap space and the uptime
 # URL: https://docs.xfce.org/panel-plugins/xfce4-systemload-plugin/start
 # Maintainer: mac-a-r0ni, j at lngn dot net
-# Depends on: hicolor-icon-theme lm_sensors libnotify xfce4-panel intltool
+# Depends on: libnotify lm_sensors xfce4-panel
 
 name=xfce4-sensors-plugin
 version=1.4.4

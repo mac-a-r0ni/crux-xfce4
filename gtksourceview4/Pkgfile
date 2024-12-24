@@ -2,6 +2,7 @@
 # URL: https://gnome.org
 # Maintainer: mac-a-r0ni, j at lngn dot net
 # Depends on: glade gtk-doc
+# Optional: vala
 
 name=gtksourceview4
 version=4.8.4
@@ -9,12 +10,12 @@ release=3
 source=(https://download.gnome.org/sources/gtksourceview/4.8/gtksourceview-$version.tar.xz)
 
 build() {
+  prt-get isinst vala && PKGMK_GTKSV+=' -Dvapi=true' || PKGMK_GTKSV+=' -Dvapi=false'
   mv gtksourceview-$version $name-$version
 
-    meson setup $name-$version build \
+    meson setup $name-$version build $PKGMK_GTKSV \
     --prefix=/usr \
     --buildtype=plain \
-    -Dvapi=true \
     -Dgir=true \
     -Db_lto=true \
     -Db_pie=true

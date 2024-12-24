@@ -1,7 +1,7 @@
 # Description: Wayland windowing library for Xfce
 # URL: https://www.xfce.org
 # Maintainer: mac-a-r0ni, j at lngn dot net
-# Depends on: libwnck-gtk3 gdk-pixbuf2 wayland
+# Depends on: libdisplay-info libwnck-gtk3 wayland xfce4-dev-tools
 
 name=libxfce4windowing
 version=4.20.0

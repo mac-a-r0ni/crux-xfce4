@@ -11,9 +11,6 @@ drwxr-xr-x	root/root	usr/lib/xfce4/
 drwxr-xr-x	root/root	usr/lib/xfce4/panel/
 drwxr-xr-x	root/root	usr/lib/xfce4/panel/plugins/
 -rwxr-xr-x	root/root	usr/lib/xfce4/panel/plugins/libxfce4powermanager.so
-drwxr-xr-x	root/root	usr/sbin/
--rwxr-xr-x	root/root	usr/sbin/xfce4-pm-helper
--rwxr-xr-x	root/root	usr/sbin/xfpm-power-backlight-helper
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/applications/
 -rw-r--r--	root/root	usr/share/applications/xfce4-power-manager-settings.desktop
@@ -111,9 +108,6 @@ drwxr-xr-x	root/root	usr/share/man/man1/
 -rw-r--r--	root/root	usr/share/man/man1/xfce4-power-manager.1.gz
 drwxr-xr-x	root/root	usr/share/metainfo/
 -rw-r--r--	root/root	usr/share/metainfo/xfce4-power-manager.appdata.xml
-drwxr-xr-x	root/root	usr/share/polkit-1/
-drwxr-xr-x	root/root	usr/share/polkit-1/actions/
--rw-r--r--	root/root	usr/share/polkit-1/actions/org.xfce.power.policy
 drwxr-xr-x	root/root	usr/share/xfce4/
 drwxr-xr-x	root/root	usr/share/xfce4/panel/
 drwxr-xr-x	root/root	usr/share/xfce4/panel/plugins/

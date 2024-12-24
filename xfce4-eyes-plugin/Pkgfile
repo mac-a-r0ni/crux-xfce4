@@ -1,7 +1,7 @@
 # Description: Display eyes that follow your mouse cursor on the screen.
 # URL: https://xfce.org
 # Maintainer: mac-a-r0ni, j at lngn dot net
-# Depends on: hicolor-icon-theme xfce4-panel
+# Depends on: xfce4-panel
 
 name=xfce4-eyes-plugin
 version=4.6.0

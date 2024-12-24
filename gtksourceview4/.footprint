@@ -240,7 +240,3 @@ drwxr-xr-x	root/root	usr/share/gtksourceview-4/styles/
 -rw-r--r--	root/root	usr/share/gtksourceview-4/styles/solarized-light.xml
 -rw-r--r--	root/root	usr/share/gtksourceview-4/styles/styles.rng
 -rw-r--r--	root/root	usr/share/gtksourceview-4/styles/tango.xml
-drwxr-xr-x	root/root	usr/share/vala/
-drwxr-xr-x	root/root	usr/share/vala/vapi/
--rw-r--r--	root/root	usr/share/vala/vapi/gtksourceview-4.deps
--rw-r--r--	root/root	usr/share/vala/vapi/gtksourceview-4.vapi

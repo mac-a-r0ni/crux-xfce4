@@ -1,7 +1,7 @@
 # Description: Thumbnail service implementing the thumbnail management D-Bus specification
 # URL: https://www.xfce.org
 # Maintainer: mac-a-r0ni, j at lngn dot net
-# Depends on: dbus-glib freetype gdk-pixbuf poppler-glib
+# Depends on: dbus-glib gdk-pixbuf libxfce4util poppler
 
 name=tumbler
 version=4.20.0

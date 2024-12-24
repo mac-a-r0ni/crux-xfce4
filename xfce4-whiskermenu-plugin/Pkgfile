@@ -1,7 +1,8 @@
 # Description: An alternate menu for xfce
 # URL: https://xfce.org
 # Maintainer: mac-a-r0ni, j at lngn dot net
-# Depends on: accountsservice gtk-layer-shell xfce4-panel
+# Depends on: gtk-layer-shell xfce4-panel
+# Optional: accountsservice
 
 name=xfce4-whiskermenu-plugin
 version=2.8.3
@@ -10,15 +11,17 @@ source=(https://archive.xfce.org/src/panel-plugins/$name/${version:0:3}/$name-$v
 
 build() {
 	cd $name-$version
-	
-	cmake \
+
+	prt-get isinst accountsservice && PKGMK_WHISKERMENU+=' -D ENABLE_ACCOUNTS_SERVICE=ON' || PKGMK_WHISKERMENU+=' -D ENABLE_ACCOUNTS_SERVICE=OFF'
+
+	cmake $PKGMK_WHISKERMENU \
 	-D CMAKE_BUILD_TYPE=Release \
 	-D CMAKE_INSTALL_PREFIX=/usr \
-	-D CMAKE_INSTALL_LIBDIR=/usr/lib \
+	-D CMAKE_INSTALL_LIBDIR=/usr/lib
 
 	make
 	make DESTDIR=$PKG install
-	
-rm -r $PKG/usr/share/locale
+
+	rm -r $PKG/usr/share/locale
 
 }

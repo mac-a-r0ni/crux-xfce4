@@ -1,7 +1,7 @@
 # Description: A graphical representation of the cpuload for the xfce-panel
 # URL: https://xfce.org
 # Maintainer: mac-a-r0ni, j at lngn dot net
-# Depends on: xfce4-panel glib xfconf
+# Depends on: xfce4-panel
 
 name=xfce4-cpugraph-plugin
 version=1.2.10

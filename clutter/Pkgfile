@@ -1,7 +1,8 @@
 # Description: A toolkit for creating fast, portable, compelling dynamic UIs
 # URL: https://blogs.gnome.org/clutter/
 # Maintainer: mac-a-r0ni, j at lngn dot net
-# Depends on: gtk3 cogl libinput
+# Depends on: gtk3 cogl libinput json-glib
+# Optional: egl-wayland
 
 name=clutter
 version=1.26.4
@@ -11,13 +12,11 @@ source=(https://download.gnome.org/sources/$name/1.26/$name-$version.tar.xz)
 build() {
   cd $name-$version
 
-  ./configure --prefix=/usr \
-    --enable-egl-backend \
+  prt-get isinst egl-wayland && ls /usr/lib/pkgconfig/cogl-gles2-1.0.pc && ls /usr/lib/xkbcommon/xkbcli-interactive-wayland && PKGMK_CLUTTER+=' --enable-wayland-backend --enable-wayland-compositor --enable-egl-backend --enable-evdev-input' || PKGMK_CLUTTER+=' --enable-egl-backend=no'
+
+  ./configure --prefix=/usr $PKGMK_CLUTTER \
     --enable-gdk-backend \
-    --enable-wayland-backend \
     --enable-x11-backend \
-    --enable-evdev-input \
-    --enable-wayland-compositor \
     --enable-introspection=no \
     --disable-gtk-doc \
     --disable-nls \
