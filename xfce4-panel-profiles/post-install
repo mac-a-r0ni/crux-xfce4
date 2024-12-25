@@ -1,0 +1,8 @@
+#!/bin/sh
+
+# update application db & icon cache
+
+/usr/bin/update-desktop-database /usr/share/applications
+/usr/bin/gtk-update-icon-cache /usr/share/icons/hicolor
+
+# EOF
