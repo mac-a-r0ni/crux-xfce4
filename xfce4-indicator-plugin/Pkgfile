@@ -1,0 +1,26 @@
+# Description: plugin to display information from various applications consistently in the panel
+# URL: https://docs.xfce.org/panel-plugins/xfce4-indicator-plugin
+# Maintainer: mac-a-r0ni, j at lngn dot net
+# Depends on: xfce4-panel libayatana-indicator
+
+name=xfce4-indicator-plugin
+version=2.4.3
+release=1
+source=(https://archive.xfce.org/src/panel-plugins/$name/${version%.*}/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+
+	./configure \
+		--prefix=/usr \
+		--sysconfdir=/etc \
+		--localstatedir=/var \
+		--disable-nls \
+		--disable-debug \
+
+	make
+	make DESTDIR=$PKG install
+
+	find $PKG/usr/lib/* -name "*.la" -type f|xargs rm -f
+
+}
