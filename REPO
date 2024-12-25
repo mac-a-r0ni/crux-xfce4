@@ -86,9 +86,9 @@ d:greybird
 d:libgtop
 d:xfce4-screensaver
 d:libxfce4ui
-f:3b206baf7205afa15f7dc4d4dae9facc:xfce4-docklike-plugin/.signature
-f:05e33a0876bb97971ee564901654f5c5:xfce4-docklike-plugin/Pkgfile
-f:7cd0a002a82e6d46e993bb9613a6d27b:xfce4-docklike-plugin/.footprint
+f:e2c7dfb4931cb68499b51eed34443880:xfce4-docklike-plugin/.signature
+f:d611c9fe10f3cd9b4044b239a84dda27:xfce4-docklike-plugin/Pkgfile
+f:98835a53c3ef0c194e3aee2dfd213d68:xfce4-docklike-plugin/.footprint
 f:192c876862b856774c9d945643505bef:libplist/.signature
 f:47320fa7109b3b0e61aed7dadfbf25a8:libplist/Pkgfile
 f:ae6f0212c016420461a9cc6e75c76fc5:libplist/.footprint
@@ -165,9 +165,9 @@ f:7ccfa61267b42943ecb35e6304c51e47:xfce4-taskmanager/.footprint
 f:f9fb9eb4083a5284c5b809c6f2401260:libxfce4windowing/.signature
 f:95e3304ca396a4f3ec73278fce240a9d:libxfce4windowing/Pkgfile
 f:ec1b81a22ce4bacff69605aebc698db0:libxfce4windowing/.footprint
-f:4c5713667ff40811b7ccb362eaac36a2:xfce4-diskperf-plugin/.signature
-f:12cf2cb5903758369f03a35027888e35:xfce4-diskperf-plugin/Pkgfile
-f:3e02643601b4a79de8cbfc4754fcd302:xfce4-diskperf-plugin/.footprint
+f:637c45688f1b19ce2b9ebf29e3c0a5fc:xfce4-diskperf-plugin/.signature
+f:2d9ccff232aa33b1459bab60630e1bce:xfce4-diskperf-plugin/Pkgfile
+f:a26fe45811e94a57db1e7c77e1616fb6:xfce4-diskperf-plugin/.footprint
 f:516440a7b1502c3b527ee61f1aa2d870:xfce4-power-manager/.signature
 f:ed2014dd0f5944e62c1e6a160e17ad23:xfce4-power-manager/post-install
 f:b2f46352de22aa58cbb722b16ad7096e:xfce4-power-manager/Pkgfile
