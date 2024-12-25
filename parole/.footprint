@@ -13,11 +13,8 @@ drwxr-xr-x	root/root	usr/include/parole/
 -rw-r--r--	root/root	usr/include/parole/parole.h
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/parole-0/
--rwxr-xr-x	root/root	usr/lib/parole-0/parole-mpris2.la
 -rwxr-xr-x	root/root	usr/lib/parole-0/parole-mpris2.so
--rwxr-xr-x	root/root	usr/lib/parole-0/parole-notify.la
 -rwxr-xr-x	root/root	usr/lib/parole-0/parole-notify.so
--rwxr-xr-x	root/root	usr/lib/parole-0/tray-icon.la
 -rwxr-xr-x	root/root	usr/lib/parole-0/tray-icon.so
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/applications/
