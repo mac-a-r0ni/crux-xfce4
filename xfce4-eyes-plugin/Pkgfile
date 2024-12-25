@@ -4,7 +4,7 @@
 # Depends on: xfce4-panel
 
 name=xfce4-eyes-plugin
-version=4.6.1
+version=4.6.2
 release=1
 source=(https://archive.xfce.org/src/panel-plugins/$name/${version:0:3}/$name-$version.tar.bz2)
 
