@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xfce4.pub
-RWRSAbUnL7azFOa9+3rX2gerkcAbEzaemw0zoMueWMuOG1FZ2UIy599fNsFmgPOaqvp2nTcSNL32TfepHrE2Dpi/wqLSXcTBKQA=
-SHA256 (Pkgfile) = 2d6059b5fb3a1d272fe49dda70bc490e6dd31405c095ebf05f58b7797d2c3031
-SHA256 (.footprint) = c9f964b295f39e054cc5902a120560710ef10fd5f88a2cf02393c3c45328f10a
-SHA256 (xfce4-timer-plugin-1.7.2.tar.bz2) = feb3b8c2d39505e816683540a3226bd7bda870ccbcb4c7d0f6abfeeff5c58b7d
+RWRSAbUnL7azFKc4vIIaLTjIQTl1PBpgIyFjb3oUfoluc4pkvQWzaM9ca/wV3MGzqg0tWi1WbKs9iFtppTbXZfuZp2qDnNJsAw8=
+SHA256 (Pkgfile) = ef8ae895747c30649088a09c805a3a74388c23df8f90c14e65f3e5a745058fa9
+SHA256 (.footprint) = c09625381cdf1e1e4f2c778578d2518425a9c3564a7394ed2d8cf89f478e6d98
+SHA256 (xfce4-timer-plugin-1.7.3.tar.bz2) = acf4c861af88608b9e802a76a4b05846bd30189e0085e826680cc179b6df4cd3
