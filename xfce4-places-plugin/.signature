@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xfce4.pub
+RWRSAbUnL7azFMhyy5sSXKBjT6d5R9SFleUnIxwZQszQLbgrZNSiR3sNdpFVIFpCEKiZb64R7P/2gtS526CRhV5HXjzvS95JdQU=
+SHA256 (Pkgfile) = 133c064e39085e781408036a05a4ef346ea00add2af4fde613c85468a0cd721e
+SHA256 (.footprint) = c8c7f52e42eb570fb212710e3ba460f1d238cbc27656af8b6abaa64d55e759b0
+SHA256 (xfce4-places-plugin-1.8.4.tar.bz2) = ba766a5d31580fad043fbd1fd66b811cbda706229473d24a734a590d49ef710e

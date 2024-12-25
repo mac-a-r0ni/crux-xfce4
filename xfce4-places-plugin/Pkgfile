@@ -1,0 +1,27 @@
+# Description: A menu with quick access to folders, documents, & removable media
+# URL: https://xfce.org
+# Maintainer: mac-a-r0ni, j at lngn dot net
+# Depends on: xfce4-panel libnotify
+
+name=xfce4-places-plugin
+version=1.8.4
+release=1
+source=(https://archive.xfce.org/src/panel-plugins/$name/${version%.*}/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+
+	./configure \
+		--prefix=/usr \
+		--sysconfdir=/etc \
+		--libdir=/usr/lib \
+		--libexecdir=/usr/lib/$name \
+		--localstatedir=/var \
+		--disable-nls \
+		--disable-debug
+
+	make
+	make DESTDIR=$PKG install
+
+	find $PKG/usr/lib/* -name "*.la" -type f|xargs rm -f
+}
