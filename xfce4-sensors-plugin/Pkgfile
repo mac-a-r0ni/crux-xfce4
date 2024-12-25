@@ -4,7 +4,7 @@
 # Depends on: libnotify lm_sensors xfce4-panel
 
 name=xfce4-sensors-plugin
-version=1.4.4
+version=1.4.5
 release=1
 source=(https://archive.xfce.org/src/panel-plugins/$name/${version%.*}/$name-$version.tar.bz2)
 
@@ -21,6 +21,5 @@ build() {
 	make
 	make DESTDIR=$PKG install
 
-rm -f $PKG/usr/lib/xfce4/{panel/plugins/,modules/}*.la
-#rm -f $PKG/usr/lib/xfce4/modules/*.la
+	find $PKG/usr/lib/* -name "*.la" -type f|xargs rm -f
 }
