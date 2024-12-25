@@ -4,7 +4,7 @@
 # Depends on: xfce4-panel
 
 name=xfce4-cpugraph-plugin
-version=1.2.10
+version=1.2.11
 release=1
 source=(https://archive.xfce.org/src/panel-plugins/$name/${version:0:3}/$name-$version.tar.bz2)
 
@@ -21,4 +21,5 @@ build() {
 	make
 	make DESTDIR=$PKG install
 
+	find $PKG/usr/lib/* -name "*.la" -type f|xargs rm -f
 }
