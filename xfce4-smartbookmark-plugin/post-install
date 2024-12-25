@@ -1,7 +1,0 @@
-#!/bin/sh
-
-# update application database
-
-/usr/bin/update-desktop-database /usr/share/applications
-
-#EndOfFile

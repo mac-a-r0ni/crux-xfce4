@@ -4,7 +4,7 @@
 # Depends on: xfce4-panel
 
 name=xfce4-smartbookmark-plugin
-version=0.5.2
+version=0.5.3
 release=1
 source=(https://archive.xfce.org/src/panel-plugins/$name/${version%.*}/$name-$version.tar.bz2)
 
@@ -22,6 +22,6 @@ build() {
 	make
 	make DESTDIR=$PKG install
 
-    rm -rf $PKG/usr/share/locale
-    rm $PKG/usr/lib/xfce4/panel/plugins/*.la
+rm -rf $PKG/usr/share/locale
+find $PKG/usr/lib/* -name "*.la" -type f|xargs rm -f
 }
