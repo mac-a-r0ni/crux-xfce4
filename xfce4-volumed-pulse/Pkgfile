@@ -4,7 +4,7 @@
 # Depends on: pulseaudio xfconf libkeybinder3 libnotify
 
 name=xfce4-volumed-pulse
-version=0.2.4
+version=0.2.5
 release=1
 source=(https://archive.xfce.org/src/apps/$name/${version:0:3}/$name-$version.tar.bz2)
 
@@ -20,4 +20,6 @@ build() {
 
 	make
 	make DESTDIR=$PKG install
+
+	rm -rf $PKG/usr/share/
 }
