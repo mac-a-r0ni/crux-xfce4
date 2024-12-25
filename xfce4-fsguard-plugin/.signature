@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xfce4.pub
-RWRSAbUnL7azFEIN8XGtBVodFUUOhkM5Su3cj/UtwgYuGubhP/DgYTG9YWdHZxZJF8FxCyMB+Fj/jxjyV5LuEnwzVnVJ8LjjzwA=
-SHA256 (Pkgfile) = 457426435bd5e0457e3879fc955cb045c5797f4b19a36edd9134526ae2ffba2f
-SHA256 (.footprint) = 0db5388d4232020aa85ecb7b963bd26c018e27455ad94a4a1f9105747d0ba56a
-SHA256 (xfce4-fsguard-plugin-1.1.3.tar.bz2) = 84ef8bb4752292d64c0ef101badf7b14448790bfa0a85de644dbfa22986ec258
+RWRSAbUnL7azFCpUEuuUvfADsbVEb3sFUimrHyQtVBd/nEx6heitmhu61Baq1PB3huD0uKLCr/+CGYsGHxBpmAG9cKxFft1H6wo=
+SHA256 (Pkgfile) = 6d845f3f7991d5a6314c874c3c700e1952a2dc546442979cd29e2ca4e7306400
+SHA256 (.footprint) = d47fe0075684dd598302bbf2e214495462abfb8ffb5d4c8578d1f91a3534a557
+SHA256 (xfce4-fsguard-plugin-1.1.4.tar.bz2) = 24b3789be6de92678e7036678530c4da4b3838aa3cda428439aa8d140704a4a6
