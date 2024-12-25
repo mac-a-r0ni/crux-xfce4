@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xfce4.pub
-RWRSAbUnL7azFFrQZEESQOM0w1bH+po/GcxtklVhWFBDmC05SLIY/sGA9P70/leog/eWDOxoKI4F/JSnTrgrMC4hrl4OHiLuFQA=
-SHA256 (Pkgfile) = 6feefffbbebea8e4d0a33e32171729c23cc231f3ee1c857ff2bad4020c78bf11
-SHA256 (.footprint) = 9cd905f88245456f96efc645a888bf55141ec45f24f53d69d84c6dd414d8931f
-SHA256 (xfce4-docklike-plugin-0.4.2.tar.bz2) = b6a40b976a78f2abb1bec057c48d45bfb317e00b12e05a7dfcbea4d183f8db71
+RWRSAbUnL7azFH6i2VaofLsNuagWwjMrGLCWc8HCUFEEK3I/9lTkzhhB6UyK1N8hdCLZn6ij5DPMAR/vtZqYKuVjzGrBlILSkwE=
+SHA256 (Pkgfile) = 06acf9622f19f37b19f4fcc332d27ace2f6d7c02d9cbe6909b42e9b05b41964b
+SHA256 (.footprint) = 09c087d0da64cbd43dcd80cfce7b4d68f51e1afafe1df6edb00250a9d346f57b
+SHA256 (xfce4-docklike-plugin-0.4.3.tar.bz2) = e81e16b4ab1c655a3202473d78cc81617bb4829e5dd102eecabf9addd7668a9d
