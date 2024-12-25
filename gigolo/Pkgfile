@@ -4,8 +4,8 @@
 # Depends on: gvfs
 
 name=gigolo
-version=0.5.3
-release=2
+version=0.5.4
+release=1
 source=(https://archive.xfce.org/src/apps/$name/0.5/$name-$version.tar.bz2)
 
 build() {
