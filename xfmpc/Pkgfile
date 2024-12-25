@@ -4,7 +4,7 @@
 # Depends on: libmpd libxfce4ui
 
 name=xfmpc
-version=0.3.1
+version=0.3.2
 release=1
 source=(https://archive.xfce.org/src/apps/$name/0.3/$name-$version.tar.bz2)
 
