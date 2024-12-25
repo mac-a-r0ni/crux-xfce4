@@ -1,7 +1,11 @@
 #!/bin/sh
 
-# update application icon caches
+# update application db
 
-/usr/bin/gtk-update-icon-cache /usr/share/icons/hicolor
+/usr/bin/update-desktop-database /usr/share/applications
 
-#EOF
+# update icon cache
+
+gtk-update-icon-cache /usr/share/icons/hicolor
+
+# End post install file
