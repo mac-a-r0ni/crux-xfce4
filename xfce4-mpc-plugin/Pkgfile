@@ -4,7 +4,7 @@
 # Depends on: xfce4-panel libmpd
 
 name=xfce4-mpc-plugin
-version=0.5.3
+version=0.5.4
 release=1
 source=(https://archive.xfce.org/src/panel-plugins/$name/${version%.*}/$name-$version.tar.bz2)
 
@@ -23,4 +23,5 @@ build() {
 	make
 	make DESTDIR=$PKG install
 
+	find $PKG/usr/lib/* -name "*.la" -type f|xargs rm -f
 }
