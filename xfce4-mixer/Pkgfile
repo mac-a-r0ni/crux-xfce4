@@ -1,0 +1,26 @@
+# Description: A volume control application based on GStreamer
+# URL: https://www.xfce.org
+# Maintainer: mac-a-r0ni, j at lngn dot net
+# Depends on: alsa-utils gstreamer xfce4-panel
+
+name=xfce4-mixer
+version=4.18.2
+release=1
+source=(https://archive.xfce.org/src/apps/$name/${version:0:4}/$name-$version.tar.bz2)
+
+build() {
+
+	cd $name-$version
+
+	./configure \
+	  --prefix=/usr \
+	  --sysconfdir=/etc \
+	  --disable-gtk-doc \
+	  --disable-nls
+
+	make
+	make DESTDIR=$PKG install
+
+	find $PKG/usr/lib/* -name "*.la" -type f|xargs rm -f
+
+}

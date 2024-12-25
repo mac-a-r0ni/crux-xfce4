@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xfce4.pub
+RWRSAbUnL7azFH/zLpcBX6EPp6uNH5vcVBi6SDAG03lyLDmaVaWkMEXdHkffkOxY+5aXJmkZIMbSVUzoKHSmlnNu6FWbcxNTPQY=
+SHA256 (Pkgfile) = 1288617c54df9d62bf16587aea0e71fd97088d99651397b13046d014ef62bd15
+SHA256 (.footprint) = 4c8a4394601121569826c3a556b4e266dc8f84d1c6886d55ea5336d7091461ce
+SHA256 (xfce4-mixer-4.18.2.tar.bz2) = 101580c15bfe7fe430a149da3603357558b7d0a66258dfdb78d04c1bf3c791a1
