@@ -4,17 +4,20 @@
 # Depends on: dbus-python3 gtk3 python3-gobject python3-pexpect xdg-utils xfconf mlocate python3-distutils-extra
 
 name=catfish
-version=4.18.0
+version=4.20.0
 release=1
 source=(https://archive.xfce.org/src/apps/$name/${version%.*}/$name-$version.tar.bz2)
 
 build() {
-  cd $name-$version
 
-    /usr/bin/python3 setup.py build
-    /usr/bin/python3 setup.py install --root=$PKG --optimize=1
+	cd $name-$version
 
-rm -r $PKG/usr/share/locale
-rm -r $PKG/usr/share/doc
+	 meson setup build \
+		--prefix=/usr
+
+	DESTDIR=$PKG ninja -C build install
+
+	rm -r $PKG/usr/share/locale
+	rm -r $PKG/usr/share/doc
 
 }
