@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xfce4.pub
-RWRSAbUnL7azFDb7MAU9ld/0GO7lVVjbEyikF2Oyal0++4gF9lsdQAo/Iep5q5MNF5hPiHGCXTUu9viYGHmOqCaFMLmbLcO3FQQ=
-SHA256 (Pkgfile) = cc066503612523d513e16257ae62286fa6f60c29bbafb92b5831b4d01afe82e7
-SHA256 (.footprint) = 1abb7d99dc3145e8836a0347d978fb3e1f6a345fad97dcf5ff278f2c5fc03720
-SHA256 (xfce4-diskperf-plugin-2.7.0.tar.bz2) = 5909a65341a6af4d7ff3c7bb87aeac91c763f69b43ae9dc4a10668ac226fecc9
+RWRSAbUnL7azFIgwfpgjBv5/TFTY/h8HCUEElck4WPuNPh7Jr82+XK6ISlMQrwx5NYXkuVA8AYHXd8rAmuLnxFuPJvkXqm9fhAU=
+SHA256 (Pkgfile) = ba4c7848c5fe38cb4cbc391a2d545f4dcac80a3b17080193e40fcc47bb0443ca
+SHA256 (.footprint) = 801307e23c944fcaedb3446c27ffd144a5982e0a5416f8ed65d1afab15f484a3
+SHA256 (xfce4-diskperf-plugin-2.7.1.tar.bz2) = dd5f521cc4ab40a42958dcf59b6bec5da8fafacf71f3266971942e25b43af8ae
