@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xfce4.pub
+RWRSAbUnL7azFJIfoHBQXRvQlmvZzeWJsrzDX851vueyu5ykgORFBZRnzNQ57pxeFgdTNhveFtPy4qGvbdBw+NarBSYsL5h6kQU=
+SHA256 (Pkgfile) = 5931762a4d100c16ea0d501e936397c6166e2faf0a27f7c18bd7596326381c3c
+SHA256 (.footprint) = 11e29771ccfd567fd937fd306c389074357bdf021efbe3146f67b8f6e02f10e7
+SHA256 (xfce4-stopwatch-plugin-0.5.2.tar.bz2) = b5a458fa5b7538d42cd9783cf4c26eafe0c9d394906a0e5e25bb3fe0adc34c08
