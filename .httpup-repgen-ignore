@@ -1,0 +1,12 @@
+\.git$
+\.github$
+\.svn$
+\.tar\.gz$
+\.tgz$
+\.tar\.bz2$
+\.zip$
+^CVS$
+^.*/CVS$
+/CVS/.*
+^CVS/.*
+.*~$
