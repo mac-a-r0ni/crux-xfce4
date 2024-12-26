@@ -5,6 +5,8 @@
 \.tgz$
 \.tar\.bz2$
 \.zip$
+/.git/.*
+/.github/.*
 ^CVS$
 ^.*/CVS$
 /CVS/.*
