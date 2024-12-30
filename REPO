@@ -156,8 +156,8 @@ f:7f702c891c382504f9259ff6d313a0f0:xfce4-xkb-plugin/.signature
 f:7463fa2009471933a7ca439aa6b3eba1:xfce4-xkb-plugin/Pkgfile
 f:8b7a46fbb64b69fc410ea598c952ed2c:xfce4-xkb-plugin/post-install
 f:1988900906e35d1ae92c4e2e7506175c:thunar/.footprint
-f:4f7be6b0e9df99df155129e561cd7718:thunar/.signature
-f:e94ba3affdc98c71f373173b512b2137:thunar/Pkgfile
+f:787ca4cdf995538ed84c3a4d2b49e09d:thunar/.signature
+f:4665f38c05e425833e66b6424a7bd852:thunar/Pkgfile
 f:ed2014dd0f5944e62c1e6a160e17ad23:thunar/post-install
 f:962407dbd63baa9a45a3752286f8e1d2:xfce4-screenshooter/.footprint
 f:94b67397fd50887e3328365a2cbdf685:xfce4-screenshooter/.signature
