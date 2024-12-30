@@ -151,8 +151,8 @@ f:9998064f2a73614b3a2c106132d57bbe:libburn/.footprint
 f:f365661e1ed1fe6c4d3b993513ba4991:libburn/.signature
 f:5f2a91f60c81052e6b80295800ce13ae:libburn/Pkgfile
 f:75e272887211c69abae45761559c11d9:xfce4-xkb-plugin/.footprint
-f:982c44a2ab162f02e4c74ccc4ffe10e8:xfce4-xkb-plugin/.signature
-f:a7747a2c5e45619eed5c06b7d9de93f1:xfce4-xkb-plugin/Pkgfile
+f:7f702c891c382504f9259ff6d313a0f0:xfce4-xkb-plugin/.signature
+f:7463fa2009471933a7ca439aa6b3eba1:xfce4-xkb-plugin/Pkgfile
 f:8b7a46fbb64b69fc410ea598c952ed2c:xfce4-xkb-plugin/post-install
 f:1988900906e35d1ae92c4e2e7506175c:thunar/.footprint
 f:4f7be6b0e9df99df155129e561cd7718:thunar/.signature
