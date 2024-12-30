@@ -66,6 +66,7 @@ d:xfce4-dev-tools
 d:xfce4-fsguard-plugin
 d:xfce4-notifyd
 d:xfce4-sensors-plugin
+d:thunar-vcs-plugin
 d:xfwm4
 d:libnfs
 d:xfce4-dict
@@ -350,6 +351,10 @@ f:98fa0a0edf0fbf58e331e51f2dc2bda7:xfce4-sensors-plugin/.footprint
 f:74edbe5d1839189e16f8b1c7d25760f1:xfce4-sensors-plugin/.signature
 f:d18c813c47753811aac8707c0e79f686:xfce4-sensors-plugin/Pkgfile
 f:8b7a46fbb64b69fc410ea598c952ed2c:xfce4-sensors-plugin/post-install
+f:1f836619ef80f368a4a5c2902e361f36:thunar-vcs-plugin/.footprint
+f:383feb1af882eedba15b1fb75a3b8cc2:thunar-vcs-plugin/.signature
+f:41fe67bc37855a48258e61c36114dc15:thunar-vcs-plugin/Pkgfile
+f:59efa380c59c4e7b203e1520ba6631f0:thunar-vcs-plugin/post-install
 f:b96959e1477586cd184fe832158afb43:xfwm4/.footprint
 f:08f092066bd985dced385545d117f557:xfwm4/.signature
 f:32aa5dff4a1ef8d2a3890d1719981a24:xfwm4/Pkgfile
