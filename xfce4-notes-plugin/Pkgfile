@@ -4,7 +4,7 @@
 # Depends on: libsoup xfce4-panel
 
 name=xfce4-notes-plugin
-version=1.11.0
+version=1.11.1
 release=1
 source=(https://archive.xfce.org/src/panel-plugins/$name/${version%.*}/$name-$version.tar.bz2)
 
@@ -22,4 +22,5 @@ build() {
 	make
 	make DESTDIR=$PKG install
 
+	find $PKG/usr/lib/* -name "*.la" -type f|xargs rm -f
 }
