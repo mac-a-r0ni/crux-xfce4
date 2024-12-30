@@ -32,6 +32,7 @@ d:polkit-gnome
 d:clutter
 d:daemon
 d:gigolo
+d:thunar-media-tags-plugin
 d:catfish
 d:xfce4-mailwatch-plugin
 d:mousepad
@@ -218,6 +219,9 @@ f:c5d8c51ec64702ad5bb0ae04beecea85:gigolo/.footprint
 f:08a5066ff2ad2e35ddc795fa3945e29d:gigolo/.signature
 f:eb879cc6046425e4492edb5d36645e15:gigolo/Pkgfile
 f:3ee64027d975e3bfcbb4d71e22a79238:gigolo/post-install
+f:44b995086f939b4feee1397d3b40c326:thunar-media-tags-plugin/.footprint
+f:f0a4a9d54f3b5fdbb55f233fde665aeb:thunar-media-tags-plugin/.signature
+f:3f1527497c07d67e9449fa4ac4caed6c:thunar-media-tags-plugin/Pkgfile
 f:0b8fe22585495858af573ea3b990df2a:catfish/.footprint
 f:2a1c019710c71c24dc449d0f6e18520f:catfish/.signature
 f:9a07671d3af6148fb2a243e09f600b14:catfish/Pkgfile
