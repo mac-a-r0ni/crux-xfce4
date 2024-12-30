@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xfce4.pub
+RWRSAbUnL7azFHw0hqZDYt2T0HkLSEYKLGO4vdg7nWqKZy2DfsIOmdRS7EUn3hT2bMFrKWPOe6vtwSo221kukVwW4m8XCO0CDgU=
+SHA256 (Pkgfile) = 07fd2abdc6e8de5d0610094579d8b2253608cc7f83a637bb6b22b63c0fb193d0
+SHA256 (.footprint) = f9515e27f3dc2312258fb28fee5e04ca27e21c61d92be453282bb368b0987a26
+SHA256 (xfce4-windowck-plugin-0.5.2.tar.bz2) = dc4ed5dc94bd05de5495441f0cabb260ab3e1f6ce27b1fac92e37f909c0cfe0a
