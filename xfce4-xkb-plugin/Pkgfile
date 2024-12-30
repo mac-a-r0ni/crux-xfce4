@@ -5,7 +5,7 @@
 # Optional: xfce4-notifyd
 
 name=xfce4-xkb-plugin
-version=0.8.3
+version=0.8.4
 release=1
 source=(https://archive.xfce.org/src/panel-plugins/$name/${version%.*}/$name-$version.tar.bz2)
 
@@ -23,5 +23,5 @@ build() {
 	make
 	make DESTDIR=$PKG install
 
-    rm $PKG/usr/lib/xfce4/panel/plugins/*.la
+	find $PKG/usr/lib/* -name "*.la" -type f|xargs rm -f
 }
