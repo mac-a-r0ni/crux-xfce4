@@ -1,0 +1,16 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/thunarx-3/
+-rwxr-xr-x	root/root	usr/lib/thunarx-3/thunar-vcs-plugin.so
+-rwxr-xr-x	root/root	usr/lib/tvp-git-helper
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/icons/
+drwxr-xr-x	root/root	usr/share/icons/hicolor/
+drwxr-xr-x	root/root	usr/share/icons/hicolor/24x24/
+drwxr-xr-x	root/root	usr/share/icons/hicolor/24x24/apps/
+-rw-r--r--	root/root	usr/share/icons/hicolor/24x24/apps/git.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/24x24/apps/subversion.png
+drwxr-xr-x	root/root	usr/share/icons/hicolor/48x48/
+drwxr-xr-x	root/root	usr/share/icons/hicolor/48x48/apps/
+-rw-r--r--	root/root	usr/share/icons/hicolor/48x48/apps/git.png
+-rw-r--r--	root/root	usr/share/icons/hicolor/48x48/apps/subversion.png
