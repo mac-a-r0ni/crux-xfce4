@@ -56,6 +56,7 @@ d:file-roller
 d:xfce4-clipman-plugin
 d:gparted
 d:xfce4-genmon-plugin
+d:xfce4-windowck-plugin
 d:xfce4
 d:xfburn
 d:ristretto
@@ -311,6 +312,10 @@ f:09d51d5b359813c8a1bde5908f95608a:xfce4-genmon-plugin/.footprint
 f:7d3d71cb2ae3083e110ab4fcaa18d9a2:xfce4-genmon-plugin/.signature
 f:34f0bec7e1d3aad15b871d16fcdb2b31:xfce4-genmon-plugin/Pkgfile
 f:ece84d5d3509abfef60c564d5c0c1824:xfce4-genmon-plugin/post-install
+f:1c7b235e5b6b27424608d52029c6bbee:xfce4-windowck-plugin/.footprint
+f:94d69316e1e3c4f0dcc7db5475cc5756:xfce4-windowck-plugin/.signature
+f:e032b01a01b05135b498e33e295a61bf:xfce4-windowck-plugin/Pkgfile
+f:8b7a46fbb64b69fc410ea598c952ed2c:xfce4-windowck-plugin/post-install
 f:8f907ede11fd72d8e7072d7a2e14a144:xfce4.httpup
 f:be28f7bcfd813622700367b7200133e6:xfce4/.footprint
 f:c8d3d3f52c5b1c27c995ba284ca4fb58:xfce4/.signature
