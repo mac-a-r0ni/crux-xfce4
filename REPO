@@ -440,9 +440,9 @@ f:4b1dd286c70f6c70e77f74b807651aef:xfce4-generic-slider/.footprint
 f:2ed21fd472e649d867cbeb2fec81a472:xfce4-generic-slider/.signature
 f:a14409f2b366e40c8a26a8dee804c835:xfce4-generic-slider/Pkgfile
 f:ece84d5d3509abfef60c564d5c0c1824:xfce4-generic-slider/post-install
-f:a40a116111b31375b812b3f1b13579ca:thunar-archive-plugin/.footprint
-f:7098a1099c3c5a14bf63d427611e8b85:thunar-archive-plugin/.signature
-f:fd8d56239f893b9613b4f1e7e9d3fc37:thunar-archive-plugin/Pkgfile
+f:d672d5cabc259a2080431c54916758e3:thunar-archive-plugin/.footprint
+f:ddeff6771951a59a48857686b87152b5:thunar-archive-plugin/.signature
+f:91363fe92cb1d74758f0ec2699cbbfa9:thunar-archive-plugin/Pkgfile
 f:59efa380c59c4e7b203e1520ba6631f0:thunar-archive-plugin/post-install
 f:f115a73ca3aca7e750aff1df1056ff9b:thunar-volman/.footprint
 f:52db190afb45590d35e64c4e984b6560:thunar-volman/.signature
