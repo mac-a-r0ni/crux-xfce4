@@ -5,7 +5,7 @@
 # Optional: ark engrampa xarchiver
 
 name=thunar-archive-plugin
-version=0.5.2
+version=0.5.3
 release=1
 source=(http://archive.xfce.org/src/thunar-plugins/$name/${version%.*}/$name-$version.tar.bz2)
 
@@ -23,4 +23,5 @@ build() {
   make
   make DESTDIR=$PKG install
 
+  find $PKG/usr/lib/* -name "*.la" -type f|xargs rm -f
 }

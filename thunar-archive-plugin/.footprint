@@ -9,7 +9,6 @@ lrwxrwxrwx	root/root	usr/lib/thunar-archive-plugin/mate-engrampa.tap -> engrampa
 lrwxrwxrwx	root/root	usr/lib/thunar-archive-plugin/org.gnome.FileRoller.tap -> file-roller.tap
 lrwxrwxrwx	root/root	usr/lib/thunar-archive-plugin/org.kde.ark.tap -> ark.tap
 drwxr-xr-x	root/root	usr/lib/thunarx-3/
--rwxr-xr-x	root/root	usr/lib/thunarx-3/thunar-archive-plugin.la
 -rwxr-xr-x	root/root	usr/lib/thunarx-3/thunar-archive-plugin.so
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/icons/

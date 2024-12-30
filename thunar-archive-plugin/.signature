@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xfce4.pub
-RWRSAbUnL7azFD5u+lRU06ayymD71+1URNfxGny4yAMffNrFsPuPb7XAbar2CClndJ2rpzA73Ul5r1Fr8UCdbdf7bk9Xn4zNCQA=
-SHA256 (Pkgfile) = 09ce3fd1d91ea7c605dd07974baa5257eb9287c3a201230a51630a1e4525988b
-SHA256 (.footprint) = e5330bbff5cf923cfb842c7dc145dac94d8c81c397be522cf2cc9076bf4ef89f
-SHA256 (thunar-archive-plugin-0.5.2.tar.bz2) = 6379f877bcfc0ea85db9f43723b6fb317893050c712bd03c2ae3232fb9d5ade3
+RWRSAbUnL7azFPeAsuLH6ysqXXms8V8qsUGvnEJ+VSJJz9ks7v9H6b62oF+ySXrBIFWkExtqAkmoT02wi+PvO3Imqn6UuEiKGAQ=
+SHA256 (Pkgfile) = 016a0bf5a883dcdfa66b38b9ef47cdb682a42d89bbd948444b27f272911a22fb
+SHA256 (.footprint) = 5d9581ddba14a4487d3f106a69aceec309d814aebc69bed49997aabecd3fba88
+SHA256 (thunar-archive-plugin-0.5.3.tar.bz2) = cc0ffc86dc48e72edc6f6a61ad4345f99018526d5d854360960759ce1ec2ca22
