@@ -275,9 +275,10 @@ f:d4d8ff24c9c65c9b3782d19a7161aafa:tumbler/.footprint
 f:015e85a5f38b1530833c7cd0b5441d51:tumbler/.signature
 f:4e4146e0dfacd656e182c0c773b64fdd:tumbler/Pkgfile
 f:95f3a1ebcc5a4ee8a9edafe7df0fcbc5:tumbler/post-install
-f:d73c522e95a13ecdd25d60829d549d3b:xfce4-notes-plugin/.footprint
-f:a3f84d674834d4ebbb37d23f0be408e3:xfce4-notes-plugin/.signature
-f:55c04b5fa5d3bb02368c0d0f207d8f3e:xfce4-notes-plugin/Pkgfile
+f:3e86a787bc3c07df691a256eb70d2a90:xfce4-notes-plugin/.footprint
+f:39cca3cbc431c1df5e30cfc1cb2867e3:xfce4-notes-plugin/.signature
+f:4e85390496468b52211ba1ae483992c5:xfce4-notes-plugin/Pkgfile
+f:ed2014dd0f5944e62c1e6a160e17ad23:xfce4-notes-plugin/post-install
 f:f1bac51d7682c1e59a848b23bd41a232:xfce4-settings/.footprint
 f:36a1f70fe9a5ef628e1a6f8fad45ab1e:xfce4-settings/.signature
 f:ec4a646f4bd7652b8f77ed3d6891043e:xfce4-settings/Pkgfile
