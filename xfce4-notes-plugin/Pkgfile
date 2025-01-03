@@ -1,7 +1,7 @@
 # Description: A Notes plugin for the xfce-panel
 # URL: https://xfce.org
 # Maintainer: mac-a-r0ni, j at lngn dot net
-# Depends on: libsoup xfce4-panel
+# Depends on: gtksourceview4 libsoup xfce4-panel
 
 name=xfce4-notes-plugin
 version=1.11.1
