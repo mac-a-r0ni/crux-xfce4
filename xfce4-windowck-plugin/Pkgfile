@@ -1,7 +1,7 @@
 # Description: plugin which allows to put the maximized window title & windows buttons on the panel
 # URL: https://docs.xfce.org/panel-plugins/xfce4-windowck-plugin/start
 # Maintainer: mac-a-r0ni, j at lngn dot net
-# Depends on: libwnck-gtk3 xfce4-panel
+# Depends on: xfce4-panel
 
 name=xfce4-windowck-plugin
 version=0.5.2

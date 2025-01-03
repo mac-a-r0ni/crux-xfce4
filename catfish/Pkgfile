@@ -1,7 +1,7 @@
 # Description: File searching tool
 # URL: https://docs.xfce.org/apps/catfish/start
 # Maintainer: mac-a-r0ni, j at lngn dot net
-# Depends on: dbus-python3 gtk3 python3-gobject python3-pexpect xdg-utils xfconf mlocate python3-distutils-extra
+# Depends on: dbus-python3 desktop-file-utils gtk3 mlocate python3-distutils-extra python3-gobject python3-pexpect xdg-utils xfconf
 
 name=catfish
 version=4.20.0
