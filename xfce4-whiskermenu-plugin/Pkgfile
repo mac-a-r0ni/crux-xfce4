@@ -5,7 +5,7 @@
 # Optional: accountsservice
 
 name=xfce4-whiskermenu-plugin
-version=2.8.3
+version=2.8.4
 release=1
 source=(https://archive.xfce.org/src/panel-plugins/$name/${version:0:3}/$name-$version.tar.bz2)
 
