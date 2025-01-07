@@ -140,9 +140,10 @@ f:67ff3e0bd836725504740e437650ec66:xfce4-indicator-plugin/.footprint
 f:9a8ee063d4e6f64f3bd43dc02b8f9368:xfce4-indicator-plugin/.signature
 f:fa2b31bb629ce7148df79cd3f0669355:xfce4-indicator-plugin/Pkgfile
 f:ece84d5d3509abfef60c564d5c0c1824:xfce4-indicator-plugin/post-install
-f:42c622387895fcf945e672379ab80f5d:orage/.footprint
-f:f7915cc1839760c3fab263d4de9f91c2:orage/.signature
-f:e9c9715a060b34d918e06b0ea1bfda30:orage/Pkgfile
+f:dbec5f3b81d64e42124b19bfb7612f00:orage/.footprint
+f:d057702441e1181fc15bf6b99ba133aa:orage/.signature
+f:3854a8c93cfc9d7d0ca8e811f3b404d8:orage/Pkgfile
+f:3ee64027d975e3bfcbb4d71e22a79238:orage/post-install
 f:571469be79f61070bf8f438a3f72cf82:xfce4-timer-plugin/.footprint
 f:a0323aeb80e392ecac7e361028a2c45e:xfce4-timer-plugin/.signature
 f:31974894c961cd0b4006bc8d0e1b18c4:xfce4-timer-plugin/Pkgfile
