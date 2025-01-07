@@ -43,3 +43,7 @@ drwxr-xr-x	root/root	usr/share/orage/sounds/
 -rw-r--r--	root/root	usr/share/orage/sounds/Spo.wav
 -rw-r--r--	root/root	usr/share/orage/sounds/Tear.wav
 -rw-r--r--	root/root	usr/share/orage/sounds/Wall_c.wav
+drwxr-xr-x	root/root	usr/share/themes/
+drwxr-xr-x	root/root	usr/share/themes/Default/
+drwxr-xr-x	root/root	usr/share/themes/Default/orage-4.0/
+-rw-r--r--	root/root	usr/share/themes/Default/orage-4.0/gtk.css
