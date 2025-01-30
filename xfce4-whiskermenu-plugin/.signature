@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xfce4.pub
-RWRSAbUnL7azFFsbt/51J/iy2lq875gr+q9gxJAXks0I9BSTqQ0xqp+PXXkePJJD/x5lTWxn2GUDviavlAjnPI0NQFHknf1xuQ4=
-SHA256 (Pkgfile) = 30f21efc60039b429b064d9a7936230a73b72f5998324d8d8d1da7be9465fa03
+RWRSAbUnL7azFOLRZqVxmjAK3hrvZICVTS4aOEwZ/xz2TaCbuvKUDpEaw7J4AVk+smAqzuqL1TttF7s1/0qh0skH0tfGoVGpXwY=
+SHA256 (Pkgfile) = 24f4d3f70938495d23930c18cb17f27c2c8f68ce60944a1d225d08213cffdaed
 SHA256 (.footprint) = 58e45197d2bad922bec2f1f77b7c673223ccdc8ca9a86f0754eb5eb75fe6a85a
-SHA256 (xfce4-whiskermenu-plugin-2.8.4.tar.bz2) = ed918950e01dc97fe831e01c698b44247f1537992999b1262ab61c799272b3b7
+SHA256 (xfce4-whiskermenu-plugin-2.9.0.tar.bz2) = 8892bb9cc6bbaa402288ad7e5ee76a1990cb8476fe35964a41ec8a9794f6f322
