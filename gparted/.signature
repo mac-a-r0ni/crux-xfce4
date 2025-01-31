@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xfce4.pub
-RWRSAbUnL7azFC8cjCUYqNp57JsK/VxVXv9vxUlVg3Fg3QctUSC6xm4HEtXykK/jwBSlX6OshBGjVmirOK2LeCIzcEzKpwn1ygA=
-SHA256 (Pkgfile) = 7d8ab9e959cc7b36fac00715408b8fa84f02d56a846d95080c53edb97ffb144c
+RWRSAbUnL7azFLwX6nI4lFfnCoBXwELYuEfm0X9T6i6OLiWmpQ1DU3vqIbxhO8QPcW3D9evLrtCKbGQ8MSm+MUtJiyWVbtvFBQs=
+SHA256 (Pkgfile) = e4fdcc31f0c986937cec21aa27b3811d413131adad7625f6248409a1c1e09671
 SHA256 (.footprint) = 24ec0b2714270b1bf8e104aa1f184f495541879bb80cf12be4a5cfaceda0024e
-SHA256 (gparted-1.6.0.tar.gz) = 9b9f51b3ce494ddcb59a55e1ae6679c09436604e331dbf5a536d60ded6c6ea5b
+SHA256 (gparted-1.7.0.tar.gz) = 84ae3b9973e443a2175f07aa0dc2aceeadb1501e0f8953cec83b0ec3347b7d52
