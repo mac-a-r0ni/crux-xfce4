@@ -4,7 +4,7 @@
 # Depends on: libdisplay-info libwnck-gtk3 wayland xfce4-dev-tools
 
 name=libxfce4windowing
-version=4.20.0
+version=4.20.2
 release=1
 source=(https://archive.xfce.org/src/xfce/$name/${version:0:4}/$name-$version.tar.bz2)
 
