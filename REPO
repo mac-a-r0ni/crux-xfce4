@@ -109,9 +109,9 @@ f:09117913847f1a2744363b3851468dda:libmpd/0003-fix-comparison.patch
 f:192c876862b856774c9d945643505bef:libplist/.signature
 f:ae6f0212c016420461a9cc6e75c76fc5:libplist/.footprint
 f:47320fa7109b3b0e61aed7dadfbf25a8:libplist/Pkgfile
-f:f9fb9eb4083a5284c5b809c6f2401260:libxfce4windowing/.signature
+f:21564f84b85ae0d6754eb88a42018b3e:libxfce4windowing/.signature
 f:ec1b81a22ce4bacff69605aebc698db0:libxfce4windowing/.footprint
-f:95e3304ca396a4f3ec73278fce240a9d:libxfce4windowing/Pkgfile
+f:4610d5e3fb353424ce8203cb700481cd:libxfce4windowing/Pkgfile
 f:471d510a8ad54b3aec56e8dafc740b17:xfce4-datetime-plugin/.signature
 f:ee259f3d8ab0404c0d6bf365fd60de32:xfce4-datetime-plugin/.footprint
 f:6ea26dcf97512c905a80b283ac1cd80c:xfce4-datetime-plugin/Pkgfile
@@ -229,10 +229,10 @@ f:c270461c22bc249e1866732c8f2eb595:xfce4-battery-plugin/.signature
 f:dd89644bf6cebbb0dd89bf623edb4101:xfce4-battery-plugin/.footprint
 f:95f3a1ebcc5a4ee8a9edafe7df0fcbc5:xfce4-battery-plugin/post-install
 f:8a6ee03b07a053293cc641676f617a92:xfce4-battery-plugin/Pkgfile
-f:39cca3cbc431c1df5e30cfc1cb2867e3:xfce4-notes-plugin/.signature
+f:a047e7545f4cd0209b82784d9c3804a3:xfce4-notes-plugin/.signature
 f:3e86a787bc3c07df691a256eb70d2a90:xfce4-notes-plugin/.footprint
 f:ed2014dd0f5944e62c1e6a160e17ad23:xfce4-notes-plugin/post-install
-f:30dfe84161da5695683105ed7e4ad8af:xfce4-notes-plugin/Pkgfile
+f:ab47f3eed0a8b91435debc3e07f41035:xfce4-notes-plugin/Pkgfile
 f:e2c7dfb4931cb68499b51eed34443880:xfce4-docklike-plugin/.signature
 f:98835a53c3ef0c194e3aee2dfd213d68:xfce4-docklike-plugin/.footprint
 f:d611c9fe10f3cd9b4044b239a84dda27:xfce4-docklike-plugin/Pkgfile
