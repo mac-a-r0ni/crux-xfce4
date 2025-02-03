@@ -190,10 +190,10 @@ f:5dec1c688a5abb1a3ae2e49a0d7c0bd8:ristretto/.signature
 f:dccdf7c8f7cdf0139451c1c3cee7e2d1:ristretto/.footprint
 f:3ee64027d975e3bfcbb4d71e22a79238:ristretto/post-install
 f:1657033d646cc822ce92ae3a791d3f9f:ristretto/Pkgfile
-f:80677539fee229767ab7b9811c5e8fda:xfce4-panel/.signature
+f:86640e58ac29994825b38e58cb363177:xfce4-panel/.signature
 f:9a29d0b55554c6d0cab0c1602e3e631e:xfce4-panel/.footprint
 f:ed2014dd0f5944e62c1e6a160e17ad23:xfce4-panel/post-install
-f:0617ce292de7743f902c0dafc43e4ac6:xfce4-panel/Pkgfile
+f:6bef8d57a4f176f92a5be5bd260ee385:xfce4-panel/Pkgfile
 f:7389c4a2ae9726fdff07aff0ebd3cc2e:xfburn/.signature
 f:a12f9470a50deb62e4fe1e7567394e42:xfburn/.footprint
 f:04bab67cdf9cd2d4daa4411bb7d77c42:xfburn/post-install
