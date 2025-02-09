@@ -182,10 +182,10 @@ f:c6323f46e756062dba22b6f02319a01e:xfce4-dict/.signature
 f:243cddb3fc7fb1d39eedeb0fad2546b4:xfce4-dict/.footprint
 f:14276d765c1b09537d6bf160e6cda635:xfce4-dict/post-install
 f:b90af6e16f2f15e1ab1f45805662f2b6:xfce4-dict/Pkgfile
-f:36a1f70fe9a5ef628e1a6f8fad45ab1e:xfce4-settings/.signature
-f:f1bac51d7682c1e59a848b23bd41a232:xfce4-settings/.footprint
+f:7401ea5a2737babb526b8e99f39d348d:xfce4-settings/.signature
+f:5d2faab1a1b96a63d0f45d436399d173:xfce4-settings/.footprint
 f:ed2014dd0f5944e62c1e6a160e17ad23:xfce4-settings/post-install
-f:ec4a646f4bd7652b8f77ed3d6891043e:xfce4-settings/Pkgfile
+f:6b53cb52e106ae0f3a070d895d4d59d7:xfce4-settings/Pkgfile
 f:5dec1c688a5abb1a3ae2e49a0d7c0bd8:ristretto/.signature
 f:dccdf7c8f7cdf0139451c1c3cee7e2d1:ristretto/.footprint
 f:3ee64027d975e3bfcbb4d71e22a79238:ristretto/post-install
