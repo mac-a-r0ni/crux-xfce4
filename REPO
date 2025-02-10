@@ -409,10 +409,10 @@ f:f626a0466b21fb28d2d03c8960652676:exo/Pkgfile
 f:6d07bf36ad6ea929e4f25e58129cef56:daemon/.signature
 f:2bcca690ea6af706dbbe31a8f5c9e58d:daemon/.footprint
 f:9bfbc219cc713a41277ee697e7865f48:daemon/Pkgfile
-f:787ca4cdf995538ed84c3a4d2b49e09d:thunar/.signature
+f:fcaacaf356d2c787a990daba9b96b0f5:thunar/.signature
 f:1988900906e35d1ae92c4e2e7506175c:thunar/.footprint
 f:ed2014dd0f5944e62c1e6a160e17ad23:thunar/post-install
-f:4665f38c05e425833e66b6424a7bd852:thunar/Pkgfile
+f:70f91001cdeb37ea91888a3ff4332051:thunar/Pkgfile
 f:f365661e1ed1fe6c4d3b993513ba4991:libburn/.signature
 f:9998064f2a73614b3a2c106132d57bbe:libburn/.footprint
 f:5f2a91f60c81052e6b80295800ce13ae:libburn/Pkgfile
