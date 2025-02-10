@@ -4,7 +4,7 @@
 # Depends on: gnome-icon-theme gvfs libexif libnotify tumbler xfce4-panel
 
 name=thunar
-version=4.20.1
+version=4.20.2
 release=1
 source=(https://archive.xfce.org/src/xfce/$name/${version:0:4}/$name-$version.tar.bz2)
 
@@ -24,8 +24,7 @@ build() {
 	make DESTDIR=$PKG install
 
 	find $PKG/usr/lib/* -name "*.la" -type f|xargs rm -f
-	rm -r $PKG/usr/share/gtk-doc
-	rm -r $PKG/usr/share/doc
+	rm -r $PKG/usr/share/{doc,gtk-doc}
 	rm -rf $PKG/usr/lib/systemd
 
 }
