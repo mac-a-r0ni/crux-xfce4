@@ -217,9 +217,9 @@ f:4d93976aa30919533155d2884b75cbf5:file-roller/post-install
 f:28862f890583c2bd45a5bb5caa16daac:libnfs/.signature
 f:44f39f21610e00f62db0c85d169ebda8:libnfs/Pkgfile
 f:95b76b94015580067823ad849c22a8ba:libnfs/.footprint
-f:66d3472352f09b570a4ddacf50f22d0d:xfce4-notifyd/.signature
-f:1ba24ab2174b44876e8c0b8b9e474572:xfce4-notifyd/Pkgfile
-f:510d18bb5ea36580aa357bb3d2f230f2:xfce4-notifyd/.footprint
+f:bb31855e6614de235815243f9f7431bc:xfce4-notifyd/.signature
+f:2cf77d5eadce10eb1e19fdaaceea3605:xfce4-notifyd/Pkgfile
+f:1bc787068ea3ee70be867ad2430ea906:xfce4-notifyd/.footprint
 f:12742081c31e595d8b67133b1b89b9dd:xfce4-notifyd/post-install
 f:52db190afb45590d35e64c4e984b6560:thunar-volman/.signature
 f:1b01c31cf1ab0cce4d6ca9318532abed:thunar-volman/Pkgfile
