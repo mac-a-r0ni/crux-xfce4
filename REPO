@@ -193,8 +193,8 @@ f:dc0934cc30a0ace0d5e158ac1a458529:xfce4-mixer/.signature
 f:58c562fa68e45e88a4cca2ab57594e9c:xfce4-mixer/Pkgfile
 f:1db3b5c70a8e993c39025d0c5a90c9da:xfce4-mixer/.footprint
 f:ed2014dd0f5944e62c1e6a160e17ad23:xfce4-mixer/post-install
-f:174c1713dc5b7fc8ac0dbeef55c05929:xfdesktop/.signature
-f:21ec60ff6403dc7429728e4e4c0ddad3:xfdesktop/Pkgfile
+f:021a8f892d863ecd7121b9d1a69c6bc6:xfdesktop/.signature
+f:2293c29b769ec66e27748cfe04a6e592:xfdesktop/Pkgfile
 f:bda2334318febcc10a038982af18fdd0:xfdesktop/.footprint
 f:ed2014dd0f5944e62c1e6a160e17ad23:xfdesktop/post-install
 f:383feb1af882eedba15b1fb75a3b8cc2:thunar-vcs-plugin/.signature
