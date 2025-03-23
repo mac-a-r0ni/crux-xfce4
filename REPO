@@ -230,9 +230,9 @@ f:b9f23ff1f5641c8f5216d2bd1ee888de:xfce4-smartbookmark-plugin/Pkgfile
 f:2171a569f5bba440ae6b9a00a9dcc6d3:xfce4-places-plugin/.footprint
 f:8639f19b78ea5fcbab254706ae094525:xfce4-places-plugin/.signature
 f:ac903b006aa8fb2c673b88112a14f412:xfce4-places-plugin/Pkgfile
-f:1f1456ff68606d2f394fc03c4f11f14a:elementary-xfce-icons/.footprint
-f:1547de79f0af532e4787580932dfc278:elementary-xfce-icons/.signature
-f:735147b06377b446ade1832b3734674f:elementary-xfce-icons/Pkgfile
+f:36bcc381afa2111ac3de40965c0d2487:elementary-xfce-icons/.footprint
+f:2b6b7f55e6a61bd48da5df6bdec934d4:elementary-xfce-icons/.signature
+f:3e532c6c6870ce6ac950960220404b86:elementary-xfce-icons/Pkgfile
 f:875ae183f94ff81c570304f6a9a6a0d4:elementary-xfce-icons/post-install
 f:8ba1073aad7ffaa934f841c4a4373d39:libkeybinder3/.footprint
 f:e509d4302cf144e0d2d1aedc60c914e4:libkeybinder3/.signature
