@@ -4,7 +4,7 @@
 # Depends on: xkeyboard-config xmessage xorg-font-adobe-utopia-type1 xorg-font-alias xorg-font-bh-ttf xorg-font-bh-type1 xorg-font-ibm-type1 xorg-font-misc-ethiopic xorg-font-xfree86-type1 xorg-iceauth xorg-libfs xorg-libxscrnsaver xorg-sessreg xorg-setxkbmap xorg-x11perf xorg-xauth xorg-xbacklight xorg-xcb-util-cursor xorg-xcb-util-wm xorg-xcursorgen xorg-xdpyinfo xorg-xdriinfo xorg-xev xorg-xf86-input-libinput xorg-xgamma xorg-xhost xorg-xinit xorg-xinput xorg-xkill xorg-xmodmap xorg-xprop xorg-xrdb xorg-xset xorg-xsetroot xorg-xvinfo xorg-xwininfo
 
 name=libxfce4util
-version=4.20.0
+version=4.20.1
 release=1
 source=(https://archive.xfce.org/src/xfce/$name/${version:0:4}/$name-$version.tar.bz2)
 
