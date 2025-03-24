@@ -395,8 +395,8 @@ f:09bdfb8aa9dd0ce549e202a4378ec0f2:xfce4-netload-plugin/.signature
 f:70f898dc2fa0d381561eb35a74437c06:xfce4-netload-plugin/Pkgfile
 f:ece84d5d3509abfef60c564d5c0c1824:xfce4-netload-plugin/post-install
 f:d4dca6447dd4c90087d8b5ed0ca9bc3f:xfce4-session/.footprint
-f:547a1292d2a9c976ff438cccfa1b115d:xfce4-session/.signature
-f:b3b234537f3695e8578fb591d5d51c05:xfce4-session/Pkgfile
+f:263b741691fdfb0b43ea297e8dd710f9:xfce4-session/.signature
+f:36111debd07192054a2b5d1463dab7f2:xfce4-session/Pkgfile
 f:ed2014dd0f5944e62c1e6a160e17ad23:xfce4-session/post-install
 f:bda2334318febcc10a038982af18fdd0:xfdesktop/.footprint
 f:021a8f892d863ecd7121b9d1a69c6bc6:xfdesktop/.signature
