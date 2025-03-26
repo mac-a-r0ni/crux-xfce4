@@ -2,7 +2,7 @@ drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/mousepad
 drwxr-xr-x	root/root	usr/lib/
-lrwxrwxrwx	root/root	usr/lib/libmousepad.so -> libmousepad.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libmousepad.so -> libmousepad.so.0
 lrwxrwxrwx	root/root	usr/lib/libmousepad.so.0 -> libmousepad.so.0.0.0
 -rwxr-xr-x	root/root	usr/lib/libmousepad.so.0.0.0
 drwxr-xr-x	root/root	usr/lib/mousepad/

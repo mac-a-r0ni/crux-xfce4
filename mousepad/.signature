@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xfce4.pub
-RWRSAbUnL7azFNOIEpfdZZLW5H5Cr06jU+S9X9G77XQ9sqHcU0F+RV/+3tYWs+zavJVTdXovvNiXa04lGPYjLwm4S6DjgWFGKAg=
-SHA256 (Pkgfile) = 612cd64ad2d1820c7d6d40acd8781853d5351a4cb13224f9016c2589f83b726d
-SHA256 (.footprint) = 08e5e3c789557e1139e81f3c763cf91ea19ddef3209b96d91c2ad1ae9fe23564
-SHA256 (mousepad-0.6.3.tar.bz2) = 2ff162c185f18014ab9c82c2ac2dfce4fba20eb0005e7690ee27f00b9cb929b9
+RWRSAbUnL7azFPPb8tYaA35pne1knM12MfaI1/zLSW6wnS+EvRaAapdbdZIzCVYTcsswLgDoonegivyh81zHkTtJsYWTFiUv/gc=
+SHA256 (Pkgfile) = acc167127d34fd2591e7335b5d72a221dbe6ab4c8660ab51384755681f06b4eb
+SHA256 (.footprint) = 0cd687f0f53d49cfe7ad2dedebd695cac01ff1b27c4c0a4639c916074e59a9b1
+SHA256 (mousepad-0.6.4.tar.xz) = 0aeb848e76a9a1e4186a5055328bbffdfdfae1b231db04b836b1816771c0db46

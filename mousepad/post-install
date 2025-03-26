@@ -1,6 +1,8 @@
 #!/bin/sh
 #
-# post-install: install/update all glib schemas after the
-# package installation
+# post-install: install/update application db, icon cache, &
+# all glib schemas after the package installation
 
-glib-compile-schemas /usr/share/glib-2.0/schemas/
+/usr/bin/update-desktop-database /usr/share/applications
+/usr/bin/gtk-update-icon-cache /usr/share/icons/hicolor
+/usr/bin/glib-compile-schemas /usr/share/glib-2.0/schemas/

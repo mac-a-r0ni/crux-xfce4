@@ -4,23 +4,22 @@
 # Depends on: desktop-file-utils gspell gtksourceview4 libxfce4ui polkit
 
 name=mousepad
-version=0.6.3
+version=0.6.4
 release=1
-source=(https://archive.xfce.org/src/apps/$name/${version:0:3}/$name-$version.tar.bz2)
+source=(https://archive.xfce.org/src/apps/$name/${version:0:3}/$name-$version.tar.xz)
 
 build() {
-	cd $name-$version
 
-	./configure \
-		--prefix=/usr \
-		--libexecdir=/usr/lib \
-		--disable-nls \
-		--disable-debug \
-		--sysconfdir=/etc
+  meson setup $name-$version build \
+    --prefix=/usr \
+    --buildtype=plain \
+    -Dgtksourceview4=enabled \
+    -Db_lto=true \
+    -Db_pie=true
 
-	make
-	make DESTDIR=$PKG install
+  meson compile -C build
+  DESTDIR=$PKG meson install -C build
 
-	find $PKG/usr/lib/* -name "*.la" -type f|xargs rm -f
+  rm -rf $PKG/usr/share/locale
 
 }
