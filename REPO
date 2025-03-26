@@ -424,10 +424,10 @@ f:dd89644bf6cebbb0dd89bf623edb4101:xfce4-battery-plugin/.footprint
 f:c270461c22bc249e1866732c8f2eb595:xfce4-battery-plugin/.signature
 f:8a6ee03b07a053293cc641676f617a92:xfce4-battery-plugin/Pkgfile
 f:95f3a1ebcc5a4ee8a9edafe7df0fcbc5:xfce4-battery-plugin/post-install
-f:3dec8eb9661566d12122f0f4f02a5f4a:mousepad/.footprint
-f:7265909b92cd8e7a829a0a613a620d08:mousepad/.signature
-f:f5dd2f816bd5d2efdcf1c7ff91b3bb50:mousepad/Pkgfile
-f:0806d0afa08aec01b9699e7d52096fac:mousepad/post-install
+f:8de3b86529dd679a6a43135f0fefec63:mousepad/.footprint
+f:a41cd5fdb1f8302e0b8bfb8551d3623b:mousepad/.signature
+f:2702bc3e39f3a6013db8f5512870efd4:mousepad/Pkgfile
+f:2a984db2aa6782d7ca8e9286a24ba772:mousepad/post-install
 f:25a4337ae57e5ab3d799abfaac46a12b:xfce4-dev-tools/.footprint
 f:5e3ce9d771d13db8528ebb9c045606a4:xfce4-dev-tools/.signature
 f:06a340e43917321d561bbc6f35fdaee7:xfce4-dev-tools/Pkgfile
