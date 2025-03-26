@@ -6,7 +6,7 @@
 # Optional: fuse3 udisks2 avahi libbluray libnfs libcdio-paranoia libimobiledevice
 
 name=gvfs
-version=1.56.1
+version=1.57.2
 release=1
 source=(http://download.gnome.org/sources/$name/${version:0:4}/$name-$version.tar.xz)
 
