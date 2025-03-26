@@ -245,8 +245,9 @@ f:74edbe5d1839189e16f8b1c7d25760f1:xfce4-sensors-plugin/.signature
 f:d18c813c47753811aac8707c0e79f686:xfce4-sensors-plugin/Pkgfile
 f:8b7a46fbb64b69fc410ea598c952ed2c:xfce4-sensors-plugin/post-install
 f:3af40d9bc5f346e31d45117ffe993b6c:gvfs/.footprint
-f:d9bc0b8d327bb0308d673ad4b14e423d:gvfs/.signature
-f:6328654716bbe6c8ea7faa888b5b7570:gvfs/Pkgfile
+f:c04d39ae0e6d7cfe2ef97bc95ab623dc:gvfs/.signature
+f:a48dc7169c7af02c33cce1fe72ca9409:gvfs/Pkgfile
+f:a0b57ae963ffe075c161bc6bacabd457:gvfs/post-install
 f:3e86a787bc3c07df691a256eb70d2a90:xfce4-notes-plugin/.footprint
 f:a047e7545f4cd0209b82784d9c3804a3:xfce4-notes-plugin/.signature
 f:ab47f3eed0a8b91435debc3e07f41035:xfce4-notes-plugin/Pkgfile
