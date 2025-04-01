@@ -2,6 +2,7 @@
 # URL: https://www.xfce.org
 # Maintainer: mac-a-r0ni, j at lngn dot net
 # Depends on: gtk3 hicolor-icon-theme libgtop startup-notification xfconf
+# Optional: glade vala
 
 name=libxfce4ui
 version=4.20.1
