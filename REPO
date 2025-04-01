@@ -149,8 +149,8 @@ f:37a7d0616f8cb77a261afd294f27f708:libmpd/0002-include-config.h.patch
 f:9bce166d4e8bbc1022ec9ea488f11e36:libmpd/0001-fix-return-value.patch
 f:5c0dedfdb34683232f8fde01582c5063:libmpd/Pkgfile
 f:eff8da202cf91b8346f12d87d87c2281:xfce4-terminal/.footprint
-f:78d10a5204b42de0904e967909823ab9:xfce4-terminal/.signature
-f:5fd85e7660f4d736a8ee426482df046d:xfce4-terminal/Pkgfile
+f:fe30c4177e31196d27b738d665488fcf:xfce4-terminal/.signature
+f:1f5f76ff8e51d96b9258a66a0dba5c74:xfce4-terminal/Pkgfile
 f:ed2014dd0f5944e62c1e6a160e17ad23:xfce4-terminal/post-install
 f:95b76b94015580067823ad849c22a8ba:libnfs/.footprint
 f:28862f890583c2bd45a5bb5caa16daac:libnfs/.signature
@@ -220,9 +220,9 @@ f:2d9ccff232aa33b1459bab60630e1bce:xfce4-diskperf-plugin/Pkgfile
 f:3a390a215ac4b2784959793632ca8c62:gspell/.footprint
 f:22c060831bea7173cca2c7bf481c9bdb:gspell/.signature
 f:bbe0c2a5181562682c25d8b95301f6d7:gspell/Pkgfile
-f:253122eef0fc54853e3f02cdc75a232e:libxfce4ui/.footprint
-f:36ebd727ef98f68b5fd0d975f73833e6:libxfce4ui/.signature
-f:7fbb808528057e105f5a1063d65ae682:libxfce4ui/Pkgfile
+f:b83d9206744863a5be0a0c098ef4a10e:libxfce4ui/.footprint
+f:4773bfc94b65f831db132357fb0f32b8:libxfce4ui/.signature
+f:24c7588a1bb8a86dcdd70b6d86522d34:libxfce4ui/Pkgfile
 f:92d5449a7f3c9b2962439e47adf4b9b6:libxfce4ui/vendorinfo
 f:d0451508a46fdda843cbce01d0d1ae9a:xfce4-smartbookmark-plugin/.footprint
 f:db638e194f431182ec8ccf7b5c65a693:xfce4-smartbookmark-plugin/.signature
@@ -270,8 +270,8 @@ f:c6e2a58e6118f4f275e484d74c44c993:garcon/.footprint
 f:d404b24fcc65d2a35e6a425b0cd7546f:garcon/.signature
 f:2b6066bacd95b78bee21951cf1c24934:garcon/Pkgfile
 f:0ab0852eb26b03f1bfd863aabf93130b:garcon/post-install
-f:46c909f536cce25d4a5785a2da050452:libxfce4util/.footprint
-f:0a7fcbfee3bf404fa6a98a0d3d3ac2e9:libxfce4util/.signature
+f:39e7e14c9d578e273d97c1d7eae48cc2:libxfce4util/.footprint
+f:912e415f26c9fe52cef04d257fd433f8:libxfce4util/.signature
 f:83f299fd740f166048bff61c150a88f9:libxfce4util/Pkgfile
 f:714ee4804fe47cc2b81dbfb8abbc6252:parole/.footprint
 f:9fe013523202e5e3a176db64dbfd4193:parole/.signature
