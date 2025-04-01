@@ -1,21 +1,23 @@
 # Description: A modern terminal emulator
 # URL: https://docs.xfce.org/apps/terminal/start
 # Maintainer: mac-a-r0ni, j at lngn dot net
-# Depends on: exo vte3
+# Depends on: exo gtk-doc vte3
 
 name=xfce4-terminal
-version=1.1.4
+version=1.1.5
 release=1
-source=(https://archive.xfce.org/src/apps/$name/${version%.*}/$name-$version.tar.bz2)
+source=(https://archive.xfce.org/src/apps/$name/${version%.*}/$name-$version.tar.xz)
 build ()
 {
+ meson setup $name-$version build \
+    --prefix=/usr \
+    --buildtype=release \
+    -Db_lto=true \
+    -Db_pie=true
 
-	cd $name-$version
-	./configure --prefix=/usr \
-		--disable-nls \
-		--libexecdir=/usr/lib/$name
+  meson compile -C build
+  DESTDIR=$PKG meson install -C build
 
-	make
-	make DESTDIR=$PKG install
+  rm -rf $PKG/usr/share/locale
 
 }
