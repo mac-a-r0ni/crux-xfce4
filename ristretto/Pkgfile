@@ -4,21 +4,21 @@
 # Depends on: libexif libxfce4ui tumbler
 
 name=ristretto
-version=0.13.3
+version=0.13.4
 release=1
-source=(https://archive.xfce.org/src/apps/$name/0.13/$name-$version.tar.bz2)
+source=(https://archive.xfce.org/src/apps/$name/0.13/$name-$version.tar.xz)
 
 build() {
-  cd $name-$version
 
-    ./configure \
+ meson setup $name-$version build \
     --prefix=/usr \
-    --sysconfdir=/etc \
-    --localstatedir=/var \
-    --disable-debug \
-    --disable-nls
+    --buildtype=plain \
+    -Db_lto=true \
+    -Db_pie=true
 
-    make
-    make DESTDIR=$PKG install
+  meson compile -C build
+  DESTDIR=$PKG meson install -C build
+
+  rm -rf $PKG/usr/share/locale
 
 }

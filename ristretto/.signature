@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xfce4.pub
-RWRSAbUnL7azFHlHSDl0EXgUUd8ef4H06XiKXRw2OyTyU8macFtpcZTfuNiOVXu/Ep2VNFsJVd8mT1QXY4cbOYqaiSVsaUi+xgk=
-SHA256 (Pkgfile) = e64c59f9bcd7ebde4ce134cf9dd93c61c6fcb36f799cfd695021f0773f432eb8
+RWRSAbUnL7azFH515yC78XB0MYdjavo9jLXwZMg3hDtRyQhfEQ09/6sIspxMBASg0PjcXnn86eqGinOC4GNTbVHdGXlk6iox7AY=
+SHA256 (Pkgfile) = fb250d79ae3712e7744781c026acfc520b6f995163a64512982a81f4020db1aa
 SHA256 (.footprint) = 62f248dd833d9213b5e9ba8b27b43f893aa2ec38ca2797ee3fbe4063e7a82b37
-SHA256 (ristretto-0.13.3.tar.bz2) = 5b9172ef704ae192a5338df6bee4e91a59edc65618c375bb4433ffb38e2126cb
+SHA256 (ristretto-0.13.4.tar.xz) = a84ef8cb80638681d9b9ef09cddff86a5d7a0e028603b4a601cf0ff6c2869ce8
