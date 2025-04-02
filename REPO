@@ -384,8 +384,8 @@ f:5579c4459c3633f62ccf7226ac24b1a0:xfce4-mailwatch-plugin/.signature
 f:0d1202273afe4d23bc7e7ecd4a73b594:xfce4-mailwatch-plugin/Pkgfile
 f:ece84d5d3509abfef60c564d5c0c1824:xfce4-mailwatch-plugin/post-install
 f:dbec5f3b81d64e42124b19bfb7612f00:orage/.footprint
-f:d057702441e1181fc15bf6b99ba133aa:orage/.signature
-f:3854a8c93cfc9d7d0ca8e811f3b404d8:orage/Pkgfile
+f:d8546daa5e06e81051661fd5b2cc6df0:orage/.signature
+f:e44b6ff208c9dbea328930bf63b641be:orage/Pkgfile
 f:3ee64027d975e3bfcbb4d71e22a79238:orage/post-install
 f:a17632300257aa93265080a05dcf5394:xfce4-panel-profiles/.footprint
 f:3b30f2c5e31204b9b156597a47db830b:xfce4-panel-profiles/.signature
