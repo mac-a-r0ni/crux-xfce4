@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xfce4.pub
-RWRSAbUnL7azFI+I/eXdXLoZ/N062xcIAjNGccIU1fEyCVDWhq9AdevPHEVyd1H5sASlNLblrW1w/ozwisiHNLgYOvpfzVz2EAo=
-SHA256 (Pkgfile) = fae16c5f3b066aafb0fcb75fe6d7d768c3f5af70ad2df3fb434b0d6d0ef2cb4c
+RWRSAbUnL7azFFceF+7s55LUPueCoqt5fTIdiV4xuAhVzKbPPPaD4C6cRX43bLZRe/hrVDXQezRYLm4etevdbbqtAbugmUNMqww=
+SHA256 (Pkgfile) = f50b07959536e46871eb4f9b2fb788eb85b52855c83be730bba1423c9e776931
 SHA256 (.footprint) = 5c0b0b3007f96d3d30e305bc87a69529adde19ca4a275e3d2627661f7bcfcec2
-SHA256 (orage-4.20.0.tar.bz2) = ee07918a6f6033e6107e9c1b8e164c645ea590ffbdba0b58d071c0e491046a85
+SHA256 (orage-4.20.1.tar.bz2) = 7e0331167ba438e494e0dc7fbdf03843fdfa4004910f4d5b113afea77b3eecc0
