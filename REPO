@@ -129,9 +129,9 @@ f:95f3a1ebcc5a4ee8a9edafe7df0fcbc5:xfce4-calculator-plugin/post-install
 f:ee259f3d8ab0404c0d6bf365fd60de32:xfce4-datetime-plugin/.footprint
 f:471d510a8ad54b3aec56e8dafc740b17:xfce4-datetime-plugin/.signature
 f:6ea26dcf97512c905a80b283ac1cd80c:xfce4-datetime-plugin/Pkgfile
-f:f536886cd683f7760ffcd72a3b8c7b10:xfce4-pulseaudio-plugin/.footprint
-f:3e9f64ec4f07ba0da0476ead45e8f2b2:xfce4-pulseaudio-plugin/.signature
-f:e1a0e63d3c3895ede80ccab01ee1912c:xfce4-pulseaudio-plugin/Pkgfile
+f:d503bb13fe011d821fa7a4b2a4cbb131:xfce4-pulseaudio-plugin/.footprint
+f:10b250df9e34b3e84b66a8c6caf7432f:xfce4-pulseaudio-plugin/.signature
+f:7a112c2c227f0d29ef60f27f0d4f8211:xfce4-pulseaudio-plugin/Pkgfile
 f:95f3a1ebcc5a4ee8a9edafe7df0fcbc5:xfce4-pulseaudio-plugin/post-install
 f:a03023b857da76e87b3fada02fbc840b:xfce4.pub
 f:8f907ede11fd72d8e7072d7a2e14a144:xfce4.httpup
