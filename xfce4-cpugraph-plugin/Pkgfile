@@ -1,25 +1,25 @@
 # Description: A graphical representation of the cpuload for the xfce-panel
 # URL: https://xfce.org
-# Maintainer: mac-a-r0ni, j at lngn dot net
+# Maintainer: Jay Lanagan, j at lngn dot net
 # Depends on: xfce4-panel
 
 name=xfce4-cpugraph-plugin
-version=1.2.11
+version=1.3.0
 release=1
-source=(https://archive.xfce.org/src/panel-plugins/$name/${version:0:3}/$name-$version.tar.bz2)
+source=(https://archive.xfce.org/src/panel-plugins/$name/${version:0:3}/$name-$version.tar.xz)
 
 build() {
-	cd $name-$version
 
-	./configure \
+	meson setup $name-$version build \
 		--prefix=/usr \
 		--sysconfdir=/etc \
-		--disable-nls \
-		--disable-debug \
-		--disable-static
+		--buildtype=plain \
+		-Db_lto=true \
+		-Db_pie=true
 
-	make
-	make DESTDIR=$PKG install
+	meson compile -C build
+	DESTDIR=$PKG meson install -C build
 
-	find $PKG/usr/lib/* -name "*.la" -type f|xargs rm -f
+	rm -rf $PKG/usr/share/locale
+
 }

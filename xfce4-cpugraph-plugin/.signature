@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xfce4.pub
-RWRSAbUnL7azFFJFmtBZyHiCT9NAzRUuXMPrI4NeCR3tRbUf/WQIap+PIoJbdffkQxqEWq4cuVE8VwyauVMovVwWfYYO5aDR8AU=
-SHA256 (Pkgfile) = 4ab0e060649f45ee0bcc88187f81545505a1ed7a497c3ab3b7787ffd93d5727c
+RWRSAbUnL7azFGdhGpwv6WfNpOF7xp2HAL5faxXBG6YJMgnySusgAxWwAAt956bDayNyuhQWnN/5sr+0Qb0u/1hArWRDmhpaVA4=
+SHA256 (Pkgfile) = 80a63b8534730330a06cc10be6bac6faf4e59b965a4c64eab13291727317372f
 SHA256 (.footprint) = ae8edf4258da0322dfa8a31a7b001a953604e607aa27f6c476e223f20b0b5a75
-SHA256 (xfce4-cpugraph-plugin-1.2.11.tar.bz2) = 58aa31df1934afc2a352744754a730a3d796b1246e12c7a5e86f7b6a403ca20d
+SHA256 (xfce4-cpugraph-plugin-1.3.0.tar.xz) = c3305edea13ae785ea8b7ce8efbb40b5d5cac69a6f8bf790e4f2efaa780ca097
