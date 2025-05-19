@@ -37,8 +37,8 @@ drwxr-xr-x	root/root	usr/share/xfce4/eyes/themes/Bloodshot/
 -rw-r--r--	root/root	usr/share/xfce4/eyes/themes/Bloodshot/Bloodshot-pupil.png
 -rw-r--r--	root/root	usr/share/xfce4/eyes/themes/Bloodshot/config
 drwxr-xr-x	root/root	usr/share/xfce4/eyes/themes/Chibi/
--rw-r--r--	root/root	usr/share/xfce4/eyes/themes/Chibi/chibi-eye.png
--rw-r--r--	root/root	usr/share/xfce4/eyes/themes/Chibi/chibi-pupil.png
+-rw-r--r--	root/root	usr/share/xfce4/eyes/themes/Chibi/Chibi-eye.png
+-rw-r--r--	root/root	usr/share/xfce4/eyes/themes/Chibi/Chibi-pupil.png
 -rw-r--r--	root/root	usr/share/xfce4/eyes/themes/Chibi/config
 drwxr-xr-x	root/root	usr/share/xfce4/eyes/themes/Default-tiny/
 -rw-r--r--	root/root	usr/share/xfce4/eyes/themes/Default-tiny/Default-tiny-eye.png
@@ -53,9 +53,9 @@ drwxr-xr-x	root/root	usr/share/xfce4/eyes/themes/Horrid/
 -rw-r--r--	root/root	usr/share/xfce4/eyes/themes/Horrid/Horrid-pupil.png
 -rw-r--r--	root/root	usr/share/xfce4/eyes/themes/Horrid/config
 drwxr-xr-x	root/root	usr/share/xfce4/eyes/themes/Tango/
+-rw-r--r--	root/root	usr/share/xfce4/eyes/themes/Tango/Tango-eye.png
+-rw-r--r--	root/root	usr/share/xfce4/eyes/themes/Tango/Tango-pupil.png
 -rw-r--r--	root/root	usr/share/xfce4/eyes/themes/Tango/config
--rw-r--r--	root/root	usr/share/xfce4/eyes/themes/Tango/tango-eye.png
--rw-r--r--	root/root	usr/share/xfce4/eyes/themes/Tango/tango-pupil.png
 drwxr-xr-x	root/root	usr/share/xfce4/panel/
 drwxr-xr-x	root/root	usr/share/xfce4/panel/plugins/
 -rw-r--r--	root/root	usr/share/xfce4/panel/plugins/eyes.desktop
