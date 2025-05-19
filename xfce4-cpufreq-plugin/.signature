@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xfce4.pub
-RWRSAbUnL7azFJUt3qOB3EKrcd5CsSChyv3IMoBo/PSjYKHF0BH1ZhhT4g03j2iUg4IEMzwqcd3U/SnT1IYw4LVj7WU/mDf/EAQ=
-SHA256 (Pkgfile) = 6e4bf168f23ec28503105e25ef1e3f7f628033c03076d1e192f9e8652e676e61
+RWRSAbUnL7azFPsdmCpHZmwbpQFR32WcfC04inDsq1g7g/vDFkImQuvCCrY8o5j8/mJmz7+ybk60uhn23SYlmVhi9/7eTJPMcw4=
+SHA256 (Pkgfile) = 520a6ed9e5b5e810364097ed7cb00911615b479a14567f1b37c54f5fda5c0aff
 SHA256 (.footprint) = 1d6d931383ec27c7108ae79e22096ebb967e73b7f1b9aeba36df806d697198a6
-SHA256 (xfce4-cpufreq-plugin-1.2.9.tar.bz2) = d0714720d588c649457590e5de3d95859b922a98d5fa9d0d1416f36a76bd3ef9
+SHA256 (xfce4-cpufreq-plugin-1.3.0.tar.xz) = baa5b90f72e8c262777f1e246acae125af489e2c168a5f7f890d9d2b5567ec20
