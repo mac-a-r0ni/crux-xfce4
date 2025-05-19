@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xfce4.pub
-RWRSAbUnL7azFLU06CXIsZ5BDKlBEvh1TMeIh7JxyMMAOFFK3asE5h4qa9MA1J+l5PgZ8dhELcHtSDh9uiRP4s/DyiefKRAY9Ag=
-SHA256 (Pkgfile) = 16ff36f0d941942154786742c07b3ca0bb42af6aa97f0e90a4833998da2af84e
+RWRSAbUnL7azFKrLj8p90Dmkk65f9OeweNh0iRqW+biHMoMYkaJ/cPTVzqpvRgvRSvwQvzpwIpo1PSz/Vf/ZRU/gv1T7OshUawA=
+SHA256 (Pkgfile) = 7202c24ccb185c8e886d9a1c96a735bef312fe10976fcb6db02844e4563ca9a7
 SHA256 (.footprint) = f3022c15e63360804c3ac8efcbd536ab04802b9c9e392c01c81fa09d589de1d0
-SHA256 (xfce4-clipman-plugin-1.6.7.tar.bz2) = 9bae27808a50e959e0912b7202ea5d651ed7401a6fc227f811d9bdaf2e44178c
+SHA256 (xfce4-clipman-plugin-1.7.0.tar.xz) = 903302c3070a951d44ee17a84fa3cf21d36c6787678af8fbfc79e469fd00cb46
