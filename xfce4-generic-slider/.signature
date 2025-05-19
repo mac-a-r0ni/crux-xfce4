@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xfce4.pub
-RWRSAbUnL7azFPp4PxXwBtr/TNoafg8xED6/sQTzp61LBLwAtlicP6764tfoYsZCgaEuQcx7H85h2nZjKkM7ohmlpkNQFh2vfQk=
-SHA256 (Pkgfile) = 35df6589546590d0ec677d69209b583710a4b1b624ce691d511c66be129f2e6d
+RWRSAbUnL7azFB9vtXNcJUMujjAHmWWnkmc/S+VNIHEmiWjjTFuYl4yF3gAaEuqx5q5A1l0G1pNBVX1zjZ+MZobOC4+5cuXlwwI=
+SHA256 (Pkgfile) = 74e56b42d451b01fb898259c7210a38cf359585c2803cc2ded23d1d3e5acc203
 SHA256 (.footprint) = 21d0d04c63bf5ee956d17ee48ce6454816ec3459c47ba6982c0689d88ee4ab6e
-SHA256 (xfce4-generic-slider-1.0.1.tar.bz2) = 5f3f1da2fa1428ddc51dbbdcdf119f88b023260b605edd3d1d796261a047f0ec
+SHA256 (xfce4-generic-slider-1.1.0.tar.xz) = 0cef3174157621e14d123a9d246ee3b1d7c8ef89579377398305a4eb33636f5f
