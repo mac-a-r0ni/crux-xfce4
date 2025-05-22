@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xfce4.pub
-RWRSAbUnL7azFGkAFq4qhJ77ViejLdtl1p+HnzZvlflz3ZGyGERH1nvFx6AclLPWCZWcVYtR7ojszP/1dOy64ypkspdG0VFH0gw=
-SHA256 (Pkgfile) = 8e6876e639dcd430bf540332050e1d5c5f6ab4a8e3ec7efaf68fc6bdd002a140
+RWRSAbUnL7azFENT/ZU9MUatzc8UoidzWN0Pfv4IdFWW9V0s3Jfdu/0zG/GiRhRUDMwk2IPA2KFJmE+6pZR/bUV/p9xIRczBwAI=
+SHA256 (Pkgfile) = ad9ecc3c0f728abc33ef6b7c9e73f89dd41bcf49626eba15c61cbf0b79b83ed9
 SHA256 (.footprint) = a7ec32bb456e84868a480bf82668a99f5d38a5a1fb0e714ed71a9d4863fd1f6a
-SHA256 (xfce4-mount-plugin-1.1.7.tar.bz2) = c3674204c82c138dcd12091a6847793dacefdd01cd20e3c64a40b09c73d881da
+SHA256 (xfce4-mount-plugin-1.2.0.tar.xz) = adef71a83078e7dc45997e57411f8c43080a0204159a8b8db2ade0a9877e7b4c
