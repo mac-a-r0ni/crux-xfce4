@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xfce4.pub
-RWRSAbUnL7azFL9TttySve/LkS9aV+EKIvFjYYqDCap2KZiqiu4d3cHv37kW9/GBsaPtk8Y5U7dzOnCu1RV92ixSFY8Y8XX5mwo=
-SHA256 (Pkgfile) = 8c66ea193b4f0c757368bc274e1147dc7b6a43f57d37ef6ef47bea65c26ecdb5
+RWRSAbUnL7azFEGxdU7UN8TZVV/bgBpRqH71Wn9D1vwMRJNP6Gbq/x1ZzoFTUBpoqrDl3vxkUkE/HAcEH80vkTrRhNWJeerlnQk=
+SHA256 (Pkgfile) = e07be53b978915e516a09c379ad2d6aedc4918723a10f4db045eb7827879859b
 SHA256 (.footprint) = c06cb1639b280b867290c5522e80477a07bf4809d7882b5b1524385c527e2147
-SHA256 (xfce4-mailwatch-plugin-1.3.2.tar.bz2) = c4783f1533891cd2e0c34066da859864dce45a23caa6015b58cb9fa9d65a7e44
+SHA256 (xfce4-mailwatch-plugin-1.4.0.tar.xz) = 5c211025db1096663fa6b8cc41213464a6d71f24e76326499d857ff81ea3861f
