@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xfce4.pub
-RWRSAbUnL7azFBtpNTrvGC6hYNa/JxKPyONMdljKemUuxoaHHpmc0qCU2vctKxJUs6z0QU2RSruoVqWwuDdXH4wSSURqWtCshwY=
-SHA256 (Pkgfile) = 4505a1d97b85d3f8b3f8deff519ae0722381eb9909ea787dd680e9b06ea9d0d3
+RWRSAbUnL7azFIywRq6i3pU9whXxAamdvRW5XmFt3qka2zC/+NUMFSHcuTtdPwi8lNM1XLrnLeLaxy6FKNXofPeyn5h5crd2kQY=
+SHA256 (Pkgfile) = dc51a5a48036890840ba301a2bb468c4c0b5a2b61ce50cbda661fa58bd8373cc
 SHA256 (.footprint) = 1b1917cf84af652cc66bb207a7c10a86712b52426ebb316b83f38627fb52dbde
-SHA256 (xfce4-indicator-plugin-2.4.3.tar.bz2) = 4fd9fe74b3ef0ea1fb6d2b2507873108052f4f532b609e3297321dbf3a52d2db
+SHA256 (xfce4-indicator-plugin-2.5.0.tar.xz) = e1a29a2c4837f53dd4825c51f0bd81da42cf36e6eec85d266d04c3d49511b451
