@@ -3,9 +3,7 @@ drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/xfce4/
 drwxr-xr-x	root/root	usr/lib/xfce4/panel/
 drwxr-xr-x	root/root	usr/lib/xfce4/panel/plugins/
-lrwxrwxrwx	root/root	usr/lib/xfce4/panel/plugins/libstopwatch.so -> libstopwatch.so.0.0.0
-lrwxrwxrwx	root/root	usr/lib/xfce4/panel/plugins/libstopwatch.so.0 -> libstopwatch.so.0.0.0
--rwxr-xr-x	root/root	usr/lib/xfce4/panel/plugins/libstopwatch.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/xfce4/panel/plugins/libstopwatch.so
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/icons/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/
