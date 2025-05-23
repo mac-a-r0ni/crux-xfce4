@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xfce4.pub
-RWRSAbUnL7azFBRQzRJxHGlh9GFDMcdq/wyLEdUUWET+gXj82tYhpd1/X28v4NZON9+9d/UGXX3i4b9d+fJal1iBt0d+j9/N8gQ=
-SHA256 (Pkgfile) = e496fc75b95be05bf28508445231aa888f9ded3d866a20108383871f5086049b
+RWRSAbUnL7azFH9toPSmqlPPJWL2ytYCuJ9LaPJ6XGM9bJjTyJJqYi86iDbztU3lXXWjUJZqxo8HviSJhJ97jZECivPsmgHhxwA=
+SHA256 (Pkgfile) = 36a81fa5ba446f2f15d25570ed36449413d5f647837751bbc36152459d01d09b
 SHA256 (.footprint) = df72c9e2d6fc78fcbb31f94d4391c1581fd82e94a1ab935d2f21d8dd300bdadd
-SHA256 (xfce4-wavelan-plugin-0.6.4.tar.bz2) = 129c917b40ffa10d96f3d2c0d03f1e8ad8037c79133e9a6436661e37dd7bb3de
+SHA256 (xfce4-wavelan-plugin-0.7.0.tar.xz) = 5fdce1e1b0d29d0a258dca86bab9d4edcbc12098134b92e00ea1502086a49116
