@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xfce4.pub
-RWRSAbUnL7azFJfn8rA/ozKRwb7SvonKV0lgIvZjt2jJEXVPu9uwpyrAqviC3w92N40MmaFh9cc7m/9TBlXgioqr7VvcMJmK2Qg=
-SHA256 (Pkgfile) = a325734d2e5a80d720e04bffc62c7ec69449d3322dc0ec461b31db291f2a8ece
+RWRSAbUnL7azFLG5odMqHO3YSYcf5ofW0m28+dh2L9/HAoANoOAEhgRO2+irlv7HFXBUd+/HmuaJKmTZt8pNR/vp7ePkzLkLVA0=
+SHA256 (Pkgfile) = e2a1e0258cbfd4e85c94052ae652aea7f7936098fe607eb7fc1b4abe148b4c38
 SHA256 (.footprint) = 116847d666266440e876b373b77c640f22b0dccdb4b23ce4eeea467b46ac7d60
-SHA256 (xfce4-time-out-plugin-1.1.4.tar.bz2) = b6b708900d7fd0cc3d8a045514962db94b60d959c266049aa2cff768fc381726
+SHA256 (xfce4-time-out-plugin-1.2.0.tar.xz) = e344d9f82a8acd23d44e7cf9b2efe9599ffff856d9ba1a9be0e67b022c0d2eb2
