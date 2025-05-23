@@ -1,27 +1,27 @@
 # Description: Smart Bookmark plugin for the xfce-panel
 # URL: https://docs.xfce.org/panel-plugins/xfce4-smartbookmark-plugin/start
-# Maintainer: mac-a-r0ni, j at lngn dot net
+# Maintainer: Jay Lanagan, j at lngn dot net
 # Depends on: xfce4-panel
 
 name=xfce4-smartbookmark-plugin
-version=0.5.3
+version=0.6.0
 release=1
-source=(https://archive.xfce.org/src/panel-plugins/$name/${version%.*}/$name-$version.tar.bz2)
+source=(https://archive.xfce.org/src/panel-plugins/$name/${version%.*}/$name-$version.tar.xz)
 
 build() {
-	cd $name-$version
 
-	./configure \
+	meson setup $name-$version build \
 		--prefix=/usr \
 		--libexecdir=/usr/lib \
 		--sysconfdir=/etc \
 		--localstatedir=/var \
-		--disable-debug \
-		--disable-nls
+		--buildtype=plain \
+		-Db_lto=true \
+		-Db_pie=true
 
-	make
-	make DESTDIR=$PKG install
+	meson compile -C build
+	DESTDIR=$PKG meson install -C build
 
-rm -rf $PKG/usr/share/locale
-find $PKG/usr/lib/* -name "*.la" -type f|xargs rm -f
+	rm -rf $PKG/usr/share/locale
+
 }

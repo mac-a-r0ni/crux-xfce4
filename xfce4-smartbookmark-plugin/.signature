@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xfce4.pub
-RWRSAbUnL7azFI8NUfSy0XSXOoOJz7y91NtGry6m6smgzFKzocksSwDnOCCIIe4hTJqiMPgKYABvwB0hFatHukST0XqbobG1fQ4=
-SHA256 (Pkgfile) = 420f3a61b69d0153cfc27cd59c777fd14efb9c31e0918012d1aebbd94582e9f2
+RWRSAbUnL7azFB6Vn0nCB1PXvzyo90snmPkRW+AuZvli0/HX/ThqoW4BUoeJTsyQeUl1+9w/JHxUaLBav5rP7EY1/Um907un3ww=
+SHA256 (Pkgfile) = b2332f1dd3e0e69e914cf4b53ecad934e387ce4d86f98be951aab2cfb0706aba
 SHA256 (.footprint) = 983a96fdcfc625271581e93eed8a8b7077a505e41a01ebe2ac8e05936f5fe541
-SHA256 (xfce4-smartbookmark-plugin-0.5.3.tar.bz2) = 3b4db0ac198339197a7682935f0bba5a7e8dd7f35bf575ac6665afa4cecec236
+SHA256 (xfce4-smartbookmark-plugin-0.6.0.tar.xz) = d8a619dcad703071f7fcda538cc34154f9952cf4ec0816df23a56e98e3cc05d8
