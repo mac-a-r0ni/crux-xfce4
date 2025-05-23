@@ -1,27 +1,25 @@
 # Description: adds archive operations to Thunar context menus
 # URL: https://docs.xfce.org/xfce/thunar/archive
-# Maintainer: mac-a-r0ni, j at lngn dot net
+# Maintainer: Jay Lanagan, j at lngn dot net
 # Depends on: file-roller thunar
 # Optional: ark engrampa xarchiver
 
 name=thunar-archive-plugin
-version=0.5.3
+version=0.6.0
 release=1
-source=(http://archive.xfce.org/src/thunar-plugins/$name/${version%.*}/$name-$version.tar.bz2)
+source=(http://archive.xfce.org/src/thunar-plugins/$name/${version%.*}/$name-$version.tar.xz)
 
 build() {
 
-  cd $name-$version
+	meson setup $name-$version build \
+	--prefix=/usr \
+	--sysconfdir=/etc \
+	--libexecdir=/usr/lib \
+	--buildtype=plain
 
-    ./configure \
-      --prefix=/usr \
-      --sysconfdir=/etc \
-      --libexecdir=/usr/lib \
-      --disable-nls \
-      --disable-debug
+	meson compile -C build
+	DESTDIR=$PKG meson install -C build
 
-  make
-  make DESTDIR=$PKG install
+	rm -rf $PKG/usr/share/locale
 
-  find $PKG/usr/lib/* -name "*.la" -type f|xargs rm -f
 }
