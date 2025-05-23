@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xfce4.pub
-RWRSAbUnL7azFOiOKISC+wJZvbgP/kjdNeSX0b+Eft7BhdiyMaupaLSjEHpqXBtaMbska0m+FPjOSYrRifSVl7mjjqLoVM1y/Qc=
-SHA256 (Pkgfile) = 646c18263d9f2ecd598ac98df653000f797ba7fe231d8ea52a2b1451ecb3fbf6
-SHA256 (.footprint) = 412a7383b8da7d256b3bd5d80c5622167d56424cdd9e0925e9fbd497b0eb85e3
-SHA256 (thunar-vcs-plugin-0.3.0.tar.bz2) = 4093b2802f08222b6b8edc6aa8127059ef138ff2b382117a25c34441ba6c1fec
+RWRSAbUnL7azFIYkz61reFvzdQJgsqi9yz6X9hWKJcARUGRGxmYmBWaYs05laUqYp0rpCUvQsxrQmsXKfOg5OlsbWUfzFDez1gg=
+SHA256 (Pkgfile) = 480c139c7b5f521329495b68138edf4719eb6f5c460c09cd193ff258efbd0766
+SHA256 (.footprint) = 35753cbbfce3e28a9eca5ed0099d05d9d61118860fe4ccca1dbb88d27f5bb5c1
+SHA256 (thunar-vcs-plugin-0.4.0.tar.xz) = 0e4170e099c9ffedfcbb1290f1fc42c00560cf6108e25fe90685315f18c8d6cc
