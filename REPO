@@ -368,9 +368,9 @@ f:4ac64cabe80dfa21ab720f738f9aeddb:file-roller/.footprint
 f:4d93976aa30919533155d2884b75cbf5:file-roller/post-install
 f:0b20846cffa435b198cdb2ccde7b5df5:file-roller/Pkgfile
 f:933645555859626a1f310a4aa825f820:file-roller/.signature
-f:59cd21375c0b42bdbb7872316a8417dd:python3-distutils-extra/.footprint
-f:67cb62e77a24a1c8307aa8b0e2310b0b:python3-distutils-extra/Pkgfile
-f:571a0f9e89998d61183e14ad99bad099:python3-distutils-extra/.signature
+f:39463d18fa25aaa3073df5a0701fb30f:python3-distutils-extra/.footprint
+f:7da3063ea6e7c0f958450907147194e4:python3-distutils-extra/Pkgfile
+f:a0d5e5d2d5d118ebd67804ab8fe4347c:python3-distutils-extra/.signature
 f:dccdf7c8f7cdf0139451c1c3cee7e2d1:ristretto/.footprint
 f:3ee64027d975e3bfcbb4d71e22a79238:ristretto/post-install
 f:0b97203dbecda85e8ebeba3ea9dbea03:ristretto/Pkgfile
