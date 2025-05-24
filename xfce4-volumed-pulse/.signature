@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xfce4.pub
-RWRSAbUnL7azFOapWmcHX1orV5cL/IzHbe/jOR9tL41iOqwrrPHUBWwycCl5s8HLBGSDK0twzdUpt58lpn0C9Z2spzA/2KQUdQE=
-SHA256 (Pkgfile) = fae06921c0104d3a151fab1efc580cfecd7913968398444b16c1060792a01cef
+RWRSAbUnL7azFPtdZOt+BoXijTG2/f5tHfngs5mtvM36JjVEngFs2mFd1FDeJbr+uERtRwmXNnaxjB00RI7A2a7btTV+TQMtXQw=
+SHA256 (Pkgfile) = 2a9b489840f08a3ebc0ae73dd7e48964f4c908bc83812f66aab5b708d111d39d
 SHA256 (.footprint) = b71ce54e4714e2bd27e462b5eede1b5720879f4a6198ae029a46f3ec38c5ce14
-SHA256 (xfce4-volumed-pulse-0.2.5.tar.bz2) = 30ebee3a16e467a2120db63b53d4cd3a603b310c6141c9514371c2dedf68bb03
+SHA256 (xfce4-volumed-pulse-0.3.0.tar.xz) = 7031c3597d1a1e791afaf83a7b494b436aa54397ab1661e38ab32acb01c7fe85
