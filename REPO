@@ -51,6 +51,7 @@ d:xfconf
 d:xfce4-xkb-plugin
 d:mugshot
 d:libisofs
+d:thunar-shares-plugin
 d:thunar
 d:xfce4-clipman-plugin
 d:xfce4-genmon-plugin
@@ -292,6 +293,10 @@ f:b6a75cef0f303b07903c2fb02fe26352:README.md
 f:356bff92d4f0a14e2049bf24deb673df:libisofs/.footprint
 f:2a30293862d053f49e2ee6b792c48a7c:libisofs/Pkgfile
 f:a93bc448a3782e084aa6087817a5f54d:libisofs/.signature
+f:a3f0427cebce5b111b2d7893dc886316:thunar-shares-plugin/.footprint
+f:1f94853a5edb1fee7b2a28aa875af2a1:thunar-shares-plugin/post-install
+f:2dee711ef1483975f8ff12f6b1b01a1a:thunar-shares-plugin/Pkgfile
+f:d6cc691a1cf746f56d323a323a42d49e:thunar-shares-plugin/.signature
 f:1988900906e35d1ae92c4e2e7506175c:thunar/.footprint
 f:ed2014dd0f5944e62c1e6a160e17ad23:thunar/post-install
 f:27f984d8c93b9abe12695de36dddbed2:thunar/Pkgfile
