@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xfce4.pub
-RWRSAbUnL7azFE27fI+Bo6Hh4x/Kqih9Q2VOTP0yjn7U+W5uURwun8PlWS3aOtsxKMLsjUoVxyJLsLMe9ssan2epZjZLlpX2ZAw=
-SHA256 (Pkgfile) = 60b1085de1b1a5535062001ba13499c9673c9daa86f222c7fda92adc75795e7c
-SHA256 (.footprint) = c99294476faf015b4c0e261617ca2d2b8b5424cc0179bc97188d171f0589e78b
-SHA256 (python-distutils-extra_2.50.tar.xz) = 998cdd5ca3cfc7a1b4b5c2fdc571639264fe0f79193a16fe95a9b66df7ac56e1
+RWRSAbUnL7azFBKKA4/Zvyj6PV0ZDOw0XSLnKfX1tXwdiRwCWuG4PYA0XfZmKI/nuLWAIWqvxjzOmKkV8orxYjmFRQUv1dfW3gU=
+SHA256 (Pkgfile) = b056c8eedc8d4194ab8a53742ed48c38e2d49d9709a52542382d1ae489bf51c7
+SHA256 (.footprint) = a31a421dfe31a51a7f9b2fcc05e43d5a1024e5f041ff408ef245c638a989f40b
+SHA256 (python-distutils-extra_3.1.tar.xz) = f5972205e714989e5d648cced118260c1b94aec4ee52a5214546006842e053b9
