@@ -1,23 +1,22 @@
 # Description: File searching tool
 # URL: https://docs.xfce.org/apps/catfish/start
-# Maintainer: mac-a-r0ni, j at lngn dot net
+# Maintainer: Jay Lanagan, j at lngn dot net
 # Depends on: dbus-python3 desktop-file-utils gtk3 mlocate python3-distutils-extra python3-gobject python3-pexpect xdg-utils xfconf
 
 name=catfish
-version=4.20.0
+version=4.20.1
 release=1
-source=(https://archive.xfce.org/src/apps/$name/${version%.*}/$name-$version.tar.bz2)
+source=(https://archive.xfce.org/src/apps/$name/${version%.*}/$name-$version.tar.xz)
 
 build() {
 
-	cd $name-$version
+	meson setup $name-$version build \
+	--prefix=/usr
 
-	 meson setup build \
-		--prefix=/usr
+	meson compile -C build
+	DESTDIR=$PKG meson install -C build
 
-	DESTDIR=$PKG ninja -C build install
-
-	rm -r $PKG/usr/share/locale
-	rm -r $PKG/usr/share/doc
+	rm -rf $PKG/usr/share/locale
+	rm -rf $PKG/usr/share/doc
 
 }
