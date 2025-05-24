@@ -1,24 +1,27 @@
 # Description: Xfce4-screenshooter allows you to capture the entire screen, the active window or a selected region.
 # URL: https://xfce.org
-# Maintainer: mac-a-r0ni, j at lngn dot net
+# Maintainer: Jay Lanagan, j at lngn dot net
 # Depends on: xfce4-panel libsoup3
+# Optional: wlr-protocols
 
 name=xfce4-screenshooter
-version=1.11.1
+version=1.11.2
 release=1
-source=(https://archive.xfce.org/src/apps/xfce4-screenshooter/1.11/xfce4-screenshooter-$version.tar.bz2)
+source=(https://archive.xfce.org/src/apps/xfce4-screenshooter/1.11/xfce4-screenshooter-$version.tar.xz)
 
 build() {
-	cd $name-$version
 
-	./configure \
+	meson setup $name-$version build \
 		--prefix=/usr \
 		--sysconfdir=/etc \
 		--libexecdir=/usr/lib \
-		--disable-nls
+		--buildtype=plain \
+		-Db_lto=true \
+		-Db_pie=true
 
-	make
-	make DESTDIR=$PKG install
+	meson compile -C build
+	DESTDIR=$PKG meson install -C build
 
-	rm -rf $PKG/usr/lib/xfce4/panel/plugins/*.la
+	rm -rf $PKG/usr/share/locale
+
 }
