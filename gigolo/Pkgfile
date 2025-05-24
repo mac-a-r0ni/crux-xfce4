@@ -1,25 +1,26 @@
 # Description: gvfs frontend to manage connections to remote filesystems
 # URL: https://docs.xfce.org/apps/gigolo/start
-# Maintainer: mac-a-r0ni, j at lngn dot net
+# Maintainer: Jay Lanagan, j at lngn dot net
 # Depends on: gvfs
 
 name=gigolo
-version=0.5.4
+version=0.6.0
 release=1
-source=(https://archive.xfce.org/src/apps/$name/0.5/$name-$version.tar.bz2)
+source=(https://archive.xfce.org/src/apps/$name/0.6/$name-$version.tar.xz)
 
 build() {
 
-	cd $name-$version
-
-	./configure \
+	meson setup $name-$version build \
 		--prefix=/usr \
 		--libexecdir=/usr/lib/$name \
 		--sysconfdir=/etc \
-		--disable-nls
+		--buildtype=plain \
+		-Db_lto=true \
+		-Db_pie=true
 
-	make
-	make DESTDIR=$PKG install
+	meson compile -C build
+	DESTDIR=$PKG meson install -C build
 
-	rm -r $PKG/usr/share/doc
+	rm -rf $PKG/usr/share/{doc,locale}
+
 }

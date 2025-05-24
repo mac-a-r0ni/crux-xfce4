@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xfce4.pub
-RWRSAbUnL7azFKRpscnC7svwEKETu9xMCxqaeMZAP8MUjSaBlqSuBQ5kI7cJhimZG0bfl1bSoIUtSIy5+QPIeMIbu9RseTCVrw0=
-SHA256 (Pkgfile) = eb75f71656b38061e6c257b92c3f15e43a80b15d2219c1694dfef6205a452767
+RWRSAbUnL7azFEFQ9/ltczPTOAyxn0nhRbmdC6o4Qs6Q9MJYrUUfEWEKf60VSzaaoXoG/Cd+zRdw6Wl8HpJKfbfrIsWTq/PdLQM=
+SHA256 (Pkgfile) = 1af4c0dac5bed1293408a2548e213cd9b2cadbd68b795bb25d55cd6db4f6e5aa
 SHA256 (.footprint) = be7e1d2ca7b772f86f94071ea0164cd9956831f2d382f03a143e8ffda383756c
-SHA256 (gigolo-0.5.4.tar.bz2) = 29951a16ca48c5350fa862417a253bc45c2762106027c216bb7a56eabdd7f0f6
+SHA256 (gigolo-0.6.0.tar.xz) = f27dbb51abe8144c1b981f2d820ad1b279c1bc4623d7333b7d4f5f4777eb45ed
