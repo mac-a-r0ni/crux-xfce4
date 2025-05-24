@@ -1,7 +1,6 @@
 #!/bin/sh
 
 # update application db
-
 /usr/bin/update-desktop-database /usr/share/applications
 
-# EOF
+#EOF
