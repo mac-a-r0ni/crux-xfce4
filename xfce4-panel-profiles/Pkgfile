@@ -1,24 +1,24 @@
 # Description: Application to manage xfce panel layouts
 # URL: https://www.xfce.org
-# Maintainer: mac-a-r0ni, j at lngn dot net
+# Maintainer: Jay Lanagan, j at lngn dot net
 # Depends on: python3-gobject python3-psutil xfce4-panel
 
 name=xfce4-panel-profiles
-version=1.0.15
+version=1.1.0
 release=1
-source=(https://archive.xfce.org/src/apps/$name/${version:0:3}/$name-$version.tar.bz2)
+source=(https://archive.xfce.org/src/apps/$name/${version:0:3}/$name-$version.tar.xz)
 
 build() {
 
-	cd $name-$version
+	meson setup $name-$version build \
+	--prefix=/usr \
+	--buildtype=plain \
+	-Db_lto=true \
+	-Db_pie=true
 
-	./configure \
-		--prefix=/usr
+	meson compile -C build
+	DESTDIR=$PKG meson install -C build
 
-	make
-	make DESTDIR=$PKG install
-
-#	find $PKG/usr/lib/* -name "*.la" -type f|xargs rm -f
-	rm -rf $PKG/usr/share/{doc,locale}/
+	rm -rf $PKG/usr/share/{doc,locale}
 
 }
