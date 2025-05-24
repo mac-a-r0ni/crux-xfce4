@@ -1,27 +1,27 @@
 # Description: GStreamer-based Media Player for XFCE
 # URL: https://www.xfce.org
-# Maintainer: mac-a-r0ni, j at lngn dot net
+# Maintainer: Jay Lanagan, j at lngn dot net
 # Depends on: dbus-glib gst-plugins-good gtk-doc libnotify libxfce4ui
 # Optional: gst-libav gst-plugins-bad gst-plugins-ugly
 
 name=parole
-version=4.18.2
+version=4.20.0
 release=1
-source=(https://archive.xfce.org/src/apps/$name/${version:0:4}/$name-$version.tar.bz2)
+source=(https://archive.xfce.org/src/apps/$name/${version:0:4}/$name-$version.tar.xz)
 
 build() {
 
-	cd $name-$version
-
-	./configure \
+	meson setup $name-$version build \
 	  --prefix=/usr \
-	  --libexecdir=/usr/lib/$name \
+	  --libexecdir=/usr/lib \
 	  --sysconfdir=/etc \
-	  --disable-gtk-doc \
-	  --disable-nls
+	  --buildtype=plain \
+	  -D b_lto=true \
+	  -D b_pie=true
 
-	make
-	make DESTDIR=$PKG install
+	meson compile -C build
+	DESTDIR=$PKG meson install -C build
 
-	find $PKG/usr/lib/* -name "*.la" -type f|xargs rm -f
+	rm -rf $PKG/usr/share/locale
+
 }
