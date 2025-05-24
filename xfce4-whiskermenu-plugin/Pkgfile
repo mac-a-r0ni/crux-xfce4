@@ -1,26 +1,28 @@
 # Description: An alternate menu for xfce
 # URL: https://xfce.org
-# Maintainer: mac-a-r0ni, j at lngn dot net
-# Depends on: gtk-layer-shell xfce4-panel
-# Optional: accountsservice
+# Maintainer: Jay Lanagan, j at lngn dot net
+# Depends on: xfce4-panel
+# Optional: accountsservice gtk-layer-shell
 
 name=xfce4-whiskermenu-plugin
-version=2.9.2
+version=2.10.0
 release=1
-source=(https://archive.xfce.org/src/panel-plugins/$name/${version:0:3}/$name-$version.tar.bz2)
+source=(https://archive.xfce.org/src/panel-plugins/$name/${version:0:4}/$name-$version.tar.xz)
 
 build() {
-	cd $name-$version
 
-	prt-get isinst accountsservice && PKGMK_WHISKERMENU+=' -D ENABLE_ACCOUNTS_SERVICE=ON' || PKGMK_WHISKERMENU+=' -D ENABLE_ACCOUNTS_SERVICE=OFF'
+	prt-get isinst accountsservice && PKGMK_WHISKERMENU+=' -D accountsservice=enabled' || PKGMK_WHISKERMENU+=' -D accountsservice=disabled'
+	prt-get isinst gtk-layer-shell && PKGMK_WHISKERMENU+=' -D gtk-layer-shell=enabled' || PKGMK_WHISKERMENU+=' -D gtk-layer-shell=disabled'
 
-	cmake $PKGMK_WHISKERMENU \
-	-D CMAKE_BUILD_TYPE=Release \
-	-D CMAKE_INSTALL_PREFIX=/usr \
-	-D CMAKE_INSTALL_LIBDIR=/usr/lib
+	meson setup $name-$version build $PKGMK_WHISKERMENU \
+	--prefix=/usr \
+	--libdir=/usr/lib \
+	--buildtype=plain \
+	-Db_lto=true \
+	-Db_pie=true
 
-	make
-	make DESTDIR=$PKG install
+	meson compile -C build
+	DESTDIR=$PKG meson install -C build
 
 	rm -r $PKG/usr/share/locale
 
