@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xfce4.pub
+RWRSAbUnL7azFB3C0ag946fwzrpPrV6zsMK3sceOlVfvViIqE2EYQPPqUre1pRoHfvNzKqCtVZ3dt+3ydTmJPkI+6yDsBPbuOg0=
+SHA256 (Pkgfile) = c8529f71c3edf1af0d3e5d90d6214b1c7633a6fcbe99775cf2d9d447491dba3e
+SHA256 (.footprint) = 60f03fca59fe79a6dd94f7a3d8dda9ebbc1748389c616e376acd555631576246
+SHA256 (thunar-shares-plugin-0.5.0.tar.xz) = 34d4d69d413e63837c5083506b4dbf65f1fd2efe17667b1d7ad0699e1e2eb07d
