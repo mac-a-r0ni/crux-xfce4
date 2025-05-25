@@ -4,14 +4,13 @@
 # Depends on:
 
 name=python3-distutils-extra
-version=3.1
+version=2.50
 release=1
 source=(http://deb.debian.org/debian/pool/main/p/python-distutils-extra/python-distutils-extra_$version.tar.xz)
 
 build() {
-    cd work
-#  cd python-distutils-extra
+  cd python-distutils-extra
 
-#  /usr/bin/python3 setup.py build
+  /usr/bin/python3 setup.py build
   /usr/bin/python3 setup.py install --root=$PKG --optimize=1
 }

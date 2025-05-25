@@ -33,9 +33,9 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/DistUtilsExtra/command/__p
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/DistUtilsExtra/command/build_icons.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/DistUtilsExtra/command/clean_i18n.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/DistUtilsExtra/command/pylint.py
-drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/python_distutils_extra-3.1-py3.12.egg-info/
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/python_distutils_extra-3.1-py3.12.egg-info/PKG-INFO
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/python_distutils_extra-3.1-py3.12.egg-info/SOURCES.txt
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/python_distutils_extra-3.1-py3.12.egg-info/dependency_links.txt
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/python_distutils_extra-3.1-py3.12.egg-info/entry_points.txt
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/python_distutils_extra-3.1-py3.12.egg-info/top_level.txt
+drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/python_distutils_extra-2.50-py3.12.egg-info/
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/python_distutils_extra-2.50-py3.12.egg-info/PKG-INFO
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/python_distutils_extra-2.50-py3.12.egg-info/SOURCES.txt
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/python_distutils_extra-2.50-py3.12.egg-info/dependency_links.txt
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/python_distutils_extra-2.50-py3.12.egg-info/entry_points.txt
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/python_distutils_extra-2.50-py3.12.egg-info/top_level.txt
