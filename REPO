@@ -327,9 +327,9 @@ f:c983472f05fa1b5a110cd70570ffed75:colord/.signature
 f:12ef97905f60611111e471a9896195ee:colord/.footprint
 f:74fdaac009afbf8e8a3a6d1e1b946709:colord/pre-install
 f:316b87d8b603b3646f1314e8d8b96c04:colord/Pkgfile
-f:22c060831bea7173cca2c7bf481c9bdb:gspell/.signature
-f:3a390a215ac4b2784959793632ca8c62:gspell/.footprint
-f:bbe0c2a5181562682c25d8b95301f6d7:gspell/Pkgfile
+f:6435ffbf65033e98c85b4a631e5bd32a:gspell/.signature
+f:66f662e84308e8f91cd629f9ca7ec1f4:gspell/.footprint
+f:2ff379ad68323e101e1d3a9a6a092a99:gspell/Pkgfile
 f:79ec2cc90215bcc85eb292be6dfd64a6:xfce4-indicator-plugin/post-install
 f:5506b2cb7e8758807c2be391667c0a70:xfce4-indicator-plugin/.signature
 f:67ff3e0bd836725504740e437650ec66:xfce4-indicator-plugin/.footprint
