@@ -284,10 +284,10 @@ f:95f3a1ebcc5a4ee8a9edafe7df0fcbc5:xfce4-cpugraph-plugin/post-install
 f:d9dc125e4a26813fdc95868b0722a3cd:xfce4-cpugraph-plugin/.signature
 f:b9aa4bf550b0219cca21dc543e39fe74:xfce4-cpugraph-plugin/.footprint
 f:e5e4f671616f8ebc0c94916ff455484e:xfce4-cpugraph-plugin/Pkgfile
-f:04bab67cdf9cd2d4daa4411bb7d77c42:xfburn/post-install
-f:7389c4a2ae9726fdff07aff0ebd3cc2e:xfburn/.signature
+f:3ee64027d975e3bfcbb4d71e22a79238:xfburn/post-install
+f:1e4a7391539fbb7c176a3c19508f3901:xfburn/.signature
 f:a12f9470a50deb62e4fe1e7567394e42:xfburn/.footprint
-f:9518c39625db0bd79c9e5130a3d427f3:xfburn/Pkgfile
+f:5ad6d4be0d4145fc4c83be72d15fd60d:xfburn/Pkgfile
 f:0c8f8444fa0182f2aadcc73445f3b92c:libburn/.signature
 f:1b5037de31850d2a03552d58b75f90d8:libburn/.footprint
 f:84ac105ef1a870a6f0e0c6daa484f3a5:libburn/Pkgfile
