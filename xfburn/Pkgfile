@@ -1,25 +1,29 @@
 # Description: A cd burning suite for Xfce based off libburnia
 # URL: https://docs.xfce.org/apps/xfburn/start
-# Maintainer: mac-a-r0ni, j at lngn dot net
+# Maintainer: Jay Lanagan, j at lngn dot net
 # Depends on: desktop-file-utils exo libburn libisofs libgudev
 # Optional: gstreamer gst-plugins-base gst-plugins-good gst-plugins-bad gst-plugins-ugly
 
 name=xfburn
-version=0.7.2
+version=0.8.0
 release=1
-source=(https://archive.xfce.org/src/apps/$name/0.7/$name-$version.tar.bz2)
+source=(https://archive.xfce.org/src/apps/$name/0.8/$name-$version.tar.bz2)
 
 build() {
-	prt-get isinst gstreamer && PKGMK_XFB+='--enable-gstreamer ' || PKGMK_XFB+=' --disable-gstreamer '
 
-	cd $name-$version
-	./configure $PKGMK_XFB \
-	--prefix=/usr \
-	--libexecdir=/usr/lib/$name \
-	--disable-static \
-	--disable-gstreamer \
-	--disable-nls
+	prt-get isinst gstreamer && PKGMK_XFB+='-D gstreamer=enabled ' || PKGMK_XFB+=' -D gstreamer=disabled '
 
-	make
-	make DESTDIR=$PKG install
+	meson setup $name-$version build $PKGMK_XFB \
+	  --prefix=/usr \
+	  --libexecdir=/usr/lib \
+	  --sysconfdir=/etc \
+	  --buildtype=plain \
+	  -D b_lto=true \
+	  -D b_pie=true
+
+	meson compile -C build
+	DESTDIR=$PKG meson install -C build
+
+	rm -rf $PKG/usr/share/locale
+
 }
