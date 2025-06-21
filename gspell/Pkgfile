@@ -1,28 +1,34 @@
 # Description: A GTK spell check library
 # URL: https://gitlab.gnome.org/GNOME/gspell
-# Maintainer: mac-a-r0ni, j at lngn dot net
-# Depends on: enchant gtk3 icu autoconf-archive vala gtk-doc
+# Maintainer: Jay Lanagan, j at lngn dot net
+# Depends on: enchant gtk3 icu
+# Optional: hunspell gobject-introspection vala gtk-doc
 
 name=gspell
-version=1.12.2
-release=2
-source=(https://download.gnome.org/sources/$name/1.12/$name-$version.tar.xz)
+version=1.14.0
+release=1
+source=(https://download.gnome.org/sources/$name/1.14/$name-$version.tar.xz)
 
 build() {
-	cd $name-$version
 
-	./configure \
-		--prefix=/usr \
-		--libexecdir=/usr/lib/$name \
-		--disable-nls \
-		--disable-debug \
-		--enable-introspection=no \
-		--enable-vala=no \
-		--sysconfdir=/etc
+	prt-get isinst vala && PKGMK_GSPELL+='-D vapi=true ' || PKGMK_GSPELL+=' -D vapi=false '
+	prt-get isinst gtk-doc && PKGMK_GSPELL+='-D gtk_doc=true ' || PKGMK_GSPELL+=' -D gtk_doc=false '
+	prt-get isinst gobject-introspection && PKGMK_GSPELL+='-D gobject_introspection=true ' || PKGMK_GSPELL+=' -D gobject_introspection=false '
 
-	make
-	make DESTDIR=$PKG install
+	meson setup $name-$version build $PKGMK_GSPELL \
+	  --prefix=/usr \
+	  --libexecdir=/usr/lib \
+	  --sysconfdir=/etc \
+	  --buildtype=plain \
+	  -D tests=false \
+	  -D install_tests=false \
+	  -D gspell_app=false \
+	  -D b_lto=true \
+	  -D b_pie=true
 
-	rm -r $PKG/usr/share/gtk-doc
-	rm -rf $PKG/usr/lib/*.la
+	meson compile -C build
+	DESTDIR=$PKG meson install -C build
+
+	rm -r $PKG/usr/share/{gtk-doc,locale}
+
 }

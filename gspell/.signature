@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xfce4.pub
-RWRSAbUnL7azFDtb/Mv4iMJLgMV1cr7KgI3kQsdA7R3k97hYsxvzLYjhOioQLkwCFkrleTtk/9H2VoIFjFC4ifJyHkQIYlGBXgo=
-SHA256 (Pkgfile) = 06996a971cac70e77f62482ba4077f15047990a7e60e399ca0a145b78b3c14a3
-SHA256 (.footprint) = 76f9fb7bff7e6ff97afb45487eb45f366864612511856c91f5da3c242d66a9cd
-SHA256 (gspell-1.12.2.tar.xz) = b4e993bd827e4ceb6a770b1b5e8950fce3be9c8b2b0cbeb22fdf992808dd2139
+RWRSAbUnL7azFDrXEHIagM3kiUWq0rQoM2L2srXMW9MknDCCPsaQ8hgJFprFCJIJ7zIvvUbna8yexwvAHgXLgqmkbppSaE8n7Q8=
+SHA256 (Pkgfile) = 089065e0e0fedd2ca2de32c664ea512f2f0f80825c0d0d6d48285472efec07d6
+SHA256 (.footprint) = dc7cae29eb43869d857a1096bfd325af9465a858671ff9ad074a483f99c8e8f3
+SHA256 (gspell-1.14.0.tar.xz) = 64ea1d8e9edc1c25b45a920e80daf67559d1866ffcd7f8432fecfea6d0fe8897
