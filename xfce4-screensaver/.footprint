@@ -14,7 +14,6 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/xfce4-screensaver-preferences
 drwxr-xr-x	root/root	usr/lib/
 -rwxr-xr-x	root/root	usr/lib/xfce4-screensaver-dialog
--rwxr-xr-x	root/root	usr/lib/xfce4-screensaver-gl-helper
 drwxr-xr-x	root/root	usr/lib/xfce4-screensaver/
 -rwxr-xr-x	root/root	usr/lib/xfce4-screensaver/floaters
 -rwxr-xr-x	root/root	usr/lib/xfce4-screensaver/popsquares

@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xfce4.pub
-RWRSAbUnL7azFOKj2yuJY/5S/QFkbb5q7PRfN5HF9kRFVVRiL5kvkUExXquG+y/elUxdev+fGgYvzAUDIb3cHlW1Sa74r4QOtQw=
-SHA256 (Pkgfile) = d093fe5898f999970dd39acd2d06e5212a3caded0cc89db09bba27844f728d6f
-SHA256 (.footprint) = c795436e1eb973b4b64f752832ae834218d1ab5cf924eca584421f40e4a3ca7e
-SHA256 (xfce4-screensaver-4.18.4.tar.bz2) = cf717d032d2d0555978c479299da992af6dc3363ae7e758af9515c7166eac170
+RWRSAbUnL7azFBO7BBeqsvN7Bhbp8b3nCkji88hu7e/ilksevH8mL+PDX2JBeWSRUkWF0UlGa9lvx457HBn7aOuxzd0BkLSjvAw=
+SHA256 (Pkgfile) = 6c29f1caf88ee88cce1ce11db80c08b6511589c4b73fb27b0becf775f7822810
+SHA256 (.footprint) = 17d00abf2e49f03b0483fcad7038031e51a8366bd536a1480632e4d9773de6b5
+SHA256 (xfce4-screensaver-4.20.0.tar.xz) = e370298d002848fdb2065fee254cb5b0efa0f2699b74299c234019c8d79b852e

@@ -1,25 +1,29 @@
 # Description: XFCE4 screensaver
 # URL: https://xfce.org
-# Maintainer: mac-a-r0ni, j at lngn dot net
+# Maintainer: Jay Lanagan, j at lngn dot net
 # Depends on: dbus-glib garcon libwnck-gtk3 libxklavier python3-gobject
+# Optional: consolekit elogind
 
 name=xfce4-screensaver
-version=4.18.4
+version=4.20.0
 release=1
-source=(https://archive.xfce.org/src/apps/xfce4-screensaver/${version%.*}/$name-$version.tar.bz2)
+source=(https://archive.xfce.org/src/apps/xfce4-screensaver/${version%.*}/$name-$version.tar.xz)
 
 build() {
-	cd $name-$version
 
-	./configure \
-		--prefix=/usr \
-		--libdir=/usr/lib \
-		--libexecdir=/usr/lib \
-		--sysconfdir=/etc \
-		--disable-nls \
-		--disable-debug
+#  prt-get isinst wayland && PKGMK_XFSCR+='-D wayland=enabled ' || PKGMK_XFSCR+=' -D wayland=disabled '
+  prt-get isinst elogind && PKGMK_XFSCR+='-D session-manager=elogind ' || PKGMK_XFSCR+=' -D session-manager=consolekit '
 
-	make
-	make DESTDIR=$PKG install
+  meson setup $name-$version build $PKGMK_XFSCR \
+    --prefix=/usr \
+    --libexecdir=/usr/lib \
+    --buildtype=plain \
+    -Db_lto=true \
+    -Db_pie=true
+
+  meson compile -C build
+  DESTDIR=$PKG meson install -C build
+
+  rm -rf $PKG/usr/share/{doc,locale}
 
 }
