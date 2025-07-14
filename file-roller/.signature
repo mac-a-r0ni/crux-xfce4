@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xfce4.pub
-RWRSAbUnL7azFB1t7iqrr4MlpOJDUxqUhjv2mp+urWEx1hmiEkH7z59jeTx/Y+sztS+TkufGmjaU2b8F9w+IlaJaMb6vMJQU7AE=
-SHA256 (Pkgfile) = c00a0fde98ad5d6f7bc8586796b537ee81de2049b58f5d23214c036b8d0100a1
+RWRSAbUnL7azFCUQ34SiTqyaasUIYtREWEB1tmT75BXsLEFO5vdIeWZkvbA4+e0lXrnmwjyQT6gXgAzU6CH8cwiub4gjCuMc/wg=
+SHA256 (Pkgfile) = b7c041df44884a231f6fbdd8bf5a1b01b69444f2c1ec46b89b0d4eff2f1a3ac8
 SHA256 (.footprint) = 4ae072a0f08c2c54b1c0d31f442ced643d2d4e51962b1d8f14fa76a39cfde65c
-SHA256 (file-roller-44.3.tar.xz) = 04c8a74625fec84267fdec40306afb4104bd332d85061e0d36d4ab0533adfa4a
+SHA256 (file-roller-44.5.tar.xz) = dfaf4bb989c0b8986be8bdae9fffeab8d0f30669ae3a627e8c3df94f23888339
