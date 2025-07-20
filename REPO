@@ -456,8 +456,8 @@ f:9bfbc219cc713a41277ee697e7865f48:daemon/Pkgfile
 f:6d07bf36ad6ea929e4f25e58129cef56:daemon/.signature
 f:1988900906e35d1ae92c4e2e7506175c:thunar/.footprint
 f:ed2014dd0f5944e62c1e6a160e17ad23:thunar/post-install
-f:27f984d8c93b9abe12695de36dddbed2:thunar/Pkgfile
-f:1fa3439ee0582902210bb0160e288335:thunar/.signature
+f:9bb72b447e76fee8e236f62df4660c7a:thunar/Pkgfile
+f:6d0066ab903dac4586b14057ab5ee24e:thunar/.signature
 f:36bcc381afa2111ac3de40965c0d2487:elementary-xfce-icons/.footprint
 f:875ae183f94ff81c570304f6a9a6a0d4:elementary-xfce-icons/post-install
 f:3e532c6c6870ce6ac950960220404b86:elementary-xfce-icons/Pkgfile
