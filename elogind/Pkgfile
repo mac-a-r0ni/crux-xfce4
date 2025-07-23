@@ -1,58 +1,69 @@
 # Description: elogind - extracted logind from systemd
 # URL: https://github.com/elogind/elogind
-# Maintainer: mac-a-r0ni, j at lngn dot net
+# Maintainer: Jay Lanagan, j at lngn dot net
 # Depends on: docbook-xsl gettext glib intltool libcap libseccomp python3-jinja2
+# Optiional: dbus linux-pam polkit
 
 name=elogind
-version=252.24
+version=255.17
 release=1
 source=(https://github.com/$name/$name/archive/v${version}/$name-$version.tar.gz
 	10-enable-elogind-power.rules.gz
+	login-10-elogind.conf.manpage.fix.patch
 	elogind)
 
 build() {
 
-    meson setup $name-$version build \
-	--buildtype release \
-	--prefix /usr \
-	--libexecdir /usr/lib/$name \
-	-D rootlibdir=/lib \
-	-D rootlibexecdir=/lib/$name \
+    cd $name-$version
+    patch -p1 -i $SRC/login-10-elogind.conf.manpage.fix.patch
+
+    meson setup build \
+	--buildtype=release \
+	--prefix=/usr \
+	--libdir=/lib \
+	--libexecdir=/lib/$name \
 	-D udevrulesdir=/lib/udev/rules.d \
-	-D man=true \
-	-D html=false \
-	-D pam=true \
+	-D man=enabled \
+	-D html=disabled \
+	-D pam=enabled \
 	-D pamlibdir=/lib/security \
 	-D pamconfdir=/etc/pam.d \
 	-D utmp=true \
 	-D default-hierarchy=legacy \
+	-D cgroup-controller=elogind \
 	-D halt-path=/sbin/halt \
 	-D poweroff-path=/sbin/poweroff \
 	-D reboot-path=/sbin/reboot \
-	-D default-kill-user-processes=false
+	-D default-kill-user-processes=false \
+	-D mode=release
 
     ninja -C build
 
 DESTDIR=$PKG ninja -C build install
 
-# Create symlinks for elogind binaries to /usr/bin/:
-mkdir -p $PKG/usr/bin
-ln -sf /bin/elogind-inhibit $PKG/usr/bin/elogind-inhibit
-ln -sf /bin/loginctl $PKG/usr/bin/loginctl
+# Create symlinks for elogind binaries to /bin/:
+mkdir -p $PKG/bin
+ln -sf /usr/bin/elogind-inhibit $PKG/bin/elogind-inhibit
+ln -sf /usr/bin/loginctl $PKG/bin/loginctl
 
 # Create supported dirs in /etc/elogind/ (local config)
 mkdir -p $PKG/etc/elogind/logind.conf.d/ $PKG/etc/elogind/sleep.conf.d/
 
 # Add login1 policy file that allows users in the 'power' group to shutdown/reboot the computer:
 mkdir -p $PKG/usr/share/polkit-1/rules.d
-zcat 10-enable-elogind-power.rules.gz > $PKG/usr/share/polkit-1/rules.d/10-enable-session-power.rules
+zcat $SRC/10-enable-elogind-power.rules.gz > $PKG/usr/share/polkit-1/rules.d/10-enable-session-power.rules
+
+# move pkgconfig dir so things find elogind
+mkdir -p $PKG/usr/lib/pkgconfig
+mv $PKG/lib/pkgconfig/libelogind.pc $PKG/usr/lib/pkgconfig
+rmdir $PKG/lib/pkgconfig
 
 # We don't need the hidden files to make inferior package managers keep dirs:
 find $PKG -type f -name ".keep_dir" -exec rm -f {} \;
 
 # Add start/stop script
 mkdir -p $PKG/etc/rc.d
-install -m 0755 elogind $PKG/etc/rc.d
+install -m 0755 $SRC/elogind $PKG/etc/rc.d
 
 rm -rf $PKG/usr/share/{bash-completion,doc,locale,zsh}
 
