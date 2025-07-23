@@ -65,6 +65,7 @@ d:clutter
 d:cogl
 d:xfce4-places-plugin
 d:xfce4-clipman-plugin
+d:labwc
 d:xfce4-cpufreq-plugin
 d:libxfce4ui
 d:xfburn
@@ -349,6 +350,11 @@ f:02f1f385a2fd562817e0642aa58267a9:xfce4-clipman-plugin/.footprint
 f:791e4333132418e168edf047dcf577ca:xfce4-clipman-plugin/post-install
 f:e6d4153c2d1efe704aa87a2c7af9d9fc:xfce4-clipman-plugin/Pkgfile
 f:b2be4f94732fd7f26dcda652e0939ea5:xfce4-clipman-plugin/.signature
+f:5bc572d55986c5437b38ed071d425451:labwc/.footprint
+f:04bab67cdf9cd2d4daa4411bb7d77c42:labwc/post-install
+f:471a33c66fdddddb60d6e331fa470b02:labwc/Pkgfile
+f:ce7ff115dc129488c59234541d07531e:labwc/README
+f:c0bfaf48a3f2e0985fb2448ad2c847be:labwc/.signature
 f:a03023b857da76e87b3fada02fbc840b:xfce4.pub
 f:63e495206ee4828cc084bcb19fb7392f:xfce4-cpufreq-plugin/.footprint
 f:95f3a1ebcc5a4ee8a9edafe7df0fcbc5:xfce4-cpufreq-plugin/post-install
