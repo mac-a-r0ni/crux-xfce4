@@ -1,19 +1,28 @@
 # Description: D-Bus interface for user account query and manipulation
 # URL: https://www.freedesktop.org/wiki/Software/AccountsService/
-# Maintainer: mac-a-r0ni, j at lngn dot net
-# Depends on: vala elogind openal pipewire polkit pulseaudio libva
-# Optional: docbook-xsl xmlto gtk-doc
+# Maintainer: Jay Lanagan, j at lngn dot net
+# Depends on: elogind openal pipewire polkit pulseaudio libva
+# Optional: docbook-xsl xmlto gtk-doc vala
 
 name=accountsservice
 version=23.13.9
 release=1
-source=(https://www.freedesktop.org/software/$name/$name-$version.tar.xz)
+source=(https://www.freedesktop.org/software/$name/$name-$version.tar.xz
+0001-tests-Drop-check-format-test.patch
+ad0365b77b583da06bcd1e8da4c1bed74129895a.patch
+da65bee12d9118fe1a49c8718d428fe61d232339.patch)
 
 build() {
-  cd $name-$version
 
-meson setup build \
-  --prefix=/usr \
+  prt-get isinst vala && PKGMK_ACCTSRV+='-D vapi=true ' || PKGMK_ACCTSRV+=' -D vapi=false '
+
+  cd $name-$version
+  patch -p1 -i $SRC/0001-tests-Drop-check-format-test.patch
+  patch -p1 -i $SRC/ad0365b77b583da06bcd1e8da4c1bed74129895a.patch
+  patch -p1 -i $SRC/da65bee12d9118fe1a49c8718d428fe61d232339.patch
+
+meson setup build $PKGMK_ACCTSRV \
+   --prefix=/usr \
    --libexecdir=/usr/lib/$name \
    --bindir=/usr/bin \
    --sbindir=/usr/sbin \
@@ -22,13 +31,14 @@ meson setup build \
    --sysconfdir=/etc \
    --localstatedir=/var \
    --buildtype=release \
+   --wrap-mode=nodownload \
     -D admin_group=wheel \
     -D elogind=true \
     -D docbook=false \
-    -D gtk_doc=false \
-    -D systemdsystemunitdir=no \
     -D introspection=false \
-    -D vapi=false
+    -D gtk_doc=false \
+    -D systemdsystemunitdir=no
+
 meson compile -C build
 
 DESTDIR=$PKG meson install -C build
@@ -36,3 +46,4 @@ DESTDIR=$PKG meson install -C build
 rm -rf $PKG/usr/share/locale
 
 }
+

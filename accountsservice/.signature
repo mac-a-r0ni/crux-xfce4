@@ -1,5 +1,8 @@
 untrusted comment: verify with /etc/ports/xfce4.pub
-RWRSAbUnL7azFAyFF3/yl6sqCPmNewDhs+Alzc4ldHNPnAqZPgA2Cai8E0jeG6xhJ7spJv/QNgT4mwi+QG4fjEkpIrcnEuoPcAQ=
-SHA256 (Pkgfile) = 49eaee4c2d6c99d79137ea3aa4f25ece62faa17a24220ecb992c1682b8b92df2
+RWRSAbUnL7azFFjLZNTuvvEPcR2gpJmqk46hJabX6V1viC4nYqgpaI7F/rEpB4INmNn/FayfeErbeJrbFIo2PM1KL0BJ7NUGawY=
+SHA256 (Pkgfile) = 3a0ea7561c483def9b5ebfe95520379597b45c41ef0fa820c833e3d0ae1ea57c
 SHA256 (.footprint) = 92645f06989c0b8846baf51b1b4955f1af01f6c3a35f3e8c42d097089c13d220
 SHA256 (accountsservice-23.13.9.tar.xz) = adda4cdeae24fa0992e7df3ffff9effa7090be3ac233a3edfdf69d5a9c9b924f
+SHA256 (0001-tests-Drop-check-format-test.patch) = 522e41796169fb9fd843a848e307cd7a2bd536adef487cec0f9b6ba2905e8b13
+SHA256 (ad0365b77b583da06bcd1e8da4c1bed74129895a.patch) = 2a5a5e6023e908413132fc2f7b0b3bfb64b8f2124d9ee6dac6dc427441cc5925
+SHA256 (da65bee12d9118fe1a49c8718d428fe61d232339.patch) = c2ffa81d43c59a0bd0b7b1b2de2335e41ead845cfb725cb00cd89c239d9d359b
