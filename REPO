@@ -267,12 +267,13 @@ f:0cac778c30abde9905e63ae0f19d982c:xfce4-mixer/.signature
 f:95b76b94015580067823ad849c22a8ba:libnfs/.footprint
 f:44f39f21610e00f62db0c85d169ebda8:libnfs/Pkgfile
 f:28862f890583c2bd45a5bb5caa16daac:libnfs/.signature
-f:2a1a61af8ed676709f9078e5e1b25f9a:elogind/.footprint
+f:ed0e9172864f40da32f26a1ef4a8c7cf:elogind/.footprint
+f:c5716166dc3207c34e27d55c6907991a:elogind/login-10-elogind.conf.manpage.fix.patch
 f:7eb6338447c0f23f8e137d0fe7dec155:elogind/pre-install
-f:e55af69a6449c8daa6bfa2c940a8ba08:elogind/Pkgfile
+f:6a3a24b6d0d802f65ced892c8ecb3da1:elogind/Pkgfile
 f:673e903cac381b0f975007165f78ab32:elogind/10-enable-elogind-power.rules.gz
 f:a9e7ccb4cc486e1967f58572f8a2060b:elogind/elogind
-f:3c55e66c06fc64e103d43b2129a05b58:elogind/.signature
+f:a16977009ddb8c349488b0cfae3a6ef9:elogind/.signature
 f:914effdad5d467c563936b0bd93f6a63:gparted/.footprint
 f:f719e7750c99d8b3702cecb75bc014ce:gparted/Pkgfile
 f:031cc1b6b565ad52611d4bc6c720fe5c:gparted/.signature
