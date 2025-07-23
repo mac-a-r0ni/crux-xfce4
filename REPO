@@ -449,8 +449,11 @@ f:a7b5104bfe388b636e08db5242198189:libgtop/Pkgfile
 f:0fe1e52b9077333e20e7d9d1a6c21022:libgtop/.signature
 f:8f907ede11fd72d8e7072d7a2e14a144:xfce4.httpup
 f:6a5253cf3d06fb17d0ae2d2084edc1bf:accountsservice/.footprint
-f:68dbb5acdced091b7898f0f10c8a2892:accountsservice/Pkgfile
-f:5b916da673c5bd15950120888f204a08:accountsservice/.signature
+f:1f8fdddcd70eb903ce6c284c8b8924b6:accountsservice/Pkgfile
+f:fc76ec5c70a87a52f7215479fd8d4e7f:accountsservice/.signature
+f:1c490d69184299d1fec395123cace897:accountsservice/ad0365b77b583da06bcd1e8da4c1bed74129895a.patch
+f:220cbafe91bd00f2f849b0cf4d4d0312:accountsservice/0001-tests-Drop-check-format-test.patch
+f:514e01e8f43b16ab23772b3cc77b9b0e:accountsservice/da65bee12d9118fe1a49c8718d428fe61d232339.patch
 f:2bcca690ea6af706dbbe31a8f5c9e58d:daemon/.footprint
 f:9bfbc219cc713a41277ee697e7865f48:daemon/Pkgfile
 f:6d07bf36ad6ea929e4f25e58129cef56:daemon/.signature
