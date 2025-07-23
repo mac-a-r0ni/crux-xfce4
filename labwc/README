@@ -1,0 +1,13 @@
+Config layout for ~/.config/labwc/
+(defaults are found in /usr/share/labwc)
+
+- autostart
+- environment
+- menu.xml
+- rc.xml
+- shutdown
+- themerc-override
+- xinitrc
+
+See `man labwc-config and `man labwc-theme` for further details.
+

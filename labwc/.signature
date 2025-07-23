@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xfce4.pub
+RWRSAbUnL7azFFEpcKHIbKpWNlLo/W7BJPSkULBHH+xEETq7gHRhgqBQB0/GyKsZh2hvTuo+H0kT6AdmmM90wJUTBI5DIBcoUgw=
+SHA256 (Pkgfile) = 50a82d11414b85b27b6c9ab7e62bcce5d9a9c86c37eb5bc97baeefdc64d12e2b
+SHA256 (.footprint) = fcf5380ed9e7abde9364dd30907b5279e1c42417df51d538a0828688541518e6
+SHA256 (labwc-0.9.0.tar.gz) = d06f89fb2bbd4be73e7bba9fb57017054d61868fe24db361d1ded87470329e63

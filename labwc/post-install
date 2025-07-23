@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# update application icon caches
+
+/usr/bin/gtk-update-icon-cache /usr/share/icons/hicolor
+
+# EOF

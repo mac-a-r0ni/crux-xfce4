@@ -1,0 +1,33 @@
+# Description: A Wayland window-stacking compositor
+# URL: https://github.com/labwc/labwc
+# Maintainer: Jay Lanagan, j at lngn dot net
+# Depends on: librsvg libsfdo wlroots xorg-xwayland scdoc
+
+name=labwc
+version=0.9.0
+release=1
+source=(https://github.com/labwc/labwc/archive/$version/$name-$version.tar.gz)
+
+build() {
+
+    meson setup $name-$version build \
+	--buildtype=release \
+	--infodir=/usr/info \
+	--libdir=/usr/lib \
+	--localstatedir=/var \
+	--prefix=/usr \
+	--sysconfdir=/etc \
+	-Dstrip=true \
+	-Dxwayland=enabled \
+	-Dnls=disabled \
+	-Db_lto=true \
+	-Db_pie=true
+
+    meson compile -C build
+    DESTDIR=$PKG meson install -C build
+
+    mkdir $PKG/usr/share/labwc
+    mv $PKG/usr/share/doc/* $PKG/usr/share
+    rm $PKG/usr/share/labwc/README
+    rmdir $PKG/usr/share/doc
+}
