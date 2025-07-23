@@ -1,22 +1,28 @@
 # Description: Client library for accessing NFS shares
 # URL: https://github.com/sahlberg/libnfs
-# Maintainer: mac-a-r0ni, j at lngn dot net
+# Maintainer: Jay Lanagan, j at lngn dot net
 # Depends on:
 
 name=libnfs
-version=5.0.3
+version=6.0.2
 release=1
 source=(https://github.com/sahlberg/$name/archive/$name-$version.tar.gz)
 
 build() {
-	cd $name-$name-$version
 
-	autoreconf -ivf
-	./configure \
-		--prefix=/usr
+  mkdir -p build
+  cd build
+    cmake "$SRC/$name-$name-$version" \
+     -DCMAKE_INSTALL_PREFIX=/usr \
+     -DCMAKE_INSTALL_LIBDIR=lib \
+     -DCMAKE_BUILD_TYPE=Release \
+     -DENABLE_UTILS=ON \
+     -DENABLE_MULTITHREADING=ON \
+     -Wno-dev
+    make
 
-	make
-	make DESTDIR=$PKG install
+make DESTDIR="$PKG" install
 
 rm -rf $PKG/usr/lib/*.la
+
 }

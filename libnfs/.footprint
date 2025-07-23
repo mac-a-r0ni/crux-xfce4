@@ -1,9 +1,9 @@
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
--rwxr-xr-x	root/root	usr/bin/nfs-cat
--rwxr-xr-x	root/root	usr/bin/nfs-cp
--rwxr-xr-x	root/root	usr/bin/nfs-ls
--rwxr-xr-x	root/root	usr/bin/nfs-stat
+-rw-r--r--	root/root	usr/bin/nfs-cat
+-rw-r--r--	root/root	usr/bin/nfs-cp
+-rw-r--r--	root/root	usr/bin/nfs-ls
+-rw-r--r--	root/root	usr/bin/nfs-stat
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/nfsc/
 -rw-r--r--	root/root	usr/include/nfsc/libnfs-raw-mount.h
@@ -17,15 +17,13 @@ drwxr-xr-x	root/root	usr/include/nfsc/
 -rw-r--r--	root/root	usr/include/nfsc/libnfs-zdr.h
 -rw-r--r--	root/root	usr/include/nfsc/libnfs.h
 drwxr-xr-x	root/root	usr/lib/
--rw-r--r--	root/root	usr/lib/libnfs.a
-lrwxrwxrwx	root/root	usr/lib/libnfs.so -> libnfs.so.14.0.0
-lrwxrwxrwx	root/root	usr/lib/libnfs.so.14 -> libnfs.so.14.0.0
--rwxr-xr-x	root/root	usr/lib/libnfs.so.14.0.0
+drwxr-xr-x	root/root	usr/lib/cmake/
+drwxr-xr-x	root/root	usr/lib/cmake/libnfs/
+-rw-r--r--	root/root	usr/lib/cmake/libnfs/FindNFS.cmake
+-rw-r--r--	root/root	usr/lib/cmake/libnfs/libnfs-config-release.cmake
+-rw-r--r--	root/root	usr/lib/cmake/libnfs/libnfs-config-version.cmake
+-rw-r--r--	root/root	usr/lib/cmake/libnfs/libnfs-config.cmake
+lrwxrwxrwx	root/root	usr/lib/libnfs.so -> libnfs.so.16.2.0
+-rwxr-xr-x	root/root	usr/lib/libnfs.so.16.2.0
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/libnfs.pc
-drwxr-xr-x	root/root	usr/share/
-drwxr-xr-x	root/root	usr/share/man/
-drwxr-xr-x	root/root	usr/share/man/man1/
--rw-r--r--	root/root	usr/share/man/man1/nfs-cat.1.gz
--rw-r--r--	root/root	usr/share/man/man1/nfs-cp.1.gz
--rw-r--r--	root/root	usr/share/man/man1/nfs-ls.1.gz
