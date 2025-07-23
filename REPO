@@ -7,6 +7,7 @@ d:catfish
 d:xfce4-dev-tools
 d:libbluray
 d:libimobiledevice
+d:libimobiledevice-glue
 d:xfce4-whiskermenu-plugin
 d:xfce4-panel-profiles
 d:xfce4-netload-plugin
@@ -128,6 +129,9 @@ f:8129c2683f64b7a01a44f1d46a76cc87:libimobiledevice/.footprint
 f:760b5ae8e3e1ac3a40353c7644314c71:libimobiledevice/Pkgfile
 f:8d94ec6a93a1d2f12bfad4c75313b32b:libimobiledevice/libimobiledevice-libplist-2.3.0.patch
 f:73a2d594d1e162456b6fb57a68eeb6f9:libimobiledevice/.signature
+f:88fc462c69ea7e7b95f897f78104746e:libimobiledevice-glue/.footprint
+f:fcf3c6c911979d4370174c06269e92c4:libimobiledevice-glue/Pkgfile
+f:d45b8c3933457b2fcb05e2315c541f60:libimobiledevice-glue/.signature
 f:239c1acfee7ea10a5d347781aab28d64:xfce4-whiskermenu-plugin/.footprint
 f:359b508e9af3400ca737d70eed744cd2:xfce4-whiskermenu-plugin/post-install
 f:9824a463e8dd8ae371d45f6b3bd75944:xfce4-whiskermenu-plugin/Pkgfile
