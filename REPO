@@ -252,9 +252,9 @@ f:08f092066bd985dced385545d117f557:xfwm4/.signature
 f:356bff92d4f0a14e2049bf24deb673df:libisofs/.footprint
 f:2a30293862d053f49e2ee6b792c48a7c:libisofs/Pkgfile
 f:a93bc448a3782e084aa6087817a5f54d:libisofs/.signature
-f:dcdabe08d9de01b55ee68cbf8669f569:libusbmuxd/.footprint
-f:8f57beb8445115f9bd01d3d5ae620c8b:libusbmuxd/Pkgfile
-f:988143138c6e6ccf551efb1118454dce:libusbmuxd/.signature
+f:74ed491278d414c8ed792c3b592fd758:libusbmuxd/.footprint
+f:111bd9c72954f9922b69ad58de193ee5:libusbmuxd/Pkgfile
+f:1d37c84e264722e27e69d9821d2aaf42:libusbmuxd/.signature
 f:bb7379071a342145258dca1c1e225d15:argyllcms/.footprint
 f:8ad49334dc5408b53d9edc829ef054eb:argyllcms/Pkgfile
 f:9846a24cb809323a122f626eac60ad6e:argyllcms/.signature
