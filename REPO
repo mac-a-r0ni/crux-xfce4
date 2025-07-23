@@ -265,9 +265,9 @@ f:1db3b5c70a8e993c39025d0c5a90c9da:xfce4-mixer/.footprint
 f:e289d4aead9cad6cb455a8a44fae6a36:xfce4-mixer/post-install
 f:11844792b90f2d3bd1a78026b47cc5a8:xfce4-mixer/Pkgfile
 f:0cac778c30abde9905e63ae0f19d982c:xfce4-mixer/.signature
-f:95b76b94015580067823ad849c22a8ba:libnfs/.footprint
-f:44f39f21610e00f62db0c85d169ebda8:libnfs/Pkgfile
-f:28862f890583c2bd45a5bb5caa16daac:libnfs/.signature
+f:7fa39478efef9883b444b3ed28456b01:libnfs/.footprint
+f:9f7b8a240820a819eda47ad2c3bc2094:libnfs/Pkgfile
+f:daeb771d99c2d262e90d53522f68e917:libnfs/.signature
 f:ed0e9172864f40da32f26a1ef4a8c7cf:elogind/.footprint
 f:c5716166dc3207c34e27d55c6907991a:elogind/login-10-elogind.conf.manpage.fix.patch
 f:7eb6338447c0f23f8e137d0fe7dec155:elogind/pre-install
