@@ -254,9 +254,9 @@ f:988143138c6e6ccf551efb1118454dce:libusbmuxd/.signature
 f:bb7379071a342145258dca1c1e225d15:argyllcms/.footprint
 f:8ad49334dc5408b53d9edc829ef054eb:argyllcms/Pkgfile
 f:9846a24cb809323a122f626eac60ad6e:argyllcms/.signature
-f:ae6f0212c016420461a9cc6e75c76fc5:libplist/.footprint
-f:47320fa7109b3b0e61aed7dadfbf25a8:libplist/Pkgfile
-f:192c876862b856774c9d945643505bef:libplist/.signature
+f:fe5b2e001e87a892312fe7a5add1eb9b:libplist/.footprint
+f:4bc3c502a1e5aab4740fd1e0a143a3b8:libplist/Pkgfile
+f:a177162996e225909fdeecf276cd6e4a:libplist/.signature
 f:d4dca6447dd4c90087d8b5ed0ca9bc3f:xfce4-session/.footprint
 f:ed2014dd0f5944e62c1e6a160e17ad23:xfce4-session/post-install
 f:36111debd07192054a2b5d1463dab7f2:xfce4-session/Pkgfile
