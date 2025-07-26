@@ -223,7 +223,7 @@ f:69da6811639939fff6abc70ccaa1dd39:usbmuxd/Pkgfile
 f:a708bf07f105bbc0568a5c8271656fc2:usbmuxd/README
 f:28f62d38b85ce2c8d40cf70a9841e8c2:usbmuxd/.signature
 f:33f82328e829146d523ab82cecf1ce46:usbmuxd/libplist-2.3.0.diff
-f:b6a75cef0f303b07903c2fb02fe26352:README.md
+f:792391521df20b08cfaf09d680fd2d6a:README.md
 f:714ee4804fe47cc2b81dbfb8abbc6252:parole/.footprint
 f:3ee64027d975e3bfcbb4d71e22a79238:parole/post-install
 f:97d1459fded7a70f0e474cfea9f5d70b:parole/Pkgfile
