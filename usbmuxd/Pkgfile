@@ -1,0 +1,34 @@
+# Description: A socket daemon to multiplex connections from and to iOS devices
+# URL: https://github.com/libimobiledevice/usbmuxd/
+# Author: Petar Petrov, slackalaxy at gmail dot com
+# Maintainer: Jay Lanagan, j at lngn dot net
+# Depends on: libimobiledevice libusbmuxd
+
+name=usbmuxd
+version=1.1.1
+release=1
+source=(https://github.com/libimobiledevice/$name/releases/download/$version/$name-$version.tar.bz2
+	libplist-2.3.0.diff $name.rc)
+
+build() {
+	cd $name-${version}*
+	
+	export PYTHON="/usr/bin/python3"
+	
+	patch -Np1 < $SRC/libplist-2.3.0.diff
+	
+	./configure \
+		--prefix=/usr \
+		--sysconfdir=/etc \
+		--with-udevrulesdir=/etc/udev/rules.d \
+		--sbindir=/usr/sbin \
+		--without-systemd
+	
+	make
+	make DESTDIR=$PKG install
+	
+	install -D -m755 $SRC/$name.rc $PKG/etc/rc.d/$name
+	
+	rm -f $PKG/{,usr/}lib/*.la
+}
+

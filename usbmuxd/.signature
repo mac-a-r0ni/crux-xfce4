@@ -1,0 +1,7 @@
+untrusted comment: verify with /etc/ports/xfce4.pub
+RWRSAbUnL7azFDFtUh5xhfUU3+O35yT0mbsNTALaRSLBO+Veg2/Evr5WsGE90jJmBa00a55bq3bkJpjjJv1jhoWbKde/+lH91AU=
+SHA256 (Pkgfile) = 9a8500486e9e32a0e6425f5eace9662bd0c67547a6537c7b6d4939ca743cc172
+SHA256 (.footprint) = 56c319f1a63141073ac172237192062b6b0eea6fe7dede6639e85c4e3ddcec4f
+SHA256 (usbmuxd-1.1.1.tar.bz2) = c0ec9700172bf635ccb5bed98daae607d2925c2bc3597f25706ecd9dfbfd2d9e
+SHA256 (libplist-2.3.0.diff) = cb705a3627e6f4446689a3f4c22c262bbb7d8436f1b2bde417552cb93fab7446
+SHA256 (usbmuxd.rc) = 960925892c5e6053144294a59f75bf021310f9a40eba7f09167deec684a35663

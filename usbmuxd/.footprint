@@ -1,0 +1,13 @@
+drwxr-xr-x	root/root	etc/
+drwxr-xr-x	root/root	etc/rc.d/
+-rwxr-xr-x	root/root	etc/rc.d/usbmuxd
+drwxr-xr-x	root/root	etc/udev/
+drwxr-xr-x	root/root	etc/udev/rules.d/
+-rw-r--r--	root/root	etc/udev/rules.d/39-usbmuxd.rules
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/sbin/
+-rwxr-xr-x	root/root	usr/sbin/usbmuxd
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/man/
+drwxr-xr-x	root/root	usr/share/man/man8/
+-rw-r--r--	root/root	usr/share/man/man8/usbmuxd.8.gz

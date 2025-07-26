@@ -1,0 +1,16 @@
+The daemon is automatically started by udev upon hotplug of an iOS
+device and exits if the last device was unplugged.
+
+When usbmuxd is running it provides a socket interface at
+	
+	/var/run/usbmuxd
+
+that is designed to be compatible with the socket interface that is
+provided on macOS.
+
+You should also create an usbmux user that has access to USB devices on
+your system:
+
+	useradd -s /bin/false -d /dev/null -g users usbmux
+
+Alternatively, just pass a different username using the -U argument.

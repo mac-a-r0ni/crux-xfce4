@@ -1,0 +1,23 @@
+#!/bin/sh
+#
+# /etc/rc.d/usbmuxd: start/stop usbmuxd
+#
+
+case $1 in
+	start)
+		/usr/sbin/usbmuxd &
+		;;
+	stop)
+		killall -q /usr/sbin/usbmuxd 
+		;;
+	restart)
+		$0 stop
+		sleep 2
+		$0 start
+		;;
+	*)
+		echo "Usage: $0 [start|stop|restart]"
+		;;
+esac
+
+# End of file
