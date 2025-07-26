@@ -29,6 +29,7 @@ d:xfce4-docklike-plugin
 d:ristretto
 d:xfmpc
 d:colord
+d:usbmuxd
 d:parole
 d:gigolo
 d:xfce4-sensors-plugin
@@ -216,6 +217,12 @@ f:12ef97905f60611111e471a9896195ee:colord/.footprint
 f:74fdaac009afbf8e8a3a6d1e1b946709:colord/pre-install
 f:316b87d8b603b3646f1314e8d8b96c04:colord/Pkgfile
 f:c983472f05fa1b5a110cd70570ffed75:colord/.signature
+f:8bfdf54d8f2527b1903fcd575a1b5d18:usbmuxd/usbmuxd.rc
+f:a233383be5551170aed4f73b64c529a6:usbmuxd/.footprint
+f:69da6811639939fff6abc70ccaa1dd39:usbmuxd/Pkgfile
+f:a708bf07f105bbc0568a5c8271656fc2:usbmuxd/README
+f:28f62d38b85ce2c8d40cf70a9841e8c2:usbmuxd/.signature
+f:33f82328e829146d523ab82cecf1ce46:usbmuxd/libplist-2.3.0.diff
 f:b6a75cef0f303b07903c2fb02fe26352:README.md
 f:714ee4804fe47cc2b81dbfb8abbc6252:parole/.footprint
 f:3ee64027d975e3bfcbb4d71e22a79238:parole/post-install
