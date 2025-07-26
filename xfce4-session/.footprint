@@ -78,13 +78,7 @@ drwxr-xr-x	root/root	usr/share/man/man1/
 drwxr-xr-x	root/root	usr/share/polkit-1/
 drwxr-xr-x	root/root	usr/share/polkit-1/actions/
 -rw-r--r--	root/root	usr/share/polkit-1/actions/org.xfce.session.policy
-drwxr-xr-x	root/root	usr/share/wayland-sessions/
--rw-r--r--	root/root	usr/share/wayland-sessions/xfce-wayland.desktop
 drwxr-xr-x	root/root	usr/share/xdg-desktop-portal/
 -rw-r--r--	root/root	usr/share/xdg-desktop-portal/xfce-portals.conf
-drwxr-xr-x	root/root	usr/share/xfce4/
-drwxr-xr-x	root/root	usr/share/xfce4/labwc/
--rw-r--r--	root/root	usr/share/xfce4/labwc/labwc-environment
--rw-r--r--	root/root	usr/share/xfce4/labwc/labwc-rc.xml
 drwxr-xr-x	root/root	usr/share/xsessions/
 -rw-r--r--	root/root	usr/share/xsessions/xfce.desktop
