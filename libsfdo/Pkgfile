@@ -1,0 +1,27 @@
+# Description: A collection of libraries which implement some of the freedesktop.org specifications.
+# URL: https://gitlab.freedesktop.org/vyivel/libsfdo
+# Maintainer: Jay Lanagan, j at lngn dot net
+# Depends on:
+
+name=libsfdo
+version=0.1.4
+release=1
+source=(https://gitlab.freedesktop.org/vyivel/$name/-/archive/v${version}/$name-v${version}.tar.gz)
+
+build() {
+
+    meson setup $name-v${version} build \
+	--buildtype=release \
+	--infodir=/usr/info \
+	--libdir=/usr/lib \
+	--localstatedir=/var \
+	--prefix=/usr \
+	--sysconfdir=/etc \
+	-Dstrip=true \
+	-Db_lto=true \
+	-Db_pie=true
+
+    meson compile -C build
+    DESTDIR=$PKG meson install -C build
+
+}

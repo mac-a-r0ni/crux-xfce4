@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xfce4.pub
+RWRSAbUnL7azFO9oR7L4GL+EPLD7yN0SOo3Awjre9NFxkQ20DY7jXSF+5RjVgygQUCk9ncrrfZNtfXL/GYJVbhWXztl7cl3oAwg=
+SHA256 (Pkgfile) = 05228a3a207e51a6386a27dcc3a7acdccfce364d84df2c97c214874f986a0fd7
+SHA256 (.footprint) = 86ad2a4e0f1eaf6c5f8f07b0c56e4c10b5496331395cc36b2b9194593d826d09
+SHA256 (libsfdo-v0.1.4.tar.gz) = 9d74a9bff1f872e38ab662d8e2b5f6ecd404d7f82f84e9c324013f856688fa2d
