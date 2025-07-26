@@ -11,6 +11,8 @@ source=(https://github.com/libimobiledevice/$name/releases/download/$version/$na
 build() {
   cd $name-$version
 
+  # seems to fail on some platforms without setting python during build
+  export PYTHON="/usr/bin/python3"
   ./configure \
   --prefix=/usr
 
