@@ -82,6 +82,7 @@ d:xfce4-systemload-plugin
 d:xfce4-timer-plugin
 d:gvfs
 d:xfce4-stopwatch-plugin
+d:libsfdo
 d:thunar-archive-plugin
 d:xfce4-screensaver
 d:xfce4-battery-plugin
@@ -418,6 +419,9 @@ f:a873fe1cf7bd45530e74ce1c32ee0aa9:xfce4-stopwatch-plugin/.footprint
 f:359b508e9af3400ca737d70eed744cd2:xfce4-stopwatch-plugin/post-install
 f:f5eea5cce4272393954b832068a14468:xfce4-stopwatch-plugin/Pkgfile
 f:e2f08570d72bd03f5acfa012e4841efd:xfce4-stopwatch-plugin/.signature
+f:9a2e3b04d55ad6b808040be304a6fec6:libsfdo/.footprint
+f:dc1cc7aa7fc852f11092a0226e53c760:libsfdo/Pkgfile
+f:b753c4d39a9466a4d8c7bc526d62ef2f:libsfdo/.signature
 f:d672d5cabc259a2080431c54916758e3:thunar-archive-plugin/.footprint
 f:1f94853a5edb1fee7b2a28aa875af2a1:thunar-archive-plugin/post-install
 f:9fe884cc1cbdefb574f659d3332613ba:thunar-archive-plugin/Pkgfile
