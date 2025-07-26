@@ -261,10 +261,10 @@ f:9846a24cb809323a122f626eac60ad6e:argyllcms/.signature
 f:fe5b2e001e87a892312fe7a5add1eb9b:libplist/.footprint
 f:4bc3c502a1e5aab4740fd1e0a143a3b8:libplist/Pkgfile
 f:a177162996e225909fdeecf276cd6e4a:libplist/.signature
-f:d4dca6447dd4c90087d8b5ed0ca9bc3f:xfce4-session/.footprint
+f:fe6fafeb7cca7588038ab22c97786b19:xfce4-session/.footprint
 f:ed2014dd0f5944e62c1e6a160e17ad23:xfce4-session/post-install
 f:36111debd07192054a2b5d1463dab7f2:xfce4-session/Pkgfile
-f:263b741691fdfb0b43ea297e8dd710f9:xfce4-session/.signature
+f:f2242cfdd8f306068490e62003d269fc:xfce4-session/.signature
 f:1db3b5c70a8e993c39025d0c5a90c9da:xfce4-mixer/.footprint
 f:e289d4aead9cad6cb455a8a44fae6a36:xfce4-mixer/post-install
 f:11844792b90f2d3bd1a78026b47cc5a8:xfce4-mixer/Pkgfile
