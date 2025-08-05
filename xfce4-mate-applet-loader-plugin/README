@@ -1,0 +1,10 @@
+Install the optional dependencies, to have any applets... You need the
+mate repo enabled:
+* https://crux.nu/portdb/?a=repo&q=mate
+* https://github.com/mhoush/crux-mate
+
+Locations in Clock applet will not show properly, unless you:
+* configure your locations first
+* install dconf-editor, and go:
+	- org / mate / panel / objects-xfce4 / prefs-22
+	- tick "expand-locations"

@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xfce4.pub
+RWRSAbUnL7azFPj71MmPAlYNPrxj0nlKNtXqZ2ys4SYFJmMfHpARbWtL9aeEYmq6xBYXct9l484b1RO/M3oGM+pmWdMGhYxkSg4=
+SHA256 (Pkgfile) = 20781f70dbbf58ba45e00637dcc12db185e838d51e8aa380b71ff4ced9a27ba3
+SHA256 (.footprint) = f2476dcf79205fbd68c2435b67afd639eadce79f42ba1130097d78a4a95c6a04
+SHA256 (xfce4-mate-applet-loader-plugin-20250214.tar.gz) = 619059eadb34bb0204e074513a6ca15fb1d4fe208040d2befcc7569e4b013323

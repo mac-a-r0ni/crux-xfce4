@@ -1,0 +1,27 @@
+# Description: Xfce4 MATE applet loader
+# URL: https://github.com/zaps166/xfce4-mate-applet-loader-plugin
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: brotli graphite2 libxkbcommon xfce4-panel
+# Optional: mate-menus libmateweather mate-panel mate-applets
+
+name=xfce4-mate-applet-loader-plugin
+version=20250214
+release=1
+_commit=97f0bd25208413a31badb0a24cff596e7f0418d1
+source=(https://github.com/zaps166/xfce4-mate-applet-loader-plugin/archive/$_commit.tar.gz)
+renames=($name-$version.tar.gz)
+
+build() {
+  cmake -S $name-$_commit -B build \
+        -DCMAKE_BUILD_TYPE=Release \
+        -DCMAKE_INSTALL_PREFIX=/usr \
+        -DCMAKE_INSTALL_LIBDIR=lib \
+        -DCMAKE_C_FLAGS_RELEASE="$CFLAGS" \
+        -DCMAKE_CXX_FLAGS_RELEASE="$CXXFLAGS" \
+        -Wno-dev
+
+  cmake --build build
+  DESTDIR="$PKG" cmake --install build
+
+  sed -i 's:Icon=mate:Icon=mate-desktop:g' $PKG/usr/share/xfce4/panel/plugins/mateappletloader.desktop
+}
