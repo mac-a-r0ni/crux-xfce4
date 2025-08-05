@@ -42,6 +42,7 @@ d:xfwm4
 d:libisofs
 d:libusbmuxd
 d:argyllcms
+d:xfce4-mate-applet-loader-plugin
 d:libplist
 d:xfce4-session
 d:xfce4-mixer
@@ -266,6 +267,10 @@ f:1d37c84e264722e27e69d9821d2aaf42:libusbmuxd/.signature
 f:bb7379071a342145258dca1c1e225d15:argyllcms/.footprint
 f:8ad49334dc5408b53d9edc829ef054eb:argyllcms/Pkgfile
 f:9846a24cb809323a122f626eac60ad6e:argyllcms/.signature
+f:ef8d2fcbc9a6cbf3414c7d22802c1495:xfce4-mate-applet-loader-plugin/.footprint
+f:7a0925f8d6d62833f65274fb34ac1aa7:xfce4-mate-applet-loader-plugin/Pkgfile
+f:3f65bbff86ad9529dc0f0af1481573c9:xfce4-mate-applet-loader-plugin/README
+f:0a16d831c1615c53aa610326f5c530c6:xfce4-mate-applet-loader-plugin/.signature
 f:fe5b2e001e87a892312fe7a5add1eb9b:libplist/.footprint
 f:c96dc19342bd2553a8c125ef1c2d82f0:libplist/Pkgfile
 f:c501ef68264647c1ae40580b726473e7:libplist/.signature
