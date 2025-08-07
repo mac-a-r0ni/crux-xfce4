@@ -198,8 +198,8 @@ f:d76f4b597fc087761474bc0b739dd54c:thunar-vcs-plugin/Pkgfile
 f:f9332925f40c82ab8be207f5880613cb:thunar-vcs-plugin/.signature
 f:dbec5f3b81d64e42124b19bfb7612f00:orage/.footprint
 f:3ee64027d975e3bfcbb4d71e22a79238:orage/post-install
-f:e44b6ff208c9dbea328930bf63b641be:orage/Pkgfile
-f:d8546daa5e06e81051661fd5b2cc6df0:orage/.signature
+f:34b3399ef36eece72ae79e8a1fdeb8a6:orage/Pkgfile
+f:040785f628552ada5d9fa13bfeffb75b:orage/.signature
 f:d0451508a46fdda843cbce01d0d1ae9a:xfce4-smartbookmark-plugin/.footprint
 f:d8430e0f95675ce199f19c59bd5eab84:xfce4-smartbookmark-plugin/Pkgfile
 f:e8c96bbd5792d77aea2f20a1a62ec069:xfce4-smartbookmark-plugin/.signature
