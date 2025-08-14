@@ -145,10 +145,10 @@ f:5506b2cb7e8758807c2be391667c0a70:xfce4-indicator-plugin/.signature
 f:67ff3e0bd836725504740e437650ec66:xfce4-indicator-plugin/.footprint
 f:79ec2cc90215bcc85eb292be6dfd64a6:xfce4-indicator-plugin/post-install
 f:f02eaeda5783da56b1c52c85659637b6:xfce4-indicator-plugin/Pkgfile
-f:f2242cfdd8f306068490e62003d269fc:xfce4-session/.signature
+f:84ee0a98526ab3edc86a9f9dacf3256a:xfce4-session/.signature
 f:fe6fafeb7cca7588038ab22c97786b19:xfce4-session/.footprint
 f:ed2014dd0f5944e62c1e6a160e17ad23:xfce4-session/post-install
-f:36111debd07192054a2b5d1463dab7f2:xfce4-session/Pkgfile
+f:c852029205459b11c9989ee58830c782:xfce4-session/Pkgfile
 f:44cf5025a9763ae0f5a55887c0d72eb2:parole/.signature
 f:714ee4804fe47cc2b81dbfb8abbc6252:parole/.footprint
 f:3ee64027d975e3bfcbb4d71e22a79238:parole/post-install
@@ -466,10 +466,10 @@ f:5560e8b44ee512ddc4040453513ede6c:xfce4-wavelan-plugin/Pkgfile
 f:c501ef68264647c1ae40580b726473e7:libplist/.signature
 f:fe5b2e001e87a892312fe7a5add1eb9b:libplist/.footprint
 f:c96dc19342bd2553a8c125ef1c2d82f0:libplist/Pkgfile
-f:7401ea5a2737babb526b8e99f39d348d:xfce4-settings/.signature
+f:2e2dad2546c49909b9e4ab8892c66dae:xfce4-settings/.signature
 f:5d2faab1a1b96a63d0f45d436399d173:xfce4-settings/.footprint
 f:ed2014dd0f5944e62c1e6a160e17ad23:xfce4-settings/post-install
-f:6b53cb52e106ae0f3a070d895d4d59d7:xfce4-settings/Pkgfile
+f:e0369a0b22d274678a22461f60b3e90e:xfce4-settings/Pkgfile
 f:51cd11c6b9b6a237e0c6bbf14d46a3e7:xfce4-timer-plugin/.signature
 f:571469be79f61070bf8f438a3f72cf82:xfce4-timer-plugin/.footprint
 f:359b508e9af3400ca737d70eed744cd2:xfce4-timer-plugin/post-install
