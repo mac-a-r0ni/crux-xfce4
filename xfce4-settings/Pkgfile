@@ -1,10 +1,10 @@
 # Description: Xfce's configuration system
 # URL: https://www.xfce.org
-# Maintainer: mac-a-r0ni, j at lngn dot net
+# Maintainer: Jay Lanagan, j at lngn dot net
 # Depends on: colord exo garcon gnome-icon-theme libcanberra libnotify libxklavier
 
 name=xfce4-settings
-version=4.20.1
+version=4.20.2
 release=1
 source=(https://archive.xfce.org/src/xfce/$name/${version:0:4}/$name-$version.tar.bz2)
 
