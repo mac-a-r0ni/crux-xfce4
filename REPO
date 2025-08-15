@@ -406,10 +406,10 @@ f:fe35f1124c06f0ec285a9110a6226d11:mugshot/Pkgfile
 f:e509d4302cf144e0d2d1aedc60c914e4:libkeybinder3/.signature
 f:8ba1073aad7ffaa934f841c4a4373d39:libkeybinder3/.footprint
 f:92866a75d5c762b6073b67642d320e6a:libkeybinder3/Pkgfile
-f:bdd4cdf2137eefcd2a0db7d631b29461:xfce4-screensaver/.signature
-f:95ca14a2b0cc03a5305f42eaccb12b1f:xfce4-screensaver/.footprint
+f:05837143f66ce358fe772a248145ae73:xfce4-screensaver/.signature
+f:a7b968a0f4970d55aac9196f6d0b76e9:xfce4-screensaver/.footprint
 f:cd22ad219a11ac896c5ea4b16f021fa1:xfce4-screensaver/post-install
-f:9d682a4e8c009734d3424ac188dbe0fd:xfce4-screensaver/Pkgfile
+f:ae414efabe045dd590f4ac33fdc138ac:xfce4-screensaver/Pkgfile
 f:2cd92649005401a31c1bc29738876dd8:xfce4-sensors-plugin/.signature
 f:9e079d16e683524659892eadaf05020f:xfce4-sensors-plugin/.footprint
 f:e289d4aead9cad6cb455a8a44fae6a36:xfce4-sensors-plugin/post-install
