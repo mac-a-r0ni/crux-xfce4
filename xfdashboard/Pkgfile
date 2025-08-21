@@ -1,25 +1,26 @@
 # Description: a GNOME-like Dashboard for Xfce
 # URL: https://docs.xfce.org/apps/xfdashboard/start
-# Maintainer: mac-a-r0ni, j at lngn dot net
-# Depends on: clutter garcon gio libwnck-gtk3
+# Maintainer: Jay Lanagan, j at lngn dot net
+# Depends on: clutter garcon libwnck-gtk3
 # Optional: xorg-libxcomposite xorg-libxdamage xorg-libxinerama
 
 name=xfdashboard
-version=1.0.0
+version=1.1.0
 release=1
-source=(https://archive.xfce.org/src/apps/$name/${version:0:3}/$name-$version.tar.bz2)
+source=(https://archive.xfce.org/src/apps/$name/${version:0:3}/$name-$version.tar.xz)
 
 build() {
-	cd $name-$version
 
-	./configure \
-		--prefix=/usr \
-		--libexecdir=/usr/lib/$name \
-		--sysconfdir=/etc \
-		--disable-nls \
-		--disable-debug \
-		--disable-static
+ meson setup $name-$version build \
+    --prefix=/usr \
+    --libexecdir=/usr/lib \
+    --buildtype=plain \
+    -Db_lto=true \
+    -Db_pie=true
 
-	make
-	make DESTDIR=$PKG install
+  meson compile -C build
+  DESTDIR=$PKG meson install -C build
+
+  rm -rf $PKG/usr/share/{doc,locale}
+
 }

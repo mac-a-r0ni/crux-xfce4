@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xfce4.pub
-RWRSAbUnL7azFB8PIAWc9e14XCiFWavnMjkRIJ6UNWbVIv+VEEftLcr5p8m9XRjgzO/A6LcFlT6Kx+z7MLvjct/UoSoGJfVS4gs=
-SHA256 (Pkgfile) = b821733042f8ef7989a5501d2d5a68ab424915ab4e5a493d4886bfa93da814c0
-SHA256 (.footprint) = b282c0d3ad11b96af776d15f2341dd79cda34c28ea85da8ab848d6e2d029c35b
-SHA256 (xfdashboard-1.0.0.tar.bz2) = a5284343e5ce09722f98d3b578588b36923e1ae5649754aa906980fdcdef48a5
+RWRSAbUnL7azFCrdh+KVfc+AgYxSTCdqHfeleafDNmu3gzD2INXQIC6SR0p3Pb9RanWhHq0/ODdIkzhPebb8nKnbCFRna6F3KwU=
+SHA256 (Pkgfile) = 0d5102078b33f2e18c47bb4d3e0bc7e5c9b497d05b1cf055e54df5f00078e3af
+SHA256 (.footprint) = bd8c4f57d6eed46ff74e0f1b49d6fb83df5d607c676960dbdfbd86c9c39b2132
+SHA256 (xfdashboard-1.1.0.tar.xz) = bd577b36f389d5463040d7095926a487cb4ae7ab30173aa269a1bc29bb6ff8d1
