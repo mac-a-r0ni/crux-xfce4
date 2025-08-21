@@ -390,9 +390,9 @@ f:2b6066bacd95b78bee21951cf1c24934:garcon/Pkgfile
 f:a58c0941877cd7c9b5aa47fc698b6488:python3-distutils-extra/.signature
 f:7745db1263122cff6e6a601515865b5c:python3-distutils-extra/.footprint
 f:fae4d799cbaaa00bd21ff1ac9a259407:python3-distutils-extra/Pkgfile
-f:d41003b4748ca53afccd7ca66bc94cb1:xfdashboard/.signature
-f:429fbce90cc64a75e5acb1952aa5b79e:xfdashboard/.footprint
-f:887ff29dd53ee3bf9cec1b6b521d5ed5:xfdashboard/Pkgfile
+f:0535d8fe1b44cf996f8cebdd9f4dcee4:xfdashboard/.signature
+f:881767a4a75e7c1837e31165dc0e967b:xfdashboard/.footprint
+f:72d0ccb38f92279162d4bdd1ee514ae1:xfdashboard/Pkgfile
 f:f9332925f40c82ab8be207f5880613cb:thunar-vcs-plugin/.signature
 f:13abf545c68349f1cbdc4f1fba75e79c:thunar-vcs-plugin/.footprint
 f:1f94853a5edb1fee7b2a28aa875af2a1:thunar-vcs-plugin/post-install
