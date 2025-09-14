@@ -1,10 +1,10 @@
 # Description: Modern, fast and easy-to-use file manager for Xfce
 # URL: https://www.xfce.org
-# Maintainer: mac-a-r0ni, j at lngn dot net
+# Maintainer: Jay Lanagan, j at lngn dot net
 # Depends on: gnome-icon-theme gvfs libexif libnotify tumbler xfce4-panel
 
 name=thunar
-version=4.20.4
+version=4.20.5
 release=1
 source=(https://archive.xfce.org/src/xfce/$name/${version:0:4}/$name-$version.tar.bz2)
 
