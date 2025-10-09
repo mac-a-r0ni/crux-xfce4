@@ -1,4 +1,4 @@
-
+This repo has moved to https://codeberg.org/jlngn/xfce4.git
 
 INSTRUCTIONS INSTALLING CRUX-XFCE4 REPO
 =====
